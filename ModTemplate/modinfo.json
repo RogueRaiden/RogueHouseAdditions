@@ -1,0 +1,16 @@
+{
+  "type": "content",
+  "modid": "",
+  "name": "",
+  "authors": ["RogueRaidenTV"],
+  "contributors": [""],
+  "description": "",
+  "website": "",
+  "side": "Universal",
+  "requiredOnClient": "true",
+  "requiredOnServer": "true",
+  "version": "0.0.1",
+  "dependencies": {
+    "game": "*"
+  }
+}
