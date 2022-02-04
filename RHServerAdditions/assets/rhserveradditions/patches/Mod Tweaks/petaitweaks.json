@@ -1,0 +1,26 @@
+[
+	{ 
+		"op": "replace",
+		"path": "/title",
+		"value": "rhserveradditions:rhwolftamingguide-title",
+		"file": "wolftaming:config/handbook/wolftamingguide.json"
+	},
+	{ 
+		"op": "replace",
+		"path": "/text",
+		"value": "rhserveradditions:rhwolftamingguide-text",
+		"file": "wolftaming:config/handbook/wolftamingguide.json"
+	},
+	{ 
+		"op": "replace",
+		"path": "/title",
+		"value": "rhserveradditions:serverinfo-title",
+		"file": "cats:config/handbook/cattamingguide.json"
+	},
+	{ 
+		"op": "replace",
+		"path": "/text",
+		"value": "rhserveradditions:serverinfo-text",
+		"file": "cats:config/handbook/cattamingguide.json"
+	}
+]

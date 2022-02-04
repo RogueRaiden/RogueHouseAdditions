@@ -16,5 +16,59 @@
                 "var": 1
             }
         }
+	},
+    { 
+		"file": "game:entities/humanoid/trader-clothing.json",
+		"op": "add",
+		"path": "/attributes/tradeProps/selling/list/0",
+		"value": {
+            "code": "rhserveradditions:clothes-foot-ranger-boots",
+            "type": "item",
+            "stacksize": 1,
+            "stock": {
+                "avg": 2,
+                "var": 0.5
+            },
+            "price": {
+                "avg": 6,
+                "var": 1.5
+            }
+        }
+	},
+    { 
+		"file": "game:entities/humanoid/trader-clothing.json",
+		"op": "add",
+		"path": "/attributes/tradeProps/selling/list/0",
+		"value": {
+            "code": "rhserveradditions:clothes-hand-ranger-gloves",
+            "type": "item",
+            "stacksize": 1,
+            "stock": {
+                "avg": 2,
+                "var": 0.5
+            },
+            "price": {
+                "avg": 5,
+                "var": 1.5
+            }
+        }
+	},
+    { 
+		"file": "game:entities/humanoid/trader-clothing.json",
+		"op": "add",
+		"path": "/attributes/tradeProps/selling/list/0",
+		"value": {
+            "code": "rhserveradditions:clothes-upperbody-ranger-tunic",
+            "type": "item",
+            "stacksize": 1,
+            "stock": {
+                "avg": 2,
+                "var": 0.5
+            },
+            "price": {
+                "avg": 7,
+                "var": 2
+            }
+        }
 	}
 ]
