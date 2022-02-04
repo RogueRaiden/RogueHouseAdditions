@@ -1,0 +1,14 @@
+[
+	{ 
+		"file": "wolftaming:config/handbook/wolftamingguide.json",
+		"op": "replace",
+		"path": "/title",
+		"value": "rhserveradditions:rhwolftamingguide-title"
+	},
+	{ 
+		"file": "wolftaming:config/handbook/wolftamingguide.json",
+		"op": "replace",
+		"path": "/text",
+		"value": "rhserveradditions:rhwolftamingguide-text"
+	}
+]

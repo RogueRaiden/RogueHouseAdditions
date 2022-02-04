@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/variants/0",
+    "value": {
+      "Code": "phoenix"
+    },
+    "file": "game:worldproperties/block/painting.json"
+  }
+]

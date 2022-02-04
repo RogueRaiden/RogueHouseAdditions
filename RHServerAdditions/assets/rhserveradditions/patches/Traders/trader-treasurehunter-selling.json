@@ -1,0 +1,38 @@
+[
+    { 
+		"file": "game:entities/humanoid/trader-treasurehunter.json",
+		"op": "add",
+		"path": "/attributes/tradeProps/selling/list/0",
+		"value": {
+            "code": "rhserveradditions:clothes-shoulder-elvish-coat",
+            "type": "item",
+            "stacksize": 1,
+            "stock": {
+                "avg": 1,
+                "var": 0.25
+            },
+            "price": {
+                "avg": 15,
+                "var": 3
+            }
+        }
+	},
+    { 
+		"file": "game:entities/humanoid/trader-treasurehunter.json",
+		"op": "add",
+		"path": "/attributes/tradeProps/selling/list/0",
+		"value": {
+            "code": "rhserveradditions:clothes-head-dark-eye-mask",
+            "type": "item",
+            "stacksize": 1,
+            "stock": {
+                "avg": 1,
+                "var": 0.25
+            },
+            "price": {
+                "avg": 4,
+                "var": 1
+            }
+        }
+	}
+]
