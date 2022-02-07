@@ -36,27 +36,20 @@
 			"seraph": { "base": "rhserveradditions:entity/humanoid/seraphclothes/{category}/{foot}" }
 		}
 	},
-	"creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"] },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"], "rhserveradditions": ["*"] },
 	"renderAlphaTest": 0.25,
-	"fpHandTransform": {
-		"translation": { "x": 0.7, "y": 0.1, "z": -0.4 },
-		"rotation": { "x": -33, "y": 10, "z": -24 },
-		"scale": 2.5
-	},
-	"tpHandTransformByType": {
-		"*": {
-			"translation": { "x": -0.75, "y": -0.8, "z": -0.9 },
-			"rotation": { "x": 48, "y": 88, "z": 54 },
-			"scale": 0.6
-		}
-	},
 	"guiTransformByType": {
-		"*-ranger-boots": {
-			"rotate": false,
-			"translation": { "x": 2, "y": 0, "z": 20 },
+		"*-rogue-boots": {
+			"translation": { "x": 2, "y": 0, "z": 18 },
 			"rotation": { "x": 152, "y": -118, "z": -3 },
-			"origin": { "x": 0.5, "y": 0.29, "z": 0.25 },
-			"scale": 2
+			"origin": { "x": 0.5, "y": 0.24, "z": 0.55 },
+			"scale": 2.2
+		},
+		"*-ranger-boots": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 150, "y": -118, "z": -3 },
+			"origin": { "x": 1.1, "y": 0.11, "z": 0.25 },
+			"scale": 1.64
 		},
 		"*": {
 			"rotate": false,
@@ -64,6 +57,32 @@
 			"rotation": { "x": 152, "y": -118, "z": -3 },
 			"origin": { "x": 0.5, "y": 0.29, "z": 0.55 },
 			"scale": 2.2
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0.7, "y": 0.1, "z": -0.4 },
+			"rotation": { "x": -33, "y": 10, "z": -24 },
+			"scale": 2.5
+		}
+	},
+	"tpHandTransformByType": {
+		"*-rogue-boots": {
+			"translation": { "x": -0.75, "y": -0.8, "z": -0.9 },
+			"rotation": { "x": 48, "y": 88, "z": 54 },
+			"origin": { "x": 0.47, "y": 0.76, "z": 0.47 },
+			"scale": 0.6
+		},
+		"*-ranger-boots": {
+			"translation": { "x": -0.75, "y": -0.8, "z": -0.9 },
+			"rotation": { "x": 48, "y": 88, "z": 54 },
+			"origin": { "x": 0.45, "y": 0.49, "z": 0.48 },
+			"scale": 0.6
+		},
+		"*": {
+			"translation": { "x": -0.75, "y": -0.8, "z": -0.9 },
+			"rotation": { "x": 48, "y": 88, "z": 54 },
+			"scale": 0.6
 		}
 	},
 	"groundTransform": {

@@ -18,8 +18,23 @@
 	"textures": {
 		"seraph": { "base": "rhserveradditions:entity/humanoid/seraphclothes/{category}/{lowerbody}" }
 	},
-	"creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"] },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"], "rhserveradditions": ["*"] },
 	"renderAlphaTest": 0.25,
+	"guiTransformByType": {
+		"*-rogue-pants": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -173, "y": -79, "z": 27 },
+			"origin": { "x": 0.5, "y": 0.67, "z": 0.56 },
+			"scale": 1.4
+		},
+		"*": {
+			"rotate": false,
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -173, "y": -79, "z": 38 },
+			"origin": { "x": 0.5, "y": 0.63, "z": 0.6 },
+			"scale": 1.4
+		}
+	},
 	"fpHandTransform": {
 		"translation": { "x": -0.25, "y": -0.1, "z": 0.5 },
 		"rotation": { "x": 180, "y": 159, "z": 150 },
@@ -29,15 +44,6 @@
 		"translation": { "x": -0.6, "y": -0.9, "z": -0.7 },
 		"rotation": { "x": -71, "y": 180, "z": 83 },
 		"scale": 0.55
-	},
-	"guiTransformByType": {
-		"*": {
-			"rotate": false,
-			"translation": { "x": 0, "y": 0, "z": 0 },
-			"rotation": { "x": -173, "y": -79, "z": 38 },
-			"origin": { "x": 0.5, "y": 0.63, "z": 0.6 },
-			"scale": 1.4
-		}
 	},
 	"groundTransform": {
 		"translation": { "x": 0.05, "y": 0.05, "z": 0 },

@@ -30,19 +30,15 @@
 	"textures": {
 		"seraph": { "base": "rhserveradditions:entity/humanoid/seraphclothes/{category}/{upperbody}" }
 	},
-	"creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"] },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"], "rhserveradditions": ["*"] },
 	"renderAlphaTest": 0.25,
-	"fpHandTransform": {
-		"translation": { "x": 0.05, "y": -0.6, "z": 0.3 },
-		"rotation": { "x": 180, "y": 150, "z": 180 },
-		"scale": 2
-	},
-	"tpHandTransform": {
-		"translation": { "x": -0.3, "y": -0.9, "z": -0.7 },
-		"rotation": { "x": -71, "y": 180, "z": 83 },
-		"scale": 0.55
-	},
 	"guiTransformByType": {
+		"*-ranger-tunic": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -178, "y": -65, "z": 10 },
+			"origin": { "x": 0.43, "y": 1.16, "z": 0.5 },
+			"scale": 1.69
+		},
 		"*-shirt*": {
 			"rotate": false,
 			"translation": { "x": 0, "y": 0, "z": 0 },
@@ -57,6 +53,16 @@
 			"origin": { "x": 0.43, "y": 1.1, "z": 0.5 },
 			"scale": 1.69
 		}
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0.05, "y": -0.6, "z": 0.3 },
+		"rotation": { "x": 180, "y": 150, "z": 180 },
+		"scale": 2
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.3, "y": -0.9, "z": -0.7 },
+		"rotation": { "x": -71, "y": 180, "z": 83 },
+		"scale": 0.55
 	},
 	"groundTransform": {
 		"translation": { "x": 0.05, "y": 0.05, "z": 0 },

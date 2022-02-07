@@ -13,6 +13,12 @@
 	},
 	{ 
 		"op": "replace",
+		"path": "/pageCode",
+		"value": "rhserverinfo",
+		"file": "cats:config/handbook/cattamingguide.json"
+	},
+	{ 
+		"op": "replace",
 		"path": "/title",
 		"value": "rhserveradditions:serverinfo-title",
 		"file": "cats:config/handbook/cattamingguide.json"

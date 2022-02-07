@@ -1,7 +1,7 @@
 [
   {
     "op": "add",
-    "path": "/25",
+    "path": "/0",
     "value": {
       "code": "weaponexpert",
       "type": "positive",
@@ -16,7 +16,7 @@
   },
   {
     "op": "add",
-    "path": "/26",
+    "path": "/0",
     "value": {
       "code": "outlaw",
       "type": "negative",
@@ -29,7 +29,7 @@
   },
   {
     "op": "add",
-    "path": "/27",
+    "path": "/0",
     "value": {
       "code": "hasty",
       "type": "negative",
@@ -42,7 +42,7 @@
   },
   {
     "op": "add",
-    "path": "/28",
+    "path": "/0",
     "value": {
       "code": "sneaky",
       "type": "positive",
