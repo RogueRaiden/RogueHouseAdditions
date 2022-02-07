@@ -1,0 +1,20 @@
+[
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/7/currenthealth",
+		"value": 20,
+		"file": "cats:entities/land/cat-female.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/7/maxhealth",
+		"value": 20,
+		"file": "cats:entities/land/cat-female.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/8/hoursToDecay",
+		"value": 1440,
+		"file": "cats:entities/land/cat-female.json"
+	}
+]
