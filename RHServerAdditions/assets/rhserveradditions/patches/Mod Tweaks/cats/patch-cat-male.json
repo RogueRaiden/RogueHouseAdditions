@@ -16,5 +16,13 @@
 		"path": "/server/behaviors/8/hoursToDecay",
 		"value": 1440,
 		"file": "cats:entities/land/cat-male.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/13/aitasks/4/entityCodes",
+		"value": [
+			"tame-wolf-*"
+		],
+		"file": "cats:entities/land/cat-male.json"
 	}
 ]

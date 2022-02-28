@@ -1,7 +1,7 @@
 [
     { 
 		"op": "replace",
-		"path": "/server/behaviors/6/aitasks/1/soundRange",
+		"path": "/server/behaviors/6/aitasks/2/soundRange",
 		"value": 12,
 		"file": "game:entities/land/cricket.json"
 	}

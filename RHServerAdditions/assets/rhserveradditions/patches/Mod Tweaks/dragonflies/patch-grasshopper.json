@@ -1,7 +1,7 @@
 [
     { 
 		"op": "replace",
-		"path": "/server/behaviors/6/aitasks/2/soundRange",
+		"path": "/server/behaviors/6/aitasks/3/soundRange",
 		"value": 8,
 		"file": "game:entities/land/grasshopper.json"
 	}
