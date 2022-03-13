@@ -24,7 +24,7 @@
       {
         "type": "item",
         "code": "gear-temporal",
-        "quantity": { "avg": 0.02666, "var": 0 }
+        "quantity": { "avg": 0.02333, "var": 0 }
       },
       {
         "type": "item",
@@ -75,7 +75,7 @@
       {
         "type": "item",
         "code": "gear-temporal",
-        "quantity": { "avg": 0.033325, "var": 0 }
+        "quantity": { "avg": 0.031, "var": 0 }
       },
       {
         "type": "item",
@@ -126,7 +126,7 @@
       {
         "type": "item",
         "code": "gear-temporal",
-        "quantity": { "avg": 0.03999, "var": 0 }
+        "quantity": { "avg": 0.03333, "var": 0 }
       },
       {
         "type": "item",
@@ -175,7 +175,7 @@
       {
         "type": "item",
         "code": "gear-temporal",
-        "quantity": { "avg": 0.046655, "var": 0 }
+        "quantity": { "avg": 0.043, "var": 0 }
       },
       {
         "type": "item",
@@ -226,7 +226,7 @@
       {
         "type": "item",
         "code": "gear-temporal",
-        "quantity": { "avg": 0.05332, "var": 0 }
+        "quantity": { "avg": 0.051, "var": 0 }
       },
       {
         "type": "item",
@@ -277,7 +277,7 @@
       {
         "type": "item",
         "code": "gear-temporal",
-        "quantity": { "avg": 1, "var": 0.4 }
+        "quantity": { "avg": 1, "var": 0.35 }
       },
       {
         "type": "item",

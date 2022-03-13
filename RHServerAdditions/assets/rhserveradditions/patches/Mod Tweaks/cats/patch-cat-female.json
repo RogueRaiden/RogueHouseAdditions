@@ -19,7 +19,7 @@
 	},
     { 
 		"op": "replace",
-		"path": "/server/behaviors/13/aitasks/4/entityCodes",
+		"path": "/server/behaviors/14/aitasks/4/entityCodes",
 		"value": [
 			"tame-wolf-*"
 		],

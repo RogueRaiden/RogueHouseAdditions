@@ -1,0 +1,36 @@
+{
+	"code": "rhcagebar",
+	"variantgroups": [
+		{ "code": "metal", "states": ["copper"] }
+	],
+	"maxstacksize": 8,
+	"shape": { "base": "rhserveradditions:item/part/cagebar" },
+	"textures": {
+		"material": { "base": "game:item/resource/plate/{metal}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "rhserveradditions": ["*"] },
+	"guiTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -48, "y": -36, "z": -4 },
+		"origin": { "x": 0.06, "y": 0.7, "z": -0.01 },
+		"scale": 3.09
+	},
+	"fpHandTransform": {
+		"translation": { "x": -0.3, "y": 0.8, "z": 0.5 },
+		"rotation": { "x": 90, "y": 5, "z": 9 },
+		"origin": { "x": 0, "y": 0, "z": 0 },
+		"scale": 2.85
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0, "y": 0, "z": 0 },
+		"scale": 4.07
+	},
+	"tpHandTransform": {
+		"translation": { "x": 0.3, "y": 0, "z": -0.5 },
+		"rotation": { "x": -35, "y": 88, "z": -35 },
+		"origin": { "x": 0, "y": 0, "z": 0 },
+		"scale": 0.87
+	}
+}
