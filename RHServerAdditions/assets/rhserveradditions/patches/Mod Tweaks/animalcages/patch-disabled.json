@@ -1,0 +1,14 @@
+[
+    { 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "animalcages:recipes/grid/mediumanimalcage.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "animalcages:recipes/grid/smallanimalcage.json"
+	}
+]

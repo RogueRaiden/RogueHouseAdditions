@@ -13,10 +13,10 @@
 		}
 	},
 	"storageFlags": 128,
-	"attributesByType": {
-		"*": {
-			"clothescategory": "hand",
-			"warmth": 0.5
+	"attributes": {
+		"clothescategory": "hand",
+		"warmthByType": {
+			"*": 0.5
 		}
 	},
 	"texturesByType": {

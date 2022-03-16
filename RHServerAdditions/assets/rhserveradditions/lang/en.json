@@ -1,4 +1,12 @@
 {
+    "_comment1": "MISCELLANEOUS **********************",
+
+    "game:tabname-rhserveradditions": "RH Additions",
+    
+
+
+    "_comment2": "HANDBOOK ENTRIES **********************",
+
     "serverinfo-title": "Rogue House Server Guide",
     "serverinfo-text": "<strong>Rogue House Community Server Guide</strong><br><i>Your Journey Begins...</i><br><a href=\"https://discord.gg/bxeGxWmcae\">Join the Discord!</a><strong> - </strong><a href=\"https://wiki.vintagestory.at/index.php?title=Main_Page\">Vintage Story Wiki</a><br><br><font color=\"#99c9f9\"><i>Well, look who's finally awake. You've been out for a few days. You don't remember what happened? We found you in the forest, wounded and unconscious. And just in time, too! We could hear the howling of wolves approaching.<br><br>Brought you back here to get you patched up, although it looked pretty grim. Wasn't sure you were gonna make it but you pulled through! Now that you're here, you best be <strong>Respectful</strong>. We won't be having any <strong>Theft</strong> or <strong>Fighting</strong> around here.<br><br>Have a look around, get your barrings. Maybe grab a drink at the Rogue House Tavern, just up the path. Oh! And don't go alone... Take this! <font color=\"#ffffff\"><i>(Use /starterkit to receive your gift)<font color=\"#99c9f9\"><i><br>Welcome to Rogue House.</i></font><br><br><i><a href=\"handbook://craftinginfo-starterguide\">Starter Guide</a><strong> - </strong><a href=\"handbook://craftinginfo-progressionguide\">Progression Guide</a><strong> - </strong><a href=\"handbook://rhclaimsguide\">Claims Guide</a><strong> - </strong><a href=\"handbook://rhchatgroupsguide\">Chat Group Guide</a></i><br><br><font color=\"#ffffff\">Rogue House VS is a PvE survival experience with Rifts, Drifters, Temporal Storms and longer seasons.<br>We don't use creative mode for shortcuts or teleports.<br>Mods selected and tweaks made to enhance the survival vision of owner, RogueRaiden.<br><br><strong>Be sure to read the /rules.</strong><br><br><strong>Settings:</strong><br>-Slightly Reduced Hunger Speed<br>-Half Reduced Food Spoilage<br>-Base HP Set to 20<br>-Aggression Enabled<br>-Items Drop on Death<br>-60 Days per Month<br>-Calender Paused When Empty<br>-Chiseling for Most Blocks<br>-Rifts Enabled<br>-Rare Temporal Storms<br>-Temporal Stability Enabled<br>-Underground Farming Enabled<br>-Proximity Chat<br>-General Chat Linked to Discord<br><br><br>RogueRaidenTV, Server Owner & Admin<br>DiZz, Server Mod & Builder<br><br><br><a href=\"https://www.gtxgaming.co.uk/clientarea/index.php?m=public_pay&hash_id=7JEVX6KD3ayx\">Fund the Server</a><strong> - </strong><a href=\"https://twitch.tv/rogueraiden\">RogueRaiden.TV</a><strong> - </strong><a href=\"https://streamelements.com/rogueraiden/tip\">Tip RogueRaiden</a>",
     
@@ -12,9 +20,9 @@
     "chatgroupsguide-text": "<strong>Player Chat Groups Guide</strong><br><i>For all of my Friends; Me, Myself and I.</i><br><br>Player Chat Groups are private groups where the members get a new chat tab to talk with each other without cluttering up the General Chat. Most uses for Player Chat Groups would be for Villages, Streamer Chats and even granting Claim Permission to all within a Group.<br><br><i>Note: Do not type the Square [ ] Brackets!</i><br><strong>/group create [groupName]</strong> Creates a new Player Chat Group with given name.<br><br><strong>/group invite [groupName] [playerName]</strong> Invites the Player to the Group. <i>Note: Invites do not currently appear anywhere.</i><br><br><strong>/group acceptinvite [groupName]</strong> Accepts an Invite for the Group.<br><br><strong>/group leave [groupName]</strong> Leave the Group.<br><br><strong>/group list</strong> Lists all Groups you are currently in.<br><br><strong>/group info [groupName]</strong> Lists the players of a Group.<br><br><strong>/group rename [oldGroupName] [newGroupName]</strong> Rename the Group.<br><br><strong>/group kick [groupName] [playerName]</strong> Remove the Player from the Group.<br><br><strong>/group op [groupName] [playerName]</strong> Grant Operator Status to the Player of the Group.<br><br><strong>/group deop [groupName] [playerName]</strong> Revoke Operator Status from the Player of the Group.<br><br><strong>/group disband [groupName]</strong> Destroys the Group. Must be Group Owner to use.",
 
 
-    "game:tabname-rhserveradditions": "RH Additions",
 
-
+    "_comment3": "TRAITS **********************",
+    
     "game:trait-weaponexpert": "<font color=\"#84ff84\">• Weapon Expert</font>",
     "game:charattribute-meleeWeaponsDamage-0.15": "+15% melee damage",
     "game:charattribute-rangedWeaponsDamage-0.15": "+15% ranged damage",
@@ -34,10 +42,15 @@
 
     
 
+    "_comment4": "CLASSES **********************",
+    
     "game:characterclass-rogue": "Rogue",
     "game:characterdesc-rogue": "<font color=\"#99c9f9\"><i>Slipping through the shadows, eluding capture once again.<br>This isn't the life you once had, but it's the only one you know of now.</i></font><br><br>Masters of stealth and experts of both melee and ranged combat, a Rogue walks many paths in search of adventure. This constant action keeps them moving quickly but unable to withstand as much damage.",
 
 
+    
+    "_comment5": "CLOTHING **********************",
+    
     "item-clothes-upperbody-blacksmith-shirt": "Blacksmith shirt",
     "itemdesc-clothes-upperbody-blacksmith-shirt": "<font color=\"#99c9f9\"><i>Warm in the cold and keeps the sparks off.</i></font><br>",
 
@@ -74,10 +87,28 @@
     "item-clothes-hand-ranger-gloves": "Ranger gloves",
     "itemdesc-clothes-hand-ranger-gloves": "<font color=\"#99c9f9\"><i></i></font><br>",
 
-    
-    "game:block-painting-phoenix-*": "Painting (Phoenix)",
-
-
     "item-clothes-shoulder-elvish-coat": "Elvish coat",
-    "itemdesc-clothes-shoulder-elvish-coat": "<font color=\"#99c9f9\"><i>The craftsmanship is unrivaled. Only the Elves could have stitched this.</i></font><br>"
+    "itemdesc-clothes-shoulder-elvish-coat": "<font color=\"#99c9f9\"><i>The craftsmanship is unrivaled. Only the Elves could have stitched this.</i></font><br>",
+    
+    
+    
+    "_comment6": "PARTS **********************",
+    
+    "item-rhcagebar-copper": "Cage bar (Copper)",
+    "itemdesc-rhcagebar-*": "Metal bar for cage construction.",
+    "itemcraftdesc-rhcagebar-*": "Metal bar for cage construction.",
+
+
+
+    "_comment7": "MOLDS **********************",
+
+    "block-rhtoolmold-raw-cagebar": "Raw cage bar mold",
+    
+    "block-rhtoolmold-burned-cagebar": "Cage bar mold",
+
+
+
+    "_comment8": "PAINTINGS **********************",
+    
+    "game:block-painting-phoenix-*": "Painting (Phoenix)"
 }

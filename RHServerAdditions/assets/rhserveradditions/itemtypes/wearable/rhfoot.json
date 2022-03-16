@@ -29,6 +29,11 @@
 		"shelvable": true,
 		"warmthByType": {
 			"*": 1
+		},
+		"statModifiersByType": {
+			"*-ranger-boots": {
+			  "walkSpeed": 0.05
+			}
 		}
 	},
 	"texturesByType": {
@@ -40,10 +45,10 @@
 	"renderAlphaTest": 0.25,
 	"guiTransformByType": {
 		"*-rogue-boots": {
-			"translation": { "x": 2, "y": 0, "z": 18 },
+			"translation": { "x": 1, "y": 0, "z": 0 },
 			"rotation": { "x": 152, "y": -118, "z": -3 },
-			"origin": { "x": 0.5, "y": 0.24, "z": 0.55 },
-			"scale": 2.2
+			"origin": { "x": 0.42, "y": 0.26, "z": 0.58 },
+			"scale": 2.75
 		},
 		"*-ranger-boots": {
 			"translation": { "x": 0, "y": 0, "z": 0 },
