@@ -2,13 +2,13 @@
     { 
 		"op": "replace",
 		"path": "/server/behaviors/7/currenthealth",
-		"value": 20,
+		"value": 25,
 		"file": "cats:entities/land/cat-female.json"
 	},
     { 
 		"op": "replace",
 		"path": "/server/behaviors/7/maxhealth",
-		"value": 20,
+		"value": 25,
 		"file": "cats:entities/land/cat-female.json"
 	},
     { 
@@ -21,7 +21,8 @@
 		"op": "replace",
 		"path": "/server/behaviors/14/aitasks/4/entityCodes",
 		"value": [
-			"tame-wolf-*"
+			"wolf-*",
+            "fox-*"
 		],
 		"file": "cats:entities/land/cat-female.json"
 	}

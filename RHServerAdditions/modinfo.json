@@ -5,7 +5,7 @@
   "authors": ["RogueRaidenTV"],
   "contributors": ["Morwen"],
   "description": "Tweaks and content for the Rogue House Community Server.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "website": "https://mods.vintagestory.at/rhadditions",
   "dependencies": {
     "game": "1.16.4"
