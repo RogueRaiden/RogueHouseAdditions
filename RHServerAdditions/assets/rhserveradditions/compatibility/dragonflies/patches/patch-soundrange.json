@@ -1,0 +1,26 @@
+[
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/6/aitasks/3/soundRange",
+		"value": 8,
+		"file": "game:entities/water/bullfrog.json"
+	},
+	{ 
+		"op": "replace",
+		"path": "/server/behaviors/5/aitasks/5/soundRange",
+		"value": 8,
+		"file": "game:entities/land/toad.json"
+	},
+	{ 
+		"op": "replace",
+		"path": "/server/behaviors/6/aitasks/3/soundRange",
+		"value": 8,
+		"file": "game:entities/land/grasshopper.json"
+	},
+	{ 
+		"op": "replace",
+		"path": "/server/behaviors/6/aitasks/2/soundRange",
+		"value": 12,
+		"file": "game:entities/land/cricket.json"
+	}
+]

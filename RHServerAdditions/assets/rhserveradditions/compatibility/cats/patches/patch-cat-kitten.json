@@ -1,0 +1,29 @@
+[
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/6/currenthealth",
+		"value": 15,
+		"file": "cats:entities/land/cat-kitten.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/6/maxhealth",
+		"value": 15,
+		"file": "cats:entities/land/cat-kitten.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/7/hoursToDecay",
+		"value": 1440,
+		"file": "cats:entities/land/cat-kitten.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/13/aitasks/1/entityCodes",
+		"value": [
+			"wolf-*",
+            "fox-*"
+		],
+		"file": "cats:entities/land/cat-kitten.json"
+	}
+]

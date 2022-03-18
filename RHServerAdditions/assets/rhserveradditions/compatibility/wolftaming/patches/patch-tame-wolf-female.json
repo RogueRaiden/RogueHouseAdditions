@@ -2,19 +2,19 @@
     { 
 		"op": "replace",
 		"path": "/server/behaviors/7/currenthealth",
-		"value": 30,
-		"file": "wolftaming:entities/land/tame-wolf-male.json"
+		"value": 40,
+		"file": "wolftaming:entities/land/tame-wolf-female.json"
 	},
     { 
 		"op": "replace",
 		"path": "/server/behaviors/7/maxhealth",
-		"value": 30,
-		"file": "wolftaming:entities/land/tame-wolf-male.json"
+		"value": 40,
+		"file": "wolftaming:entities/land/tame-wolf-female.json"
 	},
     { 
 		"op": "replace",
 		"path": "/server/behaviors/8/hoursToDecay",
 		"value": 1440,
-		"file": "wolftaming:entities/land/tame-wolf-male.json"
+		"file": "wolftaming:entities/land/tame-wolf-female.json"
 	}
 ]

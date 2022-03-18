@@ -1,0 +1,20 @@
+[
+    { 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:itemtypes/ironthingie.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/smithing/ironthingie.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:blocktypes/torchlamp.json"
+	}
+]
