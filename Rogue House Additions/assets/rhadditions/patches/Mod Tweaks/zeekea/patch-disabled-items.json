@@ -1,0 +1,44 @@
+[
+    { 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:itemtypes/ironthingie.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:itemtypes/temporal_dust.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:itemtypes/icepick.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:itemtypes/icepickhead.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:itemtypes/lampstand.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:itemtypes/kitchen/wallpanelbase.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:itemtypes/kitchen/wallpiece.json"
+	}
+]

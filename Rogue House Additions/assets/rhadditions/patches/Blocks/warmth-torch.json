@@ -1,0 +1,24 @@
+[
+    {
+        "op": "add",
+        "path": "/behaviorsbyType/*-lit-*/-",
+        "value": { 
+            "name": "HeatSource", "properties": { "heatStrength": 2 } 
+        },
+        "file": "game:blocktypes/wood/torch.json"
+    },
+    {
+        "op": "remove",
+        "path": "/behaviors",
+        "file": "game:blocktypes/metal/torchholder.json"
+    },
+    {
+        "op": "add",
+        "path": "/behaviorsByType",
+        "value": {
+            "*-filled-*": [ { "name": "HeatSource", "properties": { "heatStrength": 2 } } ],
+            "*": [ { "name": "HorizontalAttachable", "properties": { "handleDrops": false } } ]
+        },
+        "file": "game:blocktypes/metal/torchholder.json"
+    }
+]

@@ -1,0 +1,108 @@
+{
+	"code": "clothes",
+	"class": "ItemWearable",
+	"variantgroups": [
+		{ "code": "category",  "states": ["foot"] },		
+		{ "code": "foot", "combine": "SelectiveMultiply", "onVariant": "category", "states": [
+			"rogue-boots", "ranger-boots", "drifterskin-surface-boots", "drifterskin-deep-boots",
+			"drifterskin-tainted-boots", "drifterskin-corrupt-boots", "drifterskin-nightmare-boots",
+			"drifterskin-double-boots" ]
+		}
+	],
+	"shapeByType": {
+		"*": { "base": "game:entity/humanoid/seraph" }
+	},
+	"texturesByType": {
+		"*": { "seraph": { "base": "rhadditions:entity/humanoid/seraphclothes/{category}/{foot}" } }
+	},
+	"storageFlags": 128,
+	"behaviors": [{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.25, "z2": 1 } } }],
+	"attributes": {
+		"groundStorageTransform": {
+			"translation": { "x": 0, "y": 0.011, "z": 0 }
+		},
+		"onDisplayTransform": {
+			"translation": { "x": 0, "y": 0.011, "z": 0 },
+			"rotation": { "x": 0, "y": -90, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 0.9
+		},
+		"clothescategory": "foot",
+		"displaycaseable": true,
+		"shelvable": true,
+		"warmthByType": {
+			"clothes-ranger-boots": 1.5,
+			"*": 1
+		},
+		"statModifiersByType": {
+			"*-ranger-boots": { "walkSpeed": 0.05 }
+		}
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"], "rhadditions": ["*"] },
+	"renderAlphaTest": 0.25,
+	"guiTransformByType": {
+		"*-drifterskin-*": {
+			"translation": { "x": 1, "y": 0, "z": 0 },
+			"rotation": { "x": 152, "y": -118, "z": -3 },
+			"origin": { "x": 0.42, "y": 0.26, "z": 0.58 },
+			"scale": 2.75
+		},
+		"*-rogue-boots": {
+			"translation": { "x": 1, "y": 0, "z": 0 },
+			"rotation": { "x": 152, "y": -118, "z": -3 },
+			"origin": { "x": 0.42, "y": 0.26, "z": 0.58 },
+			"scale": 2.75
+		},
+		"*-ranger-boots": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 150, "y": -118, "z": -3 },
+			"origin": { "x": 1.1, "y": 0.11, "z": 0.25 },
+			"scale": 1.64
+		},
+		"*": {
+			"rotate": false,
+			"translation": { "x": 2, "y": 0, "z": 18 },
+			"rotation": { "x": 152, "y": -118, "z": -3 },
+			"origin": { "x": 0.5, "y": 0.29, "z": 0.55 },
+			"scale": 2.2
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0.7, "y": 0.1, "z": -0.4 },
+			"rotation": { "x": -33, "y": 10, "z": -24 },
+			"scale": 2.5
+		}
+	},
+	"tpHandTransformByType": {
+		"*-drifterskin-*": {
+			"translation": { "x": -0.75, "y": -0.8, "z": -0.9 },
+			"rotation": { "x": 48, "y": 88, "z": 54 },
+			"origin": { "x": 0.47, "y": 0.76, "z": 0.47 },
+			"scale": 0.6
+		},
+		"*-rogue-boots": {
+			"translation": { "x": -0.75, "y": -0.8, "z": -0.9 },
+			"rotation": { "x": 48, "y": 88, "z": 54 },
+			"origin": { "x": 0.47, "y": 0.76, "z": 0.47 },
+			"scale": 0.6
+		},
+		"*-ranger-boots": {
+			"translation": { "x": -0.75, "y": -0.8, "z": -0.9 },
+			"rotation": { "x": 48, "y": 88, "z": 54 },
+			"origin": { "x": 0.45, "y": 0.49, "z": 0.48 },
+			"scale": 0.6
+		},
+		"*": {
+			"translation": { "x": -0.75, "y": -0.8, "z": -0.9 },
+			"rotation": { "x": 48, "y": 88, "z": 54 },
+			"scale": 0.6
+		}
+	},
+	"groundTransform": {
+		"translation": { "x": 0.05, "y": 0.02, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3.11
+	}
+}

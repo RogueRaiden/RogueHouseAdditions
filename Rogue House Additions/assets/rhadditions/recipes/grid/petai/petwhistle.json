@@ -1,0 +1,13 @@
+[
+    {
+        "ingredientPattern": "___,_K_,_B_",
+        "shapeless": false,
+        "ingredients": {
+            "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 10 },
+            "B": { "type": "item", "code": "game:bone" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "item", "code": "petai:petwhistle", "quantity": 1 }
+    }
+]

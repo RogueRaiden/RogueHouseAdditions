@@ -1,0 +1,10 @@
+{
+    "ingredientPattern": "BBB,B_B,BBB",
+    "ingredients": {
+      "B": { "type": "item", "code": "game:stone-snowball" }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": { "type": "block", "code": "game:snowblock" }
+}

@@ -1,0 +1,39 @@
+[
+    {
+		"op": "replace",
+		"path": "/hitboxSize",
+		"value": {
+			"x": 0.6,
+			"y": 0.5
+		},
+		"file": "cats:entities/land/cat-male.json"
+	},
+	{ 
+		"op": "replace",
+		"path": "/server/behaviors/7/currenthealth",
+		"value": 20,
+		"file": "cats:entities/land/cat-male.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/7/maxhealth",
+		"value": 20,
+		"file": "cats:entities/land/cat-male.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/13/aitasks/4/entityCodes",
+		"value": [
+			"wolf-*",
+            "fox-*"
+		],
+		"file": "cats:entities/land/cat-male.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/13/aitasks/1/entityCodes",
+		"value": [
+		],
+		"file": "cats:entities/land/cat-male.json"
+	}
+]

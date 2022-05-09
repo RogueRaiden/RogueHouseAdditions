@@ -1,0 +1,13 @@
+[
+    {
+        "op": "add",
+        "path": "/drops/0",
+        "value": {
+            "type": "block",
+            "code": "game:lakeice",
+            "quantity": { "avg": 0.86 },
+            "tool": "pickaxe"
+        },
+        "file": "game:blocktypes/liquid/lakeice.json"
+    }
+]

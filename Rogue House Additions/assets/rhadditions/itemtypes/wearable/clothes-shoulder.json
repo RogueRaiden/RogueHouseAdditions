@@ -1,0 +1,99 @@
+{
+	"code": "clothes",
+	"class": "ItemWearable",
+	"variantgroups": [
+		{ "code": "category",  "states": ["shoulder"] },		
+		{ "code": "shoulder", "combine": "SelectiveMultiply", "onVariant": "category", "states": [
+			"elvish-coat", "rogue-cape", "moon-robe", "dark-robe" ]
+		}
+	],
+	"shape": { "base": "game:entity/humanoid/seraph" },
+	"textures": { "seraph": { "base": "rhadditions:entity/humanoid/seraphclothes/{category}/{shoulder}" } },
+	"storageFlags": 128,
+	"attributes": {
+		"clothescategory": "shoulder",
+		"warmthByType": {
+			"*-coat": 2.5,
+			"*-rogue-cape": 1,
+			"*-moon-robe": 1.5,
+			"*-dark-robe": 1.5
+		}
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"], "rhadditions": ["*"] },
+	"renderAlphaTest": 0.25,
+	"guiTransformByType": {
+		"*-elvish-coat": {
+			"translation": { "x": 2, "y": 0, "z": 17 },
+			"rotation": { "x": -178, "y": -65, "z": 10 },
+			"origin": { "x": 0.5, "y": 0.95, "z": 0.53 },
+			"scale": 1.17
+		},
+		"*-rogue-cape": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -178, "y": -66, "z": 18 },
+			"origin": { "x": 0.2, "y": 1.21, "z": 0.43 },
+			"scale": 1.57
+		},
+		"*-moon-robe": {
+			"translation": { "x": 2, "y": 0, "z": 17 },
+			"rotation": { "x": -178, "y": -65, "z": 10 },
+			"origin": { "x": 0.5, "y": 0.95, "z": 0.53 },
+			"scale": 1.17
+		},
+		"*-dark-robe": {
+			"translation": { "x": 2, "y": 0, "z": 17 },
+			"rotation": { "x": -178, "y": -65, "z": 10 },
+			"origin": { "x": 0.5, "y": 0.95, "z": 0.53 },
+			"scale": 1.17
+		},
+		"*": {
+			"rotate": false,
+			"translation": { "x": 2, "y": 0, "z": 17 },
+			"rotation": { "x": -178, "y": -65, "z": 10 },
+			"origin": { "x": 0.5, "y": 1.4, "z": 0.5 },
+			"scale": 2.2
+		}
+	},
+	"fpHandTransform": {
+		"translation": { "x": -0.15, "y": -0.8, "z": 0.3 },
+		"rotation": { "x": 180, "y": 150, "z": 180 },
+		"scale": 2
+	},
+	"tpHandTransformByType": {
+		"*-elvish-coat": {
+			"translation": { "x": 0, "y": -0.7, "z": -0.7 },
+			"rotation": { "x": -81, "y": 180, "z": 91 },
+			"origin": { "x": 0.25, "y": 0.5, "z": 0.55 },
+			"scale": 0.5899
+		},
+		"*-rogue-cape": {
+			"translation": { "x": -0.7, "y": -1.7, "z": -0.85 },
+			"rotation": { "x": -99, "y": -152, "z": 83 },
+			"origin": { "x": 0.51, "y": 0.94, "z": 0.56 },
+			"scale": 0.62
+		},
+		"*-moon-robe": {
+			"translation": { "x": 0, "y": -0.7, "z": -0.7 },
+			"rotation": { "x": -81, "y": 180, "z": 91 },
+			"origin": { "x": 0.25, "y": 0.5, "z": 0.55 },
+			"scale": 0.5899
+		},
+		"*-dark-robe": {
+			"translation": { "x": 0, "y": -0.7, "z": -0.7 },
+			"rotation": { "x": -81, "y": 180, "z": 91 },
+			"origin": { "x": 0.25, "y": 0.5, "z": 0.55 },
+			"scale": 0.5899
+		},
+		"*": {
+			"translation": { "x": 0, "y": -0.7, "z": -0.7 },
+			"rotation": { "x": -81, "y": 180, "z": 91 },
+			"scale": 0.59
+		}
+	},
+	"groundTransform": {
+		"translation": { "x": 0.05, "y": 0.1, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": -87 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
+		"scale": 2.19
+	}
+}

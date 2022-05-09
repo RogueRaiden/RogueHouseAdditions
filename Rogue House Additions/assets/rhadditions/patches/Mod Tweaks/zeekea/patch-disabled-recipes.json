@@ -1,0 +1,306 @@
+[
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/smithing/ironthingie.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/smithing/icepick.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/smithing/lampstand.json"
+	},
+
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/nightlamp.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/icepick.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/doorbell.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/doorbell2.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/armchair.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/armchair2.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/barchair.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/barchair2.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/fancychair.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/fancychair2.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/fancychairwooden.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/nightlamp.json"
+	},
+
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/winerack-acacia.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/winerack-baldcypress.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/winerack-birch.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/winerack-ebony.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/winerack-kapok.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/winerack-larch.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/winerack-maple.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/winerack-oak.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/winerack-pine.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/winerack-purpleheart.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/winerack-redwood.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/winerack-walnut.json"
+	},
+
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/linen-carbon_black1.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/linen-carbon_black2.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/linen-carbon_black3.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/linen-carbon_black4.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/linen-chalk_white.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/linen-chalk_white2.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/linen-cinnabar.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/linen-cinnabar2.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/linen-normal.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/linen-ultramarine.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/linen-ultramarine2.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/linen-verdigris.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/linen-verdigris2.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/wallpanel-four.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/wallpanel-sixteen.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/wallpanel-ten.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/wallpiece-four.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/wallpiece-sixteen.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/grid/wallpiece-ten.json"
+	},
+
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/clayforming/wallplate-four.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/clayforming/wallplate-sixteen.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/clayforming/wallplate-ten.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:recipes/clayforming/icepickhead.json"
+	}
+]

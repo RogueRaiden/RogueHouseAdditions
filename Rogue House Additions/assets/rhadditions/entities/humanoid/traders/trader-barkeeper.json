@@ -1,0 +1,375 @@
+{
+	"code": "humanoid-trader-barkeeper",
+	"class": "EntityTrader",
+	"canClimb": true,
+	"hitboxSize": { "x": 0.6, "y": 1.75 },
+	"deadHitboxSize": { "x": 0.75, "y": 0.5 },
+	"client": {
+		"renderer": "Shape",
+		"shape": { "base": "game:entity/humanoid/trader" },
+		"texture": { "base": "game:entity/humanoid/trader", "alternates": [ { "base": "game:entity/humanoid/traderclothes/set1" }, { "base": "game:entity/humanoid/traderclothes/set2" },
+                                                             { "base": "game:entity/humanoid/traderclothes/set3" }, { "base": "game:entity/humanoid/traderclothes/set4" },
+                                                             { "base": "game:entity/humanoid/traderclothes/set5" }  ] },
+		"behaviors": [
+			{ "code": "nametag", "showtagonlywhentargeted": true },
+			{ "code": "repulseagents" },
+			{ "code": "controlledphysics", "stepHeight": 1.01 },
+			{ "code": "interpolateposition" }
+		],
+		"animations": [
+			{
+				"code": "die",
+				"animation": "die",
+				"animationSpeed": 1.75,
+				"weight": 10,
+				"blendMode": "AddAverage"
+			},
+			{
+				"code": "hurt",
+				"animation": "hurt",
+				"animationSpeed": 2,
+				"blendMode": "AddAverage"
+			},
+            { "code": "rowdywelcome", "animation": "rowdywelcome", "blendMode": "AddAverage" },
+            { "code": "lazywelcome", "animation": "lazywelcome", "blendMode": "AddAverage" },
+            { "code": "lazynod", "animation": "lazynod", "blendMode": "AddAverage" }
+		]
+	},
+    "attributes": {
+        "tradeProps": { "money": { "avg": 29, "var": 5 },
+		"selling": {
+			"maxItems": 16,
+			"list": [
+				{
+					"code": "game:legume-peanut", "type": "item", "stacksize": 4,
+					"stock": { "avg": 6.51, "var": 2 },
+					"price": { "avg": 4.49, "var": 1 }
+				},
+				{
+					"code": "game:bread-rye-perfect", "type": "item", "stacksize": 2,
+					"stock": { "avg": 3.51, "var": 1 },
+					"price": { "avg": 4.49, "var": 1 }
+				},
+				{
+					"code": "game:bread-spelt-perfect", "type": "item", "stacksize": 2,
+					"stock": { "avg": 3.51, "var": 1 },
+					"price": { "avg": 4.49, "var": 1 }
+				},
+
+				{
+					"code": "game:bowl-fired", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "ciderportion-mead", "makefull": true } ] },
+					"stock": { "avg": 10.51, "var": 2 },
+					"price": { "avg": 2.49, "var": 1 }
+				},
+				{
+					"code": "game:bowl-fired", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "ciderportion-cranberry", "makefull": true } ] },
+					"stock": { "avg": 10.51, "var": 2 },
+					"price": { "avg": 2.49, "var": 1 }
+				},
+				{
+					"code": "game:bowl-fired", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "spiritportion-rye", "makefull": true } ] },
+					"stock": { "avg": 7.51, "var": 2 },
+					"price": { "avg": 4.49, "var": 1 }
+				},
+				{
+					"code": "game:bowl-fired", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "alcoholportion", "makefull": true } ] },
+					"stock": { "avg": 4.51, "var": 2 },
+					"price": { "avg": 7.49, "var": 1 }
+				},
+
+
+
+				{
+					"code": "game:jug-blue-fired", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "ciderportion-apple", "makefull": true } ] },
+					"stock": { "avg": 8.51, "var": 2 },
+					"price": { "avg": 4.49, "var": 1 }
+				},
+				{
+					"code": "game:jug-blue-fired", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "ciderportion-mead", "makefull": true } ] },
+					"stock": { "avg": 8.51, "var": 2 },
+					"price": { "avg": 4.49, "var": 1 }
+				},
+				{
+					"code": "game:jug-blue-fired", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "ciderportion-whitecurrant", "makefull": true } ] },
+					"stock": { "avg": 8.51, "var": 2 },
+					"price": { "avg": 4.49, "var": 1 }
+				},
+				{
+					"code": "game:jug-blue-fired", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "ciderportion-redcurrant", "makefull": true } ] },
+					"stock": { "avg": 8.51, "var": 2 },
+					"price": { "avg": 4.49, "var": 1 }
+				},
+				{
+					"code": "game:jug-blue-fired", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "spiritportion-breadfruit", "makefull": true } ] },
+					"stock": { "avg": 6.51, "var": 2 },
+					"price": { "avg": 7.49, "var": 1 }
+				},
+				{
+					"code": "game:jug-blue-fired", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "spiritportion-rice", "makefull": true } ] },
+					"stock": { "avg": 6.51, "var": 2 },
+					"price": { "avg": 7.49, "var": 1 }
+				},
+				{
+					"code": "game:jug-blue-fired", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "spiritportion-rye", "makefull": true } ] },
+					"stock": { "avg": 6.51, "var": 2 },
+					"price": { "avg": 7.49, "var": 1 }
+				},
+				{
+					"code": "game:jug-blue-fired", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "spiritportion-mead", "makefull": true } ] },
+					"stock": { "avg": 6.51, "var": 2 },
+					"price": { "avg": 7.49, "var": 1 }
+				},
+				{
+					"code": "game:jug-blue-fired", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "spiritportion-blueberry", "makefull": true } ] },
+					"stock": { "avg": 6.51, "var": 2 },
+					"price": { "avg": 7.49, "var": 1 }
+				},
+				{
+					"code": "game:jug-blue-fired", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "spiritportion-blackcurrant", "makefull": true } ] },
+					"stock": { "avg": 6.51, "var": 2 },
+					"price": { "avg": 7.49, "var": 1 }
+				},
+				{
+					"code": "game:jug-blue-fired", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "alcoholportion", "makefull": true } ] },
+					"stock": { "avg": 2.51, "var": 1 },
+					"price": { "avg": 12.49, "var": 1 }
+				},
+
+
+
+				{
+					"code": "game:woodbucket", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "ciderportion-apple", "makefull": true } ] },
+					"stock": { "avg": 6.51, "var": 2 },
+					"price": { "avg": 5.49, "var": 1 }
+				},
+				{
+					"code": "game:woodbucket", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "ciderportion-cherry", "makefull": true } ] },
+					"stock": { "avg": 6.51, "var": 2 },
+					"price": { "avg": 5.49, "var": 1 }
+				},
+				{
+					"code": "game:woodbucket", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "ciderportion-mead", "makefull": true } ] },
+					"stock": { "avg": 6.51, "var": 2 },
+					"price": { "avg": 5.49, "var": 1 }
+				},
+				{
+					"code": "game:woodbucket", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "ciderportion-rice", "makefull": true } ] },
+					"stock": { "avg": 6.51, "var": 2 },
+					"price": { "avg": 5.49, "var": 1 }
+				},
+				{
+					"code": "game:woodbucket", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "ciderportion-rye", "makefull": true } ] },
+					"stock": { "avg": 6.51, "var": 2 },
+					"price": { "avg": 5.49, "var": 1 }
+				},
+				{
+					"code": "game:woodbucket", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "ciderportion-whitecurrant", "makefull": true } ] },
+					"stock": { "avg": 6.51, "var": 2 },
+					"price": { "avg": 5.49, "var": 1 }
+				},
+				{
+					"code": "game:woodbucket", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "ciderportion-redcurrant", "makefull": true } ] },
+					"stock": { "avg": 6.51, "var": 2 },
+					"price": { "avg": 5.49, "var": 1 }
+				},
+				{
+					"code": "game:woodbucket", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "ciderportion-pear", "makefull": true } ] },
+					"stock": { "avg": 6.51, "var": 2 },
+					"price": { "avg": 6.49, "var": 1 }
+				},
+				{
+					"code": "game:woodbucket", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "ciderportion-pomegranate", "makefull": true } ] },
+					"stock": { "avg": 6.51, "var": 2 },
+					"price": { "avg": 6.49, "var": 1 }
+				},
+				{
+					"code": "game:woodbucket", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "spiritportion-spelt", "makefull": true } ] },
+					"stock": { "avg": 5.51, "var": 2 },
+					"price": { "avg": 9.49, "var": 1 }
+				},
+				{
+					"code": "game:woodbucket", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "spiritportion-rice", "makefull": true } ] },
+					"stock": { "avg": 5.51, "var": 2 },
+					"price": { "avg": 9.49, "var": 1 }
+				},
+				{
+					"code": "game:woodbucket", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "spiritportion-cassava", "makefull": true } ] },
+					"stock": { "avg": 5.51, "var": 2 },
+					"price": { "avg": 9.49, "var": 1 }
+				}
+			]
+		},
+		"buying": {
+			"maxItems": 6,
+			"list": [
+				{
+					"code": "game:legume-peanut", "type": "item", "stacksize": 32,
+					"stock": { "avg": 3.51, "var": 2 },
+					"price": { "avg": 4.51, "var": 1 }
+				},
+				{
+					"code": "game:bread-rye-perfect", "type": "item", "stacksize": 12,
+					"stock": { "avg": 2.51, "var": 1 },
+					"price": { "avg": 5.51, "var": 1 }
+				},
+				{
+					"code": "game:bread-spelt-perfect", "type": "item", "stacksize": 12,
+					"stock": { "avg": 2.51, "var": 1 },
+					"price": { "avg": 5.51, "var": 1 }
+				},
+				{
+					"code": "game:firewood", "type": "item", "stacksize": 32,
+					"stock": { "avg": 4.51, "var": 2 },
+					"price": { "avg": 4.51, "var": 1 }
+				},
+				{
+					"code": "game:bowl-fired", "type": "block", "stacksize": 1,
+					"stock": { "avg": 12, "var": 5 },
+					"price": { "avg": 1 }
+				},
+				{
+					"code": "game:jug-blue-fired", "type": "block", "stacksize": 1,
+					"stock": { "avg": 18, "var": 6 },
+					"price": { "avg": 2.2, "var": 0.3 }
+				},
+				{
+					"code": "game:woodbucket", "type": "block", "stacksize": 1,
+					"stock": { "avg": 12, "var": 4 },
+					"price": { "avg": 2.5, "var": 0.3 }
+				},
+				{
+					"code": "game:woodbucket", "type": "block", "stacksize": 1,
+					"attributes": { "ucontents": [ { "type":"item", "code": "honeyportion", "makefull": true } ] },
+					"stock": { "avg": 4.51, "var": 2 },
+					"price": { "avg": 10.51, "var": 1 }
+				}
+			]
+		}
+	}
+    },
+	"server": {
+		"attributes": {
+			"pathfinder": {
+				"minTurnAnglePerSec": 720,
+				"maxTurnAnglePerSec": 1440
+			}
+		},
+		"behaviors": [
+			{ "code": "nametag", "showtagonlywhentargeted": true, "selectFromRandomName": ["Adrian", "Trefor", "Aphid", "Erik", "Adachi", "Farhad", "Pegalesharro", "Floyd", "Temper", "En Repos", "Zadak"] },
+			{ "code": "repulseagents" },
+			{ "code": "controlledphysics", "stepHeight": 1.01 },
+			{ "code": "reviveondeath", "minHours": 18, "maxHours": 36 },
+			{ "code": "health", "currenthealth": 150, "maxhealth": 150 },
+			{
+				"code": "emotionstates",
+				"states": [
+					{ "code": "aggressiveondamage", "duration": 6, "chance": 0.6, "slot": 0, "priority": 2, "accumType": "noaccum" },
+					{ "code": "fleeondamage", "duration": 10, "chance": 0.4, "slot": 0, "priority": 1, "accumType": "max" }
+				]
+			},
+			{
+				"code": "taskai",
+				"aitasks": [
+					{
+						"code": "meleeattack",
+						"entityCodes": ["player"],
+						"priority": 2,
+						"damage": 7,
+						"mincooldown": 2500,
+						"maxcooldown": 3500,
+						"attackDurationMs": 900,
+						"damagePlayerAtMs": 300,
+						"animation": "Attack",
+						"animationSpeed": 2,
+						"whenInEmotionState": "aggressiveondamage"
+					},
+					{
+						"code": "seekentity",
+						"entityCodes": ["player"],
+						"priority": 1.5,
+						"mincooldown": 1000,
+						"maxcooldown": 1500,
+						"seekingRange": 20,
+						"movespeed": 0.035,
+						"animation": "Run",
+						"animationSpeed": 1.75,
+						"whenInEmotionState": "aggressiveondamage"
+					},
+					{
+						"code": "fleeentity",
+						"entityCodes": ["player"],
+						"priority": 1.5,
+						"movespeed": 0.035,
+						"seekingRange": 12,
+						"animation": "Run",
+						"animationSpeed": 1.75,
+						"whenInEmotionState": "fleeondamage"
+					},
+					{
+						"code": "idle",
+						"priority": 1.2,
+						"minduration": 2500,
+						"maxduration": 2500,
+						"mincooldown": 2000,
+						"maxcooldown": 10000,
+						"animation": "laugh"
+					},
+					{
+						"code": "idle",
+						"priority": 1.2,
+						"minduration": 2500,
+						"maxduration": 2500,
+						"mincooldown": 5000,
+						"maxcooldown": 30000,
+						"animation": "idle2"
+					},
+					{
+						"code": "wander",
+						"priority": 1.0,
+						"movespeed": 0.01,
+						"animation": "Walk",
+						"wanderChance": 0.005,
+						"maxDistanceToSpawn": 4,
+						"wanderRangeMin": 1,
+						"wanderRangeMax": 3,
+						"teleportWhenOutOfRange": true,
+						"teleportInGameHours": 1
+					},
+					{
+						"code": "lookaround",
+						"priority": 0.5
+					}
+				]
+			}
+		]
+	},
+	"sounds": {
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"code": "creature",
+	"class": "ItemCreature",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "type", "states": [ "humanoid-trader-clothier", "humanoid-trader-daelynn", "humanoid-trader-barkeeper" ] }
+	],
+	"shapeByType": {
+		"creature-humanoid-trader-*": { "base": "game:entity/humanoid/trader" }
+	},
+	"texturesByType": {
+		"*-placeHolder": {
+			"skin": { "base": "game:entity/fox/arctic-male" }
+		}
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "creatures": ["*"], "rhadditions": ["*"] },
+	"materialDensity": 600,
+
+	"guiTransformByType": {
+		"creature-humanoid-trader-*": {
+			"rotate": true,
+			"rotation": { "x": 0, "y": -90, "z": -178 },
+			"origin": { "x": 0.6, "y": 0.78, "z": 0.5 }
+		}
+	},
+	
+	"tpHandTransformByType": {
+		"creature-humanoid-trader-*": {
+			"translation": { "x": -0.6, "y": -1.1, "z": -0.4 },
+			"rotation": { "x": -85, "y": -11, "z": 89 },
+			"origin": { "x": 0.5, "y": 1, "z": 0.5 },
+			"scale": 0.7
+		}
+	},
+	
+	"fpHandTransformByType": {
+		"creature-humanoid-trader-*": {
+			"translation": { "x": 0.05, "y": -0.3, "z": 0 },
+			"rotation": { "x": 165, "y": 76, "z": -180 }
+		}
+	},
+	
+	"groundTransformByType": {
+		"*-placeHolder": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5299 },
+			"scale": 1.95
+		}
+	}
+}

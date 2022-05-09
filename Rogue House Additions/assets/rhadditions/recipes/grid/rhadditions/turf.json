@@ -1,0 +1,11 @@
+{
+    "ingredientPattern": "D,G,P",
+    "ingredients": {
+      "D": { "type": "item", "code": "rhadditions:powder-temporal" },
+      "G": { "type": "item", "code": "game:drygrass", "quantity": 3 },
+      "P": { "type": "block", "code": "game:packeddirt", "quantity": 3 }
+    },
+    "width": 1,
+    "height": 3,
+    "output": { "type": "block", "code": "rhadditions:turf-spring", "quantity": 3 }
+}

@@ -1,0 +1,70 @@
+[
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:blocktypes/torchlamp.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:blocktypes/doorbell.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:blocktypes/linen.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "true",
+		"file": "zeekea:blocktypes/armchair.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "true",
+		"file": "zeekea:blocktypes/barchair.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "true",
+		"file": "zeekea:blocktypes/fancychair.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "true",
+		"file": "zeekea:blocktypes/fancychairwooden.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:blocktypes/nightlamp.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:blocktypes/kitchen/winerack.json"
+	},
+
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:blocktypes/kitchen/wallpanel.json"
+	},
+
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "zeekea:blocktypes/clay/mold/icepickhead_mold.json"
+	}
+]

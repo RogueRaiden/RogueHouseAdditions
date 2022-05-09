@@ -1,0 +1,13 @@
+{
+	"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	"pattern": [[
+	    "_________###___",
+		"__##########___",
+		"_________###___",
+		"___###_________",
+		"___##########__",
+		"___###_________"
+	]],
+	"name": "2 Chisels",
+	"output": { "type": "item", "code": "game:chisel-{metal}", "stacksize": 2 }
+}

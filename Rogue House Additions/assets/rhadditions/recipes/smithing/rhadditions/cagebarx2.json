@@ -1,0 +1,16 @@
+{
+	"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["copper"] },
+	"pattern": [[
+	    "___##__##___",
+		"___##__##___",
+	    "___##__##___",
+		"___##__##___",
+		"___##__##___",
+		"___##__##___",
+		"___##__##___",
+		"___##__##___",
+		"___##__##___"
+	]],
+	"name": "2 Cage bars",
+	"output": { "type": "item", "code": "rhadditions:cagebar-{metal}", "stacksize": 2 }
+}

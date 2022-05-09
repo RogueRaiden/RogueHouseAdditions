@@ -1,0 +1,12 @@
+{
+	"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel"] },
+	"pattern": [[
+		"##########____",
+		"______########",
+		"###________###",
+		"########______",
+		"____##########"
+	]],
+	"name": "2 Scythes",
+	"output": { "type": "item", "code": "game:scythehead-{metal}", "stacksize": 2  }
+}

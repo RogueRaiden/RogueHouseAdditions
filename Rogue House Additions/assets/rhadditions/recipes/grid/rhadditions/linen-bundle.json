@@ -1,0 +1,10 @@
+{
+    "ingredientPattern": "_C_,C_C,_C_",
+    "ingredients": {
+      "C": { "type": "item", "code": "game:cloth-*", "name": "color" }
+      
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "rhadditions:linen-bundle-{color}" }
+}

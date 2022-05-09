@@ -1,0 +1,51 @@
+[
+  {
+    "op": "add",
+    "path": "/0",
+    "value": {
+      "code": "rogue",
+      "traits": [
+        "weaponexpert",
+        "fleetfooted",
+        "sneaky",
+        "outlaw",
+        "hasty"
+      ],
+      "gear": [
+        {
+          "type": "item",
+          "code": "rhadditions:clothes-head-dark-eye-mask"
+        },
+        {
+          "type": "item",
+          "code": "rhadditions:clothes-shoulder-rogue-cape"
+        },
+        {
+          "type": "item",
+          "code": "rhadditions:clothes-upperbody-rogue-shirt"
+        },
+        {
+          "type": "item",
+          "code": "rhadditions:clothes-upperbodyover-rogue-cloak"
+        },
+        {
+          "type": "item",
+          "code": "rhadditions:clothes-lowerbody-rogue-pants"
+        },
+        {
+          "type": "item",
+          "code": "rhadditions:clothes-foot-rogue-boots"
+        },
+        {
+          "type": "item",
+          "code": "rhadditions:clothes-face-rogue-mask"
+        },
+        {
+          "type": "item",
+          "code": "rhadditions:clothes-hand-rogue-gloves"
+        }
+      ]
+    },
+    "file": "game:config/characterclasses.json"
+  }
+]

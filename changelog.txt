@@ -1,0 +1,27 @@
+v1.0.9
+-Removed Shovel requirement, and increased drop rate for Snowballs.
+-Modlist guide additions and other guide tweaks.
+-Barrels are stackable to 16.
+-New creepy clothing.
+-New Soil recipes.
+-Drifter drop adjustments, with new surprises.
+-Turf recipe adjustment.
+-Made Pots shelvable.
+-Added 6 more variations of a shirt, Tailor exclusive recipes.
+
+v1.0.8
+-Test release
+
+v1.0.7
+-Disabled coins and vending machine from Trade-o-mat mod.
+-Adjusted recipes for Trade-o-mats.
+
+v1.0.6
+-Placed Torches and filled Torch holders now provide some warmth.
+-Added Snowball item, replaced Snow block recipe.
+-Adjusted Tamed Dogs hitbox size for opened doors again.
+-Barkeeper and Daelynn shopkeeper trade adjustments.
+-Tweaks with some Guides.
+-Added 6 variations of a shirt, Tailor exclusive recipes.
+-Croc backpack is now Tailor exclusive.
+-Petai Pet whistle, Primitive Survival Bone hook and Ancient tools Bone curing hook recipes adjusted.

@@ -1,0 +1,46 @@
+[
+    {
+        "ingredientPattern": "DKD,DTD",
+        "ingredients": {
+          "D": { "type": "item", "code": "rhadditions:drifterskin-*", "name": "drifter", "quantity": 2 },
+          "T": { "type": "item", "code": "game:flaxtwine", "quantity": 2 },
+          "K": { "type": "item", "code": "game:knife-*", "istool": true }
+        },
+        "width": 3,
+        "height": 2,
+        "output": { "type": "item", "code": "rhadditions:clothes-foot-drifterskin-{drifter}-boots" }
+    },
+    {
+        "ingredientPattern": "DTD,DKD",
+        "ingredients": {
+          "D": { "type": "item", "code": "rhadditions:drifterskin-*", "name": "drifter", "quantity": 2 },
+          "T": { "type": "item", "code": "game:flaxtwine", "quantity": 2 },
+          "K": { "type": "item", "code": "game:knife-*", "istool": true }
+        },
+        "width": 3,
+        "height": 2,
+        "output": { "type": "item", "code": "rhadditions:clothes-hand-drifterskin-{drifter}-gloves" }
+    },
+    {
+        "ingredientPattern": "DDD,TKT,D_D",
+        "ingredients": {
+          "D": { "type": "item", "code": "rhadditions:drifterskin-*", "name": "drifter", "quantity": 2 },
+          "T": { "type": "item", "code": "game:flaxtwine", "quantity": 2 },
+          "K": { "type": "item", "code": "game:knife-*", "istool": true }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "item", "code": "rhadditions:clothes-lowerbody-drifterskin-{drifter}-pants" }
+    },
+    {
+        "ingredientPattern": "D_D,TKT,DDD",
+        "ingredients": {
+          "D": { "type": "item", "code": "rhadditions:drifterskin-*", "name": "drifter", "quantity": 2 },
+          "T": { "type": "item", "code": "game:flaxtwine", "quantity": 2 },
+          "K": { "type": "item", "code": "game:knife-*", "istool": true }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "item", "code": "rhadditions:clothes-upperbody-drifterskin-{drifter}-shirt" }
+    }
+]

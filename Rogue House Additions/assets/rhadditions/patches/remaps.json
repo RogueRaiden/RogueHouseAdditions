@@ -1,0 +1,33 @@
+[
+	{
+		"op": "add",
+		"path": "/rhserveradditions:rhadditions",
+		"value": [
+            "/iir remapq rhadditions:powder-diamond rhserveradditions:rhdust-diamond force",
+            "/iir remapq rhadditions:powder-temporal rhserveradditions:rhdust-temporal force",
+            "/iir remapq rhadditions:powder-rune rhserveradditions:rhdust-rune force",
+            "/iir remapq rhadditions:powder-emerald rhserveradditions:rhdust-emerald force",
+            "/iir remapq rhadditions:powder-peridot rhserveradditions:rhdust-peridot force",
+            "/iir remapq rhadditions:cagebar-copper rhserveradditions:rhcagebar-copper force",
+
+            "/iir remapq rhadditions:clothes-upperbody-blacksmith-shirt rhserveradditions:clothes-upperbody-blacksmith-shirt force",
+            "/iir remapq rhadditions:clothes-shoulder-rogue-cape rhserveradditions:clothes-shoulder-rogue-cape force",
+            "/iir remapq rhadditions:clothes-upperbody-rogue-shirt rhserveradditions:clothes-upperbody-rogue-shirt force",
+            "/iir remapq rhadditions:clothes-head-dark-eye-mask rhserveradditions:clothes-head-dark-eye-mask force",
+            "/iir remapq rhadditions:clothes-face-rogue-mask rhserveradditions:clothes-face-rogue-mask force",
+            "/iir remapq rhadditions:clothes-foot-rogue-boots rhserveradditions:clothes-foot-rogue-boots force",
+            "/iir remapq rhadditions:clothes-hand-rogue-gloves rhserveradditions:clothes-hand-rogue-gloves force",
+            "/iir remapq rhadditions:clothes-lowerbody-rogue-pants rhserveradditions:clothes-lowerbody-rogue-pants force",
+            "/iir remapq rhadditions:clothes-upperbodyover-rogue-cloak rhserveradditions:clothes-upperbodyover-rogue-cloak force",
+            "/iir remapq rhadditions:clothes-upperbody-ranger-tunic rhserveradditions:clothes-upperbody-ranger-tunic force",
+            "/iir remapq rhadditions:clothes-foot-ranger-boots rhserveradditions:clothes-foot-ranger-boots force",
+            "/iir remapq rhadditions:clothes-hand-ranger-gloves rhserveradditions:clothes-hand-ranger-gloves force",
+            "/iir remapq rhadditions:clothes-shoulder-elvish-coat rhserveradditions:clothes-shoulder-elvish-coat force",
+
+            "/bir remapq rhadditions:turf-spring rhserveradditions:rhturf-summerturf force",
+            "/bir remapq rhadditions:toolmold-raw-cagebar rhserveradditions:rhtoolmold-raw-cagebar force",
+            "/bir remapq rhadditions:toolmold-burned-cagebar rhserveradditions:rhtoolmold-burned-cagebar force"
+        ],
+		"file": "game:config/remaps.json"
+	}
+]

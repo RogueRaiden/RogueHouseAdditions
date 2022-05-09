@@ -1,0 +1,52 @@
+[
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "tradeomat:blocktypes/clay/mold/coin.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "tradeomat:blocktypes/coinspile.json"
+	},
+
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "tradeomat:itemtypes/basecoin.json"
+	},
+
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "tradeomat:recipes/clayforming/coinmold.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "tradeomat:recipes/grid/tomat-tall.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "tradeomat:recipes/grid/tomat-crate.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/0/enabled",
+		"value": "false",
+		"file": "tradeomat:recipes/grid/rug.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/1/enabled",
+		"value": "false",
+		"file": "tradeomat:recipes/grid/rug.json"
+	}
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "ingredientPattern": "SDH,DCD,HDS",
+        "ingredients": {
+            "H": { "type": "block", "code": "game:hay-normal" },
+            "S": { "type": "block", "code": "game:sand-*" },
+            "C": { "type": "item", "code": "game:compost", "quantity": 2 },
+            "D": { "type": "block", "code": "game:soil-verylow-none" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "block", "code": "rhadditions:soilmix-verylow", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "SDH,DCD,HDS",
+        "ingredients": {
+            "H": { "type": "block", "code": "game:hay-normal" },
+            "S": { "type": "block", "code": "game:sand-*" },
+            "C": { "type": "block", "code": "game:soil-medium-none" },
+            "D": { "type": "block", "code": "game:soil-low-none" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "block", "code": "rhadditions:soilmix-verylow", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "SDH,DCD,HDS",
+        "ingredients": {
+            "H": { "type": "block", "code": "game:hay-normal" },
+            "S": { "type": "block", "code": "game:sand-*" },
+            "C": { "type": "item", "code": "game:compost", "quantity": 2 },
+            "D": { "type": "block", "code": "game:soil-low-none" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "block", "code": "rhadditions:soilmix-low", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "SDH,DCD,HDS",
+        "ingredients": {
+            "H": { "type": "block", "code": "game:hay-normal" },
+            "S": { "type": "block", "code": "game:sand-*" },
+            "C": { "type": "item", "code": "game:compost", "quantity": 2 },
+            "D": { "type": "block", "code": "game:soil-medium-none" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": { "type": "block", "code": "rhadditions:soilmix-medium", "quantity": 8  }
+    }
+]

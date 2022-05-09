@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+    "path": "/variants/-",
+    "value": {
+      "Code": "phoenix"
+    },
+    "file": "game:worldproperties/block/painting.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/-",
+    "value": {
+      "Code": "rogueraiden"
+    },
+    "file": "game:worldproperties/block/painting.json"
+  }
+]

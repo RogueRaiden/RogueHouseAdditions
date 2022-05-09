@@ -1,0 +1,10 @@
+{
+	"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel"] },
+	"pattern": [[
+		"__#__########__",
+		"__##_______##__",
+		"__########__#__"
+	]],
+	"name": "2 Hoes",
+	"output": { "type": "item", "code": "game:hoehead-{metal}", "stacksize": 2  }
+}

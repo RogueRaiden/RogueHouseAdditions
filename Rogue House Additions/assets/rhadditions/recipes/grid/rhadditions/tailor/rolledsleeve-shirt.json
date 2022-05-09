@@ -1,0 +1,12 @@
+{
+    "ingredientPattern": "___,CSC,C_C",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "C": { "type": "item", "code": "game:cloth-*", "name": "color" },
+      "S": { "type": "item", "code": "game:sewingkit" }
+      
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "rhadditions:clothes-upperbody-rolledsleeve-shirt-{color}" }
+}

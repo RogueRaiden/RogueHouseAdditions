@@ -1,0 +1,23 @@
+[
+    {
+      "op": "add",
+      "path": "/attributesByType/stone-snowball",
+      "value": {
+        "displaycaseable": false,
+        "shelvable": false
+      },
+      "file": "game:itemtypes/resource/stone.json"
+    },
+    {
+      "op": "add",
+      "path": "/variantgroups/0/states/1",
+      "value": "snowball",
+      "file": "game:itemtypes/resource/stone.json"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/0/states/1",
+        "value": "snowball",
+        "file": "game:entities/thrownstone.json"
+    }
+]

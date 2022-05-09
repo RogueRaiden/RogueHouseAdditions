@@ -1,0 +1,14 @@
+[
+    { 
+		"op": "add",
+		"path": "/0/enabled",
+		"value": false,
+		"file": "petai:recipes/grid/petwhistle.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/1/enabled",
+		"value": false,
+		"file": "petai:recipes/grid/petwhistle.json"
+	}
+]

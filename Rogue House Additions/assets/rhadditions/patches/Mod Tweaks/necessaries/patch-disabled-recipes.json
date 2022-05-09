@@ -1,0 +1,26 @@
+[
+    { 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "necessaries:recipes/clayforming/mailflag.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "necessaries:recipes/grid/mailbox.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "necessaries:recipes/grid/parcel.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/5/enabled",
+		"value": "false",
+		"file": "necessaries:recipes/grid/sharpener.json"
+	}
+]

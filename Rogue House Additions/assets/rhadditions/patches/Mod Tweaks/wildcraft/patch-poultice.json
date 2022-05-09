@@ -1,0 +1,14 @@
+[
+    { 
+		"op": "replace",
+		"path": "/class",
+		"value": "ItemPoultice",
+		"file": "wildcraft:itemtypes/poultice.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/class",
+		"value": "ItemPoultice",
+		"file": "wildcraft:itemtypes/simplepoultice.json"
+	}
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "ingredientPattern": "P",
+        "ingredients": {
+          "P": { "type": "block", "code": "game:paperlantern-off" }
+        },
+        "width": 1,
+        "height": 1,
+        "shapeless": true,
+        "output": { "type": "block", "code": "game:paperlantern-on" }
+    },
+    {
+        "ingredientPattern": "P",
+        "ingredients": {
+          "P": { "type": "block", "code": "game:paperlantern-on" }
+        },
+        "width": 1,
+        "height": 1,
+        "shapeless": true,
+        "output": { "type": "block", "code": "game:paperlantern-off" }
+    },
+    {
+        "ingredientPattern": "PPP,PCP,PPP",
+        "ingredients": {
+            "P": { "type": "item", "code": "game:paper-parchment" },
+            "C": { "type": "item", "code": "game:candle" }
+        },
+        "width": 3,
+        "height": 3,
+        "shapeless": false,
+        "output": { "type": "block", "code": "game:paperlantern-off" }
+    }
+]

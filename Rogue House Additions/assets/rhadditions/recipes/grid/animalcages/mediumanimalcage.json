@@ -1,0 +1,26 @@
+{
+    "ingredientPattern": "PPS,CCC,PPS",
+    "ingredients": {
+        "S": {
+            "type": "item",
+            "code": "game:stick",
+            "quantity": 2
+        },
+        "C": {
+            "type": "item",
+            "code": "rhadditions:cagebar-copper",
+            "quantity": 1
+        },
+        "P": {
+            "type": "item",
+            "code": "game:plank-*",
+            "quantity": 2
+        }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+        "type": "block",
+        "code": "animalcages:mediumanimalcage-floor-opened-north"
+    }
+}

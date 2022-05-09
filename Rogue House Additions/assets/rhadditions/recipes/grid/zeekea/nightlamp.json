@@ -1,0 +1,26 @@
+{
+    "ingredientPattern": "G	D	S",
+    "ingredients": {
+      "G": {
+        "type": "block",
+        "code": "game:glass-*",
+        "name": "color",
+        "allowedVariants": ["blue", "brown", "green", "plain", "quartz", "red", "vintage", "violet", "yellow" ]
+      },
+      "D": {
+        "type": "item",
+        "code": "rhadditions:powder-temporal"
+      },
+      "S": {
+        "type": "item",
+        "code": "zeekea:lampstand-*",
+        "name": "metal",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron" ]
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "shapeless": false,
+    "output": { "type": "block", "code": "zeekea:nightlamp-{metal}-{color}-off" }
+}
+  

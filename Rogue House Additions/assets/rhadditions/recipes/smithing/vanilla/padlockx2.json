@@ -1,0 +1,11 @@
+{
+	"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	"pattern": [[
+		"_#####___#####_",
+		"####__#_#__####",
+		"####__#_#__####",
+		"_#####___#####_"
+	]],
+	"name": "2 Padlocks",
+	"output": { "type": "item", "code": "game:padlock-{metal}", "stacksize": 2  }
+}

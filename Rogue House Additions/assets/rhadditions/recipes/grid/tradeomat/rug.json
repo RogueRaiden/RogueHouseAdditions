@@ -1,0 +1,13 @@
+[
+	{
+	  "ingredientPattern": "LLL,LGL",
+	  "ingredients": {
+		"L": { "type": "block", "code": "game:linen-*" },
+		"G": { "type": "item", "code": "game:gear-rusty", "quantity": 5 }
+	  },
+	  "width": 3,
+	  "height": 2,
+	  "shapeless": false,
+	  "output": { "type": "block", "code": "tradeomat:rug-north" }
+	}
+]

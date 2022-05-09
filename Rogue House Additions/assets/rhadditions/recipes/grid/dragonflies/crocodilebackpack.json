@@ -1,0 +1,16 @@
+{
+    "ingredientPattern": "CRC,BPB,TKT",
+    "requiresTrait": "clothier",
+    "ingredients": {
+        "P": { "type": "item", "code": "game:crochide-raw-huge", "quantity": 2 },
+        "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 32 },
+        "R": { "type": "item", "code": "game:rope", "quantity": 2 },
+        "B": { "type": "item", "code": "game:bone", "quantity": 2 },
+        "T": { "type": "item", "code": "game:flaxtwine", "quantity": 2 },
+        "C": { "type": "item", "code": "game:leather-plain", "quantity": 2 }
+    },
+    "name": "crocodilebackpack",
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "dragonflies:crocodilebackpack", "quantity": 1  }
+}

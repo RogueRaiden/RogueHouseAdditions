@@ -1,0 +1,11 @@
+{
+    "ingredientPattern": "___,BK_,___",
+    "shapeless": false,
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+        "K": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 10 },
+        "B": { "type": "item", "code": "game:bone" }
+    },
+    "output": { "type": "item", "code": "ancienttools:curinghook-bone", "quantity": 1 }
+}

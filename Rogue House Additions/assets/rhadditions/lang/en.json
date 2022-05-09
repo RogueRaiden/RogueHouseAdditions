@@ -1,0 +1,340 @@
+{
+    "_comment1": "MISCELLANEOUS **********************",
+
+    "game:tabname-rhadditions": "RH Additions",
+    
+
+
+    "_comment2": "EMPTY SPACE **********************",
+
+
+    
+    "_comment3": "TRAITS **********************",
+    
+    "game:trait-weaponexpert": "<font color=\"#84ff84\">• Weapon Expert</font>",
+    "game:charattribute-meleeWeaponsDamage-0.15": "+15% melee damage",
+    "game:charattribute-rangedWeaponsDamage-0.15": "+15% ranged damage",
+    "game:charattribute-rangedWeaponsAcc-0.35": "+35% ranged accuracy",
+    "game:charattribute-bowDrawingStrength-0.15": "+15% ranged distance",
+
+    "game:trait-sneaky": "<font color=\"#84ff84\">• Sneaky</font>",
+    "game:charattribute-animalSeekingRange--0.5": "-50% animal seeking range",
+
+    "game:trait-outlaw": "<font color=\"#ff8484\">• Outlaw</font>",
+    "game:charattribute-hungerrate-0.12": "+12% hunger rate",
+    "game:charattribute-maxhealthExtraPoints--3": "-3 health points",
+
+    "game:trait-hasty": "<font color=\"#ff8484\">• Hasty</font>",
+    "game:charattribute-animalLootDropRate--0.15": "-15% animal loot",
+    "game:charattribute-oreDropRate--15": "-15% ore drop rate",
+
+    
+
+    "_comment4": "CLASSES **********************",
+    
+    "game:characterclass-rogue": "Rogue",
+    "game:characterdesc-rogue": "<font color=\"#99c9f9\"><i>Slipping through the shadows, avoiding the Beasts that roam the lands.<br>Far from the life you once had, but the only one you know of now.</i></font><br><br>The Beasts have taught many lessons in stealth, ranged and melee combat. Constant movement keeps your weight down, keeping you light on your feet but less hardy.",
+
+
+    
+    "_comment5": "CLOTHING **********************",
+    
+    "item-clothes-upperbody-blacksmith-shirt": "Blacksmith shirt",
+    "itemdesc-clothes-upperbody-blacksmith-shirt": "<font color=\"#99c9f9\"><i>The thicker material is warm in the cold and keeps the sparks off.</i></font><br>",
+
+    "item-clothes-shoulder-rogue-cape": "Rogue cape",
+    "itemdesc-clothes-shoulder-rogue-cape": "<font color=\"#99c9f9\"><i>Stylish, yet mysterious.</i></font><br>",
+
+    "item-clothes-upperbody-rogue-shirt": "Rogue shirt",
+    "itemdesc-clothes-upperbody-rogue-shirt": "<font color=\"#99c9f9\"><i>Ragged shirt. Has been through a few adventures.</i></font><br>",
+
+    "item-clothes-head-dark-eye-mask": "Dark eye mask",
+    "itemdesc-clothes-head-dark-eye-mask": "<font color=\"#99c9f9\"><i>As long as they don't see the eyes, they will never know.</i></font><br>",
+
+    "item-clothes-face-rogue-mask": "Rogue mask",
+    "itemdesc-clothes-face-rogue-mask": "<font color=\"#99c9f9\"><i>Always keep 'em guessing.</i></font><br>",
+
+    "item-clothes-foot-rogue-boots": "Rogue boots",
+    "itemdesc-clothes-foot-rogue-boots": "<font color=\"#99c9f9\"><i>Rugged adventuring boots. Ready for anything.</i></font><br>",
+
+    "item-clothes-hand-rogue-gloves": "Rogue gloves",
+    "itemdesc-clothes-hand-rogue-gloves": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-lowerbody-rogue-pants": "Rogue pants",
+    "itemdesc-clothes-lowerbody-rogue-pants": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-upperbodyover-rogue-cloak": "Rogue cloak",
+    "itemdesc-clothes-upperbodyover-rogue-cloak": "<font color=\"#99c9f9\"><i>Perfect for dark, stormy nights.</i></font><br>",
+
+    "item-clothes-upperbody-ranger-tunic": "Ranger tunic",
+    "itemdesc-clothes-upperbody-ranger-tunic": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-foot-ranger-boots": "Ranger boots",
+    "itemdesc-clothes-foot-ranger-boots": "<font color=\"#99c9f9\"><i>Used by the Ranger's Guild to move silently through the forest.</i></font><br>",
+
+    "item-clothes-hand-ranger-gloves": "Ranger gloves",
+    "itemdesc-clothes-hand-ranger-gloves": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-shoulder-elvish-coat": "Elvish coat",
+    "itemdesc-clothes-shoulder-elvish-coat": "<font color=\"#99c9f9\"><i>The craftsmanship is unrivaled. Only the Elves could have stitched this.</i></font><br>",
+
+    "item-clothes-shoulder-moon-robe": "Moon robe",
+    "itemdesc-clothes-shoulder-moon-robe": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-shoulder-dark-robe": "Dark robe",
+    "itemdesc-clothes-shoulder-dark-robe": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-upperbody-rolledsleeve-shirt-yellow": "Rolled-sleeve shirt (Yellow)",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-yellow": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-upperbody-rolledsleeve-shirt-gray": "Rolled-sleeve shirt (Gray)",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-gray": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-upperbody-rolledsleeve-shirt-purple": "Rolled-sleeve shirt (Purple)",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-purple": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-upperbody-rolledsleeve-shirt-orange": "Rolled-sleeve shirt (Orange)",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-orange": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-upperbody-rolledsleeve-shirt-blue": "Rolled-sleeve shirt (Blue)",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-blue": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-upperbody-rolledsleeve-shirt-pink": "Rolled-sleeve shirt (Pink)",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-pink": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-upperbody-rolledsleeve-shirt-black": "Rolled-sleeve shirt (Black)",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-black": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-upperbody-rolledsleeve-shirt-brown": "Rolled-sleeve shirt (Brown)",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-brown": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-upperbody-rolledsleeve-shirt-green": "Rolled-sleeve shirt (Green)",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-green": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-upperbody-rolledsleeve-shirt-plain": "Rolled-sleeve shirt (Plain)",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-plain": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-upperbody-rolledsleeve-shirt-red": "Rolled-sleeve shirt (Red)",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-red": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-upperbody-rolledsleeve-shirt-white": "Rolled-sleeve shirt (White)",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-white": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+
+    "item-clothes-foot-drifterskin-surface-boots": "Surface drifter skin boots",
+    "itemdesc-clothes-foot-drifterskin-surface-boots": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-foot-drifterskin-deep-boots": "Deep drifter skin boots",
+    "itemdesc-clothes-foot-drifterskin-deep-boots": "<font color=\"#99c9f9\"><i></i></font><br>",
+    
+    "item-clothes-foot-drifterskin-tainted-boots": "Tainted drifter skin boots",
+    "itemdesc-clothes-foot-drifterskin-tainted-boots": "<font color=\"#99c9f9\"><i></i></font><br>",
+    
+    "item-clothes-foot-drifterskin-corrupt-boots": "Corrupt drifter skin boots",
+    "itemdesc-clothes-foot-drifterskin-corrupted-boots": "<font color=\"#99c9f9\"><i></i></font><br>",
+    
+    "item-clothes-foot-drifterskin-nightmare-boots": "Nightmare drifter skin boots",
+    "itemdesc-clothes-foot-drifterskin-nightmare-boots": "<font color=\"#99c9f9\"><i></i></font><br>",
+    
+    "item-clothes-foot-drifterskin-double-boots": "Double-headed drifter skin boots",
+    "itemdesc-clothes-foot-drifterskin-double-boots": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+
+    "item-clothes-hand-drifterskin-surface-gloves": "Surface drifter skin gloves",
+    "itemdesc-clothes-hand-drifterskin-surface-gloves": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-hand-drifterskin-deep-gloves": "Deep drifter skin gloves",
+    "itemdesc-clothes-hand-drifterskin-deep-gloves": "<font color=\"#99c9f9\"><i></i></font><br>",
+    
+    "item-clothes-hand-drifterskin-tainted-gloves": "Tainted drifter skin gloves",
+    "itemdesc-clothes-hand-drifterskin-tainted-gloves": "<font color=\"#99c9f9\"><i></i></font><br>",
+    
+    "item-clothes-hand-drifterskin-corrupt-gloves": "Corrupt drifter skin gloves",
+    "itemdesc-clothes-hand-drifterskin-corrupted-gloves": "<font color=\"#99c9f9\"><i></i></font><br>",
+    
+    "item-clothes-hand-drifterskin-nightmare-gloves": "Nightmare drifter skin gloves",
+    "itemdesc-clothes-hand-drifterskin-nightmare-gloves": "<font color=\"#99c9f9\"><i></i></font><br>",
+    
+    "item-clothes-hand-drifterskin-double-gloves": "Double-headed drifter skin gloves",
+    "itemdesc-clothes-hand-drifterskin-double-gloves": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+
+    "item-clothes-lowerbody-drifterskin-surface-pants": "Surface drifter skin pants",
+    "itemdesc-clothes-lowerbody-drifterskin-surface-pants": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-lowerbody-drifterskin-deep-pants": "Deep drifter skin pants",
+    "itemdesc-clothes-lowerbody-drifterskin-deep-pants": "<font color=\"#99c9f9\"><i></i></font><br>",
+    
+    "item-clothes-lowerbody-drifterskin-tainted-pants": "Tainted drifter skin pants",
+    "itemdesc-clothes-lowerbody-drifterskin-tainted-pants": "<font color=\"#99c9f9\"><i></i></font><br>",
+    
+    "item-clothes-lowerbody-drifterskin-corrupt-pants": "Corrupt drifter skin pants",
+    "itemdesc-clothes-lowerbody-drifterskin-corrupted-pants": "<font color=\"#99c9f9\"><i></i></font><br>",
+    
+    "item-clothes-lowerbody-drifterskin-nightmare-pants": "Nightmare drifter skin pants",
+    "itemdesc-clothes-lowerbody-drifterskin-nightmare-pants": "<font color=\"#99c9f9\"><i></i></font><br>",
+    
+    "item-clothes-lowerbody-drifterskin-double-pants": "Double-headed drifter skin pants",
+    "itemdesc-clothes-lowerbody-drifterskin-double-pants": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+
+    "item-clothes-upperbody-drifterskin-surface-shirt": "Surface drifter skin shirt",
+    "itemdesc-clothes-upperbody-drifterskin-surface-shirt": "<font color=\"#99c9f9\"><i></i></font><br>",
+
+    "item-clothes-upperbody-drifterskin-deep-shirt": "Deep drifter skin shirt",
+    "itemdesc-clothes-upperbody-drifterskin-deep-shirt": "<font color=\"#99c9f9\"><i></i></font><br>",
+    
+    "item-clothes-upperbody-drifterskin-tainted-shirt": "Tainted drifter skin shirt",
+    "itemdesc-clothes-upperbody-drifterskin-tainted-shirt": "<font color=\"#99c9f9\"><i></i></font><br>",
+    
+    "item-clothes-upperbody-drifterskin-corrupt-shirt": "Corrupt drifter skin shirt",
+    "itemdesc-clothes-upperbody-drifterskin-corrupted-shirt": "<font color=\"#99c9f9\"><i></i></font><br>",
+    
+    "item-clothes-upperbody-drifterskin-nightmare-shirt": "Nightmare drifter skin shirt",
+    "itemdesc-clothes-upperbody-drifterskin-nightmare-shirt": "<font color=\"#99c9f9\"><i></i></font><br>",
+    
+    "item-clothes-upperbody-drifterskin-double-shirt": "Double-headed drifter skin shirt",
+    "itemdesc-clothes-upperbody-drifterskin-double-shirt": "<font color=\"#99c9f9\"><i></i></font><br>",
+    
+    
+    
+    "_comment6": "PARTS **********************",
+    
+    "item-cagebar-copper": "Cage bar (Copper)",
+    "itemdesc-cagebar-*": "Metal bar for cage construction.",
+    "itemcraftdesc-cagebar-*": "Used in the construction of animal cages.",
+
+
+
+    "_comment7": "RESOURCES **********************",
+
+    "item-powder-temporal": "Temporal powder",
+    "itemdesc-powder-temporal": "<font color=\"#99c9f9\"><i>They have discovered this powder to have some magical properties.</i></font>",
+
+    "item-powder-rune": "Rune powder",
+    "itemdesc-powder-rune": "<font color=\"#99c9f9\"><i>Mixed from the magical Temporal powder as a base. Known to be used for personal Translocation rune crafting.</i></font>",
+    "handbooktitle-powder-rune": "",
+    "handbooktext-powder-rune": "Crafts 8 Rune powder",
+
+    "item-powder-diamond": "Crushed diamond",
+
+    "item-powder-emerald": "Crushed emerald",
+
+    "item-powder-peridot": "Crushed peridot",
+
+    "game:item-stone-snowball": "Snowball",
+
+    "item-drifterskin-surface": "Surface drifter skin",
+    "itemdesc-drifterskin-surface": "<font color=\"#99c9f9\"><i></i></font>",
+
+    "item-drifterskin-deep": "Deep drifter skin",
+    "itemdesc-drifterskin-deep": "<font color=\"#99c9f9\"><i></i></font>",
+
+    "item-drifterskin-tainted": "Tainted drifter skin",
+    "itemdesc-drifterskin-tainted": "<font color=\"#99c9f9\"><i></i></font>",
+
+    "item-drifterskin-corrupt": "Corrupt drifter skin",
+    "itemdesc-drifterskin-corrupt": "<font color=\"#99c9f9\"><i></i></font>",
+
+    "item-drifterskin-nightmare": "Nightmare drifter skin",
+    "itemdesc-drifterskin-nightmare": "<font color=\"#99c9f9\"><i></i></font>",
+
+    "item-drifterskin-double": "Double-headed drifter skin",
+    "itemdesc-drifterskin-double": "<font color=\"#99c9f9\"><i></i></font>",
+
+
+    
+    "_comment8": "BLOCKS **********************",
+
+    "block-turf-spring": "Turf",
+    
+    "block-linen-bundle-black": "Linen bundle (Black)",
+    "block-linen-bundle-blue": "Linen bundle (Blue)",
+    "block-linen-bundle-brown": "Linen bundle (Brown)",
+    "block-linen-bundle-gray": "Linen bundle (Gray)",
+    "block-linen-bundle-green": "Linen bundle (Green)",
+    "block-linen-bundle-orange": "Linen bundle (Orange)",
+    "block-linen-bundle-pink": "Linen bundle (Pink)",
+    "block-linen-bundle-plain": "Linen bundle (Plain)",
+    "block-linen-bundle-purple": "Linen bundle (Purple)",
+    "block-linen-bundle-red": "Linen bundle (Red)",
+    "block-linen-bundle-white": "Linen bundle (White)",
+    "block-linen-bundle-yellow": "Linen bundle (Yellow)",
+
+    "block-soilmix-verylow": "Very low soil mix",
+    "blockdesc-soilmix-verylow": "<font color=\"#99c9f9\"><i>Soil mixture to compost into Low fertility soil.</i></font>",
+
+    "block-soilmix-low": "Low soil mix",
+    "blockdesc-soilmix-low": "<font color=\"#99c9f9\"><i>Soil mixture to compost into Medium fertility soil.</i></font>",
+
+    "block-soilmix-medium": "Medium soil mix",
+    "blockdesc-soilmix-medium": "<font color=\"#99c9f9\"><i>Soil mixture to compost into High fertility soil.</i></font>",
+    
+
+
+    "_comment9": "MOLDS **********************",
+
+    "block-toolmold-raw-cagebar": "Raw cage bar mold",
+    
+    "block-toolmold-burned-cagebar": "Cage bar mold",
+    "blockdesc-toolmold-burned-cagebar": "Casts 3 Cage bars.",
+
+
+
+    "_comment10": "RESONANCE ARCHIVES **********************",
+    
+    "game:item-resonancearchive-fall-o'-croft": "Resonance archive (Fall o' Croft)",
+    "game:item-resonancearchive-midnight": "Resonance archive (Midnight)",
+    "game:item-resonancearchive-adventuring": "Resonance archive (Adventuring)",
+    "game:item-resonancearchive-safety-of-a-warm-fire": "Resonance archive (Safety of a Warm Fire)",
+    "game:item-resonancearchive-building": "Resonance archive (Building)",
+    "game:item-resonancearchive-creating": "Resonance archive (Creating)",
+    "game:item-resonancearchive-daylight": "Resonance archive (Daylight)",
+
+
+
+    "_comment11": "PAINTINGS **********************",
+    
+    "game:block-painting-phoenix-*": "Painting (Phoenix)",
+    "game:block-painting-rogueraiden-*": "Painting (RogueRaiden)",
+
+
+
+    "_comment12": "TRADERS **********************",
+
+    "game:item-creature-humanoid-trader": "Trader",
+    "game:item-dead-creature-humanoid-trader-*": "Dead trader",
+    
+    "game:item-creature-humanoid-trader-artisan": "Artisan trader",
+    "game:item-creature-humanoid-trader-buildmaterials": "Building materials trader",
+    "game:item-creature-humanoid-trader-clothing": "Clothing trader",
+    "game:item-creature-humanoid-trader-commodities": "Commodities trader",
+    "game:item-creature-humanoid-trader-foods": "Agriculture trader",
+    "game:item-creature-humanoid-trader-furniture": "Furniture trader",
+    "game:item-creature-humanoid-trader-luxuries": "Luxuries trader",
+    "game:item-creature-humanoid-trader-survivalgoods": "Survival goods trader",
+    "game:item-creature-humanoid-trader-treasurehunter": "Treasure hunter trader",
+
+    "game:tradingwindow-humanoid-trader-artisan": "Local goods - {0} the Artisan",
+    "game:tradingwindow-humanoid-trader-buildmaterials": "Local goods - {0} the Building materials supplier",
+    "game:tradingwindow-humanoid-trader-clothing": "Local goods - {0} the Clothing merchant",
+    "game:tradingwindow-humanoid-trader-commodities": "Local goods - {0} the Commodities merchant",
+    "game:tradingwindow-humanoid-trader-furniture": "Local goods - {0} the Furniture merchant",
+    "game:tradingwindow-humanoid-trader-foods": "Local goods - {0} the Agricultural supplier",
+    "game:tradingwindow-humanoid-trader-luxuries": "Local goods - {0} the Luxuries merchant",
+    "game:tradingwindow-humanoid-trader-survivalgoods": "Local goods - {0} the Survival goods supplier",
+    "game:tradingwindow-humanoid-trader-treasurehunter": "Local goods - {0} the Treasure hunter",
+    
+    "item-creature-humanoid-trader-daelynn": "Daelynn",
+    "game:tradingwindow-humanoid-trader-daelynn": "Local goods - {0} the helper",
+    
+    "item-creature-humanoid-trader-barkeeper": "Barkeeper",
+    "game:tradingwindow-humanoid-trader-barkeeper": "Local goods - {0} the Barkeeper",
+    "block-shopkeeper-mat-barkeeper": "Shopkeeper mat (Barkeeper)",
+    "blockdesc-shopkeeper-mat-barkeeper": "Invite a Barkeeper to run a shop. Needs a nearby bed and chest with food.",
+    
+    "item-creature-humanoid-trader-clothier": "Clothier",
+    "game:tradingwindow-humanoid-trader-clothier": "Local goods - {0} the Clothier",
+    "block-shopkeeper-mat-clothier": "Shopkeeper mat (Clothier)",
+    "blockdesc-shopkeeper-mat-clothier": "Invite a Clothier to run a shop. Needs a nearby bed and chest with food."
+}

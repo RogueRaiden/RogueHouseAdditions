@@ -1,0 +1,132 @@
+{
+    "_comment1": "REMOVED THINGS **********************",
+
+    "necessaries:block-mailbox-*": "Has fallen to the Rot...",
+    "necessaries:block-parcel-*": "Has fallen to the Rot...",
+    "necessaries:block-toolmold-burned-mailflag": "Has fallen to the Rot...",
+    "necessaries:block-toolmold-raw-mailflag": "Has fallen to the Rot...",
+    "necessaries:item-mailflag": "Has fallen to the Rot...",
+    
+    "zeekea:block-dummy-*": "Has fallen to the Rot...",
+    "zeekea:block-toolmold-*": "Has fallen to the Rot...",
+    "zeekea:block-wallpanel-*": "Has fallen to the Rot...",
+    "zeekea:-block-armchair-*": "Has fallen to the Rot...",
+    "zeekea:-block-barchair-*": "Has fallen to the Rot...",
+    "zeekea:-block-fancychair-*": "Has fallen to the Rot...",
+    "zeekea:-block-fancychairwooden-*": "Has fallen to the Rot...",
+    "zeekea:block-linen-*": "Has fallen to the Rot...",
+    "zeekea:block-torchlamp-*": "Has fallen to the Rot...",
+    "zeekea:block-nightlamp-*": "Has fallen to the Rot...",
+    "zeekea:block-winerack-*": "Has fallen to the Rot...",
+
+
+    "zeekea:item-wallpiece-*": "Has fallen to the Rot...",
+    "zeekea:item-wallpanelbase-*": "Has fallen to the Rot...",
+    "zeekea:item-icepick-*": "Has fallen to the Rot...",
+    "zeekea:item-icepickhead-*": "Has fallen to the Rot...",
+    "zeekea:item-ironthingie-*": "Has fallen to the Rot...",
+    "zeekea:item-lampstand-*": "Has fallen to the Rot...",
+    "zeekea:item-doorbell-*": "Has fallen to the Rot...",
+
+    "snowballmod:item-*": "Has fallen to the Rot...",
+
+    "tradeomat:block-toolmold-*": "Has fallen to the Rot...",
+    "tradeomat:block-coinspile-*": "Has fallen to the Rot...",
+    "tradeomat:item-coin-*": "Has fallen to the Rot...",
+    
+    
+    
+    "_comment2": "CLAIMS GUIDE **********************",
+
+    "claimsguide-title": "Server Mechanic: Claims & Land Ownership",
+    "claimsguide-text": "<strong>Claims & Land Ownership Guide</strong>
+<i>Now you're getting somewhere!</i>
+
+    In Multiplayer Vintage Story, you have the ability to <strong>Claim Land</strong> to protect your builds from harm. This is a very important step to keep unwanted Players from stealing your items or, even worse, claim your home for themselves!
+    
+<strong>Getting Started with Claims</strong>
+
+<strong>/land claim new</strong> Use to start a New Claim and mark the Start Point.
+
+<strong>/land claim start</strong> Mark the Start Point corner of your Claim.
+
+<strong>/land claim end</strong> Mark the End Point corner of your Claim.
+
+Once both corners are marked, a yellow cuboid will appear showing the area of the Claim. You can fine tune the area with these direction commands:
+<i>Note: Do not type the Square [ ] Brackets!</i>
+
+<strong>/land claim g[n/e/s/w/u/d]</strong> to grow and <strong>/land claim s[n/e/s/w/u/d]</strong> to shrink your Claim Area. For example, you would use \"/land claim gu 2\" to grow your Claim Area UP by 2 blocks and \"/land claim sn\" to shrink your Claim Area's North Side by 1 block.
+    
+<strong>/land claim add</strong> This will add your current Claim Area to the Claim. The yellow cuboid will turn green. You may now finalize your claim or add more Claim Areas.
+
+<strong>/land claim save [claimName]</strong> This will finalize and Save your Claim with given Name. The Name is <strong>Optional</strong>.
+
+<strong>/land list</strong> Lists all of your current claims showing their <strong>Index Number</strong>.
+
+<strong>/land claim load [index]</strong> Loads the claim with assigned <strong>Index Number</strong>.
+
+<strong>/land free [index]</strong> This will Delete claim with assigned <strong>Index Number</strong>. Must be confirmed with /land free [index] confirm.
+
+
+<strong>Granting Access to Players and Player Groups</strong>
+
+First, load your claim with <strong>/land claim load [index]</strong>.
+
+<strong>/land claim grant [playerName] [use/all]</strong> This will grant the Player with either <strong>use</strong>-Can open doors, chests, pickup things<strong> OR all</strong>-Can build and break block.
+
+<strong>/land claim grantgroup [groupName] [use/all]</strong> Same as above, but with Player Groups.
+
+<strong>/land claim save [claimName]</strong> Be sure to Save your Claim again with the name you gave it.",
+
+
+
+    "_comment3": "TAMING GUIDE **********************",
+
+    "pettamingguide-title":"Taming Guide: Pet Ownership - Cats & Dogs",
+    "pettamingguide-text":"<strong>Pet Ownership Guide - How to tame a creature</strong>
+<i>A Seraph's best friend.</i>
+
+    Owning a pet can be rewarding in all sorts of ways. Cats frighten weaker Drifters so much they cower in fear. Dogs will protect you from evil, and can even carry your burdens. <i>\"Who's a good boy!?!\"</i>
+    
+    Obtaining one of these pets is rather simple: Locate a cat or wolf pup in the wild, and feed it some fresh raw meat! Any raw meat will do. Red meat and Poultry being the best, Bushmeat and Bones being the worst. If you cannot find these creatures out in the wild, cats and dog pups can be purchased at select Traders!
+    
+    Once tamed, you will be prompted to name your new best friend. Continuing to feed them will increase their Obedience level. Most commands can only be executed once a certain level of obedience is reached. Crouch + right-click on your pet to get a listing of all available commands. The <a href=\"handbooksearch://pet whistle\">Pet whistle</a> allows you to issue commands from a distance.
+    
+    When tired, your pets will prefer sleeping in certain spots, such as blocks covered by linen or rush mats and beds. There are a few <a href=\"handbooksearch://dog toy or dog collar or dog scarf or dog armor or dog helmet or dog backpack\">accessories</a> available to aid you in making your pet a little bit more dapper looking.
+    
+    Be careful and protect your Pets, as they <i>can</i> die, <i>and will not respawn!</i> If your pet does die, their corpse will persist for about 60 days before they rot away. That will give you grieving owners plenty of time to secure a <a href=\"handbooksearch://temporal gear\">Temporal Gear</a> to revive your pet, keeping them in this realm for a while longer.",
+
+
+
+    
+    "_comment4": "GROUPS GUIDE **********************",
+    "chatgroupsguide-title": "Server Mechanic: Player Chat Groups",
+    "chatgroupsguide-text": "<strong>Player Chat Groups Guide</strong>
+<i>For all of my Friends; Me, Myself and I.</i>
+
+    Player Chat Groups are private groups where the members get a new chat tab to talk with each other without cluttering up the General Chat. Most uses for Player Chat Groups would be for Villages, Streamer Chats and even granting Claim Permission to all within a Group.
+<i>Note: Do not type the Square [ ] Brackets!</i>
+
+<strong>/group create [groupName]</strong> Creates a new Player Chat Group with given name.
+
+<strong>/group invite [groupName] [playerName]</strong> Invites the Player to the Group. <i>Note: Invites do not currently appear anywhere.</i>
+
+<strong>/group acceptinvite [groupName]</strong> Accepts an Invite for the Group.
+
+<strong>/group leave [groupName]</strong> Leave the Group.
+
+<strong>/group list</strong> Lists all Groups you are currently in.
+
+<strong>/group info [groupName]</strong> Lists the players of a Group.
+
+<strong>/group rename [oldGroupName] [newGroupName]</strong> Rename the Group.
+
+<strong>/group kick [groupName] [playerName]</strong> Remove the Player from the Group.
+
+<strong>/group op [groupName] [playerName]</strong> Grant Operator Status to the Player of the Group.
+
+<strong>/group deop [groupName] [playerName]</strong> Revoke Operator Status from the Player of the Group.
+
+<strong>/group disband [groupName]</strong> Destroys the Group. Must be Group Owner to use."
+
+}

@@ -1,0 +1,10 @@
+{
+	"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel"] },
+	"pattern": [[
+		"####___#####____",
+		"#######__#######",
+		"____#####___####"
+	]],
+	"name": "2 Prospecting pickaxes",
+	"output": { "type": "item", "code": "game:prospectingpickhead-{metal}", "stacksize": 2  }
+}

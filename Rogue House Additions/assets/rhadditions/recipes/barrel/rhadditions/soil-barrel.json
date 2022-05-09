@@ -1,0 +1,26 @@
+[
+	{
+		"code": "soilmix-verylow",
+		"sealHours": 288,
+		"ingredients": [
+			{ "type": "block", "code": "rhadditions:soilmix-verylow", "litres": 1 }
+		],
+		"output": { "type": "block", "code": "game:soil-low-none", "stackSize": 1 }
+	},
+	{
+		"code": "soilmix-low",
+		"sealHours": 288,
+		"ingredients": [
+			{ "type": "block", "code": "rhadditions:soilmix-low", "litres": 1 }
+		],
+		"output": { "type": "block", "code": "game:soil-medium-none", "stackSize": 1 }
+	},
+	{
+		"code": "soilmix-medium",
+		"sealHours": 288,
+		"ingredients": [
+			{ "type": "block", "code": "rhadditions:soilmix-medium", "litres": 1 }
+		],
+		"output": { "type": "block", "code": "game:soil-compost-none", "stackSize": 1 }
+	}
+]

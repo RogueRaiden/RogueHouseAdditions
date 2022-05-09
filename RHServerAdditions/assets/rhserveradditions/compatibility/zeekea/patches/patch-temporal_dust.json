@@ -1,8 +1,0 @@
-[
-    { 
-		"op": "add",
-		"path": "/maxstacksize",
-		"value": "16",
-		"file": "zeekea:itemtypes/temporal_dust.json"
-	}
-]
