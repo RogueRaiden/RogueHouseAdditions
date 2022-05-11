@@ -2,15 +2,41 @@
     "_comment1": "MISCELLANEOUS **********************",
 
     "game:tabname-rhadditions": "RH Additions",
-    
 
 
-    "_comment2": "EMPTY SPACE **********************",
+
+    "_comment2": "RENAMES **********************",
+
+    "game:item-creature-humanoid-trader": "Trader",
+    "game:item-dead-creature-humanoid-trader-*": "Dead trader",
+
+    "game:item-creature-humanoid-trader-artisan": "Artisan trader",
+    "game:item-creature-humanoid-trader-buildmaterials": "Building materials trader",
+    "game:item-creature-humanoid-trader-clothing": "Clothing trader",
+    "game:item-creature-humanoid-trader-commodities": "Commodities trader",
+    "game:item-creature-humanoid-trader-foods": "Agriculture trader",
+    "game:item-creature-humanoid-trader-furniture": "Furniture trader",
+    "game:item-creature-humanoid-trader-luxuries": "Luxuries trader",
+    "game:item-creature-humanoid-trader-survivalgoods": "Survival goods trader",
+    "game:item-creature-humanoid-trader-treasurehunter": "Treasure hunter trader",
+
+    "game:tradingwindow-humanoid-trader-artisan": "Local goods - {0} the Artisan",
+    "game:tradingwindow-humanoid-trader-buildmaterials": "Local goods - {0} the Building materials supplier",
+    "game:tradingwindow-humanoid-trader-clothing": "Local goods - {0} the Clothing merchant",
+    "game:tradingwindow-humanoid-trader-commodities": "Local goods - {0} the Commodities merchant",
+    "game:tradingwindow-humanoid-trader-furniture": "Local goods - {0} the Furniture merchant",
+    "game:tradingwindow-humanoid-trader-foods": "Local goods - {0} the Agricultural supplier",
+    "game:tradingwindow-humanoid-trader-luxuries": "Local goods - {0} the Luxuries merchant",
+    "game:tradingwindow-humanoid-trader-survivalgoods": "Local goods - {0} the Survival goods supplier",
+    "game:tradingwindow-humanoid-trader-treasurehunter": "Local goods - {0} the Treasure hunter",
+
+    "game:Cloth Category: {0}": "Clothing Category: {0}",
+    "game:Cloth Category: Unknown": "Clothing Category: Unknown",
 
 
-    
+
     "_comment3": "TRAITS **********************",
-    
+
     "game:trait-weaponexpert": "<font color=\"#84ff84\">• Weapon Expert</font>",
     "game:charattribute-meleeWeaponsDamage-0.15": "+15% melee damage",
     "game:charattribute-rangedWeaponsDamage-0.15": "+15% ranged damage",
@@ -28,17 +54,17 @@
     "game:charattribute-animalLootDropRate--0.15": "-15% animal loot",
     "game:charattribute-oreDropRate--15": "-15% ore drop rate",
 
-    
+
 
     "_comment4": "CLASSES **********************",
-    
+
     "game:characterclass-rogue": "Rogue",
     "game:characterdesc-rogue": "<font color=\"#99c9f9\"><i>Slipping through the shadows, avoiding the Beasts that roam the lands.<br>Far from the life you once had, but the only one you know of now.</i></font><br><br>The Beasts have taught many lessons in stealth, ranged and melee combat. Constant movement keeps your weight down, keeping you light on your feet but less hardy.",
 
 
-    
+
     "_comment5": "CLOTHING **********************",
-    
+
     "item-clothes-upperbody-blacksmith-shirt": "Blacksmith shirt",
     "itemdesc-clothes-upperbody-blacksmith-shirt": "<font color=\"#99c9f9\"><i>The thicker material is warm in the cold and keeps the sparks off.</i></font><br>",
 
@@ -126,16 +152,16 @@
 
     "item-clothes-foot-drifterskin-deep-boots": "Deep drifter skin boots",
     "itemdesc-clothes-foot-drifterskin-deep-boots": "<font color=\"#99c9f9\"><i></i></font><br>",
-    
+
     "item-clothes-foot-drifterskin-tainted-boots": "Tainted drifter skin boots",
     "itemdesc-clothes-foot-drifterskin-tainted-boots": "<font color=\"#99c9f9\"><i></i></font><br>",
-    
+
     "item-clothes-foot-drifterskin-corrupt-boots": "Corrupt drifter skin boots",
     "itemdesc-clothes-foot-drifterskin-corrupted-boots": "<font color=\"#99c9f9\"><i></i></font><br>",
-    
+
     "item-clothes-foot-drifterskin-nightmare-boots": "Nightmare drifter skin boots",
     "itemdesc-clothes-foot-drifterskin-nightmare-boots": "<font color=\"#99c9f9\"><i></i></font><br>",
-    
+
     "item-clothes-foot-drifterskin-double-boots": "Double-headed drifter skin boots",
     "itemdesc-clothes-foot-drifterskin-double-boots": "<font color=\"#99c9f9\"><i></i></font><br>",
 
@@ -145,16 +171,16 @@
 
     "item-clothes-hand-drifterskin-deep-gloves": "Deep drifter skin gloves",
     "itemdesc-clothes-hand-drifterskin-deep-gloves": "<font color=\"#99c9f9\"><i></i></font><br>",
-    
+
     "item-clothes-hand-drifterskin-tainted-gloves": "Tainted drifter skin gloves",
     "itemdesc-clothes-hand-drifterskin-tainted-gloves": "<font color=\"#99c9f9\"><i></i></font><br>",
-    
+
     "item-clothes-hand-drifterskin-corrupt-gloves": "Corrupt drifter skin gloves",
     "itemdesc-clothes-hand-drifterskin-corrupted-gloves": "<font color=\"#99c9f9\"><i></i></font><br>",
-    
+
     "item-clothes-hand-drifterskin-nightmare-gloves": "Nightmare drifter skin gloves",
     "itemdesc-clothes-hand-drifterskin-nightmare-gloves": "<font color=\"#99c9f9\"><i></i></font><br>",
-    
+
     "item-clothes-hand-drifterskin-double-gloves": "Double-headed drifter skin gloves",
     "itemdesc-clothes-hand-drifterskin-double-gloves": "<font color=\"#99c9f9\"><i></i></font><br>",
 
@@ -164,16 +190,16 @@
 
     "item-clothes-lowerbody-drifterskin-deep-pants": "Deep drifter skin pants",
     "itemdesc-clothes-lowerbody-drifterskin-deep-pants": "<font color=\"#99c9f9\"><i></i></font><br>",
-    
+
     "item-clothes-lowerbody-drifterskin-tainted-pants": "Tainted drifter skin pants",
     "itemdesc-clothes-lowerbody-drifterskin-tainted-pants": "<font color=\"#99c9f9\"><i></i></font><br>",
-    
+
     "item-clothes-lowerbody-drifterskin-corrupt-pants": "Corrupt drifter skin pants",
     "itemdesc-clothes-lowerbody-drifterskin-corrupted-pants": "<font color=\"#99c9f9\"><i></i></font><br>",
-    
+
     "item-clothes-lowerbody-drifterskin-nightmare-pants": "Nightmare drifter skin pants",
     "itemdesc-clothes-lowerbody-drifterskin-nightmare-pants": "<font color=\"#99c9f9\"><i></i></font><br>",
-    
+
     "item-clothes-lowerbody-drifterskin-double-pants": "Double-headed drifter skin pants",
     "itemdesc-clothes-lowerbody-drifterskin-double-pants": "<font color=\"#99c9f9\"><i></i></font><br>",
 
@@ -183,23 +209,23 @@
 
     "item-clothes-upperbody-drifterskin-deep-shirt": "Deep drifter skin shirt",
     "itemdesc-clothes-upperbody-drifterskin-deep-shirt": "<font color=\"#99c9f9\"><i></i></font><br>",
-    
+
     "item-clothes-upperbody-drifterskin-tainted-shirt": "Tainted drifter skin shirt",
     "itemdesc-clothes-upperbody-drifterskin-tainted-shirt": "<font color=\"#99c9f9\"><i></i></font><br>",
-    
+
     "item-clothes-upperbody-drifterskin-corrupt-shirt": "Corrupt drifter skin shirt",
     "itemdesc-clothes-upperbody-drifterskin-corrupted-shirt": "<font color=\"#99c9f9\"><i></i></font><br>",
-    
+
     "item-clothes-upperbody-drifterskin-nightmare-shirt": "Nightmare drifter skin shirt",
     "itemdesc-clothes-upperbody-drifterskin-nightmare-shirt": "<font color=\"#99c9f9\"><i></i></font><br>",
-    
+
     "item-clothes-upperbody-drifterskin-double-shirt": "Double-headed drifter skin shirt",
     "itemdesc-clothes-upperbody-drifterskin-double-shirt": "<font color=\"#99c9f9\"><i></i></font><br>",
-    
-    
-    
+
+
+
     "_comment6": "PARTS **********************",
-    
+
     "item-cagebar-copper": "Cage bar (Copper)",
     "itemdesc-cagebar-*": "Metal bar for cage construction.",
     "itemcraftdesc-cagebar-*": "Used in the construction of animal cages.",
@@ -243,11 +269,11 @@
     "itemdesc-drifterskin-double": "<font color=\"#99c9f9\"><i></i></font>",
 
 
-    
+
     "_comment8": "BLOCKS **********************",
 
     "block-turf-spring": "Turf",
-    
+
     "block-linen-bundle-black": "Linen bundle (Black)",
     "block-linen-bundle-blue": "Linen bundle (Blue)",
     "block-linen-bundle-brown": "Linen bundle (Brown)",
@@ -269,20 +295,20 @@
 
     "block-soilmix-medium": "Medium soil mix",
     "blockdesc-soilmix-medium": "<font color=\"#99c9f9\"><i>Soil mixture to compost into High fertility soil.</i></font>",
-    
+
 
 
     "_comment9": "MOLDS **********************",
 
     "block-toolmold-raw-cagebar": "Raw cage bar mold",
-    
+
     "block-toolmold-burned-cagebar": "Cage bar mold",
     "blockdesc-toolmold-burned-cagebar": "Casts 3 Cage bars.",
 
 
 
     "_comment10": "RESONANCE ARCHIVES **********************",
-    
+
     "game:item-resonancearchive-fall-o'-croft": "Resonance archive (Fall o' Croft)",
     "game:item-resonancearchive-midnight": "Resonance archive (Midnight)",
     "game:item-resonancearchive-adventuring": "Resonance archive (Adventuring)",
@@ -294,7 +320,7 @@
 
 
     "_comment11": "PAINTINGS **********************",
-    
+
     "game:block-painting-phoenix-*": "Painting (Phoenix)",
     "game:block-painting-rogueraiden-*": "Painting (RogueRaiden)",
 
@@ -302,37 +328,14 @@
 
     "_comment12": "TRADERS **********************",
 
-    "game:item-creature-humanoid-trader": "Trader",
-    "game:item-dead-creature-humanoid-trader-*": "Dead trader",
-    
-    "game:item-creature-humanoid-trader-artisan": "Artisan trader",
-    "game:item-creature-humanoid-trader-buildmaterials": "Building materials trader",
-    "game:item-creature-humanoid-trader-clothing": "Clothing trader",
-    "game:item-creature-humanoid-trader-commodities": "Commodities trader",
-    "game:item-creature-humanoid-trader-foods": "Agriculture trader",
-    "game:item-creature-humanoid-trader-furniture": "Furniture trader",
-    "game:item-creature-humanoid-trader-luxuries": "Luxuries trader",
-    "game:item-creature-humanoid-trader-survivalgoods": "Survival goods trader",
-    "game:item-creature-humanoid-trader-treasurehunter": "Treasure hunter trader",
-
-    "game:tradingwindow-humanoid-trader-artisan": "Local goods - {0} the Artisan",
-    "game:tradingwindow-humanoid-trader-buildmaterials": "Local goods - {0} the Building materials supplier",
-    "game:tradingwindow-humanoid-trader-clothing": "Local goods - {0} the Clothing merchant",
-    "game:tradingwindow-humanoid-trader-commodities": "Local goods - {0} the Commodities merchant",
-    "game:tradingwindow-humanoid-trader-furniture": "Local goods - {0} the Furniture merchant",
-    "game:tradingwindow-humanoid-trader-foods": "Local goods - {0} the Agricultural supplier",
-    "game:tradingwindow-humanoid-trader-luxuries": "Local goods - {0} the Luxuries merchant",
-    "game:tradingwindow-humanoid-trader-survivalgoods": "Local goods - {0} the Survival goods supplier",
-    "game:tradingwindow-humanoid-trader-treasurehunter": "Local goods - {0} the Treasure hunter",
-    
     "item-creature-humanoid-trader-daelynn": "Daelynn",
     "game:tradingwindow-humanoid-trader-daelynn": "Local goods - {0} the helper",
-    
+
     "item-creature-humanoid-trader-barkeeper": "Barkeeper",
     "game:tradingwindow-humanoid-trader-barkeeper": "Local goods - {0} the Barkeeper",
     "block-shopkeeper-mat-barkeeper": "Shopkeeper mat (Barkeeper)",
     "blockdesc-shopkeeper-mat-barkeeper": "Invite a Barkeeper to run a shop. Needs a nearby bed and chest with food.",
-    
+
     "item-creature-humanoid-trader-clothier": "Clothier",
     "game:tradingwindow-humanoid-trader-clothier": "Local goods - {0} the Clothier",
     "block-shopkeeper-mat-clothier": "Shopkeeper mat (Clothier)",

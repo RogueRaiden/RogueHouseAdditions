@@ -1,3 +1,11 @@
+v1.0.11
+-
+
+v1.0.10
+-Re-enabled the Primitive survival Particulator.
+-Adjusted Drifter drops.
+-Adjusted Daelynn trades.
+
 v1.0.9
 -Removed Shovel requirement, and increased drop rate for Snowballs.
 -Modlist guide additions and other guide tweaks.

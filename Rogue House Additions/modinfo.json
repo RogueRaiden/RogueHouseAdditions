@@ -8,7 +8,7 @@
   "version": "1.0.10",
   "website": "https://mods.vintagestory.at/rhadditions",
   "dependencies": {
-    "game": "1.16.4",
+    "game": "1.16.5",
     "usefulstuff": "",
     "wildcraft": "",
     "zeekea": ""

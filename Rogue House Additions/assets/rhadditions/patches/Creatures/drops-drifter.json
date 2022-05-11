@@ -17,7 +17,7 @@
       {
         "type": "item",
         "code": "rhadditions:drifterskin-surface",
-        "quantity": { "avg": 0.9, "var": 0.6 }
+        "quantity": { "avg": 0.8, "var": 0.5 }
       }
     ],
     "file": "game:entities/land/drifter.json"
@@ -63,7 +63,7 @@
       {
         "type": "item",
         "code": "rhadditions:drifterskin-deep",
-        "quantity": { "avg": 0.9, "var": 0.6 }
+        "quantity": { "avg": 0.8, "var": 0.5 }
       }
     ],
     "file": "game:entities/land/drifter.json"
@@ -109,12 +109,12 @@
       {
         "type": "item",
         "code": "rhadditions:drifterskin-tainted",
-        "quantity": { "avg": 0.9, "var": 0.6 }
+        "quantity": { "avg": 0.7, "var": 0.4 }
       },
       {
         "type": "block",
         "code": "metal-scraps",
-        "quantity": { "avg": 0.9, "var": 0.6 }
+        "quantity": { "avg": 0.6, "var": 0.2 }
       }
     ],
     "file": "game:entities/land/drifter.json"
@@ -160,12 +160,12 @@
       {
         "type": "item",
         "code": "rhadditions:drifterskin-corrupt",
-        "quantity": { "avg": 0.9, "var": 0.6 }
+        "quantity": { "avg": 0.7, "var": 0.4 }
       },
       {
         "type": "block",
         "code": "metal-scraps",
-        "quantity": { "avg": 0.95, "var": 0.6 }
+        "quantity": { "avg": 0.6, "var": 0.2 }
       }
   ],
     "file": "game:entities/land/drifter.json"
@@ -211,12 +211,12 @@
       {
         "type": "item",
         "code": "rhadditions:drifterskin-nightmare",
-        "quantity": { "avg": 0.9, "var": 0.6 }
+        "quantity": { "avg": 0.7, "var": 0.4 }
       },
       {
         "type": "block",
         "code": "metal-scraps",
-        "quantity": { "avg": 1, "var": 0.6 }
+        "quantity": { "avg": 0.8, "var": 0.4 }
       }
     ],
     "file": "game:entities/land/drifter.json"
@@ -262,7 +262,7 @@
       {
         "type": "item",
         "code": "rhadditions:drifterskin-double",
-        "quantity": { "avg": 0.9, "var": 0.6 }
+        "quantity": { "avg": 0.7, "var": 0.4 }
       }
     ],
     "file": "game:entities/land/drifter.json"

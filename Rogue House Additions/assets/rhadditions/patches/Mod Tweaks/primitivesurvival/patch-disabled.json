@@ -3,30 +3,6 @@
 		"op": "add",
 		"path": "/enabled",
 		"value": false,
-		"file": "primitivesurvival:blocktypes/other/particulator.json"
-	},
-	{ 
-		"op": "add",
-		"path": "/enabled",
-		"value": false,
-		"file": "primitivesurvival:recipes/grid/particulator.json"
-	},
-	{ 
-		"op": "add",
-		"path": "/enabled",
-		"value": false,
-		"file": "primitivesurvival:itemtypes/other/linktool.json"
-	},
-	{ 
-		"op": "add",
-		"path": "/enabled",
-		"value": false,
-		"file": "primitivesurvival:recipes/grid/linktool.json"
-	},
-	{ 
-		"op": "add",
-		"path": "/enabled",
-		"value": false,
 		"file": "primitivesurvival:recipes/grid/bonefishinghook.json"
 	}
 ]
