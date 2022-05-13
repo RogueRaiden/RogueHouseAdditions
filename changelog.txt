@@ -1,10 +1,11 @@
 v1.0.11
+-Removed Zeekea and Wildcraft requirements.
 -
 
 v1.0.10
 -Re-enabled the Primitive survival Particulator.
 -Adjusted Drifter drops.
--Adjusted Daelynn trades.
+-Adjusted Daelynn's trades.
 
 v1.0.9
 -Removed Shovel requirement, and increased drop rate for Snowballs.

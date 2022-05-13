@@ -1,14 +1,16 @@
 [
-    { 
+	{
 		"op": "replace",
 		"path": "/class",
 		"value": "ItemPoultice",
-		"file": "wildcraft:itemtypes/poultice.json"
+		"file": "wildcraft:itemtypes/poultice.json",
+		"dependsOn": [ { "modid": "wildcraft" } ]
 	},
-    { 
+	{
 		"op": "replace",
 		"path": "/class",
 		"value": "ItemPoultice",
-		"file": "wildcraft:itemtypes/simplepoultice.json"
+		"file": "wildcraft:itemtypes/simplepoultice.json",
+		"dependsOn": [ { "modid": "wildcraft" } ]
 	}
 ]

@@ -1,44 +1,51 @@
 [
-    { 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "false",
-		"file": "zeekea:itemtypes/ironthingie.json"
+		"file": "zeekea:itemtypes/ironthingie.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "false",
-		"file": "zeekea:itemtypes/temporal_dust.json"
+		"file": "zeekea:itemtypes/temporal_dust.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "false",
-		"file": "zeekea:itemtypes/icepick.json"
+		"file": "zeekea:itemtypes/icepick.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "false",
-		"file": "zeekea:itemtypes/icepickhead.json"
+		"file": "zeekea:itemtypes/icepickhead.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "false",
-		"file": "zeekea:itemtypes/lampstand.json"
+		"file": "zeekea:itemtypes/lampstand.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "false",
-		"file": "zeekea:itemtypes/kitchen/wallpanelbase.json"
+		"file": "zeekea:itemtypes/kitchen/wallpanelbase.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "false",
-		"file": "zeekea:itemtypes/kitchen/wallpiece.json"
+		"file": "zeekea:itemtypes/kitchen/wallpiece.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
 	}
 ]

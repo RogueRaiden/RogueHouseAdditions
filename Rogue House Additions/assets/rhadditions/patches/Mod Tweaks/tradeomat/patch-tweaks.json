@@ -1,11 +1,12 @@
 [
-	{ 
+	{
 		"op": "add",
 		"path": "/attributesByType",
 		"value": {
 			"*-tall-*": { "handbook": { "exclude": true } }
 		},
-		"file": "tradeomat:blocktypes/tomat.json"
+		"file": "tradeomat:blocktypes/tomat.json",
+		"dependsOn": [ { "modid": "tradeomat" } ]
 	},
 	{ 
 		"op": "replace",
@@ -16,7 +17,8 @@
 			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
 			"scale": 1.79
 		},
-		"file": "tradeomat:blocktypes/rug.json"
+		"file": "tradeomat:blocktypes/rug.json",
+		"dependsOn": [ { "modid": "tradeomat" } ]
 	},
 	{ 
 		"op": "replace",
@@ -27,7 +29,8 @@
 			"origin": { "x": 0.5, "y": 0.6, "z": 0.5 },
 			"scale": 1.03
 		},
-		"file": "tradeomat:blocktypes/tomat.json"
+		"file": "tradeomat:blocktypes/tomat.json",
+		"dependsOn": [ { "modid": "tradeomat" } ]
 	},
 	{ 
 		"op": "replace",
@@ -38,6 +41,7 @@
 			"origin": { "x": 0.5, "y": 0.9, "z": 0.5 },
 			"scale": 1.65
 		},
-		"file": "tradeomat:blocktypes/tomat.json"
+		"file": "tradeomat:blocktypes/tomat.json",
+		"dependsOn": [ { "modid": "tradeomat" } ]
 	}
 ]

@@ -21,6 +21,7 @@
     "width": 1,
     "height": 3,
     "shapeless": false,
-    "output": { "type": "block", "code": "zeekea:nightlamp-{metal}-{color}-off" }
+    "output": { "type": "block", "code": "zeekea:nightlamp-{metal}-{color}-off" },
+    "dependsOn": [ { "modid": "zeekea" } ]
 }
   

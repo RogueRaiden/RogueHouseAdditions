@@ -1,70 +1,81 @@
 [
-	{ 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "false",
-		"file": "zeekea:blocktypes/torchlamp.json"
+		"file": "zeekea:blocktypes/torchlamp.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "false",
-		"file": "zeekea:blocktypes/doorbell.json"
+		"file": "zeekea:blocktypes/doorbell.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "false",
-		"file": "zeekea:blocktypes/linen.json"
+		"file": "zeekea:blocktypes/linen.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "true",
-		"file": "zeekea:blocktypes/armchair.json"
+		"file": "zeekea:blocktypes/armchair.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "true",
-		"file": "zeekea:blocktypes/barchair.json"
+		"file": "zeekea:blocktypes/barchair.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "true",
-		"file": "zeekea:blocktypes/fancychair.json"
+		"file": "zeekea:blocktypes/fancychair.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "true",
-		"file": "zeekea:blocktypes/fancychairwooden.json"
+		"file": "zeekea:blocktypes/fancychairwooden.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "false",
-		"file": "zeekea:blocktypes/nightlamp.json"
+		"file": "zeekea:blocktypes/nightlamp.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "false",
-		"file": "zeekea:blocktypes/kitchen/winerack.json"
+		"file": "zeekea:blocktypes/kitchen/winerack.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
 	},
 
-	{ 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "false",
-		"file": "zeekea:blocktypes/kitchen/wallpanel.json"
+		"file": "zeekea:blocktypes/kitchen/wallpanel.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
 	},
 
-	{ 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "false",
-		"file": "zeekea:blocktypes/clay/mold/icepickhead_mold.json"
+		"file": "zeekea:blocktypes/clay/mold/icepickhead_mold.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
 	}
 ]

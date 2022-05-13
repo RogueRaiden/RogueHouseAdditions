@@ -1,0 +1,9 @@
+[
+	{
+		"op": "add",
+		"path": "/0/dependsOn",
+		"value": [ { "modid": "zzzzz" } ],
+		"file": "zeekea:patches/survival-itemtypes-resource-gear.json",
+		"dependsOn": [ { "modid": "zeekea" } ]
+	}
+]
