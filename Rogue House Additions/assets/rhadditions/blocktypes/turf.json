@@ -1,9 +1,11 @@
 {
 	"code": "turf",
-	"creativeinventory": { "general": ["*"], "construction": ["*"], "rhadditions": ["*"] },
 	"shape": { "base": "game:block/basic/cube" },
 	"variantgroups": [
-		{ "code":"turftype", "states": ["spring"] }
+		{
+			"code": "turftype",
+			"states": [ "spring" ]
+		}
 	],
 	"drawtype": "cube",
 	"blockmaterial": "Soil",
@@ -13,6 +15,11 @@
 	"attributes": {
 		"canChisel": true,
 		"chiselShapeFromCollisionBox": true
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"construction": [ "*" ],
+		"rhadditions": [ "*" ]
 	},
 	"replaceable": 400,
 	"resistance": 2.2,
@@ -25,8 +32,16 @@
 	"heldTpIdleAnimation": "holdbothhandslarge",
 	"heldTpUseAnimation": "twohandplaceblock",
 	"tpHandTransform": {
-		"translation": { "x": -1.2, "y": -1.1, "z": -0.8 },
-		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"translation": {
+			"x": -1.2,
+			"y": -1.1,
+			"z": -0.8
+		},
+		"rotation": {
+			"x": -2,
+			"y": 25,
+			"z": -78
+		},
 		"scale": 0.37
 	}
 }

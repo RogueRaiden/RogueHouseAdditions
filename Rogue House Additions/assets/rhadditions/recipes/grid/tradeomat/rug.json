@@ -19,6 +19,7 @@
 			"type": "block",
 			"code": "tradeomat:rug-north"
 		},
+		"enabled": true,
 		"dependsOn": [ { "modid": "tradeomat" } ]
 	}
 ]

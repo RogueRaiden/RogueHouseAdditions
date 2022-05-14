@@ -248,6 +248,16 @@
 
     "item-powder-peridot": "Crushed peridot",
 
+    "item-powder-obsidian": "Crushed obsidian",
+
+    "item-powder-rose-quartz": "Crushed rose quartz",
+
+    "item-powder-smoky-quartz": "Crushed smoky quartz",
+
+    "item-powder-amethyst": "Crushed amethyst",
+
+    "item-powder-clear-quartz": "Crushed clear quartz",
+
     "game:item-stone-snowball": "Snowball",
 
     "item-drifterskin-surface": "Surface drifter skin",
@@ -267,6 +277,17 @@
 
     "item-drifterskin-double": "Double-headed drifter skin",
     "itemdesc-drifterskin-double": "<font color=\"#99c9f9\"><i></i></font>",
+
+    "item-obsidian-glass-mix-vintage": "Obsidian glass mix (Plain)",
+    "item-obsidian-glass-mix-quartz": "Obsidian glass mix (Quartz)",
+    "item-obsidian-glass-mix-smoky": "Obsidian glass mix (Smoky)",
+    "item-obsidian-glass-mix-blue": "Obsidian glass mix (Blue)",
+    "item-obsidian-glass-mix-brown": "Obsidian glass mix (Brown)",
+    "item-obsidian-glass-mix-green": "Obsidian glass mix (Green)",
+    "item-obsidian-glass-mix-pink": "Obsidian glass mix (Pink)",
+    "item-obsidian-glass-mix-red": "Obsidian glass mix (Red)",
+    "item-obsidian-glass-mix-violet": "Obsidian glass mix (Violet)",
+    "item-obsidian-glass-mix-yellow": "Obsidian glass mix (Yellow)",
 
 
 
@@ -295,6 +316,17 @@
 
     "block-soilmix-medium": "Medium soil mix",
     "blockdesc-soilmix-medium": "<font color=\"#99c9f9\"><i>Soil mixture to compost into High fertility soil.</i></font>",
+
+    "block-obsidian-glass-vintage": "Obsidian glass (Plain)",
+    "block-obsidian-glass-quartz": "Obsidian glass (Quartz)",
+    "block-obsidian-glass-smoky": "Obsidian glass (Smoky)",
+    "block-obsidian-glass-blue": "Obsidian glass (Blue)",
+    "block-obsidian-glass-brown": "Obsidian glass (Brown)",
+    "block-obsidian-glass-green": "Obsidian glass (Green)",
+    "block-obsidian-glass-pink": "Obsidian glass (Pink)",
+    "block-obsidian-glass-red": "Obsidian glass (Red)",
+    "block-obsidian-glass-violet": "Obsidian glass (Violet)",
+    "block-obsidian-glass-yellow": "Obsidian glass (Yellow)",
 
 
 

@@ -1,5 +1,10 @@
 v1.0.11
+-Refactored various files.
 -Removed Zeekea and Wildcraft requirements.
+-New Obsidian glass: Special crafted chiselable glass blocks. In several colors.
+-New Obsidian glass mix: Bake in a Bloomery to get Obsidian glass blocks.
+-New pulverized ingredients for Obsidian glass mix: Crushed obsidian, rose quartz, smoky quartz, clear quartz, amethyst.
+-Updated textures for Emerald powder, Peridot powder, Rune powder and Rogue cape.
 -
 
 v1.0.10

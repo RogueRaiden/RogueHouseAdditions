@@ -1,7 +1,7 @@
 {
 	"code": "powder",
 	"variantgroups": [
-		{ "code": "material", "states": ["temporal", "rune", "diamond", "emerald", "peridot" ] }
+		{ "code": "material", "states": ["temporal", "rune", "diamond", "emerald", "peridot", "obsidian", "clear-quartz", "rose-quartz", "smoky-quartz", "amethyst" ] }
 	],
 	"attributesByType": {
 		"powder-rune": {
@@ -12,23 +12,7 @@
 			}
 		}
 	},
-	"texturesByType": {
-		"powder-temporal": {
-			"all": { "base": "rhadditions:item/resource/powder-temporal" }
-		},
-		"powder-rune": {
-			"all": { "base": "rhadditions:item/resource/powder-rune" }
-		},
-		"powder-diamond": {
-			"all": { "base": "rhadditions:item/resource/powder-diamond" }
-		},
-		"powder-emerald": {
-			"all": { "base": "rhadditions:item/resource/powder-emerald" }
-		},
-		"powder-peridot": {
-			"all": { "base": "rhadditions:item/resource/powder-peridot" }
-		}
-	},
+	"texture": { "base": "rhadditions:item/resource/powder/{material}" },
 	"shapeByType": { 
 		"*": { "base": "game:item/resource/crushed/crushed" }
 	},
