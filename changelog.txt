@@ -1,3 +1,9 @@
+v1.0.13
+-
+
+v1.0.12
+-Guide tweaks.
+
 v1.0.11
 -Refactored various files.
 -Removed Zeekea and Wildcraft requirements.
@@ -5,7 +11,6 @@ v1.0.11
 -New Obsidian glass mix: Bake in a Bloomery to get Obsidian glass blocks.
 -New pulverized ingredients for Obsidian glass mix: Crushed obsidian, rose quartz, smoky quartz, clear quartz, amethyst.
 -Updated textures for Emerald powder, Peridot powder, Rune powder and Rogue cape.
--
 
 v1.0.10
 -Re-enabled the Primitive survival Particulator.
