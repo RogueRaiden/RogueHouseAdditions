@@ -8,16 +8,22 @@
 		},
 		"file": "cats:entities/land/cat-male.json"
 	},
-	{ 
+	{
 		"op": "replace",
-		"path": "/server/behaviors/7/currenthealth",
-		"value": 20,
-		"file": "cats:entities/land/cat-male.json"
-	},
-    { 
-		"op": "replace",
-		"path": "/server/behaviors/7/maxhealth",
-		"value": 20,
+		"path": "/server/behaviors/7",
+		"value": {
+			"code": "health",
+			"currenthealthByType": {
+				"*-ocelot": 25,
+				"*-serval": 30,
+				"*": 20
+			},
+			"maxhealthByType": {
+				"*-ocelot": 25,
+				"*-serval": 30,
+				"*": 20
+			}
+		},
 		"file": "cats:entities/land/cat-male.json"
 	},
     { 

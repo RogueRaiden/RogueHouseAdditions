@@ -1,9 +1,16 @@
 {
     "ingredientPattern": "WPW,WWW",
     "ingredients": {
-      "P": { "type": "item", "code": "game:metalplate-*" },
-      "W": { "type": "item", "code": "game:plank-*" }
+        "P": {
+            "type": "item",
+            "code": "game:metalplate-*"
+        },
+        "W": {
+            "type": "item",
+            "code": "game:plank-*"
+        }
     },
+    "enabled": false,
     "width": 3,
     "height": 2,
     "output": { "type": "block", "code": "stonequarry:rubblestorage-sandstone-empty-north", "quantity": 1 }

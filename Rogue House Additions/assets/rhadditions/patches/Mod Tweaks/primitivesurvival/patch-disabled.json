@@ -1,8 +1,9 @@
 [
-    { 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": false,
-		"file": "primitivesurvival:recipes/grid/bonefishinghook.json"
+		"file": "primitivesurvival:recipes/grid/bonefishinghook.json",
+		"dependsOn": [ { "modid": "primitivesurvival" } ]
 	}
 ]

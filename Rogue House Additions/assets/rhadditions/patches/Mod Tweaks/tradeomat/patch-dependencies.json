@@ -1,0 +1,16 @@
+[
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/tradeomat/rug.json",
+        "dependsOn": [ { "modid": "tradeomat" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/tradeomat/tomat-crate.json",
+        "dependsOn": [ { "modid": "tradeomat" } ]
+    }
+]

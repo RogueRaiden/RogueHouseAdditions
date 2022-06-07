@@ -1,26 +1,30 @@
 [
-    { 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "false",
-		"file": "tprunes:recipes/grid/rawrune.json"
+		"file": "tprunes:recipes/grid/rawrune.json",
+		"dependsOn": [ { "modid": "tprunes" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/0/enabled",
 		"value": "false",
-		"file": "tprunes:recipes/grid/beacon.json"
+		"file": "tprunes:recipes/grid/beacon.json",
+		"dependsOn": [ { "modid": "tprunes" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/1/enabled",
 		"value": "false",
-		"file": "tprunes:recipes/grid/beacon.json"
+		"file": "tprunes:recipes/grid/beacon.json",
+		"dependsOn": [ { "modid": "tprunes" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/2/enabled",
 		"value": "false",
-		"file": "tprunes:recipes/grid/beacon.json"
+		"file": "tprunes:recipes/grid/beacon.json",
+		"dependsOn": [ { "modid": "tprunes" } ]
 	}
 ]

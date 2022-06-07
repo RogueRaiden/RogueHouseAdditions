@@ -1,20 +1,23 @@
 [
-    { 
+	{
 		"op": "add",
 		"path": "/0/enabled",
 		"value": "false",
-		"file": "simpleelevator:recipes/grid/elevator.json"
+		"file": "simpleelevator:recipes/grid/elevator.json",
+		"dependsOn": [ { "modid": "simpleelevator" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/1/enabled",
 		"value": "false",
-		"file": "simpleelevator:recipes/grid/elevator.json"
+		"file": "simpleelevator:recipes/grid/elevator.json",
+		"dependsOn": [ { "modid": "simpleelevator" } ]
 	},
-	{ 
+	{
 		"op": "add",
 		"path": "/enabled",
 		"value": "false",
-		"file": "game:itemtypes/dust.json"
+		"file": "game:itemtypes/dust.json",
+		"dependsOn": [ { "modid": "simpleelevator" } ]
 	}
 ]

@@ -1,5 +1,6 @@
 {
     "ingredientPattern": "___,BK_,___",
+    "enabled": false,
     "shapeless": false,
     "width": 3,
     "height": 3,

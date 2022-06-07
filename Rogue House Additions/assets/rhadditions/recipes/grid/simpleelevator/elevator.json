@@ -1,42 +1,53 @@
 [
     {
       "ingredientPattern": "DDD,DBD,DDD",
-      "ingredients": {
-        "B": {
-          "type": "block",
-          "code": "game:metalblock-*",
-          "allowedVariants": [
-            "copper",
-            "tinbronze",
-            "bismuthbronze",
-            "blackbronze",
-            "gold",
-            "silver",
-            "iron",
-            "meteoriciron",
-            "steel"
-          ],
-          "name": "metal"
+        "ingredients": {
+            "B": {
+                "type": "block",
+                "code": "game:metalblock-*",
+                "allowedVariants": [
+                    "copper",
+                    "tinbronze",
+                    "bismuthbronze",
+                    "blackbronze",
+                    "gold",
+                    "silver",
+                    "iron",
+                    "meteoriciron",
+                    "steel"
+                ],
+                "name": "metal"
+            },
+            "D": {
+                "type": "item",
+                "code": "rhadditions:powder-temporal"
+            }
         },
-        "D": { "type": "item", "code": "rhadditions:powder-temporal" }
-      },
-      "width": 3,
-      "height": 3,
-      "output": { "type": "block", "code": "simpleelevator:elevator-{metal}-normal" }
+        "enabled": false,
+        "width": 3,
+        "height": 3,
+        "output": { "type": "block", "code": "simpleelevator:elevator-{metal}-normal" }
     },
     {
-      "ingredientPattern": "DDD,DED,DDD",
-      "ingredients": {
-        "E": {
-          "type": "block",
-          "code": "simpleelevator:elevator-*-normal",
-          "name": "metal"
+        "ingredientPattern": "DDD,DED,DDD",
+        "ingredients": {
+            "E": {
+                "type": "block",
+                "code": "simpleelevator:elevator-*-normal",
+                "name": "metal"
+            },
+            "D": {
+                "type": "item",
+                "code": "rhadditions:powder-temporal"
+            }
         },
-        "D": { "type": "item", "code": "rhadditions:powder-temporal" }
-      },
-      "width": 3,
-      "height": 3,
-      "output": { "type": "block", "code": "simpleelevator:elevator-{metal}-temporal" }
+        "enabled": false,
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "simpleelevator:elevator-{metal}-temporal"
+        }
     }
-  ]
+]
   

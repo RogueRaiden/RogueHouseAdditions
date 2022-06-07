@@ -5,11 +5,12 @@
     "\\Rogue House Additions\\assets",
     "\\Rogue House Additions\\assets\\rhadditions",
     "\\Rogue House Additions\\assets\\rhadditions\\patches",
-    "\\Rogue House Additions\\assets\\rhadditions\\patches\\Blocks",
-    "\\Rogue House Additions\\assets\\rhadditions\\recipes",
-    "\\Rogue House Additions\\assets\\rhadditions\\recipes\\grid",
-    "\\Rogue House Additions\\assets\\rhadditions\\recipes\\grid\\rhadditions",
-    "\\Rogue House Additions\\assets\\rhadditions\\recipes\\grid\\tprunes"
+    "\\Rogue House Additions\\assets\\rhadditions\\patches\\Mod Tweaks",
+    "\\Rogue House Additions\\assets\\rhadditions\\patches\\Mod Tweaks\\cats",
+    "\\Rogue House Additions\\assets\\rhadditions\\patches\\Mod Tweaks\\simpleelevator",
+    "\\Rogue House Additions\\assets\\rhadditions\\patches\\Mod Tweaks\\stonequarry",
+    "\\Rogue House Additions\\assets\\rhadditions\\patches\\Mod Tweaks\\tprunes"
   ],
+  "SelectedNode": "\\Rogue House Additions\\assets\\rhadditions\\patches\\Mod Tweaks\\cats\\patch-cat-male.json",
   "PreviewInSolutionExplorer": false
 }

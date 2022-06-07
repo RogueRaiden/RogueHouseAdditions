@@ -1,25 +1,22 @@
-[
-    {
-        "ingredientPattern": "BBB,BGB",
-        "ingredients": {
-            "B": {
-                "type": "item",
-                "code": "game:plank-*"
-            },
-            "G": {
-                "type": "item",
-                "code": "game:gear-rusty",
-                "quantity": 5
-            }
+{
+    "ingredientPattern": "BBB,BGB",
+    "enabled": false,
+    "shapeless": false,
+    "ingredients": {
+        "B": {
+            "type": "item",
+            "code": "game:plank-*"
         },
-        "width": 3,
-        "height": 2,
-        "shapeless": false,
-        "output": {
-            "type": "block",
-            "code": "tradeomat:tomat-crate-north"
-        },
-        "enabled": true,
-        "dependsOn": [ { "modid": "tradeomat" } ]
+        "G": {
+            "type": "item",
+            "code": "game:gear-rusty",
+            "quantity": 5
+        }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+        "type": "block",
+        "code": "tradeomat:tomat-crate-north"
     }
-]
+}

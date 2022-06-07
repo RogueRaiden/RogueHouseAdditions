@@ -1,6 +1,7 @@
 {
 	"code": "shopkeeper-mat",
 	"entityclass": "BEWelcomeMat",
+	"enabled": false,
 	"behaviors": [{"name": "Unstable"}],
 	"variantgroups": [
 		{ "code":"types", "states": ["barkeeper", "clothier"] }

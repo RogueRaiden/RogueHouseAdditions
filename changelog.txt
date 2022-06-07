@@ -1,5 +1,12 @@
-v1.0.13
+v1.0.14
 -
+
+v1.0.13
+-Removed Useful Stuff mod requirement.
+-Can now cut signs off of Labeled chests.
+-Fixed errors about missing mods on recipes and patches when required mods are not installed.
+-Updated cats mod patches.
+-Tweaked Drifter drops.
 
 v1.0.12
 -Guide tweaks.

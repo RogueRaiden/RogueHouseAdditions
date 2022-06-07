@@ -1,0 +1,9 @@
+[
+	{
+		"op": "replace",
+		"path": "/enabled",
+		"value": true,
+		"file": "rhadditions:blocktypes/shopkeeper-mat.json",
+		"dependsOn": [ { "modid": "usefulstuff" } ]
+	}
+]

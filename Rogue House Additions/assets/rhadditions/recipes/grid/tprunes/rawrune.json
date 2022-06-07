@@ -3,29 +3,30 @@
 	"height": 3,
 	"ingredientPattern": "_D_,N_C,_K_",
 	"ingredients": {
-		"N": { 
-			"type": "item", 
+		"N": {
+			"type": "item",
 			"code": "tprunes:rune_stone_nest-*",
-            "name": "material"
+			"name": "material"
 		},
-		"C": { 
+		"C": {
 			"type": "item",
 			"code": "tprunes:rune_stone_raw_core"
 		},
-		"D": { 
-			"type": "item", 
+		"D": {
+			"type": "item",
 			"code": "rhadditions:powder-rune",
-            "quantity": "2"
+			"quantity": "2"
 		},
-		"K": { 
-			"type": "item", 
+		"K": {
+			"type": "item",
 			"code": "game:knife-*",
 			"isTool": true
 		}
 	},
+	"enabled": false,
 	"name": "raw_rune_stone",
-	"output": { 
-		"type": "item", 
+	"output": {
+		"type": "item",
 		"code": "tprunes:raw_rune_stone-{material}"
 	}
 }

@@ -1,5 +1,6 @@
 {
     "ingredientPattern": "XDX,RDR,XDX",
+    "enabled": false,
     "ingredients": {
         "R": {
             "type": "item",
@@ -18,5 +19,8 @@
     "width": 3,
     "height": 3,
     "shapeless": false,
-    "output": { "type": "item", "code": "necessaries:sharpener-diamond" }
+    "output": {
+        "type": "item",
+        "code": "necessaries:sharpener-diamond"
+    }
 }

@@ -1,0 +1,30 @@
+[
+    {
+        "ingredientPattern": "CS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true,
+                "toolDurabilityCost": 4
+            },
+            "C": {
+                "type": "block",
+                "code": "game:labeledchest-east",
+                "attributes": { "type": "normal-labeled" },
+                "returnedStack": {
+                    "type": "block",
+                    "code": "game:sign-ground-north"
+                }
+            }
+        },
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "output": {
+            "type": "block",
+            "code": "game:chest-east",
+            "attributes": { "type": "normal-generic" }
+        }
+    }
+]
