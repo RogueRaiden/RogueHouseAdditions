@@ -1,123 +1,23 @@
 {
-    "_comment1": "SERVER PROLOGUE **********************",
-
-    "prologue-title": "Rogue House: Prologue",
-    "prologue-text": "<strong>Rogue House: Prologue</strong>
-<i>It all starts somewhere...</i>
-    
-    <font color=\"#99c9f9\"><i>...as you approach the mysterious rift, a new creature appears before you. It swings its twisted metal arm, catching you by surprise. Quickly, you push the creature away. There is blood. Your blood, and lots of it. You stumble through the rift...
-    
-    Gasping, holding yourself together, you watch the rift close. \"...what in the world...\" the creature nowhere to be seen. The light fades, a cold feeling washes over you...</i></font>
-    
-<font color=\"#ffffff\"><i><strong>You wake up in a strange bed, in a strange place...</strong></i></font>
-
-<strong>Daelynn:</strong>
-    <font color=\"#99c9f9\"><i>\"Well, look who's finally awake. You've been out for a few days. You don't remember what happened? Some concerned folk found you in the forest, wounded and unconscious. And just in time, too! Said they could hear the howling of wolves approaching.\"
-    
-    \"Brought you back here to get you patched up, although it looked pretty grim. Wasn't sure you were gonna make it but you pulled through! Now that you're here, you best be <strong>Respectful</strong>. We won't be having any <strong>Theft</strong> or <strong>Fighting</strong> around here.\"
-    
-    \"Have a look around, get your barrings. Maybe grab a drink at the Rogue House Tavern, just up the path. Oh! And don't go alone... Take this!\" <font color=\"#ffffff\"><i>(Use /starterkit to receive your gift)<font color=\"#99c9f9\"><i><br>\"Welcome to Rogue House.\"</i></font>",
-
-
-
-    "_comment2": "SERVER GUIDE **********************",
+    "_comment1": "SERVER GUIDE **********************",
 
     "roguehouseguide-title": "Rogue House: Server Guide",
     "roguehouseguide-text": "<strong>Rogue House Community Server Guide</strong>
 <i>Your Journey Begins...</i>
 <a href=\"https://discord.gg/bxeGxWmcae\">Join the Discord!</a><strong> - </strong><a href=\"https://wiki.vintagestory.at/index.php?title=Main_Page\">Vintage Story Wiki</a>
 
-    <font color=\"#ffffff\">Rogue House VS is a Long Term Survival Building experience. PvE is enabled. Food spoils. Months are long (60 days). Rifts appear, allowing surface drifters. Temporal storms can blow through. Wolves are not friendly. Meteors can come crashing down, destroying unprotected blocks while depositing some ore.<br><i>Mods selected and tweaks made to enhance the Immersive Survival vision of owner, RogueRaiden.</i>
+    <font color=\"#ffffff\">Welcome to Rogue House! Here, we are addicted to chiseling and can stop whenever we want, but we choose not to. We also enjoy immersive survival gameplay with lots of creativity used in building and community play. There are no commands for teleports, no /home, /back or /spawn.<br>
 
 <i><a href=\"handbook://craftinginfo-starterguide\">Starter Guide</a><strong> - </strong><a href=\"handbook://craftinginfo-progressionguide\">Progression Guide</a><strong> - </strong><a href=\"handbook://claimsguide\">Claims Guide</a><strong> - </strong><a href=\"handbook://chatgroupsguide\">Chat Group Guide</a></i>
 
 
-<strong>Settings:</strong><br>-Slightly Reduced Hunger Speed<br>-Half Reduced Food Spoilage<br>-Base HP Set to 20<br>-Aggression Enabled<br>-Items Drop on Death<br>-60 Days per Month<br>-Calender Paused When Empty<br>-Chiseling for Most Blocks<br>-Rifts Enabled<br>-Rare Temporal Storms<br>-Temporal Stability Enabled<br>-Underground Farming Enabled<br>-Proximity Chat Tab for RP<br>-General Chat Linked to Discord
+<strong>Settings:</strong><br>-75% Hunger Speed<br>-75% Food Spoilage<br>-Base HP Set to 20<br>-Items Drop on Death<br>-60 Days per Month<br>-Calender Paused When Empty<br>-Chiseling for Most Blocks<br>-Rifts Enabled<br>-Rare Temporal Storms<br>-Wind Affects Entities<br>-Underground Farming Enabled<br>-Proximity Chat Tab With RP Features<br>-General Chat Linked to <a href=\"https://discord.gg/bxeGxWmcae\">Discord</a>
 
 
 RogueRaiden: Server Owner & Builder
 Morwen: Server Mod & Builder
-DiZz: Server Mod & Builder
 
 
-<a href=\"https://www.patreon.com/RogueRaiden\">Patreon</a><strong> - </strong><a href=\"https://twitch.tv/rogueraiden\">Twitch.tv/RogueRaiden</a><strong> - </strong><a href=\"https://streamelements.com/rogueraiden/tip\">Toss a coin to your Raiden~</a>",
-
-
-
-    "_comment3": "SERVER MODLIST **********************",
-
-    "modlist-title": "Rogue House: Server Modlist (WIP)",
-    "modlist-text": "<strong>Rogue House Server Modlist</strong>
-<i>The List of Ingredients:</i>
-    
-<strong><a href=\"https://mods.vintagestory.at/ancienttools\">Ancient Tools:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/animalcages\">Animal Cages:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/carrycapacity\">Carry Capacity:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/chiseltools\">Chisel Tools:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/show/mod/2289\">Creatures & Critters</a> + <strong><a href=\"https://mods.vintagestory.at/show/mod/2706\">Pack Animals:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/show/mod/416\">Defensive Structures:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/doffanddonagain\">Doff And Don Again:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/show/mod/65\">Fancy Doors:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/fromgoldencombs\">From Golden Combs:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/hangingoillamps\">Hanging Oil Lamps:</a></strong> Allows Oil lamps to hang under blocks and changes their model when attached.
-    
-<strong><a href=\"https://mods.vintagestory.at/show/mod/282\">Simple HUD Clock (Server plug-in):</a></strong> Server-side part that allow users of the client version to see who owns a claim.
-    
-<strong><a href=\"https://mods.vintagestory.at/show/mod/463\">Instruments:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/show/mod/384\">Item Lights:</a></strong> Adds the ability for items to emit light like how blocks do.
-    
-<strong><a href=\"https://mods.vintagestory.at/lichen\">Lichen:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/show/mod/78\">Meteoric Expansion:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/show/mod/2457\">More Crops:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/moreroofing\">More Roofing:</a></strong> Craftable metal roofing blocks.
-    
-<strong><a href=\"https://mods.vintagestory.at/show/mod/19\">Necessaries:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/petai\">PetAI</a> + <a href=\"https://mods.vintagestory.at/cats\">Cats</a> & <a href=\"https://mods.vintagestory.at/wolftaming\">Wolf Taming:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/playercorpse\">Player Corpse:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/primitivesurvival\">Primitive Survival:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/simpleelevator\">Simple Elevator:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/slidingdoors\">Sliding Doors:</a></strong> Slide open doors.
-    
-<strong><a href=\"https://mods.vintagestory.at/spyglass\">Spyglass:</a></strong> Smithable Spyglass items that zoom to get a closer look from a distance.
-    
-<strong><a href=\"https://mods.vintagestory.at/stonequarry\">Stone Quarry:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/tprunes\">Teleportation Runes:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/thebasics\">The Basics:RP Chat:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/show/mod/59\">Trade-o-mat:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/show/mod/25\">Useful Stuff:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/wildcraft\">Wildcraft:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/show/mod/53\">Wild Farming:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/show/mod/244\">XLib</a> + <strong><a href=\"https://mods.vintagestory.at/xskillspatches\">XSkills - Patches:</a></strong>
-    
-<strong><a href=\"https://mods.vintagestory.at/xrowboat\">XRowboat:</a></strong> Craftable row-boats for boating adventures.
-    
-<strong><a href=\"https://mods.vintagestory.at/show/mod/61\">Zeekea:</a></strong>
+Help keep the server running! :D <a href=\"https://www.patreon.com/RogueRaiden\">Patreon</a> <a href=\"https://www.paypal.com/donate/?hosted_button_id=9U4GM5TMV7ZSW\">PayPal</a>
 "
-    
-    
 }

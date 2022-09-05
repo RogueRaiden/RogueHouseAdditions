@@ -1,8 +1,0 @@
-[
-    { 
-		"op": "add",
-		"path": "/enabled",
-		"value": "false",
-		"file": "ancienttools:recipes/grid/tool/curinghook.json"
-	}
-]

@@ -2,18 +2,37 @@
 	"code": "humanoid-trader-clothier",
 	"class": "EntityTrader",
 	"canClimb": true,
-	"hitboxSize": { "x": 0.6, "y": 1.75 },
-	"deadHitboxSize": { "x": 0.75, "y": 0.5 },
+	"hitboxSize": {
+		"x": 0.6,
+		"y": 1.75
+	},
+	"deadHitboxSize": {
+		"x": 0.75,
+		"y": 0.5
+	},
 	"client": {
 		"renderer": "Shape",
 		"shape": { "base": "game:entity/humanoid/trader" },
-		"texture": { "base": "game:entity/humanoid/trader", "alternates": [ { "base": "game:entity/humanoid/traderclothes/set1" }, { "base": "game:entity/humanoid/traderclothes/set2" },
-                                                             { "base": "game:entity/humanoid/traderclothes/set3" }, { "base": "game:entity/humanoid/traderclothes/set4" },
-                                                             { "base": "game:entity/humanoid/traderclothes/set5" }  ] },
+		"texture": {
+			"base": "game:entity/humanoid/trader",
+			"alternates": [
+				{ "base": "game:entity/humanoid/traderclothes/set1" },
+				{ "base": "game:entity/humanoid/traderclothes/set2" },
+				{ "base": "game:entity/humanoid/traderclothes/set3" },
+				{ "base": "game:entity/humanoid/traderclothes/set4" },
+				{ "base": "game:entity/humanoid/traderclothes/set5" }
+			]
+		},
 		"behaviors": [
-			{ "code": "nametag", "showtagonlywhentargeted": true },
+			{
+				"code": "nametag",
+				"showtagonlywhentargeted": true
+			},
 			{ "code": "repulseagents" },
-			{ "code": "controlledphysics", "stepHeight": 1.01 },
+			{
+				"code": "controlledphysics",
+				"stepHeight": 1.01
+			},
 			{ "code": "interpolateposition" }
 		],
 		"animations": [
@@ -30,35 +49,67 @@
 				"animationSpeed": 2,
 				"blendMode": "AddAverage"
 			},
-            { "code": "rowdywelcome", "animation": "rowdywelcome", "blendMode": "AddAverage" },
-            { "code": "lazywelcome", "animation": "lazywelcome", "blendMode": "AddAverage" },
-            { "code": "lazynod", "animation": "lazynod", "blendMode": "AddAverage" }
+			{
+				"code": "rowdywelcome",
+				"animation": "rowdywelcome",
+				"blendMode": "AddAverage"
+			},
+			{
+				"code": "lazywelcome",
+				"animation": "lazywelcome",
+				"blendMode": "AddAverage"
+			},
+			{
+				"code": "lazynod",
+				"animation": "lazynod",
+				"blendMode": "AddAverage"
+			}
 		]
 	},
-    "attributes": {
-        "tradeProps": { "money": { "avg": 35, "var": 7 },
-		"selling": {
-			"maxItems": 14,
-			"list": [
-				{
-					"code": "game:oillamp-up", "type": "block", "stacksize": 1,
-					"stock": { "avg": 5, "var": 2 },
-					"price": { "avg": 9, "var": 1.4 }
-				}
-			]
-		},
-		"buying": {
-			"maxItems": 14,
-			"list": [
-				{
-					"code": "dragonflies:crawfishmeat-raw", "type": "item", "stacksize": 6,
-					"stock": { "avg": 3, "var": 1.7 },
-					"price": { "avg": 3, "var": 0.8 }
-				}
-			]
+	"attributes": {
+		"tradeProps": {
+			"money": {
+				"avg": 35,
+				"var": 7
+			},
+			"selling": {
+				"maxItems": 14,
+				"list": [
+					{
+						"code": "game:oillamp-up",
+						"type": "block",
+						"stacksize": 1,
+						"stock": {
+							"avg": 5,
+							"var": 2
+						},
+						"price": {
+							"avg": 9,
+							"var": 1.4
+						}
+					}
+				]
+			},
+			"buying": {
+				"maxItems": 14,
+				"list": [
+					{
+						"code": "dragonflies:crawfishmeat-raw",
+						"type": "item",
+						"stacksize": 6,
+						"stock": {
+							"avg": 3,
+							"var": 1.7
+						},
+						"price": {
+							"avg": 3,
+							"var": 0.8
+						}
+					}
+				]
+			}
 		}
-	}
-    },
+	},
 	"server": {
 		"attributes": {
 			"pathfinder": {
@@ -67,16 +118,45 @@
 			}
 		},
 		"behaviors": [
-			{ "code": "nametag", "showtagonlywhentargeted": true, "selectFromRandomName": ["Adrian", "Trefor", "Aphid", "Erik", "Adachi", "Farhad", "Pegalesharro", "Floyd", "Temper", "En Repos", "Zadak"] },
+			{
+				"code": "nametag",
+				"showtagonlywhentargeted": true,
+				"selectFromRandomName": [ "Adrian", "Trefor", "Aphid", "Erik", "Adachi", "Farhad", "Pegalesharro", "Floyd", "Temper", "En Repos", "Zadak" ]
+			},
 			{ "code": "repulseagents" },
-			{ "code": "controlledphysics", "stepHeight": 1.01 },
-			{ "code": "reviveondeath", "minHours": 18, "maxHours": 36 },
-			{ "code": "health", "currenthealth": 150, "maxhealth": 150 },
+			{
+				"code": "controlledphysics",
+				"stepHeight": 1.01
+			},
+			{
+				"code": "reviveondeath",
+				"minHours": 18,
+				"maxHours": 36
+			},
+			{
+				"code": "health",
+				"currenthealth": 150,
+				"maxhealth": 150
+			},
 			{
 				"code": "emotionstates",
 				"states": [
-					{ "code": "aggressiveondamage", "duration": 6, "chance": 0.6, "slot": 0, "priority": 2, "accumType": "noaccum" },
-					{ "code": "fleeondamage", "duration": 10, "chance": 0.4, "slot": 0, "priority": 1, "accumType": "max" }
+					{
+						"code": "aggressiveondamage",
+						"duration": 6,
+						"chance": 0.6,
+						"slot": 0,
+						"priority": 2,
+						"accumType": "noaccum"
+					},
+					{
+						"code": "fleeondamage",
+						"duration": 10,
+						"chance": 0.4,
+						"slot": 0,
+						"priority": 1,
+						"accumType": "max"
+					}
 				]
 			},
 			{
@@ -84,7 +164,7 @@
 				"aitasks": [
 					{
 						"code": "meleeattack",
-						"entityCodes": ["player"],
+						"entityCodes": [ "player" ],
 						"priority": 2,
 						"damage": 7,
 						"mincooldown": 2500,
@@ -97,7 +177,7 @@
 					},
 					{
 						"code": "seekentity",
-						"entityCodes": ["player"],
+						"entityCodes": [ "player" ],
 						"priority": 1.5,
 						"mincooldown": 1000,
 						"maxcooldown": 1500,
@@ -109,7 +189,7 @@
 					},
 					{
 						"code": "fleeentity",
-						"entityCodes": ["player"],
+						"entityCodes": [ "player" ],
 						"priority": 1.5,
 						"movespeed": 0.035,
 						"seekingRange": 12,

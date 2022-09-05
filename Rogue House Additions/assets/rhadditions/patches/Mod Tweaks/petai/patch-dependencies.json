@@ -1,9 +1,0 @@
-[
-    {
-        "op": "replace",
-        "path": "/enabled",
-        "value": true,
-        "file": "rhadditions:recipes/grid/petai/petwhistle.json",
-        "dependsOn": [ { "modid": "petai" } ]
-    }
-]

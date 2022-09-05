@@ -1,9 +1,0 @@
-[
-    {
-        "op": "replace",
-        "path": "/enabled",
-        "value": true,
-        "file": "rhadditions:recipes/grid/primitivesurvival/bonefishinghook.json",
-        "dependsOn": [ { "modid": "primitivesurvival" } ]
-    }
-]

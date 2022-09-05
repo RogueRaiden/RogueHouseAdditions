@@ -1,9 +1,0 @@
-[
-	{
-		"op": "add",
-		"path": "/0/dependsOn",
-		"value": [ { "modid": "zzzzz" } ],
-		"file": "wildcraft:patches/vanilla_poultice_patch.json",
-		"dependsOn": [ { "modid": "wildcraft" } ]
-	}
-]

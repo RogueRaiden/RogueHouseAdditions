@@ -1,51 +1,446 @@
 {
-	"code": "creature",
-	"class": "ItemCreature",
-	"maxstacksize": 64,
-	"variantgroups": [
-		{ "code": "type", "states": [ "humanoid-trader-clothier", "humanoid-trader-daelynn", "humanoid-trader-barkeeper" ] }
-	],
-	"shapeByType": {
-		"creature-humanoid-trader-*": { "base": "game:entity/humanoid/trader" }
-	},
-	"texturesByType": {
-		"*-placeHolder": {
-			"skin": { "base": "game:entity/fox/arctic-male" }
-		}
-	},
-	"creativeinventory": { "general": ["*"], "items": ["*"], "creatures": ["*"], "rhadditions": ["*"] },
-	"materialDensity": 600,
-
-	"guiTransformByType": {
-		"creature-humanoid-trader-*": {
-			"rotate": true,
-			"rotation": { "x": 0, "y": -90, "z": -178 },
-			"origin": { "x": 0.6, "y": 0.78, "z": 0.5 }
-		}
-	},
-	
-	"tpHandTransformByType": {
-		"creature-humanoid-trader-*": {
-			"translation": { "x": -0.6, "y": -1.1, "z": -0.4 },
-			"rotation": { "x": -85, "y": -11, "z": 89 },
-			"origin": { "x": 0.5, "y": 1, "z": 0.5 },
-			"scale": 0.7
-		}
-	},
-	
-	"fpHandTransformByType": {
-		"creature-humanoid-trader-*": {
-			"translation": { "x": 0.05, "y": -0.3, "z": 0 },
-			"rotation": { "x": 165, "y": 76, "z": -180 }
-		}
-	},
-	
-	"groundTransformByType": {
-		"*-placeHolder": {
-			"translation": { "x": 0, "y": 0, "z": 0 },
-			"rotation": { "x": 0, "y": 0, "z": 0 },
-			"origin": { "x": 0.5, "y": 0, "z": 0.5299 },
-			"scale": 1.95
-		}
-	}
+    "code": "creature",
+    "class": "ItemCreature",
+    "maxstacksize": 64,
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [ "humanoid-trader-clothier", "humanoid-trader-daelynn", "humanoid-trader-barkeeper", "gorilla-baby", "gorilla-female", "gorilla-male", "gorilla-silverback", "gorilla-kong", "locust-prime", "direwolf-pup", "direwolf-female", "direwolf-male", "trout-green" ]
+        }
+    ],
+    "shapeByType": {
+        "creature-humanoid-trader-*": { "base": "game:entity/humanoid/trader" },
+        "*-gorilla-baby": { "base": "rhadditions:entity/land/gorilla-baby" },
+        "*-gorilla-female": { "base": "rhadditions:entity/land/gorilla-female" },
+        "*-gorilla-male": { "base": "rhadditions:entity/land/gorilla-male" },
+        "*-gorilla-silverback": { "base": "rhadditions:entity/land/gorilla-silverback" },
+        "*-gorilla-kong": { "base": "rhadditions:entity/land/gorilla-kong" },
+        "*-locust-prime": { "base": "rhadditions:entity/land/locust-prime" },
+        "*-direwolf-pup": { "base": "rhadditions:entity/land/direwolf-pup" },
+        "*-direwolf-*": { "base": "rhadditions:entity/land/direwolf-male" },
+        "*-trout-*": { "base": "game:entity/water/salmon" }
+    },
+    "texturesByType": {
+        "*-gorilla-silverback": {
+            "all": { "base": "rhadditions:entity/land/gorilla/silverback-brown" }
+        },
+        "*-gorilla-*": {
+            "all": { "base": "rhadditions:entity/land/gorilla/gorilla-brown" }
+        },
+        "*-locust-prime": {
+            "locust": { "base": "rhadditions:entity/cave/locust/sawblade" }
+        },
+        "*-direwolf-pup": {
+            "skin": { "base": "game:entity/wolf/wolf-pup2" }
+        },
+        "*-direwolf-*": {
+            "skin": { "base": "game:entity/wolf/wolf5" }
+        },
+        "*-trout-green": {
+            "salmon": { "base": "rhadditions:entity/water/fish/trout-green" }
+        }
+    },
+    "creativeinventory": {
+        "general": [ "*" ],
+        "creatures": [ "*" ],
+        "rhadditions": [ "*" ]
+    },
+    "materialDensity": 600,
+    "guiTransformByType": {
+        "*-trader-*": {
+            "rotate": true,
+            "rotation": {
+                "x": 0,
+                "y": -90,
+                "z": -178
+            },
+            "origin": {
+                "x": 0.6,
+                "y": 0.78,
+                "z": 0.5
+            }
+        },
+        "*-gorilla-baby": {
+            "rotate": true,
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": -38,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.65,
+                "z": 0
+            },
+            "scale": 1.13
+        },
+        "*-gorilla-female": {
+            "rotate": true,
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": -38,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.46,
+                "y": 0.68,
+                "z": 0.51
+            },
+            "scale": 1.08
+        },
+        "*-silverback": {
+            "rotate": true,
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": -38,
+                "z": -180
+            },
+            "origin": {
+                "x": 3.1,
+                "y": 1.03,
+                "z": -2.88
+            },
+            "scale": 1.13
+        },
+        "*-kong": {
+            "translation": {
+                "x": 0,
+                "y": -2,
+                "z": 0
+            },
+            "rotation": {
+                "x": 2,
+                "y": -61,
+                "z": -180
+            },
+            "origin": {
+                "x": 3.5,
+                "y": 6.15,
+                "z": 0.9
+            },
+            "scale": 0.43
+        },
+        "*-gorilla-*": {
+            "rotate": true,
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": -38,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.57,
+                "y": 0.68,
+                "z": 0.51
+            },
+            "scale": 1.08
+        },
+        "*-locust-prime": {
+            "rotate": true,
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": -76,
+                "z": -179
+            },
+            "origin": {
+                "x": 1.31,
+                "y": 0.76,
+                "z": 1
+            },
+            "scale": 1.07
+        },
+        "*-direwolf-pup": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -12,
+                "y": -58,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.41,
+                "y": 0.37,
+                "z": 0.5
+            },
+            "scale": 2.5
+        },
+        "*-direwolf-*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": -64,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.3,
+                "y": 1.1,
+                "z": 0.5
+            },
+            "scale": 1.07
+        },
+        "*-trout-*": {
+            "rotate": true,
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 177,
+                "y": 144,
+                "z": -41
+            },
+            "origin": {
+                "x": 0.49,
+                "y": 0.18,
+                "z": 0.5
+            },
+            "scale": 1.9
+        }
+    },
+    "tpHandTransformByType": {
+        "*-direwolf-*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -178,
+                "y": 2,
+                "z": -171
+            },
+            "origin": {
+                "x": -0.16,
+                "y": -0.5,
+                "z": -0.13
+            },
+            "scale": 0.43
+        },
+        "*-trader-*": {
+            "translation": {
+                "x": -0.53,
+                "y": -0.88,
+                "z": -0.4
+            },
+            "rotation": {
+                "x": -115,
+                "y": 8,
+                "z": -98
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 1,
+                "z": 0.5
+            },
+            "scale": 0.9
+        },
+        "*-trout-*": {
+            "translation": {
+                "x": -0.8,
+                "y": -0.55,
+                "z": -0.6
+            },
+            "rotation": {
+                "x": 0,
+                "y": -62,
+                "z": 28
+            },
+            "scale": 0.62
+        }
+    },
+    "fpHandTransformByType": {
+        "*-trader-*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 180,
+                "y": -96,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.5,
+                "y": -1,
+                "z": 0.4
+            },
+            "scale": 1.42
+        },
+        "*-kong": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 4,
+                "y": -95,
+                "z": 1
+            },
+            "origin": {
+                "x": 0.7,
+                "y": -0.4,
+                "z": 0.53
+            },
+            "scale": 0.39
+        },
+        "*-gorilla-*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 4,
+                "y": -95,
+                "z": 1
+            },
+            "origin": {
+                "x": 0.5,
+                "y": -0.4,
+                "z": 0.5
+            },
+            "scale": 1.27
+        },
+        "*-locust-prime": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -148,
+                "y": -89,
+                "z": -153
+            },
+            "origin": {
+                "x": 0.8,
+                "y": 0.4,
+                "z": 0.5
+            },
+            "scale": 1.18
+        },
+        "*-direwolf-*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 19,
+                "y": -93,
+                "z": 11
+            },
+            "origin": {
+                "x": 0.59,
+                "y": -0.77,
+                "z": 0.4
+            }
+        },
+        "*-trout-*": {
+            "rotation": {
+                "x": 26,
+                "y": -65,
+                "z": 2
+            },
+            "origin": {
+                "x": 0.6,
+                "y": 0.3,
+                "z": 0.6
+            },
+            "scale": 1.71
+        }
+    },
+    "groundTransformByType": {
+        "*-gorilla-*": {
+            "translation": {
+                "x": 0,
+                "y": 0.15,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": -90,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.15,
+                "z": 0.5
+            },
+            "scale": 6
+        },
+        "*-locust-prime": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5299
+            },
+            "scale": 6
+        },
+        "*-direwolf-*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5299
+            },
+            "scale": 3.5
+        },
+        "*-trout-*": {
+            "scale": 4.06
+        }
+    }
 }

@@ -1,9 +1,0 @@
-{
-	"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["copper"] },
-	"pattern": [[
-	    "##########",
-	    "##########"
-	]],
-	"name": "Cage bar",
-	"output": { "type": "item", "code": "rhadditions:cagebar-{metal}" }
-}

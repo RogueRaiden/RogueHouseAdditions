@@ -1,5 +1,37 @@
-v1.0.14
--
+v2.0.0-rc.2
+-Tweak: Minimum required game version set to v1.17.2 due to issues in v1.17.1. Update your game!
+
+-Tweaks/Fixes: Various creature adjustments.
+
+v2.0.0-rc.1
+**Major changes from last version, not compatable with older versions!**
+This is an early release for the Rogue House Testing Grounds server.
+
+-Feature: Gorillas - They enjoy the warmer areas of the South. Models & textures by Zinth. Thanks!
+-Feature: Direwolves! - Tameable & Ridable, found in the cold forests of the North.
+-Feature: The Trout! - Found in most places alongside the Salmon.
+-Feature: Tameable Foxes, Raccoons and ridable Bighorn Sheep!
+-Feature: Witch and Wizard hats.
+-Feature: "Sea" world generation - Large connected bodies of water.
+-Feature: A new cave creature lurking in the depths... rare mini boss basically :)
+-Feature: More cave clutter - Spiderwebs, Layer of Rot, more rocks and boulders.
+-Feature: New ruins, both on the surface and underground.
+-Feature: Wood varients of Tool Racks and Mold Racks - Requires a saw for planks. Vanilla Tool Rack and Tool Mold Rack are now the Oak varients.
+-Feature: New Stick tool rack - Early game tool storage.
+
+-Tweak: Removed most of the changes for other mods.
+-Tweak: Mod Resonance archives are now a new itemtype rather than patched into the Vanilla Resonance archive file.
+-Tweak: All Resonance archives are now storable on Mold racks.
+-Tweak: Mod Paintings are now a new blocktype rather than patched into the Vanilla Painting file.
+-Tweak: Adjusted flying animations - the arms no longer block immersive first person view.
+-Tweak: Adjusted falling animations - the arms look more graceful when falling, especially short distances.
+-Tweak: Edible Grub items will drop from killed Grubs and can be found inside Drifters. 
+
+-Fix: Updated Cats mod patches to newest version.
+-Fix: Updated some recipes to adapt to 1.17 changes.
+
+-Many other small fixes and adjustments throughout the mod and file structure changes.
+
 
 v1.0.13
 -Removed Useful Stuff mod requirement.
@@ -8,8 +40,10 @@ v1.0.13
 -Updated cats mod patches.
 -Tweaked Drifter drops.
 
+
 v1.0.12
 -Guide tweaks.
+
 
 v1.0.11
 -Refactored various files.
@@ -19,10 +53,12 @@ v1.0.11
 -New pulverized ingredients for Obsidian glass mix: Crushed obsidian, rose quartz, smoky quartz, clear quartz, amethyst.
 -Updated textures for Emerald powder, Peridot powder, Rune powder and Rogue cape.
 
+
 v1.0.10
 -Re-enabled the Primitive survival Particulator.
 -Adjusted Drifter drops.
 -Adjusted Daelynn's trades.
+
 
 v1.0.9
 -Removed Shovel requirement, and increased drop rate for Snowballs.
@@ -35,12 +71,15 @@ v1.0.9
 -Made Pots shelvable.
 -Added 6 more variations of a shirt, Tailor exclusive recipes.
 
+
 v1.0.8
 -Test release
+
 
 v1.0.7
 -Disabled coins and vending machine from Trade-o-mat mod.
 -Adjusted recipes for Trade-o-mats.
+
 
 v1.0.6
 -Placed Torches and filled Torch holders now provide some warmth.

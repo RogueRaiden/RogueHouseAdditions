@@ -1,16 +1,16 @@
 {
-  "type": "content",
-  "modid": "rhadditions",
-  "name": "Rogue House Additions",
-  "authors": ["RogueRaiden"],
-  "contributors": ["Morwen"],
-  "description": "Tweaks and content for the Rogue House Community Server.",
-  "version": "1.0.13",
-  "website": "https://mods.vintagestory.at/rhadditions",
-  "dependencies": {
-    "game": "1.16.5"
-  },
-  "Side": "Universal",
-  "RequiredOnClient": true,
-  "RequiredOnServer": true
+    "type": "content",
+    "modid": "rhadditions",
+    "name": "Rogue House Additions",
+    "authors": [ "RogueRaiden" ],
+    "contributors": [ "Morwen", "Zinth" ],
+    "description": "Tweaks and content for the Rogue House Community Server.",
+    "version": "2.0.0-rc.2",
+    "website": "https://mods.vintagestory.at/rhadditions",
+    "dependencies": {
+        "game": "1.17.2"
+    },
+    "Side": "Universal",
+    "RequiredOnClient": true,
+    "RequiredOnServer": true
 }
