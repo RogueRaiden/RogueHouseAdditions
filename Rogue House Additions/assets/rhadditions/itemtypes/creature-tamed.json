@@ -1,0 +1,444 @@
+{
+    "code": "creature",
+    "class": "ItemCreature",
+    "enabled": false,
+    "maxstacksize": 64,
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [ "tamed-direwolf-pup", "tamed-direwolf-female", "tamed-direwolf-male", "tamed-fox-pup-arctic", "tamed-fox-female-arctic", "tamed-fox-male-arctic", "tamed-fox-pup-forest", "tamed-fox-female-forest", "tamed-fox-male-forest", "tamed-raccoon-pup", "tamed-raccoon-female", "tamed-raccoon-male", "tamed-sheep-bighorn-lamb", "tamed-sheep-bighorn-female", "tamed-sheep-bighorn-male" ]
+        }
+    ],
+    "shapeByType": {
+        "*-direwolf-pup": { "base": "rhadditions:entity/land/direwolf-pup" },
+        "*-direwolf-*": { "base": "rhadditions:entity/land/direwolf-male" },
+        "*-fox-pup-*": { "base": "game:entity/land/fox-pup" },
+        "*-fox-female-*": { "base": "game:entity/land/fox-female" },
+        "*-fox-male-*": { "base": "game:entity/land/fox-male" },
+        "*-raccoon-pup": { "base": "game:entity/land/raccoon-pup" },
+        "*-raccoon-female": { "base": "game:entity/land/raccoon-female" },
+        "*-raccoon-male": { "base": "game:entity/land/raccoon-male" },
+        "*-sheep-bighorn-lamb": { "base": "game:entity/land/sheep-bighorn-lamb" },
+        "*-sheep-bighorn-female": { "base": "game:entity/land/sheep-bighorn-female" },
+        "*-sheep-bighorn-male": { "base": "game:entity/land/sheep-bighorn-male" }
+    },
+    "texturesByType": {
+        "*-direwolf-pup": {
+            "skin": { "base": "game:entity/wolf/wolf-pup2" }
+        },
+        "*-direwolf-*": {
+            "skin": { "base": "game:entity/wolf/wolf5" }
+        },
+        "*-fox-pup-arctic": {
+            "skin": { "base": "game:entity/fox/arctic-pup" }
+        },
+        "*-fox-female-arctic": {
+            "skin": { "base": "game:entity/fox/arctic-female" }
+        },
+        "*-fox-male-arctic": {
+            "skin": { "base": "game:entity/fox/arctic-male" }
+        },
+        "*-fox-pup-forest": {
+            "skin": { "base": "game:entity/fox/forest-pup" }
+        },
+        "*-fox-female-forest": {
+            "skin": { "base": "game:entity/fox/forest-female" }
+        },
+        "*-fox-male-forest": {
+            "skin": { "base": "game:entity/fox/forest-male" }
+        },
+        "*-raccoon-pup": {
+            "skin": { "base": "game:entity/raccoon/raccoon-pup1" }
+        },
+        "*-raccoon-female": {
+            "skin": { "base": "game:entity/raccoon/raccoon-female1" }
+        },
+        "*-raccoon-male": {
+            "skin": { "base": "game:entity/raccoon/raccoon-male1" }
+        },
+        "*-sheep-bighorn-lamb": {
+            "skin": { "base": "game:entity/sheep/sheep-bighorn-lamb" }
+        },
+        "*-sheep-bighorn-female": {
+            "skin": { "base": "game:entity/sheep/sheep-bighorn-female" }
+        },
+        "*-sheep-bighorn-male": {
+            "skin": { "base": "game:entity/sheep/sheep-bighorn-male" }
+        }
+    },
+    "creativeinventory": {
+        "general": [ "*" ],
+        "creatures": [ "*" ],
+        "rhadditions": [ "*" ]
+    },
+    "materialDensity": 600,
+    "guiTransformByType": {
+        "*-direwolf-pup": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -12,
+                "y": -58,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.41,
+                "y": 0.37,
+                "z": 0.5
+            },
+            "scale": 2.5
+        },
+        "*-direwolf-*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": -64,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.3,
+                "y": 1.1,
+                "z": 0.5
+            },
+            "scale": 1.07
+        },
+        "*-fox-pup-*": {
+            "translation": {
+                "x": 3,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -12,
+                "y": -48,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.3,
+                "z": 0.5
+            },
+            "scale": 2.18
+        },
+        "*-fox-*": {
+            "translation": {
+                "x": 2,
+                "y": -2,
+                "z": 0
+            },
+            "rotation": {
+                "x": 4,
+                "y": -59,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.4,
+                "z": 0.5
+            },
+            "scale": 2
+        },
+        "*-raccoon-pup": {
+            "translation": {
+                "x": 3,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -12,
+                "y": -48,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.2,
+                "z": 0.5
+            },
+            "scale": 3
+        },
+        "*-raccoon-*": {
+            "translation": {
+                "x": 2,
+                "y": 1,
+                "z": 0
+            },
+            "rotation": {
+                "x": 4,
+                "y": -59,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.25,
+                "z": 0.5
+            },
+            "scale": 3
+        },
+        "*-bighorn-lamb": {
+            "translation": {
+                "x": 1,
+                "y": -1,
+                "z": 0
+            },
+            "rotation": {
+                "x": -11,
+                "y": -52,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.4,
+                "z": 0.5
+            },
+            "scale": 1.86
+        },
+        "*-bighorn-*": {
+            "translation": {
+                "x": 3,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -11,
+                "y": -52,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.8,
+                "z": 0.5
+            },
+            "scale": 0.97
+        }
+    },
+    "tpHandTransformByType": {
+        "*-direwolf-*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -178,
+                "y": 2,
+                "z": -171
+            },
+            "origin": {
+                "x": -0.16,
+                "y": -0.5,
+                "z": -0.13
+            },
+            "scale": 0.43
+        },
+        "*-fox-pup-*": {
+            "translation": {
+                "x": -0.4,
+                "y": 0,
+                "z": -0.5
+            },
+            "rotation": {
+                "x": -160,
+                "y": -26,
+                "z": -90
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.1,
+                "z": 0.5
+            },
+            "scale": 0.92
+        },
+        "*-fox-*": {
+            "translation": {
+                "x": -0.8,
+                "y": -0.4,
+                "z": -0.5
+            },
+            "rotation": {
+                "x": -180,
+                "y": 0,
+                "z": -156
+            },
+            "scale": 0.65
+        },
+        "*-raccoon-pup": {
+            "translation": {
+                "x": -0.8,
+                "y": -0.4,
+                "z": -0.5
+            },
+            "rotation": {
+                "x": -180,
+                "y": 0,
+                "z": -156
+            },
+            "scale": 0.75
+        },
+        "*-raccoon-*": {
+            "translation": {
+                "x": -0.8,
+                "y": -0.4,
+                "z": -0.5
+            },
+            "rotation": {
+                "x": -180,
+                "y": 0,
+                "z": -156
+            },
+            "scale": 0.7
+        },
+        "*-bighorn-lamb": {
+            "translation": {
+                "x": -0.4,
+                "y": 0,
+                "z": -0.6
+            },
+            "rotation": {
+                "x": -160,
+                "y": -26,
+                "z": -90
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.1,
+                "z": 0.5
+            },
+            "scale": 0.73
+        },
+        "*-bighorn-*": {
+            "translation": {
+                "x": -0.9,
+                "y": -0.9,
+                "z": -0.7
+            },
+            "rotation": {
+                "x": -180,
+                "y": 0,
+                "z": -156
+            },
+            "scale": 0.45
+        }
+    },
+    "fpHandTransformByType": {
+        "*-direwolf-*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 19,
+                "y": -93,
+                "z": 11
+            },
+            "origin": {
+                "x": 0.59,
+                "y": -0.77,
+                "z": 0.4
+            }
+        },
+        "*-fox-pup-*": {
+            "translation": {
+                "x": 0.4,
+                "y": 0.1,
+                "z": 0
+            },
+            "rotation": {
+                "x": -180,
+                "y": -78,
+                "z": -180
+            },
+            "scale": 1.21
+        },
+        "*-fox-*": {
+            "translation": {
+                "x": 0.4,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -180,
+                "y": -96,
+                "z": -180
+            },
+            "scale": 1.16
+        },
+        "*-raccoon-pup": {
+            "translation": {
+                "x": 0.2,
+                "y": 0,
+                "z": 0.5
+            },
+            "rotation": {
+                "x": -155,
+                "y": -99,
+                "z": -180
+            },
+            "scale": 1.7
+        },
+        "*-raccoon-*": {
+            "translation": {
+                "x": 0.2,
+                "y": 0,
+                "z": 0.5
+            },
+            "rotation": {
+                "x": -155,
+                "y": -99,
+                "z": -180
+            },
+            "scale": 1.7
+        },
+        "*-bighorn-lamb": {
+            "translation": {
+                "x": 0.4,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -8,
+                "y": -63,
+                "z": -7
+            }
+        },
+        "*-bighorn-*": {
+            "translation": {
+                "x": 0.2,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -8,
+                "y": -63,
+                "z": -7
+            }
+        }
+    },
+    "groundTransformByType": {
+        "*-direwolf-*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5299
+            },
+            "scale": 3.5
+        }
+    }
+}

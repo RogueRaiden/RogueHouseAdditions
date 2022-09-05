@@ -1,0 +1,16 @@
+[
+    { 
+		"op": "replace",
+		"path": "/maxstacksizeByType/gear-temporal",
+		"value": "6",
+		"file": "game:itemtypes/resource/gear.json"
+	},
+	{
+		"op": "add",
+		"path": "/grindingPropsByType",
+		"value": { 
+			"*-temporal": { "grindedStack": { "type": "item", "code": "rhadditions:powder-temporal" }}
+		},
+		"file": "game:itemtypes/resource/gear.json"
+	  }
+]

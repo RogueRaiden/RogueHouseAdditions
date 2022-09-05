@@ -1,0 +1,45 @@
+[
+    {
+        "ingredientPattern": "S_S,B_B,BBB",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "B": {
+                "type": "item",
+                "name": "woodtype",
+                "code": "game:plank-*",
+                "allowedVariants": [ "aged", "acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ]
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "rhadditions:moldrack-{woodtype}-east",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "S_S,B_B,BBB",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "B": {
+                "type": "item",
+                "name": "woodtype",
+                "code": "game:plank-oak"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:moldrack-normal-east",
+            "quantity": 1
+        }
+    }
+]

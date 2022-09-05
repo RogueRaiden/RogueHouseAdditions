@@ -1,0 +1,15 @@
+[
+    {
+        "op": "add",
+        "enabled": false,
+        "path": "/structures/-",
+        "value": {
+            "code": "rhstatues",
+            "chance": 0.025,
+            "schematics": [ "overground/civicruins/prtcv2" ],
+            "replacewithblocklayers": [ "soil-low-normal", "soil-low-none" ],
+            "offsetY": -1
+        },
+        "file": "game:worldgen/structures.json"
+    }
+]

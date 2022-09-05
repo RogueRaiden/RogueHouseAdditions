@@ -1,0 +1,90 @@
+[
+    {
+        "op": "replace",
+        "path": "/drops/0",
+        "value": {
+			"type": "item",
+			"code": "game:gear-rusty",
+			"dropModbyStat": "rustyGearDropRate",
+			"quantity": { "avg": 5, "var": 1.3 }
+		},
+        "file": "game:entities/land/bell.json"
+    },
+    {
+        "op": "add",
+        "path": "/drops/-",
+        "value": {
+            "type": "item",
+            "code": "rhadditions:resonancearchive-fall-o'-croft",
+            "quantity": { "avg": 0.22 },
+            "lastDrop": true
+        },
+        "file": "game:entities/land/bell.json"
+    },
+    {
+        "op": "add",
+        "path": "/drops/-",
+        "value": {
+            "type": "item",
+            "code": "rhadditions:resonancearchive-midnight",
+            "quantity": { "avg": 0.24 },
+            "lastDrop": true
+        },
+        "file": "game:entities/land/bell.json"
+    },
+    {
+        "op": "add",
+        "path": "/drops/-",
+        "value": {
+            "type": "item",
+            "code": "rhadditions:resonancearchive-adventuring",
+            "quantity": { "avg": 0.26 },
+            "lastDrop": true
+        },
+        "file": "game:entities/land/bell.json"
+    },
+    {
+        "op": "add",
+        "path": "/drops/-",
+        "value": {
+            "type": "item",
+            "code": "rhadditions:resonancearchive-safety-of-a-warm-fire",
+            "quantity": { "avg": 0.28 },
+            "lastDrop": true
+        },
+        "file": "game:entities/land/bell.json"
+    },
+    {
+        "op": "add",
+        "path": "/drops/-",
+        "value": {
+            "type": "item",
+            "code": "rhadditions:resonancearchive-building",
+            "quantity": { "avg": 0.30 },
+            "lastDrop": true
+        },
+        "file": "game:entities/land/bell.json"
+    },
+    {
+        "op": "add",
+        "path": "/drops/-",
+        "value": {
+            "type": "item",
+            "code": "rhadditions:resonancearchive-creating",
+            "quantity": { "avg": 0.32 },
+            "lastDrop": true
+        },
+        "file": "game:entities/land/bell.json"
+    },
+    {
+        "op": "add",
+        "path": "/drops/-",
+        "value": {
+            "type": "item",
+            "code": "rhadditions:resonancearchive-daylight",
+            "quantity": { "avg": 0.34 },
+            "lastDrop": true
+        },
+        "file": "game:entities/land/bell.json"
+    }
+]

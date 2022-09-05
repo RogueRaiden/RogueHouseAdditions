@@ -1,0 +1,231 @@
+[
+    {
+        "op": "addeach",
+        "path": "/client/behaviors/-",
+        "value": [
+            {
+                "code": "tameable",
+                "treat": [
+                    {
+                        "code": "salt",
+                        "progress": 0.05,
+                        "cooldown": 1
+                    },
+                    {
+                        "code": "drygrass",
+                        "progress": 0.1,
+                        "cooldown": 1
+                    },
+                    {
+                        "code": "flower-smallheather-free",
+                        "progress": 0.1,
+                        "cooldown": 1
+                    },
+                    {
+                        "code": "flower-heather-free",
+                        "progress": 0.2,
+                        "cooldown": 2
+                    },
+                    {
+                        "code": "flower-orangemallow-free",
+                        "progress": 0.2,
+                        "cooldown": 2
+                    },
+                    {
+                        "code": "flower-redtopgrass-free",
+                        "progress": 0.2,
+                        "cooldown": 2
+                    },
+                    {
+                        "code": "flower-cowparsley-free",
+                        "progress": 0.2,
+                        "cooldown": 2
+                    },
+                    {
+                        "code": "flower-westerngorse-free",
+                        "progress": 0.2,
+                        "cooldown": 2
+                    },
+                    {
+                        "code": "flower-woad-free",
+                        "progress": 0.2,
+                        "cooldown": 2
+                    }
+                ]
+            },
+            {
+                "code": "mouthinventory",
+                "acceptStacks": [
+                    {
+                        "type": "item",
+                        "code": "salt"
+                    },
+                    {
+                        "type": "item",
+                        "code": "drygrass"
+                    },
+                    {
+                        "type": "block",
+                        "code": "flower-smallheather-free"
+                    },
+                    {
+                        "type": "block",
+                        "code": "flower-heather-free"
+                    },
+                    {
+                        "type": "block",
+                        "code": "flower-orangemallow-free"
+                    },
+                    {
+                        "type": "block",
+                        "code": "flower-redtopgrass-free"
+                    },
+                    {
+                        "type": "block",
+                        "code": "flower-cowparsley-free"
+                    },
+                    {
+                        "type": "block",
+                        "code": "flower-westerngorse-free"
+                    },
+                    {
+                        "type": "block",
+                        "code": "flower-woad-free"
+                    }
+                ]
+            }
+        ],
+        "file": "game:entities/land/sheep-bighorn-lamb.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "addeach",
+        "path": "/server/behaviors/-",
+        "value": [
+            {
+                "code": "tameable",
+                "tameEntityCode": "rhadditions:tamed-sheep-bighorn-lamb",
+                "treat": [
+                    {
+                        "code": "salt",
+                        "progress": 0.05,
+                        "cooldown": 1
+                    },
+                    {
+                        "code": "drygrass",
+                        "progress": 0.1,
+                        "cooldown": 1
+                    },
+                    {
+                        "code": "flower-smallheather-free",
+                        "progress": 0.1,
+                        "cooldown": 1
+                    },
+                    {
+                        "code": "flower-heather-free",
+                        "progress": 0.2,
+                        "cooldown": 2
+                    },
+                    {
+                        "code": "flower-orangemallow-free",
+                        "progress": 0.2,
+                        "cooldown": 2
+                    },
+                    {
+                        "code": "flower-redtopgrass-free",
+                        "progress": 0.2,
+                        "cooldown": 2
+                    },
+                    {
+                        "code": "flower-cowparsley-free",
+                        "progress": 0.2,
+                        "cooldown": 2
+                    },
+                    {
+                        "code": "flower-westerngorse-free",
+                        "progress": 0.2,
+                        "cooldown": 2
+                    },
+                    {
+                        "code": "flower-woad-free",
+                        "progress": 0.2,
+                        "cooldown": 2
+                    }
+                ]
+            },
+            {
+                "code": "mouthinventory",
+                "acceptStacks": [
+                    {
+                        "type": "item",
+                        "code": "salt"
+                    },
+                    {
+                        "type": "item",
+                        "code": "drygrass"
+                    },
+                    {
+                        "type": "block",
+                        "code": "flower-smallheather-free"
+                    },
+                    {
+                        "type": "block",
+                        "code": "flower-heather-free"
+                    },
+                    {
+                        "type": "block",
+                        "code": "flower-orangemallow-free"
+                    },
+                    {
+                        "type": "block",
+                        "code": "flower-redtopgrass-free"
+                    },
+                    {
+                        "type": "block",
+                        "code": "flower-cowparsley-free"
+                    },
+                    {
+                        "type": "block",
+                        "code": "flower-westerngorse-free"
+                    },
+                    {
+                        "type": "block",
+                        "code": "flower-woad-free"
+                    }
+                ]
+            }
+        ],
+        "file": "game:entities/land/sheep-bighorn-lamb.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/10/aitasks/-",
+        "value": {
+            "code": "useinventory",
+            "animation": "eat",
+            "animationSpeed": 0.75,
+            "priority": 2.1,
+            "priorityForCancel": 2.2,
+            "eatItemCategories": [
+                "Grain"
+            ],
+            "eatItemCodes": [
+                "salt",
+                "drygrass",
+                "flower-smallheather-free",
+                "flower-heather-free",
+                "flower-orangemallow-free",
+                "flower-redtopgrass-free",
+                "flower-cowparsley-free",
+                "flower-westerngorse-free",
+                "flower-woad-free"
+            ],
+            "useTime": 1.5,
+            "mincooldownHours": 1,
+            "maxcooldownHours": 1.5
+        },
+        "file": "game:entities/land/sheep-bighorn-lamb.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    }
+]

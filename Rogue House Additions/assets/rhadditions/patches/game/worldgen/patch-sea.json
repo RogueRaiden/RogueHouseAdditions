@@ -1,0 +1,107 @@
+[
+    {
+        "op": "add",
+        "path": "/variants/-",
+        "value": {
+            "code": "sea",
+            "comment": "Large sea-like water",
+            "hexcolor": "#0000FF",
+            "weight": 85,
+            "minTemp": -50,
+            "maxTemp": 50,
+            "useClimateMap": true,
+            "terrainOctaves": [ 0, 0, 0, 0, 1, 0.1, 0.1, 0, 0 ],
+            "terrainOctaveThresholds": [ 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+
+            "terrainYKeyPositions": [ 0, 0.39, 0.40, 0.42, 0.43, 0.44, 0.46, 0.47 ],
+            "terrainYKeyThresholds": [ 1, 0.9, 0.8, 0.4, 0.3, 0.15, 0.1, 0 ],
+            "mutations": [
+                {
+                    "chance": 0.8,
+                    "code": "sea01",
+                    "hexcolor": "#79E02E",
+                    "terrainYKeyPositions": [ 0.000, 0.395, 0.401, 0.429, 0.434, 0.449, 0.461, 0.475 ],
+                    "terrainYKeyThresholds": [ 1.000, 0.965, 0.877, 0.464, 0.381, 0.153, 0.125, 0.000 ]
+                }
+            ]
+        },
+        "file": "game:worldgen/landforms.json"
+    },
+    {
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "comment": "Deep patches of seaweed",
+            "blockCodes": [ "seaweed-section" ],
+            "quantity": {
+                "avg": 16,
+                "var": 8
+            },
+            "chance": 8,
+            "placement": "UnderWater"
+        },
+        "file": "game:worldgen/blockpatches/other.json"
+    },
+    {
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "comment": "Groups of shells. The shell block class takes care of the random variant spawning",
+            "blockCodes": [ "seashell-scallop-plain" ],
+            "quantity": {
+                "avg": 10,
+                "var": 4
+            },
+            "chance": 20,
+            "placement": "UnderWater",
+            "minWaterDepth": 1
+        },
+        "file": "game:worldgen/blockpatches/stonesshells.json"
+    },
+    {
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "comment": "Small patches of loose stones everywhere",
+            "blockCodes": [ "looseboulders-{rocktype}-free" ],
+            "quantity": {
+                "avg": 2,
+                "var": 1
+            },
+            "chance": 20,
+            "placement": "UnderWater"
+        },
+        "file": "game:worldgen/blockpatches/stonesshells.json"
+    },
+    {
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "comment": "Small patches of loose stones everywhere",
+            "blockCodes": [ "loosestones-{rocktype}-free" ],
+            "quantity": {
+                "avg": 4,
+                "var": 2
+            },
+            "chance": 20,
+            "placement": "UnderWater"
+        },
+        "file": "game:worldgen/blockpatches/stonesshells.json"
+    },
+
+    {
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "comment": "Sea shells on the sea shore. The shell block class takes care of the random variant spawning",
+            "blockCodes": [ "seashell-scallop-plain" ],
+            "quantity": {
+                "avg": 6,
+                "var": 2
+            },
+            "chance": 10,
+            "placement": "NearWater"
+        },
+        "file": "game:worldgen/blockpatches/stonesshells.json"
+    }
+]

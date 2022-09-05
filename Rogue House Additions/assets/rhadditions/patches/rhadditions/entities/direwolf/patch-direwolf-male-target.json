@@ -1,0 +1,32 @@
+[
+    {
+        "op": "addeach",
+        "path": "/server/behaviors/9/aitasks/0/entityCodes/-",
+        "value": [
+            "tamed-direwolf-male",
+            "tamed-direwolf-female"
+        ],
+        "file": "entities/land/direwolf/direwolf-male.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "addeach",
+        "path": "/server/behaviors/9/aitasks/1/entityCodes/-",
+        "value": [
+            "tamed-direwolf-male",
+            "tamed-direwolf-female"
+        ],
+        "file": "entities/land/direwolf/direwolf-male.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "addeach",
+        "path": "/server/behaviors/9/aitasks/4/entityCodes/-",
+        "value": [
+            "tamed-direwolf-male",
+            "tamed-direwolf-female"
+        ],
+        "file": "entities/land/direwolf/direwolf-male.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    }
+]

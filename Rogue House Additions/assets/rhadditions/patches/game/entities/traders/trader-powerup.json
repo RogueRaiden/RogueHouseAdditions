@@ -1,0 +1,180 @@
+[
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/4/currenthealth",
+		"value": 100,
+		"file": "game:entities/humanoid/trader-artisan.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/4/maxhealth",
+		"value": 100,
+		"file": "game:entities/humanoid/trader-artisan.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/6/aitasks/0/damage",
+		"value": 7,
+		"file": "game:entities/humanoid/trader-artisan.json"
+	},
+
+    
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/4/currenthealth",
+		"value": 100,
+		"file": "game:entities/humanoid/trader-buildmaterials.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/4/maxhealth",
+		"value": 100,
+		"file": "game:entities/humanoid/trader-buildmaterials.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/6/aitasks/0/damage",
+		"value": 7,
+		"file": "game:entities/humanoid/trader-buildmaterials.json"
+	},
+
+    
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/4/currenthealth",
+		"value": 100,
+		"file": "game:entities/humanoid/trader-clothing.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/4/maxhealth",
+		"value": 100,
+		"file": "game:entities/humanoid/trader-clothing.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/6/aitasks/0/damage",
+		"value": 7,
+		"file": "game:entities/humanoid/trader-clothing.json"
+	},
+
+    
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/4/currenthealth",
+		"value": 100,
+		"file": "game:entities/humanoid/trader-commodities.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/4/maxhealth",
+		"value": 100,
+		"file": "game:entities/humanoid/trader-commodities.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/6/aitasks/0/damage",
+		"value": 7,
+		"file": "game:entities/humanoid/trader-commodities.json"
+	},
+
+    
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/4/currenthealth",
+		"value": 100,
+		"file": "game:entities/humanoid/trader-foods.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/4/maxhealth",
+		"value": 100,
+		"file": "game:entities/humanoid/trader-foods.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/6/aitasks/0/damage",
+		"value": 7,
+		"file": "game:entities/humanoid/trader-foods.json"
+	},
+
+    
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/4/currenthealth",
+		"value": 100,
+		"file": "game:entities/humanoid/trader-furniture.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/4/maxhealth",
+		"value": 100,
+		"file": "game:entities/humanoid/trader-furniture.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/6/aitasks/0/damage",
+		"value": 7,
+		"file": "game:entities/humanoid/trader-furniture.json"
+	},
+
+    
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/4/currenthealth",
+		"value": 100,
+		"file": "game:entities/humanoid/trader-luxuries.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/4/maxhealth",
+		"value": 100,
+		"file": "game:entities/humanoid/trader-luxuries.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/6/aitasks/0/damage",
+		"value": 7,
+		"file": "game:entities/humanoid/trader-luxuries.json"
+	},
+
+    
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/4/currenthealth",
+		"value": 100,
+		"file": "game:entities/humanoid/trader-survivalgoods.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/4/maxhealth",
+		"value": 100,
+		"file": "game:entities/humanoid/trader-survivalgoods.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/6/aitasks/0/damage",
+		"value": 7,
+		"file": "game:entities/humanoid/trader-survivalgoods.json"
+	},
+
+    
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/4/currenthealth",
+		"value": 100,
+		"file": "game:entities/humanoid/trader-treasurehunter.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/4/maxhealth",
+		"value": 100,
+		"file": "game:entities/humanoid/trader-treasurehunter.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/6/aitasks/0/damage",
+		"value": 7,
+		"file": "game:entities/humanoid/trader-treasurehunter.json"
+	}
+]

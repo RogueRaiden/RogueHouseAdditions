@@ -1,0 +1,37 @@
+[
+	{ 
+		"op": "add",
+		"path": "/attributes/tradeProps/selling/list/-",
+		"value": {
+            "code": "game:sling",
+            "type": "item",
+            "stacksize": 1,
+            "stock": {
+                "avg": 1,
+                "var": 0.3
+            },
+            "price": {
+                "avg": 8,
+                "var": 2
+            }
+        },
+		"file": "game:entities/humanoid/trader-survivalgoods.json"
+	},
+	{ 
+		"op": "add",
+		"path": "/attributes/tradeProps/selling/list/-",
+		"value": {
+            "code": "game:spear-hacking",
+            "type": "item",
+            "stacksize": 1,
+            "stock": {
+                "avg": 0.15
+            },
+            "price": {
+                "avg": 18,
+                "var": 3
+            }
+        },
+		"file": "game:entities/humanoid/trader-survivalgoods.json"
+	}
+]

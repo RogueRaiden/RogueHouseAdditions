@@ -1,0 +1,485 @@
+{
+	"code": "tamed-raccoon-pup",
+	"class": "EntityPet",
+	"enabled": false,
+	"hitboxSize": {
+		"x": 1.0,
+		"y": 0.5
+	},
+	"deadHitboxSize": {
+		"x": 1,
+		"y": 0.25
+	},
+	"eyeHeight": 0.4,
+	"drops": [],
+	"client": {
+		"renderer": "Shape",
+		"shape": { "base": "game:entity/land/raccoon-pup" },
+		"texture": { "base": "game:entity/raccoon/raccoon-pup1" },
+		"size": 0.9,
+		"sizeGrowthFactor": 0.2,
+		"behaviors": [
+			{
+				"code": "nametag",
+				"showtagonlywhentargeted": true
+			},
+			{
+				"code": "receivecommand",
+				"availableCommands": [
+					{
+						"commandName": "sit",
+						"commandType": "SIMPLE",
+						"minObedience": 0.2
+					},
+					{
+						"commandName": "lay",
+						"commandType": "SIMPLE",
+						"minObedience": 0.4
+					},
+					{
+						"commandName": "speak",
+						"commandType": "SIMPLE",
+						"minObedience": 0.6
+					}
+				]
+			},
+			{
+				"code": "tameable",
+				"treat": [
+					{
+						"code": "insect-grub",
+						"progress": 0.15,
+						"cooldown": 1
+					},
+					{
+						"code": "insect-termite",
+						"progress": 0.15,
+						"cooldown": 1
+					},
+					{
+						"code": "fruit-blueberry",
+						"progress": 0.2,
+						"cooldown": 2
+					},
+					{
+						"code": "fruit-cranberry",
+						"progress": 0.2,
+						"cooldown": 2
+					},
+					{
+						"code": "fruit-redcurrant",
+						"progress": 0.2,
+						"cooldown": 2
+					},
+					{
+						"code": "fruit-whitecurrant",
+						"progress": 0.2,
+						"cooldown": 2
+					},
+					{
+						"code": "fruit-blackcurrant",
+						"progress": 0.2,
+						"cooldown": 2
+					},
+					{
+						"code": "egg-chicken-raw",
+						"progress": 0.25,
+						"cooldown": 2
+					},
+					{
+						"code": "honeycomb",
+						"progress": 0.3,
+						"cooldown": 3
+					}
+				]
+			},
+			{
+				"code": "mouthinventory",
+				"acceptStacks": [
+					{
+						"type": "item",
+						"code": "insect-grub"
+					},
+					{
+						"type": "item",
+						"code": "insect-termite"
+					},
+					{
+						"type": "item",
+						"code": "fruit-blueberry"
+					},
+					{
+						"type": "item",
+						"code": "fruit-cranberry"
+					},
+					{
+						"type": "item",
+						"code": "fruit-redcurrant"
+					},
+					{
+						"type": "item",
+						"code": "fruit-whitecurrant"
+					},
+					{
+						"type": "item",
+						"code": "fruit-blackcurrant"
+					},
+					{
+						"type": "item",
+						"code": "egg-chicken-raw"
+					},
+					{
+						"type": "item",
+						"code": "honeycomb"
+					}
+				]
+			},
+			{ "code": "repulseagents" },
+			{
+				"code": "controlledphysics",
+				"stepHeight": 1.1251
+			},
+			{
+				"code": "floatupwhenstuck",
+				"onlyWhenDead": true
+			},
+			{ "code": "interpolateposition" },
+			{ "code": "harvestable" },
+			{
+				"code": "ropetieable",
+				"minGeneration": 2
+			}
+		],
+		"animations": [
+			{
+				"code": "hurt",
+				"animation": "hurt",
+				"animationSpeed": 2.2,
+				"weight": 10,
+				"blendMode": "AddAverage"
+			},
+			{
+				"code": "die",
+				"animation": "death",
+				"animationSpeed": 1.25,
+				"weight": 10,
+				"blendMode": "Average",
+				"triggeredBy": { "onControls": [ "dead" ] }
+			},
+			{
+				"code": "idle",
+				"animation": "idle",
+				"blendMode": "AddAverage",
+				"easeOutSpeed": 4,
+				"triggeredBy": { "defaultAnim": true }
+			}
+		]
+	},
+	"server": {
+		"behaviors": [
+			{
+				"code": "nametag",
+				"showtagonlywhentargeted": true
+			},
+			{
+				"code": "tameable",
+				"size": "small",
+				"disobediencePerDay": 0.1,
+				"treat": [
+					{
+						"code": "insect-grub",
+						"progress": 0.15,
+						"cooldown": 1
+					},
+					{
+						"code": "insect-termite",
+						"progress": 0.15,
+						"cooldown": 1
+					},
+					{
+						"code": "fruit-blueberry",
+						"progress": 0.2,
+						"cooldown": 2
+					},
+					{
+						"code": "fruit-cranberry",
+						"progress": 0.2,
+						"cooldown": 2
+					},
+					{
+						"code": "fruit-redcurrant",
+						"progress": 0.2,
+						"cooldown": 2
+					},
+					{
+						"code": "fruit-whitecurrant",
+						"progress": 0.2,
+						"cooldown": 2
+					},
+					{
+						"code": "fruit-blackcurrant",
+						"progress": 0.2,
+						"cooldown": 2
+					},
+					{
+						"code": "egg-chicken-raw",
+						"progress": 0.25,
+						"cooldown": 2
+					},
+					{
+						"code": "honeycomb",
+						"progress": 0.3,
+						"cooldown": 3
+					}
+				]
+			},
+			{
+				"code": "mouthinventory",
+				"acceptStacks": [
+					{
+						"type": "item",
+						"code": "insect-grub"
+					},
+					{
+						"type": "item",
+						"code": "insect-termite"
+					},
+					{
+						"type": "item",
+						"code": "fruit-blueberry"
+					},
+					{
+						"type": "item",
+						"code": "fruit-cranberry"
+					},
+					{
+						"type": "item",
+						"code": "fruit-redcurrant"
+					},
+					{
+						"type": "item",
+						"code": "fruit-whitecurrant"
+					},
+					{
+						"type": "item",
+						"code": "fruit-blackcurrant"
+					},
+					{
+						"type": "item",
+						"code": "egg-chicken-raw"
+					},
+					{
+						"type": "item",
+						"code": "honeycomb"
+					}
+				]
+			},
+			{
+				"code": "receivecommand",
+				"availableCommands": [
+					{
+						"commandName": "sit",
+						"commandType": "SIMPLE",
+						"minObedience": 0.2
+					},
+					{
+						"commandName": "lay",
+						"commandType": "SIMPLE",
+						"minObedience": 0.4
+					},
+					{
+						"commandName": "speak",
+						"commandType": "SIMPLE",
+						"minObedience": 0.6
+					}
+				]
+			},
+			{ "code": "repulseagents" },
+			{
+				"code": "controlledphysics",
+				"stepHeight": 1.1251
+			},
+			{
+				"code": "health",
+				"currenthealth": 8,
+				"maxhealth": 8
+			},
+			{
+				"code": "deaddecay",
+				"hoursToDecay": 96,
+				"decayedBlock": "carcass-tiny"
+			},
+			{
+				"code": "floatupwhenstuck",
+				"onlyWhenDead": true
+			},
+			{
+				"code": "harvestable",
+				"drops": []
+			},
+			{ "code": "breathe" },
+			{
+				"hoursToGrow": 336,
+				"adultEntityCodes": [ "tamed-raccoon-male", "tamed-raccoon-female" ],
+				"code": "grow"
+			},
+			{
+				"code": "taskai",
+				"aitasks": [
+					{
+						"code": "fleeentity",
+						"entityCodes": [
+							"drifter-*",
+							"wolf-male",
+							"wolf-female",
+							"hyena-male",
+							"hyena-female",
+							"bear-*",
+							"locust-*",
+							"direwolf-male",
+							"direwolf-female"
+						],
+						"priority": 1.5,
+						"movespeed": 0.02,
+						"animationSpeed": 2.2,
+						"seekingRange": 8,
+						"animation": "Run"
+					},
+					{
+						"command": "sit",
+						"code": "simplecommand",
+						"priority": 3,
+						"minduration": 2000,
+						"maxduration": 10000,
+						"priorityForCancel": 2.8,
+						"animation": "Sit"
+					},
+					{
+						"command": "lay",
+						"code": "simplecommand",
+						"priority": 3,
+						"minduration": 5000,
+						"maxduration": 15000,
+						"priorityForCancel": 2.8,
+						"animation": "Lie",
+						"animationSpeed": 0.8
+					},
+					{
+						"command": "speak",
+						"code": "simplecommand",
+						"priority": 3,
+						"minduration": 4667,
+						"maxduration": 4667,
+						"priorityForCancel": 3.1,
+						"animation": "Howl",
+						"animationSpeed": 0.5,
+						"sound": "game:creature/raccoon/pup-idle"
+					},
+					{
+						"code": "seeknest",
+						"priority": 1.4,
+						"duringDayTimeFrames": [
+							{
+								"fromHour": 10,
+								"toHour": 18
+							},
+							{
+								"fromHour": 1,
+								"toHour": 3
+							}
+						],
+						"movespeed": 0.004,
+						"animationSpeed": 2,
+						"animation": "Walk"
+					},
+					{
+						"code": "useinventory",
+						"animation": "eat",
+						"animationSpeed": 0.75,
+						"priority": 1.4,
+						"priorityForCancel": 1.7,
+						"eatItemCategories": [
+							"Fruit",
+							"Protein"
+						],
+						"eatItemCodes": [
+							"insect-grub",
+							"insect-termite",
+							"fruit-blueberry",
+							"fruit-cranberry",
+							"fruit-redcurrant",
+							"fruit-whitecurrant",
+							"fruit-blackcurrant",
+							"egg-chicken-raw",
+							"honeycomb"
+						],
+						"useTime": 1.5,
+						"mincooldownHours": 1,
+						"maxcooldownHours": 1.5
+					},
+					{
+						"code": "getoutofwater",
+						"priority": 1.45,
+						"movespeed": 0.015,
+						"animation": "Walk",
+						"animationSpeed": 2.2
+					},
+					{
+						"code": "stayclosetoentity",
+						"priority": 1.4,
+						"entityCode": "tamed-raccoon-female",
+						"movespeed": 0.02,
+						"animationSpeed": 3,
+						"maxDistance": 5,
+						"searchRange": 25,
+						"animation": "Run"
+					},
+					{
+						"code": "idle",
+						"priority": 1.3,
+						"priorityForCancel": 1.35,
+						"minduration": 2500,
+						"maxduration": 2500,
+						"mincooldown": 10000,
+						"maxcooldown": 50000,
+						"animation": "Sniff",
+						"animationSpeed": 0.8
+					},
+					{
+						"code": "wander",
+						"priority": 1.0,
+						"priorityForCancel": 1.35,
+						"movespeed": 0.004,
+						"animationSpeed": 2,
+						"animation": "Walk",
+						"preferredLightLevel": 24
+					},
+					{
+						"code": "idle",
+						"priority": 0.9,
+						"minduration": 5000,
+						"maxduration": 30000,
+						"mincooldown": 2000,
+						"maxcooldown": 120000,
+						"priorityForCancel": 1.35,
+						"animation": "Sit"
+					},
+					{
+						"code": "lookaround",
+						"priority": 0.5
+					}
+				]
+			},
+			{
+				"code": "pettableextended",
+				"minGeneration": 0
+			}
+		]
+	},
+	"sounds": {
+		"hurt": "game:creature/raccoon/pup-hurt",
+		"death": "game:creature/raccoon/pup-death",
+		"idle": "game:creature/raccoon/pup-idle"
+	},
+	"idleSoundChance": 0.01
+}

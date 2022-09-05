@@ -1,0 +1,33 @@
+[
+    {
+        "op": "add",
+        "path": "/structures/-",
+        "value": {
+            "code": "rh-gravesite",
+            "name": "gravesite",
+            "chance": 0.025,
+            "offsetY": -3,
+            "minTemp": "2",
+            "schematics": [ "rhadditions/gravesite/*" ],
+            "replacewithblocklayers": [ "soil-low-normal", "soil-low-none", "soil-medium-normal" ],
+            "placement": "surface"
+        },
+        "file": "game:worldgen/structures.json"
+    },
+    {
+        "op": "add",
+        "path": "/structures/-",
+        "value": {
+            "code": "rh-undergroundruins",
+            "name": "burried bunker",
+            "chance": 0.01,
+            "schematics": [ "rhadditions/bunker/*" ],
+            "depth": {
+                "avg": 9,
+                "var": 1
+            },
+            "placement": "underground"
+        },
+        "file": "game:worldgen/structures.json"
+    }
+]

@@ -1,0 +1,27 @@
+{
+	"ingredient": {
+		"type": "item",
+		"code": "game:ingot-*",
+		"name": "metal",
+		"allowedVariants": [ "copper" ]
+	},
+	"pattern": [
+		[
+			"___##__##___",
+			"___##__##___",
+			"___##__##___",
+			"___##__##___",
+			"___##__##___",
+			"___##__##___",
+			"___##__##___",
+			"___##__##___",
+			"___##__##___"
+		]
+	],
+	"name": "2 Flat bars",
+	"output": {
+		"type": "item",
+		"code": "rhadditions:flatbar-{metal}",
+		"stacksize": 2
+	}
+}

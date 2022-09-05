@@ -1,0 +1,54 @@
+[
+	{
+		"op": "add",
+		"path": "/crushingProps",
+		"value": {
+			"crushedStack": {
+				"type": "item",
+				"code": "rhadditions:powder-amethyst",
+				"stacksize": 1
+			},
+			"hardnessTier": 2
+		},
+		"file": "game:itemtypes/resource/quartz/amethyst.json"
+	},
+	{
+		"op": "add",
+		"path": "/crushingProps",
+		"value": {
+			"crushedStack": {
+				"type": "item",
+				"code": "rhadditions:powder-rose-quartz",
+				"stacksize": 1
+			},
+			"hardnessTier": 2
+		},
+		"file": "game:itemtypes/resource/quartz/rosequartz.json"
+	},
+	{
+		"op": "add",
+		"path": "/crushingProps",
+		"value": {
+			"crushedStack": {
+				"type": "item",
+				"code": "rhadditions:powder-smoky-quartz",
+				"stacksize": 1
+			},
+			"hardnessTier": 2
+		},
+		"file": "game:itemtypes/resource/quartz/smokyquartz.json"
+	},
+	{
+		"op": "add",
+		"path": "/crushingProps",
+		"value": {
+			"crushedStack": {
+				"type": "item",
+				"code": "rhadditions:powder-clear-quartz",
+				"stacksize": 1
+			},
+			"hardnessTier": 2
+		},
+		"file": "game:itemtypes/resource/quartz/clearquartz.json"
+	}
+]

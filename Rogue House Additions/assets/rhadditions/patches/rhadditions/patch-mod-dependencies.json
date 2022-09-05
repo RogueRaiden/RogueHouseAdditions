@@ -1,0 +1,197 @@
+[
+    {
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/tprunes/beacon.json",
+        "dependsOn": [ { "modid": "tprunes" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/1/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/tprunes/beacon.json",
+        "dependsOn": [ { "modid": "tprunes" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/2/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/tprunes/beacon.json",
+        "dependsOn": [ { "modid": "tprunes" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/3/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/tprunes/beacon.json",
+        "dependsOn": [ { "modid": "tprunes" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/4/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/tprunes/beacon.json",
+        "dependsOn": [ { "modid": "tprunes" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/5/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/tprunes/beacon.json",
+        "dependsOn": [ { "modid": "tprunes" } ]
+    },
+
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/tprunes/rawrune.json",
+        "dependsOn": [ { "modid": "tprunes" } ]
+    },
+
+
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/stonequarry/rubblestorage.json",
+        "dependsOn": [ { "modid": "stonequarry" } ]
+    },
+
+
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/animalcages/mediumanimalcage.json",
+        "dependsOn": [ { "modid": "animalcages" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/animalcages/smallanimalcage.json",
+        "dependsOn": [ { "modid": "animalcages" } ]
+    },
+
+
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/petai/petwhistle.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+
+
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:itemtypes/creature-tamed.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:entities/land/direwolf/tamed-direwolf-male.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:entities/land/direwolf/tamed-direwolf-female.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:entities/land/direwolf/tamed-direwolf-pup.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:entities/land/sheep/tamed-sheep-bighorn-male.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:entities/land/sheep/tamed-sheep-bighorn-female.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:entities/land/sheep/tamed-sheep-bighorn-lamb.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:entities/land/raccoon/tamed-raccoon-male.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:entities/land/raccoon/tamed-raccoon-female.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:entities/land/raccoon/tamed-raccoon-pup.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:entities/land/fox/tamed-fox-male.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:entities/land/fox/tamed-fox-female.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:entities/land/fox/tamed-fox-pup.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:entities/land/fox/tamed-fox-arctic-female.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:entities/land/fox/tamed-fox-arctic-male.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    }
+]

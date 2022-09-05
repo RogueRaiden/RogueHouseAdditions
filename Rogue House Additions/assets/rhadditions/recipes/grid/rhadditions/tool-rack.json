@@ -1,0 +1,52 @@
+[
+    {
+        "ingredientPattern": "SSS,___,SSS",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "rhadditions:toolrack-stick-north",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "BBB,___,BBB",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "name": "woodtype",
+                "code": "game:plank-*",
+                "allowedVariants": [ "aged", "acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "pine", "purpleheart", "redwood", "walnut" ]
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "rhadditions:toolrack-{woodtype}-north",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "BBB,___,BBB",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:plank-oak"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:toolrack-north",
+            "quantity": 1
+        }
+    }
+]

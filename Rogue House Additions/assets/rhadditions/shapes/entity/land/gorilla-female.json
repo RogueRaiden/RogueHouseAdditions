@@ -1,0 +1,2302 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Silverback",
+			"from": [ 5.4, 5.4, 3.15 ], 
+			"to": [ 9.0, 11.7, 11.25 ], 
+			"unwrapMode": 5,
+			"uv": [ 23.5, 40.5 ],
+			"rotationOrigin": [ 7.2, 8.1, 7.2 ],
+			"faces": {
+				"north": { "texture": "#silverback", "uv": [ 30.5, 40.5, 34.1, 46.8 ], "rotation": 180 },
+				"east": { "texture": "#silverback", "uv": [ 34.5, 47.5, 40.8, 55.6 ], "rotation": 90 },
+				"south": { "texture": "#silverback", "uv": [ 30.5, 56.5, 34.1, 62.8 ] },
+				"west": { "texture": "#silverback", "uv": [ 23.5, 47.5, 29.8, 55.6 ], "rotation": 270 },
+				"up": { "texture": "#silverback", "uv": [ 30.5, 47.5, 34.1, 55.6 ] },
+				"down": { "texture": "#silverback", "uv": [ 41.5, 47.5, 45.1, 55.6 ] }
+			},
+			"children": [
+				{
+					"name": "Rear",
+					"from": [ 2.7, 0.0, -0.1125 ], 
+					"to": [ 9.9, 6.3, 8.2125 ], 
+					"unwrapMode": 5,
+					"uv": [ 25.5, 40.5 ],
+					"rotationOrigin": [ 2.7, 2.7, 3.15 ],
+					"rotationZ": 10.0,
+					"faces": {
+						"north": { "texture": "#silverback", "uv": [ 32.5, 40.5, 39.7, 46.8 ], "rotation": 180 },
+						"east": { "texture": "#silverback", "uv": [ 40.5, 47.5, 46.8, 55.6 ], "rotation": 90 },
+						"south": { "texture": "#silverback", "uv": [ 32.5, 56.5, 39.7, 62.8 ] },
+						"west": { "texture": "#silverback", "uv": [ 25.5, 47.5, 31.8, 55.6 ], "rotation": 270 },
+						"up": { "texture": "#silverback", "uv": [ 32.5, 47.5, 39.7, 55.6 ] },
+						"down": { "texture": "#silverback", "uv": [ 47.5, 47.5, 54.7, 55.6 ] }
+					},
+					"children": [
+						{
+							"name": "L_Leg_Thigh",
+							"from": [ 3.6, -0.9, 4.5 ], 
+							"to": [ 8.1, 4.5, 9.0 ], 
+							"uv": [ 0.5, 52.5 ],
+							"rotationOrigin": [ 5.85, 3.6, 4.5 ],
+							"rotationZ": -10.0,
+							"faces": {
+								"north": { "texture": "#silverback", "uv": [ 0.5, 57.5, 5.0, 62.9 ] },
+								"east": { "texture": "#silverback", "uv": [ 5.5, 57.5, 10.0, 62.9 ] },
+								"south": { "texture": "#silverback", "uv": [ 10.5, 57.5, 15.0, 62.9 ] },
+								"west": { "texture": "#silverback", "uv": [ 15.5, 57.5, 20.0, 62.9 ] },
+								"up": { "texture": "#silverback", "uv": [ 0.5, 52.5, 5.0, 57.0 ] },
+								"down": { "texture": "#silverback", "uv": [ 5.5, 52.5, 10.0, 57.0 ] }
+							},
+							"children": [
+								{
+									"name": "L_Leg_Calf",
+									"from": [ 0.225, -4.5, 0.45 ], 
+									"to": [ 4.275, 0.9, 4.05 ], 
+									"uv": [ 0.5, 53.5 ],
+									"rotationOrigin": [ 1.35, 0.45, 2.25 ],
+									"faces": {
+										"north": { "texture": "#silverback", "uv": [ 0.5, 57.5, 4.55, 62.9 ] },
+										"east": { "texture": "#silverback", "uv": [ 5.0, 57.5, 8.6, 62.9 ] },
+										"south": { "texture": "#silverback", "uv": [ 9.0, 57.5, 13.05, 62.9 ] },
+										"west": { "texture": "#silverback", "uv": [ 13.5, 57.5, 17.1, 62.9 ] },
+										"up": { "texture": "#silverback", "uv": [ 0.5, 53.5, 4.55, 57.1 ] },
+										"down": { "texture": "#silverback", "uv": [ 5.0, 53.5, 9.05, 57.1 ] }
+									},
+									"children": [
+										{
+											"name": "L_Leg_PawHand",
+											"from": [ -0.9, -0.9, 0.45 ], 
+											"to": [ 2.7, 0.9, 2.925 ], 
+											"unwrapMode": 5,
+											"uv": [ 0.5, 15.5 ],
+											"rotationOrigin": [ 1.8, 0.9, 2.25 ],
+											"faces": {
+												"north": { "texture": "#silverback", "uv": [ 2.5, 15.5, 6.1, 17.3 ], "rotation": 180, "windMode": [-1,-1,-1,-1] },
+												"east": { "texture": "#silverback", "uv": [ 6.5, 17.5, 8.3, 19.75 ], "rotation": 90 },
+												"south": { "texture": "#silverback", "uv": [ 2.5, 20.0, 6.1, 21.8 ] },
+												"west": { "texture": "#silverback", "uv": [ 0.5, 17.5, 2.3, 19.75 ], "rotation": 270 },
+												"up": { "texture": "#silverback", "uv": [ 2.5, 17.5, 6.1, 19.75 ], "windMode": [-1,-1,-1,-1] },
+												"down": { "texture": "#silverback", "uv": [ 8.5, 17.5, 12.1, 19.75 ] }
+											},
+											"children": [
+												{
+													"name": "L_Leg_PawHand_Digits",
+													"from": [ -1.8, 0.0, 0.675 ], 
+													"to": [ 0.0, 0.9, 2.475 ], 
+													"unwrapMode": 5,
+													"uv": [ 1.0, 8.5 ],
+													"rotationOrigin": [ 0.9, 0.0, 0.9 ],
+													"faces": {
+														"north": { "texture": "#silverback", "uv": [ 2.0, 8.5, 3.8, 9.4 ], "rotation": 180 },
+														"east": { "texture": "#silverback", "uv": [ 4.0, 9.5, 4.9, 11.3 ], "rotation": 90 },
+														"south": { "texture": "#silverback", "uv": [ 2.0, 11.5, 3.8, 12.4 ] },
+														"west": { "texture": "#silverback", "uv": [ 1.0, 9.5, 1.9, 11.3 ], "rotation": 270 },
+														"up": { "texture": "#silverback", "uv": [ 2.0, 9.5, 3.8, 11.3 ] },
+														"down": { "texture": "#silverback", "uv": [ 5.0, 9.5, 6.8, 11.3 ] }
+													}
+												},
+												{
+													"name": "L_Leg_PawHand_Thumb",
+													"from": [ -0.45, 0.0, -0.225 ], 
+													"to": [ 1.35, 0.9, 0.675 ], 
+													"unwrapMode": 5,
+													"uv": [ 4.5, 12.0 ],
+													"rotationOrigin": [ 0.9, 0.0, -0.45 ],
+													"rotationY": -45.0,
+													"faces": {
+														"north": { "texture": "#silverback", "uv": [ 5.5, 12.0, 7.3, 12.9 ], "rotation": 180 },
+														"east": { "texture": "#silverback", "uv": [ 7.5, 13.0, 8.4, 13.9 ], "rotation": 90 },
+														"south": { "texture": "#silverback", "uv": [ 5.5, 14.0, 7.3, 14.9 ] },
+														"west": { "texture": "#silverback", "uv": [ 4.5, 13.0, 5.4, 13.9 ], "rotation": 270 },
+														"up": { "texture": "#silverback", "uv": [ 5.5, 13.0, 7.3, 13.9 ] },
+														"down": { "texture": "#silverback", "uv": [ 8.5, 13.0, 10.3, 13.9 ] }
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "R_Leg_Thigh",
+							"from": [ 3.6, -0.9, -0.9 ], 
+							"to": [ 8.1, 4.5, 3.6 ], 
+							"uv": [ 0.5, 52.5 ],
+							"rotationOrigin": [ 5.85, 3.6, 1.8 ],
+							"rotationZ": -10.0,
+							"faces": {
+								"north": { "texture": "#silverback", "uv": [ 0.5, 57.5, 5.0, 62.9 ] },
+								"east": { "texture": "#silverback", "uv": [ 5.5, 57.5, 10.0, 62.9 ] },
+								"south": { "texture": "#silverback", "uv": [ 10.5, 57.5, 15.0, 62.9 ] },
+								"west": { "texture": "#silverback", "uv": [ 15.5, 57.5, 20.0, 62.9 ] },
+								"up": { "texture": "#silverback", "uv": [ 0.5, 52.5, 5.0, 57.0 ] },
+								"down": { "texture": "#silverback", "uv": [ 5.5, 52.5, 10.0, 57.0 ] }
+							},
+							"children": [
+								{
+									"name": "R_Leg_Calf",
+									"from": [ 0.225, -4.5, 0.45 ], 
+									"to": [ 4.275, 0.9, 4.05 ], 
+									"uv": [ 0.5, 53.5 ],
+									"rotationOrigin": [ 1.35, 0.45, 2.25 ],
+									"faces": {
+										"north": { "texture": "#silverback", "uv": [ 0.5, 57.5, 4.55, 62.9 ] },
+										"east": { "texture": "#silverback", "uv": [ 5.0, 57.5, 8.6, 62.9 ] },
+										"south": { "texture": "#silverback", "uv": [ 9.0, 57.5, 13.05, 62.9 ] },
+										"west": { "texture": "#silverback", "uv": [ 13.5, 57.5, 17.1, 62.9 ] },
+										"up": { "texture": "#silverback", "uv": [ 0.5, 53.5, 4.55, 57.1 ] },
+										"down": { "texture": "#silverback", "uv": [ 5.0, 53.5, 9.05, 57.1 ] }
+									},
+									"children": [
+										{
+											"name": "R_Leg_PawHand",
+											"from": [ -0.9, -0.9, 0.45 ], 
+											"to": [ 2.7, 0.9, 2.925 ], 
+											"unwrapMode": 5,
+											"uv": [ 0.5, 15.5 ],
+											"rotationOrigin": [ 1.8, 0.9, 1.35 ],
+											"faces": {
+												"north": { "texture": "#silverback", "uv": [ 2.5, 15.5, 6.1, 17.3 ], "rotation": 180 },
+												"east": { "texture": "#silverback", "uv": [ 6.5, 17.5, 8.3, 19.75 ], "rotation": 90 },
+												"south": { "texture": "#silverback", "uv": [ 2.5, 20.0, 6.1, 21.8 ] },
+												"west": { "texture": "#silverback", "uv": [ 0.5, 17.5, 2.3, 19.75 ], "rotation": 270 },
+												"up": { "texture": "#silverback", "uv": [ 2.5, 17.5, 6.1, 19.75 ] },
+												"down": { "texture": "#silverback", "uv": [ 8.5, 17.5, 12.1, 19.75 ] }
+											},
+											"children": [
+												{
+													"name": "R_Leg_PawHand_Digits",
+													"from": [ -1.8, 0.0, 0.0 ], 
+													"to": [ 0.0, 0.9, 1.8 ], 
+													"unwrapMode": 5,
+													"uv": [ 1.0, 8.5 ],
+													"rotationOrigin": [ 0.9, 0.0, 0.9 ],
+													"faces": {
+														"north": { "texture": "#silverback", "uv": [ 2.0, 8.5, 3.8, 9.4 ], "rotation": 180 },
+														"east": { "texture": "#silverback", "uv": [ 4.0, 9.5, 4.9, 11.3 ], "rotation": 90 },
+														"south": { "texture": "#silverback", "uv": [ 2.0, 11.5, 3.8, 12.4 ] },
+														"west": { "texture": "#silverback", "uv": [ 1.0, 9.5, 1.9, 11.3 ], "rotation": 270 },
+														"up": { "texture": "#silverback", "uv": [ 2.0, 9.5, 3.8, 11.3 ] },
+														"down": { "texture": "#silverback", "uv": [ 5.0, 9.5, 6.8, 11.3 ] }
+													}
+												},
+												{
+													"name": "R_Leg_PawHand_Thumb",
+													"from": [ -1.35, 0.0, 2.25 ], 
+													"to": [ 0.45, 0.9, 3.15 ], 
+													"unwrapMode": 5,
+													"uv": [ 4.5, 12.0 ],
+													"rotationOrigin": [ 0.0, 0.0, 2.25 ],
+													"rotationY": 45.0,
+													"faces": {
+														"north": { "texture": "#silverback", "uv": [ 5.5, 12.0, 7.3, 12.9 ], "rotation": 180 },
+														"east": { "texture": "#silverback", "uv": [ 7.5, 13.0, 8.4, 13.9 ], "rotation": 90 },
+														"south": { "texture": "#silverback", "uv": [ 5.5, 14.0, 7.3, 14.9 ] },
+														"west": { "texture": "#silverback", "uv": [ 4.5, 13.0, 5.4, 13.9 ], "rotation": 270 },
+														"up": { "texture": "#silverback", "uv": [ 5.5, 13.0, 7.3, 13.9 ] },
+														"down": { "texture": "#silverback", "uv": [ 8.5, 13.0, 10.3, 13.9 ] }
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Rump1",
+							"from": [ 7.2, 0.45, 0.9 ], 
+							"to": [ 8.1, 5.85, 6.3 ], 
+							"uv": [ 0.5, 28.5 ],
+							"rotationOrigin": [ 7.2, 0.9, 0.9 ],
+							"faces": {
+								"north": { "texture": "#silverback", "uv": [ 0.5, 34.5, 1.4, 39.9 ] },
+								"east": { "texture": "#silverback", "uv": [ 1.5, 34.5, 6.9, 39.9 ] },
+								"south": { "texture": "#silverback", "uv": [ 7.5, 34.5, 8.4, 39.9 ] },
+								"west": { "texture": "#silverback", "uv": [ 8.5, 34.5, 13.9, 39.9 ] },
+								"up": { "texture": "#silverback", "uv": [ 0.5, 28.5, 1.4, 33.9 ] },
+								"down": { "texture": "#silverback", "uv": [ 1.5, 28.5, 2.4, 33.9 ] }
+							}
+						},
+						{
+							"name": "Rump2",
+							"from": [ 8.1, 0.9, 1.35 ], 
+							"to": [ 9.0, 5.4, 5.85 ], 
+							"uv": [ 0.5, 30.5 ],
+							"rotationOrigin": [ 8.1, 0.9, 0.9 ],
+							"faces": {
+								"north": { "texture": "#silverback", "uv": [ 0.5, 35.5, 1.4, 40.0 ] },
+								"east": { "texture": "#silverback", "uv": [ 1.5, 35.5, 6.0, 40.0 ] },
+								"south": { "texture": "#silverback", "uv": [ 6.5, 35.5, 7.4, 40.0 ] },
+								"west": { "texture": "#silverback", "uv": [ 7.5, 35.5, 12.0, 40.0 ] },
+								"up": { "texture": "#silverback", "uv": [ 0.5, 30.5, 1.4, 35.0 ] },
+								"down": { "texture": "#silverback", "uv": [ 1.5, 30.5, 2.4, 35.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Chest",
+					"from": [ -6.3, 2.25, -0.1125 ], 
+					"to": [ 1.8, 6.75, 8.2125 ], 
+					"unwrapMode": 5,
+					"uv": [ 20.5, 42.5 ],
+					"rotationOrigin": [ 1.8, 4.5, 3.15 ],
+					"rotationZ": -30.0,
+					"faces": {
+						"north": { "texture": "#silverback", "uv": [ 25.5, 42.5, 33.6, 47.0 ], "rotation": 180 },
+						"east": { "texture": "#silverback", "uv": [ 34.5, 47.5, 39.0, 55.6 ], "rotation": 90 },
+						"south": { "texture": "#silverback", "uv": [ 25.5, 56.5, 33.6, 61.0 ] },
+						"west": { "texture": "#silverback", "uv": [ 20.5, 47.5, 25.0, 55.6 ], "rotation": 270 },
+						"up": { "texture": "#silverback", "uv": [ 25.5, 47.5, 33.6, 55.6 ] },
+						"down": { "texture": "#silverback", "uv": [ 39.5, 47.5, 47.6, 55.6 ] }
+					},
+					"children": [
+						{
+							"name": "L_Arm_Shoulder",
+							"from": [ -0.9, -2.7, 6.3 ], 
+							"to": [ 3.6, 4.5, 9.9 ], 
+							"uv": [ 0.5, 41.0 ],
+							"rotationOrigin": [ 0.9, 3.6, 6.3 ],
+							"rotationZ": 30.0,
+							"faces": {
+								"north": { "texture": "#silverback", "uv": [ 0.5, 45.0, 5.0, 52.2 ] },
+								"east": { "texture": "#silverback", "uv": [ 5.5, 45.0, 9.1, 52.2 ] },
+								"south": { "texture": "#silverback", "uv": [ 9.5, 45.0, 14.0, 52.2 ] },
+								"west": { "texture": "#silverback", "uv": [ 14.5, 45.0, 18.1, 52.2 ] },
+								"up": { "texture": "#silverback", "uv": [ 0.5, 41.0, 5.0, 44.6 ] },
+								"down": { "texture": "#silverback", "uv": [ 5.5, 41.0, 10.0, 44.6 ] }
+							},
+							"children": [
+								{
+									"name": "L_Arm_Forearm",
+									"from": [ 0.45, -5.4, 0.45 ], 
+									"to": [ 4.05, 0.9, 3.15 ], 
+									"uv": [ 0.5, 44.0 ],
+									"rotationOrigin": [ 1.8, -0.9, 2.25 ],
+									"faces": {
+										"north": { "texture": "#silverback", "uv": [ 0.5, 47.0, 4.1, 53.3 ] },
+										"east": { "texture": "#silverback", "uv": [ 4.5, 47.0, 7.2, 53.3 ] },
+										"south": { "texture": "#silverback", "uv": [ 7.5, 47.0, 11.1, 53.3 ] },
+										"west": { "texture": "#silverback", "uv": [ 11.5, 47.0, 14.2, 53.3 ] },
+										"up": { "texture": "#silverback", "uv": [ 0.5, 44.0, 4.1, 46.7 ] },
+										"down": { "texture": "#silverback", "uv": [ 4.5, 44.0, 8.1, 46.7 ] }
+									},
+									"children": [
+										{
+											"name": "L_Hand",
+											"from": [ 0.0, 0.0, 0.1125 ], 
+											"to": [ 2.7, 0.9, 2.5875 ], 
+											"unwrapMode": 5,
+											"uv": [ 14.0, 1.0 ],
+											"rotationOrigin": [ 2.7, 0.0, 1.35 ],
+											"rotationZ": 22.5,
+											"faces": {
+												"north": { "texture": "#silverback", "uv": [ 15.0, 1.0, 17.7, 1.9 ], "rotation": 180 },
+												"east": { "texture": "#silverback", "uv": [ 18.0, 2.0, 18.9, 4.25 ], "rotation": 90 },
+												"south": { "texture": "#silverback", "uv": [ 15.0, 4.5, 17.7, 5.4 ] },
+												"west": { "texture": "#silverback", "uv": [ 14.0, 2.0, 14.9, 4.25 ], "rotation": 270 },
+												"up": { "texture": "#silverback", "uv": [ 15.0, 2.0, 17.7, 4.25 ] },
+												"down": { "texture": "#silverback", "uv": [ 19.0, 2.0, 21.7, 4.25 ] }
+											},
+											"children": [
+												{
+													"name": "L_Hand_Digits01",
+													"from": [ -1.8, 0.0, 0.45 ], 
+													"to": [ 0.9, 0.9, 2.7 ], 
+													"unwrapMode": 2,
+													"uv": [ 13.0, 16.0 ],
+													"rotationOrigin": [ 0.0, 0.45, 1.35 ],
+													"rotationZ": 45.0,
+													"faces": {
+														"north": { "texture": "#silverback", "uv": [ 18.5, 19.0, 21.2, 19.9 ] },
+														"east": { "texture": "#silverback", "uv": [ 16.0, 19.0, 18.25, 19.9 ] },
+														"south": { "texture": "#silverback", "uv": [ 13.0, 19.0, 15.7, 19.9 ] },
+														"west": { "texture": "#silverback", "uv": [ 21.5, 19.0, 23.75, 19.9 ] },
+														"up": { "texture": "#silverback", "uv": [ 16.0, 16.0, 18.25, 18.7 ], "rotation": 270 },
+														"down": { "texture": "#silverback", "uv": [ 16.0, 20.0, 18.25, 22.7 ], "rotation": 270 }
+													},
+													"children": [
+														{
+															"name": "L_Hand_Digits02",
+															"from": [ -1.8, 0.0, 0.0 ], 
+															"to": [ 0.0, 0.9, 2.25 ], 
+															"unwrapMode": 6,
+															"uv": [ 14.0, 6.0 ],
+															"rotationOrigin": [ 0.0, 0.45, 1.125 ],
+															"rotationZ": 112.5,
+															"faces": {
+																"north": { "texture": "#silverback", "uv": [ 15.0, 6.0, 16.8, 6.9 ] },
+																"east": { "texture": "#silverback", "uv": [ 14.0, 7.0, 14.9, 9.25 ], "rotation": 90 },
+																"south": { "texture": "#silverback", "uv": [ 15.0, 9.5, 16.8, 10.4 ], "rotation": 180 },
+																"west": { "texture": "#silverback", "uv": [ 17.0, 7.0, 17.9, 9.25 ], "rotation": 270 },
+																"up": { "texture": "#silverback", "uv": [ 18.0, 7.0, 19.8, 9.25 ] },
+																"down": { "texture": "#silverback", "uv": [ 15.0, 7.0, 16.8, 9.25 ] }
+															}
+														}
+													]
+												},
+												{
+													"name": "L_Hand_Thumb",
+													"from": [ -0.9, 0.0, 0.0 ], 
+													"to": [ 0.9, 0.9, 0.9 ], 
+													"unwrapMode": 2,
+													"uv": [ 13.0, 11.0 ],
+													"rotationOrigin": [ 0.9, 0.45, 0.45 ],
+													"rotationY": -45.0,
+													"rotationZ": 45.0,
+													"faces": {
+														"north": { "texture": "#silverback", "uv": [ 16.0, 13.0, 17.8, 13.9 ] },
+														"east": { "texture": "#silverback", "uv": [ 15.0, 13.0, 15.9, 13.9 ] },
+														"south": { "texture": "#silverback", "uv": [ 13.0, 13.0, 14.8, 13.9 ] },
+														"west": { "texture": "#silverback", "uv": [ 18.0, 13.0, 18.9, 13.9 ] },
+														"up": { "texture": "#silverback", "uv": [ 15.0, 11.0, 15.9, 12.8 ], "rotation": 270 },
+														"down": { "texture": "#silverback", "uv": [ 15.0, 14.0, 15.9, 15.8 ], "rotation": 270 }
+													}
+												}
+											],
+											"attachmentpoints": [
+												{
+													"code": "Point2",
+													"posX": "1.0","posY": "0.0","posZ": "0.0",
+													"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "L_Fluff",
+									"from": [ 0.45, 7.2, 0.675 ], 
+									"to": [ 4.05, 8.1, 3.375 ], 
+									"uv": [ 3.0, 29.5 ],
+									"rotationOrigin": [ 0.9, 7.2, 0.0 ],
+									"faces": {
+										"north": { "texture": "#silverback", "uv": [ 3.0, 32.5, 6.6, 33.4 ] },
+										"east": { "texture": "#silverback", "uv": [ 7.0, 32.5, 9.7, 33.4 ] },
+										"south": { "texture": "#silverback", "uv": [ 10.0, 32.5, 13.6, 33.4 ] },
+										"west": { "texture": "#silverback", "uv": [ 14.0, 32.5, 16.7, 33.4 ] },
+										"up": { "texture": "#silverback", "uv": [ 3.0, 29.5, 6.6, 32.2 ] },
+										"down": { "texture": "#silverback", "uv": [ 7.0, 29.5, 10.6, 32.2 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "Head_Base",
+							"from": [ -2.7, 1.8, 1.35 ], 
+							"to": [ 2.7, 7.2, 6.75 ], 
+							"unwrapMode": 4,
+							"uv": [ 39.5, 0.5 ],
+							"rotationOrigin": [ 1.8, 2.7, 4.5 ],
+							"rotationZ": 30.0,
+							"faces": {
+								"north": { "texture": "#silverback", "uv": [ 39.5, 6.5, 44.9, 11.9 ] },
+								"east": { "texture": "#silverback", "uv": [ 57.5, 6.5, 62.9, 11.9 ] },
+								"south": { "texture": "#silverback", "uv": [ 51.5, 6.5, 56.9, 11.9 ] },
+								"west": { "texture": "#silverback", "uv": [ 45.5, 6.5, 50.9, 11.9 ] },
+								"up": { "texture": "#silverback", "uv": [ 45.5, 0.5, 50.9, 5.9 ], "rotation": 90 },
+								"down": { "texture": "#silverback", "uv": [ 45.5, 12.5, 50.9, 17.9 ], "rotation": 90 }
+							},
+							"children": [
+								{
+									"name": "Head_Cranium",
+									"from": [ 0.9, 5.4, 0.45 ], 
+									"to": [ 5.4, 6.3, 4.95 ], 
+									"uv": [ 24.5, 8.0 ],
+									"rotationOrigin": [ 2.7, 7.2, 2.7 ],
+									"faces": {
+										"north": { "texture": "#silverback", "uv": [ 24.5, 13.0, 29.0, 13.9 ] },
+										"east": { "texture": "#silverback", "uv": [ 29.5, 13.0, 34.0, 13.9 ] },
+										"south": { "texture": "#silverback", "uv": [ 34.5, 13.0, 39.0, 13.9 ] },
+										"west": { "texture": "#silverback", "uv": [ 39.5, 13.0, 44.0, 13.9 ] },
+										"up": { "texture": "#silverback", "uv": [ 24.5, 8.0, 29.0, 12.5 ] },
+										"down": { "texture": "#silverback", "uv": [ 29.5, 8.0, 34.0, 12.5 ] }
+									}
+								},
+								{
+									"name": "Head_Brow_R",
+									"from": [ -0.45, 4.5, 0.45 ], 
+									"to": [ 0.45, 5.85, 2.7 ], 
+									"uv": [ 29.0, 16.0 ],
+									"rotationOrigin": [ 0.0, 4.5, 0.9 ],
+									"rotationZ": -25.0,
+									"faces": {
+										"north": { "texture": "#silverback", "uv": [ 29.0, 18.5, 29.9, 19.85 ] },
+										"east": { "texture": "#silverback", "uv": [ 30.0, 18.5, 32.25, 19.85 ] },
+										"south": { "texture": "#silverback", "uv": [ 32.5, 18.5, 33.4, 19.85 ] },
+										"west": { "texture": "#silverback", "uv": [ 33.5, 18.5, 35.75, 19.85 ] },
+										"up": { "texture": "#silverback", "uv": [ 29.0, 16.0, 29.9, 18.25 ] },
+										"down": { "texture": "#silverback", "uv": [ 30.0, 16.0, 30.9, 18.25 ] }
+									}
+								},
+								{
+									"name": "Head_Snout01",
+									"from": [ -0.9, 0.0, 0.225 ], 
+									"to": [ 0.0, 2.7, 5.175 ], 
+									"unwrapMode": 4,
+									"uv": [ 0.5, 0.0 ],
+									"rotationOrigin": [ -0.9, 0.0, 0.0 ],
+									"faces": {
+										"north": { "texture": "#silverback", "uv": [ 0.5, 1.0, 1.4, 3.7 ] },
+										"east": { "texture": "#silverback", "uv": [ 8.0, 1.0, 12.95, 3.7 ] },
+										"south": { "texture": "#silverback", "uv": [ 7.0, 1.0, 7.9, 3.7 ] },
+										"west": { "texture": "#silverback", "uv": [ 1.5, 1.0, 6.45, 3.7 ] },
+										"up": { "texture": "#silverback", "uv": [ 1.5, 0.0, 6.45, 0.9 ], "rotation": 90 },
+										"down": { "texture": "#silverback", "uv": [ 1.5, 4.0, 6.45, 4.9 ], "rotation": 90 }
+									},
+									"children": [
+										{
+											"name": "Head_Snout02",
+											"from": [ -0.45, 0.0, 0.675 ], 
+											"to": [ 0.0, 2.475, 4.275 ], 
+											"unwrapMode": 4,
+											"uv": [ 1.0, 5.0 ],
+											"rotationOrigin": [ -0.9, 0.0, 0.9 ],
+											"faces": {
+												"north": { "texture": "#silverback", "uv": [ 1.0, 5.5, 1.45, 7.75 ] },
+												"east": { "texture": "#silverback", "uv": [ 6.0, 5.5, 9.6, 7.75 ] },
+												"south": { "texture": "#silverback", "uv": [ 5.5, 5.5, 5.95, 7.75 ] },
+												"west": { "texture": "#silverback", "uv": [ 1.5, 5.5, 5.1, 7.75 ] },
+												"up": { "texture": "#silverback", "uv": [ 1.5, 5.0, 5.1, 5.45 ], "rotation": 90 },
+												"down": { "texture": "#silverback", "uv": [ 1.5, 8.0, 5.1, 8.45 ], "rotation": 90 }
+											}
+										}
+									]
+								},
+								{
+									"name": "Neck",
+									"from": [ 5.4, 0.9, 0.45 ], 
+									"to": [ 6.3, 5.4, 4.95 ], 
+									"uv": [ 47.5, 20.0 ],
+									"rotationOrigin": [ 5.4, 0.9, 0.9 ],
+									"faces": {
+										"north": { "texture": "#silverback", "uv": [ 47.5, 25.0, 48.4, 29.5 ] },
+										"east": { "texture": "#silverback", "uv": [ 48.5, 25.0, 53.0, 29.5 ] },
+										"south": { "texture": "#silverback", "uv": [ 53.5, 25.0, 54.4, 29.5 ] },
+										"west": { "texture": "#silverback", "uv": [ 54.5, 25.0, 59.0, 29.5 ] },
+										"up": { "texture": "#silverback", "uv": [ 47.5, 20.0, 48.4, 24.5 ] },
+										"down": { "texture": "#silverback", "uv": [ 48.5, 20.0, 49.4, 24.5 ] }
+									}
+								},
+								{
+									"name": "Cheek",
+									"from": [ 0.45, 0.0, -0.45 ], 
+									"to": [ 4.95, 4.5, 5.85 ], 
+									"uv": [ 29.0, 23.5 ],
+									"rotationOrigin": [ 0.9, 0.0, 0.0 ],
+									"faces": {
+										"north": { "texture": "#silverback", "uv": [ 29.0, 30.5, 33.5, 35.0 ] },
+										"east": { "texture": "#silverback", "uv": [ 34.0, 30.5, 40.3, 35.0 ] },
+										"south": { "texture": "#silverback", "uv": [ 41.0, 30.5, 45.5, 35.0 ] },
+										"west": { "texture": "#silverback", "uv": [ 46.0, 30.5, 52.3, 35.0 ] },
+										"up": { "texture": "#silverback", "uv": [ 29.0, 23.5, 33.5, 29.8 ] },
+										"down": { "texture": "#silverback", "uv": [ 34.0, 23.5, 38.5, 29.8 ] }
+									}
+								},
+								{
+									"name": "Head_Brow_L",
+									"from": [ -0.45, 4.5, 2.7 ], 
+									"to": [ 0.45, 5.85, 4.95 ], 
+									"uv": [ 29.0, 16.0 ],
+									"rotationOrigin": [ 0.0, 4.5, 4.5 ],
+									"rotationZ": -25.0,
+									"faces": {
+										"north": { "texture": "#silverback", "uv": [ 29.0, 18.5, 29.9, 19.85 ] },
+										"east": { "texture": "#silverback", "uv": [ 30.0, 18.5, 32.25, 19.85 ] },
+										"south": { "texture": "#silverback", "uv": [ 32.5, 18.5, 33.4, 19.85 ] },
+										"west": { "texture": "#silverback", "uv": [ 33.5, 18.5, 35.75, 19.85 ] },
+										"up": { "texture": "#silverback", "uv": [ 29.0, 16.0, 29.9, 18.25 ] },
+										"down": { "texture": "#silverback", "uv": [ 30.0, 16.0, 30.9, 18.25 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "R_Arm_Shoulder",
+							"from": [ -0.9, -2.7, -1.8 ], 
+							"to": [ 3.6, 4.5, 1.8 ], 
+							"uv": [ 0.5, 41.0 ],
+							"rotationOrigin": [ 0.9, 3.6, 0.0 ],
+							"rotationZ": 30.0,
+							"faces": {
+								"north": { "texture": "#silverback", "uv": [ 0.5, 45.0, 5.0, 52.2 ] },
+								"east": { "texture": "#silverback", "uv": [ 5.5, 45.0, 9.1, 52.2 ] },
+								"south": { "texture": "#silverback", "uv": [ 9.5, 45.0, 14.0, 52.2 ] },
+								"west": { "texture": "#silverback", "uv": [ 14.5, 45.0, 18.1, 52.2 ] },
+								"up": { "texture": "#silverback", "uv": [ 0.5, 41.0, 5.0, 44.6 ] },
+								"down": { "texture": "#silverback", "uv": [ 5.5, 41.0, 10.0, 44.6 ] }
+							},
+							"children": [
+								{
+									"name": "R_Arm_Forearm",
+									"from": [ 0.45, -5.4, 0.45 ], 
+									"to": [ 4.05, 0.9, 3.15 ], 
+									"uv": [ 0.5, 44.0 ],
+									"rotationOrigin": [ 1.8, -0.9, 1.35 ],
+									"faces": {
+										"north": { "texture": "#silverback", "uv": [ 0.5, 47.0, 4.1, 53.3 ] },
+										"east": { "texture": "#silverback", "uv": [ 4.5, 47.0, 7.2, 53.3 ] },
+										"south": { "texture": "#silverback", "uv": [ 7.5, 47.0, 11.1, 53.3 ] },
+										"west": { "texture": "#silverback", "uv": [ 11.5, 47.0, 14.2, 53.3 ] },
+										"up": { "texture": "#silverback", "uv": [ 0.5, 44.0, 4.1, 46.7 ] },
+										"down": { "texture": "#silverback", "uv": [ 4.5, 44.0, 8.1, 46.7 ] }
+									},
+									"children": [
+										{
+											"name": "R_Hand",
+											"from": [ 0.0, 0.0, 0.1125 ], 
+											"to": [ 2.7, 0.9, 2.5875 ], 
+											"unwrapMode": 5,
+											"uv": [ 14.0, 1.0 ],
+											"rotationOrigin": [ 3.0078, 0.8457, 1.35 ],
+											"rotationZ": 22.5,
+											"faces": {
+												"north": { "texture": "#silverback", "uv": [ 15.0, 1.0, 17.7, 1.9 ], "rotation": 180 },
+												"east": { "texture": "#silverback", "uv": [ 18.0, 2.0, 18.9, 4.25 ], "rotation": 90 },
+												"south": { "texture": "#silverback", "uv": [ 15.0, 4.5, 17.7, 5.4 ] },
+												"west": { "texture": "#silverback", "uv": [ 14.0, 2.0, 14.9, 4.25 ], "rotation": 270 },
+												"up": { "texture": "#silverback", "uv": [ 15.0, 2.0, 17.7, 4.25 ] },
+												"down": { "texture": "#silverback", "uv": [ 19.0, 2.0, 21.7, 4.25 ] }
+											},
+											"children": [
+												{
+													"name": "R_Hand_Digits",
+													"from": [ -1.8, 0.0, 0.0 ], 
+													"to": [ 0.9, 0.9, 2.25 ], 
+													"unwrapMode": 2,
+													"uv": [ 13.0, 16.0 ],
+													"rotationOrigin": [ 0.0, 0.45, 1.35 ],
+													"rotationZ": 45.0,
+													"faces": {
+														"north": { "texture": "#silverback", "uv": [ 18.5, 19.0, 21.2, 19.9 ] },
+														"east": { "texture": "#silverback", "uv": [ 16.0, 19.0, 18.25, 19.9 ] },
+														"south": { "texture": "#silverback", "uv": [ 13.0, 19.0, 15.7, 19.9 ] },
+														"west": { "texture": "#silverback", "uv": [ 21.5, 19.0, 23.75, 19.9 ] },
+														"up": { "texture": "#silverback", "uv": [ 16.0, 16.0, 18.25, 18.7 ], "rotation": 270 },
+														"down": { "texture": "#silverback", "uv": [ 16.0, 20.0, 18.25, 22.7 ], "rotation": 270 }
+													},
+													"children": [
+														{
+															"name": "R_Hand_Digits02",
+															"from": [ -1.8, 0.0, 0.0 ], 
+															"to": [ 0.0, 0.9, 2.25 ], 
+															"unwrapMode": 6,
+															"uv": [ 14.0, 6.0 ],
+															"rotationOrigin": [ 0.0, 0.45, 1.125 ],
+															"rotationZ": 112.5,
+															"faces": {
+																"north": { "texture": "#silverback", "uv": [ 15.0, 6.0, 16.8, 6.9 ] },
+																"east": { "texture": "#silverback", "uv": [ 14.0, 7.0, 14.9, 9.25 ], "rotation": 90 },
+																"south": { "texture": "#silverback", "uv": [ 15.0, 9.5, 16.8, 10.4 ], "rotation": 180 },
+																"west": { "texture": "#silverback", "uv": [ 17.0, 7.0, 17.9, 9.25 ], "rotation": 270 },
+																"up": { "texture": "#silverback", "uv": [ 18.0, 7.0, 19.8, 9.25 ] },
+																"down": { "texture": "#silverback", "uv": [ 15.0, 7.0, 16.8, 9.25 ] }
+															}
+														}
+													]
+												},
+												{
+													"name": "R_Hand_Thumb",
+													"from": [ -0.9, 0.0, 1.8 ], 
+													"to": [ 0.9, 0.9, 2.7 ], 
+													"unwrapMode": 2,
+													"uv": [ 13.0, 11.0 ],
+													"rotationOrigin": [ 0.9, 0.45, 2.25 ],
+													"rotationY": 45.0,
+													"rotationZ": 45.0,
+													"faces": {
+														"north": { "texture": "#silverback", "uv": [ 16.0, 13.0, 17.8, 13.9 ] },
+														"east": { "texture": "#silverback", "uv": [ 15.0, 13.0, 15.9, 13.9 ] },
+														"south": { "texture": "#silverback", "uv": [ 13.0, 13.0, 14.8, 13.9 ] },
+														"west": { "texture": "#silverback", "uv": [ 18.0, 13.0, 18.9, 13.9 ] },
+														"up": { "texture": "#silverback", "uv": [ 15.0, 11.0, 15.9, 12.8 ], "rotation": 270 },
+														"down": { "texture": "#silverback", "uv": [ 15.0, 14.0, 15.9, 15.8 ], "rotation": 270 }
+													}
+												}
+											],
+											"attachmentpoints": [
+												{
+													"code": "Point1",
+													"posX": "1.0","posY": "0.0","posZ": "0.0",
+													"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "R_Fluff",
+									"from": [ 0.45, 7.2, 0.225 ], 
+									"to": [ 4.05, 8.1, 2.925 ], 
+									"uv": [ 3.0, 29.5 ],
+									"rotationOrigin": [ 0.9, 7.2, 0.0 ],
+									"faces": {
+										"north": { "texture": "#silverback", "uv": [ 3.0, 32.5, 6.6, 33.4 ] },
+										"east": { "texture": "#silverback", "uv": [ 7.0, 32.5, 9.7, 33.4 ] },
+										"south": { "texture": "#silverback", "uv": [ 10.0, 32.5, 13.6, 33.4 ] },
+										"west": { "texture": "#silverback", "uv": [ 14.0, 32.5, 16.7, 33.4 ] },
+										"up": { "texture": "#silverback", "uv": [ 3.0, 29.5, 6.6, 32.2 ] },
+										"down": { "texture": "#silverback", "uv": [ 7.0, 29.5, 10.6, 32.2 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "Chest_Puff",
+							"from": [ 0.9, -1.8, 0.45 ], 
+							"to": [ 9.0, 0.9, 7.65 ], 
+							"uv": [ 28.0, 24.5 ],
+							"rotationOrigin": [ 0.9, -1.8, 0.0 ],
+							"faces": {
+								"north": { "texture": "#silverback", "uv": [ 28.0, 32.5, 36.1, 35.2 ] },
+								"east": { "texture": "#silverback", "uv": [ 37.0, 32.5, 44.2, 35.2 ] },
+								"south": { "texture": "#silverback", "uv": [ 45.0, 32.5, 53.1, 35.2 ] },
+								"west": { "texture": "#silverback", "uv": [ 54.0, 32.5, 61.2, 35.2 ] },
+								"up": { "texture": "#silverback", "uv": [ 28.0, 24.5, 36.1, 31.7 ] },
+								"down": { "texture": "#silverback", "uv": [ 37.0, 24.5, 45.1, 31.7 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"animations": [
+		{
+			"name": "Walk",
+			"code": "walk",
+			"quantityframes": 40,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Silverback": {  },
+						"Rear": { "rotationX": 2.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": -0.8999999761581421, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": -1.0, "rotationY": 15.0, "rotationZ": -22.5 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 1.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 25.0 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest": { "rotationX": -2.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -1.7999999523162842, "offsetZ": 0.0, "rotationX": -10.0, "rotationY": 0.0, "rotationZ": 25.0 },
+						"L_Arm_Forearm": { "rotationX": 15.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": {  },
+						"L_Hand_Digits01": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 25.0 },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -1.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": -0.8999999761581421, "offsetY": -1.7999999523162842, "offsetZ": 0.0, "rotationX": 1.0, "rotationY": 0.0, "rotationZ": -25.0 },
+						"R_Arm_Forearm": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand": {  },
+						"R_Hand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -10.0 },
+						"R_Hand_Thumb": { "rotationX": -22.5, "rotationY": 45.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 6,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -0.44999998807907104, "offsetZ": 0.0 },
+						"L_Arm_Forearm": { "rotationX": 25.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": {  },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"R_Arm_Shoulder": { "offsetX": 0.44999998807907104, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -25.0 },
+						"R_Arm_Forearm": {  },
+						"R_Hand": {  },
+						"R_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "rotationX": -2.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Rear": {  },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": -0.44999998807907104, "offsetZ": 0.0 },
+						"L_Leg_Calf": {  },
+						"L_Leg_PawHand": {  },
+						"L_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"L_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.8999999761581421, "offsetZ": 0.0 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"Silverback": {  },
+						"Rear": {  },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0 },
+						"L_Leg_Calf": {  },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -5.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.8999999761581421, "offsetZ": 0.0 },
+						"Chest": {  },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.44999998807907104, "offsetZ": 0.0 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0 },
+						"L_Arm_Forearm": {  },
+						"L_Hand": {  },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"Silverback": {  },
+						"Rear": {  },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.44999998807907104, "offsetZ": 0.0 },
+						"R_Leg_Calf": {  },
+						"R_Leg_PawHand": {  },
+						"R_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"R_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"Chest": {  },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0 },
+						"L_Arm_Shoulder": {  },
+						"L_Arm_Forearm": {  },
+						"L_Hand": {  },
+						"L_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+						"Silverback": {  },
+						"Rear": { "rotationX": -2.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": -1.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 25.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": -0.8999999761581421, "offsetY": -0.44999998807907104, "offsetZ": 0.0, "rotationX": 1.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest": { "rotationX": 2.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -1.7999999523162842, "offsetZ": 0.0, "rotationX": 20.0, "rotationY": 0.0, "rotationZ": 25.0 },
+						"R_Arm_Forearm": { "rotationX": -15.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand": {  },
+						"R_Hand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 1.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Shoulder": { "offsetX": -0.8999999761581421, "offsetY": -1.7999999523162842, "offsetZ": 0.0, "rotationX": -10.0, "rotationY": 0.0, "rotationZ": -25.0 },
+						"L_Arm_Forearm": { "rotationX": 10.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": {  },
+						"L_Hand_Digits01": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -10.0 },
+						"L_Hand_Thumb": { "rotationX": 22.5, "rotationY": -45.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 26,
+					"elements": {
+						"Silverback": {  },
+						"Rear": {  },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0 },
+						"R_Leg_Calf": {  },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -5.0 },
+						"R_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -15.0 },
+						"R_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -15.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.8999999761581421, "offsetZ": 0.0 },
+						"Chest": {  },
+						"Head_Base": { "rotationX": 2.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -0.44999998807907104, "offsetZ": 0.0 },
+						"R_Arm_Forearm": { "rotationX": -25.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand": {  },
+						"R_Hand_Digits": {  },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -15.0 },
+						"L_Arm_Shoulder": { "offsetX": 0.44999998807907104, "offsetY": -0.8999999761581421, "offsetZ": 0.0 },
+						"L_Arm_Forearm": {  },
+						"L_Hand": {  },
+						"L_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Silverback": {  },
+						"Rear": {  },
+						"L_Leg_Thigh": {  },
+						"L_Leg_Calf": {  },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"L_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"R_Leg_Thigh": {  },
+						"R_Leg_Calf": {  },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -10.0 },
+						"Chest": {  },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.44999998807907104, "offsetZ": 0.0 },
+						"L_Arm_Shoulder": {  },
+						"L_Arm_Forearm": {  },
+						"L_Hand": {  },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -10.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0 },
+						"R_Arm_Forearm": {  },
+						"R_Hand": {  },
+						"R_Hand_Digits": {  },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 36,
+					"elements": {
+						"Silverback": {  },
+						"Rear": {  },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0 },
+						"Chest": {  },
+						"L_Arm_Shoulder": {  },
+						"L_Arm_Forearm": {  },
+						"L_Hand": {  },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": {  },
+						"R_Arm_Forearm": {  },
+						"R_Hand": {  },
+						"R_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Run",
+			"code": "run",
+			"quantityframes": 20,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Silverback": {  },
+						"Rear": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 5.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": -0.8999999761581421, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 22.5, "rotationZ": -22.5 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.8999999761581421, "offsetZ": 0.0, "rotationX": 1.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest": { "rotationX": -4.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -1.7999999523162842, "offsetZ": 0.0, "rotationX": -10.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Arm_Forearm": { "rotationX": 25.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": {  },
+						"L_Hand_Digits01": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 25.0 },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": -0.44999998807907104, "offsetZ": 0.0, "rotationX": -10.0, "rotationY": 0.0, "rotationZ": 15.0 },
+						"R_Arm_Shoulder": { "offsetX": -0.8999999761581421, "offsetY": -2.6999999284744263, "offsetZ": 0.0, "rotationX": 1.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"R_Arm_Forearm": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand": {  },
+						"R_Hand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -10.0 },
+						"R_Hand_Thumb": { "rotationX": -22.5, "rotationY": 45.0, "rotationZ": 0.0 },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": -0.44999998807907104, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 5,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0 },
+						"L_Arm_Shoulder": {  },
+						"L_Arm_Forearm": { "rotationX": 60.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 10.0 },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": 0.44999998807907104, "offsetZ": 0.0 },
+						"Rear": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0 },
+						"R_Leg_Thigh": {  },
+						"R_Leg_Calf": {  },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -5.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.8999999761581421, "offsetZ": 0.0 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"Silverback": {  },
+						"Rear": { "rotationX": -5.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.8999999761581421, "offsetZ": 0.0, "rotationX": -1.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 25.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": -0.8999999761581421, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 1.0, "rotationY": -22.5, "rotationZ": -22.5 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest": { "rotationX": 5.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -2.6999999284744263, "offsetZ": 0.0, "rotationX": 20.0, "rotationY": 0.0, "rotationZ": 25.0 },
+						"R_Arm_Forearm": { "rotationX": -25.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand": {  },
+						"R_Hand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": -0.44999998807907104, "offsetZ": 0.0, "rotationX": 10.0, "rotationY": 0.0, "rotationZ": 5.0 },
+						"L_Arm_Shoulder": { "offsetX": -0.8999999761581421, "offsetY": -2.6999999284744263, "offsetZ": 0.0, "rotationX": -10.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"L_Arm_Forearm": { "rotationX": 10.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": {  },
+						"L_Hand_Digits01": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -10.0 },
+						"L_Hand_Thumb": { "rotationX": 22.5, "rotationY": -45.0, "rotationZ": 0.0 },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": -0.44999998807907104, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 15,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0 },
+						"R_Arm_Shoulder": {  },
+						"R_Arm_Forearm": { "rotationX": -60.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -10.0 },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": 0.44999998807907104, "offsetZ": 0.0 },
+						"Rear": {  },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.8999999761581421, "offsetZ": 0.0 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"L_Leg_Thigh": {  },
+						"L_Leg_Calf": {  },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -5.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Idl 01",
+			"code": "idl01",
+			"quantityframes": 60,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"L_Arm_Shoulder": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": 0.22499999403953552, "offsetZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": -0.08999999761581422, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 15,
+					"elements": {
+						"Silverback": {  },
+						"Rear": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": -0.08999999761581422, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": -0.08999999761581422, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -1.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"L_Arm_Shoulder": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": -0.22499999403953552, "offsetZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.08999999761581422, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 45,
+					"elements": {
+						"Silverback": {  },
+						"Rear": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.08999999761581422, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.08999999761581422, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Idle02",
+			"code": "idle02",
+			"quantityframes": 60,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Silverback": {  },
+						"Chest": { "offsetX": 0.0, "offsetY": 0.08999999761581422, "offsetZ": 0.0 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -1.4399999618530275, "offsetZ": 0.0, "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Forearm": { "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": 0.22499999403953552, "offsetZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": -0.08999999761581422, "offsetZ": 0.0 },
+						"Head_Brow_R": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0 },
+						"Head_Brow_L": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -0.9899999737739564, "offsetZ": 0.0, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Forearm": { "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 15,
+					"elements": {
+						"Silverback": {  },
+						"Rear": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": -0.08999999761581422, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": -0.08999999761581422, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -1.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Silverback": {  },
+						"Chest": { "offsetX": 0.0, "offsetY": -0.08999999761581422, "offsetZ": 0.0 },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": -0.22499999403953552, "offsetZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.08999999761581422, "offsetZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -1.3499999642372131, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 45,
+					"elements": {
+						"Silverback": {  },
+						"Rear": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.08999999761581422, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.08999999761581422, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Throw",
+			"code": "throw",
+			"quantityframes": 20,
+			"onActivityStopped": "PlayTillEnd",
+			"onAnimationEnd": "Stop",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Silverback": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Forearm": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": {  },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": 0.22499999403953552, "offsetZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": -0.08999999761581422, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Forearm": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits": {  },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Rear": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 5,
+					"elements": {
+						"Silverback": {  },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 30.0 },
+						"R_Arm_Shoulder": { "rotationX": 90.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Forearm": { "rotationX": -67.5, "rotationY": 0.0, "rotationZ": -45.0 },
+						"L_Arm_Shoulder": { "rotationX": -22.5, "rotationY": 0.0, "rotationZ": -22.5 },
+						"L_Arm_Forearm": { "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"Silverback": { "offsetX": 0.0, "offsetY": 2.6999999284744263, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"Rear": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 10.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": -0.44999998807907104, "offsetZ": 0.0, "rotationX": -10.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": -10.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest": { "rotationX": 15.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -2.6999999284744263, "offsetZ": 0.0, "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Forearm": { "rotationX": 67.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": {  },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.08999999761581422, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -112.5 },
+						"R_Arm_Forearm": { "rotationX": -15.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand": { "rotationX": 0.0, "rotationY": -90.0, "rotationZ": 0.0 },
+						"R_Hand_Digits": {  },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -90.0 },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": -0.22499999403953552, "offsetZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Sit01",
+			"code": "sit01",
+			"quantityframes": 60,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Silverback": { "offsetX": 1.7999999523162842, "offsetY": 2.6999999284744263, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -55.0 },
+						"Rear": { "offsetX": -1.3499999642372131, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 },
+						"L_Leg_Thigh": { "offsetX": -0.8999999761581421, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 90.0, "rotationZ": -45.0 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": -22.5, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": -1.7999999523162842, "offsetZ": -0.8999999761581421, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": -22.5 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 112.5 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 15.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -2.6999999284744263, "offsetZ": -1.7999999523162842, "rotationX": -45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Forearm": { "rotationX": 67.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -90.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -2.6999999284744263, "offsetZ": 0.8999999761581421, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": -15.0 },
+						"R_Arm_Forearm": { "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": 0.08999999761581422, "offsetZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.08999999761581422, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"L_Arm_Shoulder": {  },
+						"L_Arm_Forearm": {  },
+						"L_Hand": {  },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 }
+					}
+				},
+				{
+					"frame": 25,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"L_Arm_Shoulder": {  },
+						"L_Arm_Forearm": {  },
+						"L_Hand": {  },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": -0.08999999761581422, "offsetZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": -0.08999999761581422, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 40,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"R_Arm_Shoulder": {  },
+						"R_Arm_Forearm": {  },
+						"R_Hand": {  },
+						"R_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -5.0 }
+					}
+				},
+				{
+					"frame": 50,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"R_Arm_Shoulder": {  },
+						"R_Arm_Forearm": {  },
+						"R_Hand": {  },
+						"R_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Sit02",
+			"code": "sit02",
+			"quantityframes": 60,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Silverback": { "offsetX": 1.7999999523162842, "offsetY": 2.6999999284744263, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -55.0 },
+						"Rear": { "offsetX": -1.3499999642372131, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 },
+						"L_Leg_Thigh": { "offsetX": -0.8999999761581421, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 90.0, "rotationZ": -45.0 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": -22.5, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": -1.7999999523162842, "offsetZ": -0.8999999761581421, "rotationX": 45.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Leg_Calf": { "rotationX": -40.0, "rotationY": -75.0, "rotationZ": 22.5 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 15.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -2.6999999284744263, "offsetZ": -1.7999999523162842, "rotationX": -22.5, "rotationY": -22.5, "rotationZ": 0.0 },
+						"L_Arm_Forearm": { "rotationX": 67.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -90.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -2.6999999284744263, "offsetZ": 0.8999999761581421, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": -15.0 },
+						"R_Arm_Forearm": { "rotationX": -67.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": 0.08999999761581422, "offsetZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.08999999761581422, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": -0.08999999761581422, "offsetZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": -0.08999999761581422, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 40,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"R_Arm_Shoulder": {  },
+						"R_Arm_Forearm": {  },
+						"R_Hand": {  },
+						"R_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -5.0 }
+					}
+				},
+				{
+					"frame": 50,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"R_Arm_Shoulder": {  },
+						"R_Arm_Forearm": {  },
+						"R_Hand": {  },
+						"R_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Sit03",
+			"code": "sit03",
+			"quantityframes": 60,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Silverback": { "offsetX": 1.7999999523162842, "offsetY": 2.6999999284744263, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -55.0 },
+						"Rear": { "offsetX": -1.3499999642372131, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 },
+						"L_Leg_Thigh": { "offsetX": 0.44999998807907104, "offsetY": 0.8999999761581421, "offsetZ": 0.0 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": -22.5, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": -1.7999999523162842, "offsetZ": -0.8999999761581421, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -15.0 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 15.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Arm_Forearm": { "rotationX": 25.0, "rotationY": 0.0, "rotationZ": -25.0 },
+						"L_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -90.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Forearm": { "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": 0.08999999761581422, "offsetZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.08999999761581422, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": -0.08999999761581422, "offsetZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": -0.08999999761581422, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 40,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"R_Arm_Shoulder": {  },
+						"R_Arm_Forearm": {  },
+						"R_Hand": {  },
+						"R_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -5.0 }
+					}
+				},
+				{
+					"frame": 50,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"R_Arm_Shoulder": {  },
+						"R_Arm_Forearm": {  },
+						"R_Hand": {  },
+						"R_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Threaten",
+			"code": "threaten",
+			"quantityframes": 40,
+			"onActivityStopped": "PlayTillEnd",
+			"onAnimationEnd": "Stop",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Silverback": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Rear": {  },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Brow_R": { "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 22.5 },
+						"Head_Brow_L": { "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Forearm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Digits01": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Forearm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 6,
+					"elements": {
+						"Silverback": { "offsetX": -0.6749999821186066, "offsetY": 2.5199999332427976, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"Silverback": { "offsetX": -1.214999967813492, "offsetY": 4.4999998807907104, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"Silverback": { "offsetX": -4.049999892711639, "offsetY": 6.119999837875366, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -67.5 },
+						"Rear": {  },
+						"L_Leg_Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Leg_Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"Head_Base": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 1.7999999523162842, "rotationX": 0.0, "rotationY": -22.5, "rotationZ": -22.5 },
+						"L_Arm_Forearm": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 112.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": {  },
+						"L_Hand_Digits01": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": -1.7999999523162842, "rotationX": 0.0, "rotationY": 22.5, "rotationZ": -22.5 },
+						"R_Arm_Forearm": { "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand": {  },
+						"R_Hand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+						"Silverback": { "offsetX": -2.6999999284744263, "offsetY": 5.624999850988388, "offsetZ": 0.0 },
+						"Chest": {  },
+						"L_Arm_Shoulder": {  },
+						"L_Arm_Forearm": { "rotationX": 45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": {  },
+						"R_Arm_Forearm": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": -90.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 26,
+					"elements": {
+						"Silverback": { "offsetX": -0.8999999761581421, "offsetY": 4.274999886751175, "offsetZ": 0.0 },
+						"Chest": {  },
+						"R_Arm_Shoulder": {  },
+						"R_Arm_Forearm": { "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Shoulder": {  },
+						"L_Arm_Forearm": { "rotationX": 112.5, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 28,
+					"elements": {
+						"Silverback": { "offsetX": -0.6749999821186066, "offsetY": 3.5999999046325684, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Silverback": { "offsetX": -0.22499999403953552, "offsetY": 3.1499999165534973, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 36,
+					"elements": {
+						"Silverback": { "offsetX": -0.0, "offsetY": 1.2599999666213988, "offsetZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Attack",
+			"code": "attack",
+			"quantityframes": 40,
+			"onActivityStopped": "PlayTillEnd",
+			"onAnimationEnd": "Stop",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Silverback": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Rear": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Forearm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Digits01": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Brow_R": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Brow_L": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Forearm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"Silverback": { "offsetX": -2.6999999284744263, "offsetY": 4.4999998807907104, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 },
+						"Chest": { "rotationX": -5.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "rotationX": 0.0, "rotationY": -22.5, "rotationZ": -90.0 },
+						"R_Arm_Forearm": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": -67.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.8999999761581421, "rotationX": -67.5, "rotationY": -90.0, "rotationZ": 0.0 },
+						"R_Hand_Digits": {  },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Hand_Thumb": { "rotationX": 0.0, "rotationY": -22.5, "rotationZ": -22.5 },
+						"Head_Base": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"Head_Brow_R": { "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 22.5 },
+						"Head_Brow_L": { "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Arm_Shoulder": { "rotationX": 0.0, "rotationY": 22.5, "rotationZ": -180.0 },
+						"L_Arm_Forearm": { "offsetX": -0.8999999761581421, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 67.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": -0.8999999761581421, "rotationX": 45.0, "rotationY": 90.0, "rotationZ": 0.0 },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Hand_Thumb": { "rotationX": 0.0, "rotationY": 22.5, "rotationZ": 0.0 },
+						"Rear": { "rotationX": 5.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"L_Leg_Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 90.0 },
+						"R_Leg_Calf": {  },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+						"Silverback": { "offsetX": -1.7999999523162842, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"Chest": { "rotationX": 5.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Arm_Shoulder": { "rotationX": 0.0, "rotationY": -22.5, "rotationZ": -157.5 },
+						"L_Arm_Shoulder": { "rotationX": -22.5, "rotationY": 0.0, "rotationZ": -90.0 },
+						"Head_Base": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"Rear": { "rotationX": -5.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"L_Leg_Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"L_Leg_Calf": {  },
+						"L_Leg_PawHand": {  },
+						"L_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -10.0 },
+						"R_Leg_Thigh": { "rotationX": 10.0, "rotationY": 0.0, "rotationZ": 22.5 }
+					}
+				},
+				{
+					"frame": 26,
+					"elements": {
+						"Silverback": { "offsetX": -0.8999999761581421, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Arm_Shoulder": { "rotationX": 0.0, "rotationY": 22.5, "rotationZ": -157.5 },
+						"R_Arm_Shoulder": { "rotationX": 0.0, "rotationY": -22.5, "rotationZ": -90.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Sleep",
+			"code": "sleep",
+			"quantityframes": 60,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Silverback": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": -3.5999999046325684, "rotationX": -90.0, "rotationY": 5.0, "rotationZ": 0.0 },
+						"Rear": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": -0.8999999761581421, "rotationX": 0.0, "rotationY": 22.5, "rotationZ": 45.0 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand_Thumb": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": -0.44999998807907104, "rotationX": 0.0, "rotationY": -45.0, "rotationZ": 0.0 },
+						"Chest": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -1.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Forearm": { "rotationX": 90.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": {  },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
+						"Head_Brow_R": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Brow_L": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.8999999761581421, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"R_Arm_Forearm": { "offsetX": -1.7999999523162842, "offsetY": -1.7999999523162842, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -135.0 },
+						"R_Hand": { "rotationX": 0.0, "rotationY": -180.0, "rotationZ": 90.0 },
+						"R_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": -0.44999998807907104, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": 0.44999998807907104, "offsetZ": 0.0 },
+						"Head_Base": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -1.0 },
+						"L_Arm_Shoulder": { "rotationX": 1.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Death",
+			"code": "death",
+			"quantityframes": 60,
+			"onActivityStopped": "PlayTillEnd",
+			"onAnimationEnd": "Hold",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Silverback": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Rear": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Forearm": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Brow_R": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Brow_L": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Forearm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits": {  },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 6,
+					"elements": {
+						"Silverback": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": -15.0, "rotationZ": 0.0 },
+						"Rear": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"Chest": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -22.5, "rotationY": 0.0, "rotationZ": -112.5 },
+						"L_Arm_Forearm": { "rotationX": 0.0, "rotationY": -45.0, "rotationZ": -45.0 },
+						"L_Hand": { "rotationX": 0.0, "rotationY": 135.0, "rotationZ": 90.0 },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 90.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.8999999761581421, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"Head_Brow_L": { "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Brow_R": { "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"R_Arm_Forearm": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits": {  },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 13,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"R_Arm_Shoulder": {  },
+						"R_Arm_Forearm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -22.5, "rotationY": 0.0, "rotationZ": -45.0 },
+						"Rear": {  },
+						"L_Leg_Thigh": {  },
+						"L_Leg_Calf": { "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 16,
+					"elements": {
+						"Silverback": { "offsetX": 0.0, "offsetY": -6.299999833106995, "offsetZ": 0.0, "rotationX": -22.5, "rotationY": -22.5, "rotationZ": 0.0 },
+						"Rear": { "rotationX": 10.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": -1.7999999523162842, "rotationX": -67.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Calf": { "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "rotationX": -45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"Chest": { "rotationX": 15.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Arm_Shoulder": { "offsetX": 2.6999999284744263, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -112.5 },
+						"L_Arm_Forearm": { "rotationX": 45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": { "rotationX": 0.0, "rotationY": 67.5, "rotationZ": 0.0 },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 },
+						"L_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 90.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 1.7999999523162842, "rotationX": 90.0, "rotationY": -22.5, "rotationZ": -45.0 },
+						"R_Arm_Forearm": { "offsetX": 0.8999999761581421, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -90.0, "rotationY": -22.5, "rotationZ": -45.0 },
+						"Head_Base": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 }
+					}
+				},
+				{
+					"frame": 26,
+					"elements": {
+						"Silverback": { "offsetX": 0.0, "offsetY": -6.299999833106995, "offsetZ": 0.0, "rotationX": -22.5, "rotationY": -22.5, "rotationZ": 0.0 },
+						"Rear": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 10.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": -1.7999999523162842, "rotationX": -67.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Calf": { "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -12.5 },
+						"Chest": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 15.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Shoulder": { "offsetX": 2.6999999284744263, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -67.5 },
+						"L_Arm_Forearm": { "rotationX": 67.5, "rotationY": 0.0, "rotationZ": -10.0 },
+						"L_Hand": { "rotationX": 0.0, "rotationY": 67.5, "rotationZ": 0.0 },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 },
+						"L_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 90.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"Head_Brow_R": { "rotationX": -4.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Brow_L": { "rotationX": 4.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 1.7999999523162842, "rotationX": 45.0, "rotationY": -22.5, "rotationZ": -45.0 },
+						"R_Arm_Forearm": { "offsetX": 0.8999999761581421, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -90.0, "rotationY": -22.5, "rotationZ": -45.0 },
+						"R_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 46,
+					"elements": {
+						"Silverback": { "offsetX": 0.0, "offsetY": -4.9499998688697815, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": -22.5, "rotationZ": 0.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Shoulder": { "rotationX": 0.0, "rotationY": 22.5, "rotationZ": -112.5 },
+						"L_Arm_Forearm": { "rotationX": 67.5, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -15.0 },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -112.5 },
+						"L_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 45.0, "rotationY": -22.5, "rotationZ": -22.5 },
+						"R_Arm_Forearm": { "rotationX": -45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand": {  },
+						"R_Hand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -90.0 },
+						"Head_Base": { "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 22.5 },
+						"Head_Brow_R": { "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Brow_L": { "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Rear": {  },
+						"L_Leg_Thigh": {  },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Leg_Thigh": {  },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 90.0 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 }
+					}
+				},
+				{
+					"frame": 52,
+					"elements": {
+						"Silverback": { "offsetX": 0.0, "offsetY": -6.299999833106995, "offsetZ": 0.0, "rotationX": -22.5, "rotationY": -22.5, "rotationZ": 0.0 },
+						"Rear": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 10.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": -1.7999999523162842, "rotationX": -45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Calf": { "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 67.5 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -16.786 },
+						"Chest": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 15.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Arm_Shoulder": { "offsetX": 2.6999999284744263, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 22.5, "rotationZ": -112.5 },
+						"L_Arm_Forearm": { "rotationX": 45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": { "rotationX": 0.0, "rotationY": 67.5, "rotationZ": 0.0 },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 },
+						"L_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 90.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"Head_Brow_L": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Brow_R": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 1.7999999523162842, "rotationX": 90.0, "rotationY": -22.5, "rotationZ": -45.0 },
+						"R_Arm_Forearm": { "offsetX": 0.8999999761581421, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -90.0, "rotationY": -22.5, "rotationZ": -45.0 },
+						"R_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 59,
+					"elements": {
+						"Silverback": { "offsetX": 0.0, "offsetY": -6.299999833106995, "offsetZ": 0.0, "rotationX": -22.5, "rotationY": -22.5, "rotationZ": 0.0 },
+						"Rear": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 10.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": -1.7999999523162842, "rotationX": -45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Calf": { "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 67.5 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -16.786 },
+						"Chest": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 15.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Arm_Shoulder": { "offsetX": 2.6999999284744263, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 22.5, "rotationZ": -112.5 },
+						"L_Arm_Forearm": { "rotationX": 45.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": { "rotationX": 0.0, "rotationY": 67.5, "rotationZ": 0.0 },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 },
+						"L_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 90.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"Head_Brow_R": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Brow_L": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 1.7999999523162842, "rotationX": 90.0, "rotationY": -22.5, "rotationZ": -45.0 },
+						"R_Arm_Forearm": { "offsetX": 0.8999999761581421, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -90.0, "rotationY": -22.5, "rotationZ": -45.0 },
+						"R_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Eat",
+			"code": "eat",
+			"quantityframes": 16,
+			"onActivityStopped": "PlayTillEnd",
+			"onAnimationEnd": "Stop",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Forearm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits": {  },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 8,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 22.5, "rotationY": 0.0, "rotationZ": -67.5 },
+						"R_Arm_Forearm": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": -112.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand": { "rotationX": 0.0, "rotationY": -45.0, "rotationZ": 0.0 },
+						"Head_Base": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Hurt",
+			"code": "hurt",
+			"quantityframes": 25,
+			"onActivityStopped": "PlayTillEnd",
+			"onAnimationEnd": "Stop",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Silverback": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Rear": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Forearm": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Brow_R": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Brow_L": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Forearm": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits": {  },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 3,
+					"elements": {
+						"Silverback": { "rotationX": 0.0, "rotationY": -22.5, "rotationZ": 0.0 },
+						"Chest": { "rotationX": -10.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "rotationX": 0.0, "rotationY": -22.5, "rotationZ": 0.0 },
+						"Head_Brow_R": { "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Brow_L": { "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "rotationX": 22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Forearm": { "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Rear": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "rotationX": 5.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Calf": { "rotationX": -5.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "rotationX": 5.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Calf": { "rotationX": -5.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Lay01",
+			"code": "lay01",
+			"quantityframes": 60,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Silverback": { "offsetX": 0.0, "offsetY": 5.3999998569488525, "offsetZ": 0.0, "rotationX": -180.0, "rotationY": 0.0, "rotationZ": -10.0 },
+						"Rear": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.8999999761581421, "offsetY": -3.5999999046325684, "offsetZ": -0.8999999761581421, "rotationX": 0.0, "rotationY": -45.0, "rotationZ": 75.0 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 90.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 100.0 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"L_Arm_Shoulder": { "offsetX": -0.44999998807907104, "offsetY": -2.6999999284744263, "offsetZ": -1.3499999642372131, "rotationX": -22.5, "rotationY": -10.0, "rotationZ": 22.5 },
+						"L_Arm_Forearm": { "offsetX": -0.8999999761581421, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 25.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand": {  },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 2.6999999284744263, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": 3.5999999046325684, "offsetZ": 1.7999999523162842, "rotationX": 0.0, "rotationY": 157.5, "rotationZ": 90.0 },
+						"R_Arm_Forearm": { "rotationX": 90.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": -0.8999999761581421, "rotationX": 67.5, "rotationY": 90.0, "rotationZ": 0.0 },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": 0.22499999403953552, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 15,
+					"elements": {
+						"Silverback": {  },
+						"Rear": {  },
+						"R_Leg_Thigh": {  },
+						"R_Leg_Calf": {  },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": -0.22499999403953552, "offsetZ": 0.0 },
+						"L_Arm_Shoulder": {  },
+						"L_Arm_Forearm": {  },
+						"L_Hand": {  },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 },
+						"Rear": {  },
+						"L_Leg_Thigh": { "rotationX": 0.0, "rotationY": -45.0, "rotationZ": 67.5 },
+						"L_Leg_Calf": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 112.5 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 10.0 }
+					}
+				},
+				{
+					"frame": 45,
+					"elements": {
+						"Silverback": {  },
+						"Rear": {  },
+						"R_Leg_Thigh": {  },
+						"R_Leg_Calf": {  },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Lay02",
+			"code": "lay02",
+			"quantityframes": 60,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Silverback": { "offsetX": 0.0, "offsetY": -6.299999833106995, "offsetZ": 0.0, "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Rear": { "rotationX": 10.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"Chest": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 15.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"L_Arm_Forearm": { "rotationX": 90.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 },
+						"R_Arm_Forearm": { "rotationX": -90.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits": {  },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": -0.44999998807907104, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 15,
+					"elements": {
+						"Silverback": {  },
+						"Rear": {  },
+						"R_Leg_Thigh": {  },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"Chest": {  },
+						"Head_Base": { "rotationX": -10.0, "rotationY": 5.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Silverback": { "offsetX": 0.0, "offsetY": -6.299999833106995, "offsetZ": 0.0, "rotationX": -22.5, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Rear": { "rotationX": 10.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"Chest": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 15.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.5 },
+						"L_Arm_Forearm": { "rotationX": 90.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -45.0 },
+						"R_Arm_Forearm": { "rotationX": -90.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits": {  },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": 0.44999998807907104, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 45,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"Head_Base": { "rotationX": 10.0, "rotationY": -5.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "Climb",
+			"code": "climb",
+			"quantityframes": 30,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Silverback": { "offsetX": -5.3999998569488525, "offsetY": -2.6999999284744263, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -112.5 },
+						"Rear": { "rotationX": 0.0, "rotationY": -5.0, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"L_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 90.0 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": -5.0, "rotationZ": 67.5 },
+						"L_Arm_Shoulder": { "offsetX": 2.6999999284744263, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -22.5, "rotationY": 45.0, "rotationZ": -90.0 },
+						"L_Arm_Forearm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 67.5, "rotationZ": 90.0 },
+						"L_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -10.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 67.5, "rotationY": -67.5, "rotationZ": 0.0 },
+						"R_Arm_Forearm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"R_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits": {  },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 6,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"Head_Base": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 25.0 }
+					}
+				},
+				{
+					"frame": 10,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"L_Arm_Shoulder": { "rotationX": -45.0, "rotationY": 0.0, "rotationZ": -45.0 },
+						"L_Arm_Forearm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.8999999761581421, "rotationX": 90.0, "rotationY": 90.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+						"Silverback": {  },
+						"Rear": { "rotationX": 0.0, "rotationY": 5.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 40.0 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"L_Leg_Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 67.5 },
+						"R_Arm_Shoulder": { "rotationX": 67.5, "rotationY": 22.5, "rotationZ": -67.5 },
+						"R_Arm_Forearm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": -0.8999999761581421, "rotationX": 0.0, "rotationY": -135.0, "rotationZ": 90.0 },
+						"L_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -3.5999999046325684, "offsetZ": 0.0, "rotationX": -22.5, "rotationY": -22.5, "rotationZ": 0.0 },
+						"L_Arm_Forearm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.8999999761581421, "rotationX": 22.5, "rotationY": 67.5, "rotationZ": 0.0 },
+						"Head_Base": { "rotationX": 10.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 26,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"Head_Base": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 25.0 }
+					}
+				}
+			]
+		},
+
+		{
+			"name": "ClimbIdle",
+			"code": "climbidle",
+			"quantityframes": 60,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"Silverback": { "offsetX": -5.3999998569488525, "offsetY": -2.6999999284744263, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -112.5 },
+						"Rear": { "rotationX": 0.0, "rotationY": -0.263, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 66.32 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 66.316 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 43.816 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": -2.632, "rotationZ": 67.5 },
+						"L_Arm_Shoulder": { "offsetX": 1.4210525939339085, "offsetY": -1.70526311272069, "offsetZ": 0.0, "rotationX": -45.0, "rotationY": 0.0, "rotationZ": -45.0 },
+						"L_Arm_Forearm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.8999999761581421, "rotationX": 90.0, "rotationY": 90.0, "rotationZ": 0.0 },
+						"L_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 2.86, "rotationY": 0.0, "rotationZ": 17.86 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 45.0, "rotationY": -24.87, "rotationZ": -31.97 },
+						"R_Arm_Forearm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": -0.8999999761581421, "rotationX": 0.0, "rotationY": -63.947, "rotationZ": 78.158 },
+						"R_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits": {  },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": 0.44999998807907104, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 5,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"Head_Base": { "rotationX": 22.5, "rotationY": -10.0, "rotationZ": 22.5 }
+					}
+				},
+				{
+					"frame": 25,
+					"elements": {
+						"Silverback": { "offsetX": -5.3999998569488525, "offsetY": -2.6999999284744263, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -112.5 },
+						"Rear": { "rotationX": 0.0, "rotationY": -0.263, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 66.32 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 66.316 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 43.816 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": -2.632, "rotationZ": 67.5 },
+						"L_Arm_Shoulder": { "offsetX": 1.4210525939339085, "offsetY": -1.70526311272069, "offsetZ": 0.0, "rotationX": -45.0, "rotationY": 0.0, "rotationZ": -45.0 },
+						"L_Arm_Forearm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.8999999761581421, "rotationX": 90.0, "rotationY": 90.0, "rotationZ": 0.0 },
+						"L_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 22.5, "rotationY": -10.0, "rotationZ": 22.5 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 45.0, "rotationY": -24.87, "rotationZ": -31.97 },
+						"R_Arm_Forearm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": -0.8999999761581421, "rotationX": 0.0, "rotationY": -63.947, "rotationZ": 78.158 },
+						"R_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits": {  },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"Chest_Puff": { "offsetX": 0.0, "offsetY": -0.44999998807907104, "offsetZ": 0.0 },
+						"Head_Base": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.5 }
+					}
+				},
+				{
+					"frame": 35,
+					"elements": {
+						"Silverback": {  },
+						"Chest": {  },
+						"Head_Base": { "rotationX": -22.5, "rotationY": 10.0, "rotationZ": 22.5 }
+					}
+				},
+				{
+					"frame": 55,
+					"elements": {
+						"Silverback": { "offsetX": -5.3999998569488525, "offsetY": -2.6999999284744263, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -112.5 },
+						"Rear": { "rotationX": 0.0, "rotationY": -0.263, "rotationZ": 0.0 },
+						"L_Leg_Thigh": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 66.32 },
+						"L_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 45.0 },
+						"L_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_Thigh": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 66.316 },
+						"R_Leg_Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 43.816 },
+						"R_Leg_PawHand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand_Digits": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Leg_PawHand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": -2.632, "rotationZ": 67.5 },
+						"L_Arm_Shoulder": { "offsetX": 1.4210525939339085, "offsetY": -1.70526311272069, "offsetZ": 0.0, "rotationX": -45.0, "rotationY": 0.0, "rotationZ": -45.0 },
+						"L_Arm_Forearm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.8999999761581421, "rotationX": 90.0, "rotationY": 90.0, "rotationZ": 0.0 },
+						"L_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Digits01": {  },
+						"L_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"L_Hand_Thumb": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Head_Base": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -22.5, "rotationY": 10.0, "rotationZ": 22.5 },
+						"R_Arm_Shoulder": { "offsetX": 0.0, "offsetY": -0.8999999761581421, "offsetZ": 0.0, "rotationX": 45.0, "rotationY": -24.87, "rotationZ": -31.97 },
+						"R_Arm_Forearm": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": -0.8999999761581421, "rotationX": 0.0, "rotationY": -63.947, "rotationZ": 78.158 },
+						"R_Hand": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"R_Hand_Digits": {  },
+						"R_Hand_Digits02": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		}
+	]
+}

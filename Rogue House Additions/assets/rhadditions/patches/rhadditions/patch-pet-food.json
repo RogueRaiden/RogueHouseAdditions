@@ -1,0 +1,35 @@
+[
+    {
+        "op": "add",
+        "path": "/behaviors",
+        "value": [
+            {
+                "name": "considerpetfood"
+            }
+        ],
+        "file": "game:itemtypes/food/fruit.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "add",
+        "path": "/behaviors",
+        "value": [
+            {
+                "name": "considerpetfood"
+            }
+        ],
+        "file": "game:itemtypes/food/insect.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    },
+    {
+        "op": "add",
+        "path": "/behaviors",
+        "value": [
+            {
+                "name": "considerpetfood"
+            }
+        ],
+        "file": "game:blocktypes/plant/flower.json",
+        "dependsOn": [ { "modid": "petai" } ]
+    }
+]

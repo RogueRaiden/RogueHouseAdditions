@@ -1,0 +1,19 @@
+{
+	"ingredient": {
+		"type": "item",
+		"code": "game:ingot-*",
+		"name": "metal",
+		"allowedVariants": [ "copper" ]
+	},
+	"pattern": [
+		[
+			"##########",
+			"##########"
+		]
+	],
+	"name": "Flat bar",
+	"output": {
+		"type": "item",
+		"code": "rhadditions:flatbar-{metal}"
+	}
+}

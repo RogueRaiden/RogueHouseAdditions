@@ -1,0 +1,66 @@
+{
+    "code": "resonancearchive",
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [ "fall-o'-croft", "midnight", "adventuring", "safety-of-a-warm-fire", "building", "creating", "daylight" ]
+        }
+    ],
+    "attributes": {
+        "isPlayableDisc": true,
+        "moldrackable": true,
+        "onmoldrackTransform": {
+            "translation": {
+                "x": 0.73,
+                "y": -0.25,
+                "z": -0.2
+            },
+            "rotation": {
+                "x": 90,
+                "y": 98,
+                "z": 0
+            },
+            "origin": {
+                "x": -0.23,
+                "y": 0.35,
+                "z": 0.7
+            },
+            "scale": 0.80
+        },
+        "musicTrackByType": {
+            "*-fall-o'-croft": "game:music/fall-o'-croft.ogg",
+            "*-midnight": "game:music/midnight.ogg",
+            "*-adventuring": "game:music/adventuring.ogg",
+            "*-safety-of-a-warm-fire": "game:music/safety-of-a-warm-fire.ogg",
+            "*-building": "game:music/building.ogg",
+            "*-creating": "game:music/creating.ogg",
+            "*-daylight": "game:music/daylight.ogg"
+        }
+    },
+    "maxstacksize": 1,
+    "shape": { "base": "item/resource/resonancearchive" },
+    "textures": { "resonancearchive": { "base": "item/resource/resonancearchives/{type}" } },
+    "creativeinventory": {
+        "general": [ "*" ],
+        "items": [ "*" ],
+        "rhadditions": [ "*" ]
+    },
+    "guiTransform": {
+        "translation": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 51,
+            "y": -14,
+            "z": 36
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+        },
+        "scale": 1.55
+    }
+}

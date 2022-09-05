@@ -1,0 +1,11 @@
+[
+    {
+        "op": "add",
+        "path": "/drops/-",
+        "value": {
+            "type": "item",
+            "code": "insect-grub"
+        },
+        "file": "game:entities/land/grub.json"
+    }
+]

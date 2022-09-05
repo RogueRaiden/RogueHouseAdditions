@@ -1,0 +1,51 @@
+[
+    {
+        "op": "replace",
+        "path": "/attributes/handbook/exclude",
+        "value": false,
+        "file": "game:blocktypes/paperlantern.json"
+    },
+    {
+        "op": "replace",
+        "path": "/blockmaterial",
+        "value": "Cloth",
+        "file": "game:blocktypes/paperlantern.json"
+    },
+    {
+        "op": "replace",
+        "path": "/lightHsvByType",
+        "value": {
+            "*-off": [ 0, 0, 0 ],
+            "*-on": [ 7, 7, 14 ]
+        },
+        "file": "game:blocktypes/paperlantern.json"
+    },
+    {
+        "op": "remove",
+        "path": "/vertexFlags",
+        "file": "game:blocktypes/paperlantern.json"
+    },
+    {
+        "op": "add",
+        "path": "/vertexFlagsByType",
+        "value": {
+            "*-off": {
+                "glowLevel": 1
+            },
+            "*-on": {
+                "glowLevel": 92
+            }
+        },
+        "file": "game:blocktypes/paperlantern.json"
+    },
+    {
+        "op": "replace",
+        "path": "/sounds",
+        "value": {
+            "place": "game:block/leather",
+            "break": "game:block/leather",
+            "hit": "game:block/leather"
+        },
+        "file": "game:blocktypes/paperlantern.json"
+    }
+]

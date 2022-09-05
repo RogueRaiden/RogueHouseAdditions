@@ -1,0 +1,23 @@
+[
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/5/currenthealth",
+		"value": 10,
+		"file": "cats:entities/land/cat-kitten.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/5/maxhealth",
+		"value": 10,
+		"file": "cats:entities/land/cat-kitten.json"
+	},
+    { 
+		"op": "replace",
+		"path": "/server/behaviors/12/aitasks/1/entityCodes",
+		"value": [
+			"wolf-*",
+            "fox-*"
+		],
+		"file": "cats:entities/land/cat-kitten.json"
+	}
+]
