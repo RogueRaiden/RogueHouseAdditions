@@ -1,15 +1,30 @@
 [
     {
-        "op": "add",
-        "enabled": false,
+        "op": "addeach",
         "path": "/structures/-",
-        "value": {
-            "code": "rhstatues",
-            "chance": 0.025,
-            "schematics": [ "overground/civicruins/prtcv2" ],
-            "replacewithblocklayers": [ "soil-low-normal", "soil-low-none" ],
-            "offsetY": -1
-        },
-        "file": "game:worldgen/structures.json"
+        "value": [
+            {
+                "code": "rh-gravesite",
+                "name": "gravesite",
+                "chance": 0.15,
+                "offsetY": -4,
+                "minTemp": "2",
+                "schematics": [ "rhadditions/gravesite/*" ],
+                "replacewithblocklayers": [ "soil-low-normal", "soil-low-none", "soil-medium-normal" ],
+                "placement": "surface"
+            },
+            {
+                "code": "rh-smallsurfaceruins",
+                "name": "small surface ruins",
+                "chance": 0.25,
+                "offsetY": -2,
+                "minTemp": "2",
+                "schematics": [ "rhadditions/smallsurfaceruins/*" ],
+                "replacewithblocklayers": [ "soil-low-normal", "soil-low-none", "soil-medium-normal" ],
+                "placement": "surface"
+            }
+        ],
+        "file": "game:worldgen/structures.json",
+        "side": "Server"
     }
 ]

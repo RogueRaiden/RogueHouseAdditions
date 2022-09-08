@@ -3,12 +3,14 @@
 		"op": "add",
 		"path": "/enabled",
 		"value": false,
-		"file": "game:recipes/grid/soil-compost.json"
+		"file": "game:recipes/grid/soil-compost.json",
+		"side": "Server"
 	},
 	{
 		"op": "add",
 		"path": "/enabled",
 		"value": false,
-		"file": "game:recipes/grid/toolrack.json"
+		"file": "game:recipes/grid/toolrack.json",
+		"side": "Server"
 	}
 ]

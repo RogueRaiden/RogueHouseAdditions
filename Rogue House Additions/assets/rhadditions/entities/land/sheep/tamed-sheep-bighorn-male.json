@@ -411,12 +411,12 @@
 			},
 			{
 				"code": "health",
-				"currenthealth": 30,
-				"maxhealth": 30
+				"currenthealth": 23,
+				"maxhealth": 23
 			},
 			{
 				"code": "deaddecay",
-				"hoursToDecay": 96,
+				"hoursToDecay": 720,
 				"decayedBlock": "carcass-medium"
 			},
 			{

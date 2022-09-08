@@ -132,8 +132,8 @@
 		"behaviors": [
 			{
 				"code": "health",
-				"currenthealth": 40,
-				"maxhealth": 40
+				"currenthealth": 18,
+				"maxhealth": 18
 			},
 			{ "code": "breathe" },
 			{

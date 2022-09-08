@@ -395,7 +395,7 @@
 			},
 			{
 				"code": "deaddecay",
-				"hoursToDecay": 96,
+				"hoursToDecay": 720,
 				"decayedBlock": "carcass-small"
 			},
 			{

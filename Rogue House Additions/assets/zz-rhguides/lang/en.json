@@ -1,42 +1,5 @@
 {
-    "_comment1": "REMOVED THINGS **********************",
-
-    "necessaries:block-mailbox-*": "Has fallen to the Rot...",
-    "necessaries:block-parcel-*": "Has fallen to the Rot...",
-    "necessaries:block-toolmold-burned-mailflag": "Has fallen to the Rot...",
-    "necessaries:block-toolmold-raw-mailflag": "Has fallen to the Rot...",
-    "necessaries:item-mailflag": "Has fallen to the Rot...",
-    
-    "zeekea:block-dummy-*": "Has fallen to the Rot...",
-    "zeekea:block-toolmold-*": "Has fallen to the Rot...",
-    "zeekea:block-wallpanel-*": "Has fallen to the Rot...",
-    "zeekea:-block-armchair-*": "Has fallen to the Rot...",
-    "zeekea:-block-barchair-*": "Has fallen to the Rot...",
-    "zeekea:-block-fancychair-*": "Has fallen to the Rot...",
-    "zeekea:-block-fancychairwooden-*": "Has fallen to the Rot...",
-    "zeekea:block-linen-*": "Has fallen to the Rot...",
-    "zeekea:block-torchlamp-*": "Has fallen to the Rot...",
-    "zeekea:block-nightlamp-*": "Has fallen to the Rot...",
-    "zeekea:block-winerack-*": "Has fallen to the Rot...",
-
-
-    "zeekea:item-wallpiece-*": "Has fallen to the Rot...",
-    "zeekea:item-wallpanelbase-*": "Has fallen to the Rot...",
-    "zeekea:item-icepick-*": "Has fallen to the Rot...",
-    "zeekea:item-icepickhead-*": "Has fallen to the Rot...",
-    "zeekea:item-ironthingie-*": "Has fallen to the Rot...",
-    "zeekea:item-lampstand-*": "Has fallen to the Rot...",
-    "zeekea:item-doorbell-*": "Has fallen to the Rot...",
-
-    "snowballmod:item-*": "Has fallen to the Rot...",
-
-    "tradeomat:block-toolmold-*": "Has fallen to the Rot...",
-    "tradeomat:block-coinspile-*": "Has fallen to the Rot...",
-    "tradeomat:item-coin-*": "Has fallen to the Rot...",
-    
-    
-    
-    "_comment2": "CLAIMS GUIDE **********************",
+    "_comment1": "CLAIMS GUIDE **********************",
 
     "claimsguide-title": "Server Mechanic: Claims & Land Ownership",
     "claimsguide-text": "<strong>Claims & Land Ownership Guide</strong>
@@ -80,26 +43,26 @@ First, load your claim with <strong>/land claim load [index]</strong>.
 
 
 
-    "_comment3": "TAMING GUIDE **********************",
+    "_comment2": "TAMING GUIDE **********************",
 
-    "pettamingguide-title":"Taming Guide: Pet Ownership - Cats & Dogs",
+    "pettamingguide-title":"Taming Guide: Pet Ownership & Care",
     "pettamingguide-text":"<strong>Pet Ownership Guide - How to tame a creature</strong>
 <i>A Seraph's best friend.</i>
 
-    Owning a pet can be rewarding in all sorts of ways. Cats frighten weaker Drifters so much they cower in fear. Dogs will protect you from evil, and can even carry your burdens. <i>\"Who's a good boy!?!\"</i>
+    Owning a pet can be rewarding in all sorts of ways. Bighorn Sheep can be ridden, allowing for faster travel across the land. Cats frighten weaker Drifters so much they cower in fear. Dogs will protect you from evil, and even carry your burdens. <i>\"Who's a good boy!?!\"</i>
     
-    Obtaining one of these pets is rather simple: Locate a cat or wolf pup in the wild, and feed it some fresh raw meat! Any raw meat will do. Red meat and Poultry being the best, Bushmeat and Bones being the worst. If you cannot find these creatures out in the wild, cats and dog pups can be purchased at select Traders!
+    Obtaining a pet is rather simple: In the wild or in your animal pen, find a creature's offspring and feed it something it likes. You can tell when an animal is tamable with the feeding tooltip above them. This will also show things the animal likes. When fed, you'll receive a message with the tame progess.
     
-    Once tamed, you will be prompted to name your new best friend. Continuing to feed them will increase their Obedience level. Most commands can only be executed once a certain level of obedience is reached. Crouch + right-click on your pet to get a listing of all available commands. The <a href=\"handbooksearch://pet whistle\">Pet whistle</a> allows you to issue commands from a distance.
+    Once tamed, you will be prompted to name your new best friend. Continuing to feed them will increase their Obedience level. Most commands can only be executed once a certain level of obedience is reached. Press your Sprint Key + right-click on your pet to get a listing of all available commands. The <a href=\"handbooksearch://pet whistle\">Pet whistle</a> allows you to issue commands from a distance.
     
-    When tired, your pets will prefer sleeping in certain spots, such as blocks covered by linen or rush mats and beds. There are a few <a href=\"handbooksearch://dog toy or dog collar or dog scarf or dog armor or dog helmet or dog backpack\">accessories</a> available to aid you in making your pet a little bit more dapper looking.
+    When tired, your pets will prefer sleeping in certain spots, such as linen, rush mats and cushions. There are a few <a href=\"handbooksearch://dog toy or dog collar or dog scarf or dog armor or dog helmet or dog backpack\">accessories</a> available to aid you in making your pet a little bit more dapper looking.
     
-    Be careful and protect your Pets, as they <i>can</i> die, <i>and will not respawn!</i> If your pet does die, their corpse will persist for about 60 days before they rot away. That will give you grieving owners plenty of time to secure a <a href=\"handbooksearch://temporal gear\">Temporal Gear</a> to revive your pet, keeping them in this realm for a while longer.",
+    Be careful and protect your Pets, as they <i>can</i> die, <i>and will not respawn!</i> If your pet does die, their corpse will persist for about 30 days before they rot away. That will give you grieving owners plenty of time to secure a <a href=\"handbooksearch://poultice or bandage\">Poultice or Bandage</a> to revive your pet, keeping them in this realm for a while longer.",
 
 
 
     
-    "_comment4": "GROUPS GUIDE **********************",
+    "_comment3": "GROUPS GUIDE **********************",
     "chatgroupsguide-title": "Server Mechanic: Player Chat Groups",
     "chatgroupsguide-text": "<strong>Player Chat Groups Guide</strong>
 <i>For all of my Friends; Me, Myself and I.</i>

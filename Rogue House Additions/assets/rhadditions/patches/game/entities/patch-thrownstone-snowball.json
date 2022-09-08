@@ -1,0 +1,70 @@
+[
+    {
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "snowball",
+        "file": "game:entities/thrownstone.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/client/textures",
+        "file": "game:entities/thrownstone.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/client/texturesByType",
+        "value": {
+            "*-snowball": { "material": { "base": "block/snow/normal1" } },
+            "*": { "material": { "base": "block/stone/rock/{rock}1" } }
+        },
+        "file": "game:entities/thrownstone.json",
+        "side": "Server"
+    },
+
+    {
+        "op": "remove",
+        "path": "/client/shape",
+        "file": "game:entities/thrownstone.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/client/shapeByType",
+        "value": {
+            "*-snowball": { "base": "rhadditions:item/resource/ball" },
+            "*": { "base": "item/stone" }
+        },
+        "file": "game:entities/thrownstone.json",
+        "side": "Server"
+    },
+
+    {
+        "op": "remove",
+        "path": "/attributes",
+        "file": "game:entities/thrownstone.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType",
+        "value": {
+            "*-snowball": {
+                "physics": {
+                    "groundDragFactor": 1,
+                    "airDragFactor": 0.15,
+                    "gravityFactor": 0.05
+                }
+            },
+            "*": {
+                "physics": {
+                    "groundDragFactor": 1,
+                    "airDragFactor": 0.25
+                }
+            }
+        },
+        "file": "game:entities/thrownstone.json",
+        "side": "Server"
+    }
+]

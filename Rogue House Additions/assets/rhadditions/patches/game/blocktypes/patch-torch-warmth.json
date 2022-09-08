@@ -2,23 +2,37 @@
     {
         "op": "add",
         "path": "/behaviorsbyType/*-lit-*/-",
-        "value": { 
-            "name": "HeatSource", "properties": { "heatStrength": 2 } 
+        "value": {
+            "name": "HeatSource",
+            "properties": { "heatStrength": 2 }
         },
-        "file": "game:blocktypes/wood/torch.json"
+        "file": "game:blocktypes/wood/torch.json",
+        "side": "Server"
     },
     {
         "op": "remove",
         "path": "/behaviors",
-        "file": "game:blocktypes/metal/torchholder.json"
+        "file": "game:blocktypes/metal/torchholder.json",
+        "side": "Server"
     },
     {
         "op": "add",
         "path": "/behaviorsByType",
         "value": {
-            "*-filled-*": [ { "name": "HeatSource", "properties": { "heatStrength": 2 } } ],
-            "*": [ { "name": "HorizontalAttachable", "properties": { "handleDrops": false } } ]
+            "*-filled-*": [
+                {
+                    "name": "HeatSource",
+                    "properties": { "heatStrength": 2 }
+                }
+            ],
+            "*": [
+                {
+                    "name": "HorizontalAttachable",
+                    "properties": { "handleDrops": false }
+                }
+            ]
         },
-        "file": "game:blocktypes/metal/torchholder.json"
+        "file": "game:blocktypes/metal/torchholder.json",
+        "side": "Server"
     }
 ]

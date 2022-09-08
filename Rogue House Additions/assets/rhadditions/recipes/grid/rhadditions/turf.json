@@ -3,7 +3,7 @@
     "ingredients": {
         "D": {
             "type": "item",
-            "code": "rhadditions:powder-temporal"
+            "code": "game:gear-temporal"
         },
         "G": {
             "type": "item",

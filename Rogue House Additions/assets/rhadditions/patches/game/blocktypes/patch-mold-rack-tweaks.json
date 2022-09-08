@@ -3,7 +3,8 @@
 		"op": "add",
 		"path": "/enabled",
 		"value": false,
-		"file": "game:recipes/grid/moldrack.json"
+		"file": "game:recipes/grid/moldrack.json",
+		"side": "Server"
 	},
 	{
 		"op": "add",
@@ -12,6 +13,7 @@
 			"wood": { "base": "game:block/wood/debarked/oak" },
 			"surface": { "base": "game:block/wood/debarked/oak" }
 		},
-		"file": "game:blocktypes/wood/moldrack.json"
+		"file": "game:blocktypes/wood/moldrack.json",
+		"side": "Server"
 	}
 ]

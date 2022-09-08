@@ -15,7 +15,8 @@
             "tamed-fox-arctic-female"
         ],
         "file": "game:entities/land/wolf-female.json",
-        "dependsOn": [ { "modid": "petai" } ]
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
     },
     {
         "op": "addeach",
@@ -33,7 +34,8 @@
             "tamed-fox-arctic-female"
         ],
         "file": "game:entities/land/wolf-female.json",
-        "dependsOn": [ { "modid": "petai" } ]
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
     },
     {
         "op": "addeach",
@@ -51,6 +53,7 @@
             "tamed-fox-arctic-female"
         ],
         "file": "game:entities/land/wolf-female.json",
-        "dependsOn": [ { "modid": "petai" } ]
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
     }
 ]

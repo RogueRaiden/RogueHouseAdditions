@@ -334,7 +334,7 @@
 			},
 			{
 				"code": "deaddecay",
-				"hoursToDecay": 96,
+				"hoursToDecay": 720,
 				"decayedBlock": "carcass-small"
 			},
 			{
@@ -378,7 +378,7 @@
 			{
 				"code": "raisable",
 				"hoursToGrow": 336,
-				"adultEntityCodes": [ "tamed-sheep-bighorn-male", "tamed-sheep-bighorn-female" ]
+				"adultEntityCodes": [ "rhadditions:tamed-sheep-bighorn-male", "rhadditions:tamed-sheep-bighorn-female" ]
 			},
 			{
 				"code": "taskai",

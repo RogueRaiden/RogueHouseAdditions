@@ -301,12 +301,12 @@
 			},
 			{
 				"code": "health",
-				"currenthealth": 8,
-				"maxhealth": 8
+				"currenthealth": 4,
+				"maxhealth": 4
 			},
 			{
 				"code": "deaddecay",
-				"hoursToDecay": 96,
+				"hoursToDecay": 720,
 				"decayedBlock": "carcass-tiny"
 			},
 			{
@@ -320,7 +320,7 @@
 			{ "code": "breathe" },
 			{
 				"hoursToGrow": 336,
-				"adultEntityCodes": [ "tamed-raccoon-male", "tamed-raccoon-female" ],
+				"adultEntityCodes": [ "rhadditions:tamed-raccoon-male", "rhadditions:tamed-raccoon-female" ],
 				"code": "grow"
 			},
 			{

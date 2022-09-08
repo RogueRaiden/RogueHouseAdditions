@@ -98,8 +98,8 @@
 			},
 			{
 				"code": "health",
-				"currenthealth": 65,
-				"maxhealth": 65
+				"currenthealth": 72,
+				"maxhealth": 72
 			},
 			{
 				"code": "floatupwhenstuck",

@@ -1,66 +1,48 @@
 [
     {
-        "op": "add",
+        "op": "addeach",
         "path": "/-",
-        "value": {
-            "code": "weaponexpert",
-            "type": "positive",
-            "attributes": {
-                "meleeWeaponsDamage": 0.15,
-                "rangedWeaponsDamage": 0.15,
-                "rangedWeaponsAcc": 0.35,
-                "bowDrawingStrength": 0.15
+        "value": [
+            {
+                "code": "weaponexpert",
+                "type": "positive",
+                "attributes": {
+                    "meleeWeaponsDamage": 0.15,
+                    "rangedWeaponsDamage": 0.15,
+                    "rangedWeaponsAcc": 0.35,
+                    "bowDrawingStrength": 0.15
+                }
+            },
+            {
+                "code": "outlaw",
+                "type": "negative",
+                "attributes": {
+                    "hungerrate": 0.12,
+                    "maxhealthExtraPoints": -3
+                }
+            },
+            {
+                "code": "hasty",
+                "type": "negative",
+                "attributes": {
+                    "animalLootDropRate": -0.15,
+                    "oreDropRate": -0.15
+                }
+            },
+            {
+                "code": "sneaky",
+                "type": "positive",
+                "attributes": {
+                    "animalSeekingRange": -0.50
+                }
+            },
+            {
+                "code": "skyforge",
+                "type": "positive",
+                "attributes": {
+                }
             }
-        },
-        "file": "game:config/traits.json"
-    },
-    {
-        "op": "add",
-        "path": "/-",
-        "value": {
-            "code": "outlaw",
-            "type": "negative",
-            "attributes": {
-                "hungerrate": 0.12,
-                "maxhealthExtraPoints": -3
-            }
-        },
-        "file": "game:config/traits.json"
-    },
-    {
-        "op": "add",
-        "path": "/-",
-        "value": {
-            "code": "hasty",
-            "type": "negative",
-            "attributes": {
-                "animalLootDropRate": -0.15,
-                "oreDropRate": -0.15
-            }
-        },
-        "file": "game:config/traits.json"
-    },
-    {
-        "op": "add",
-        "path": "/-",
-        "value": {
-            "code": "sneaky",
-            "type": "positive",
-            "attributes": {
-                "animalSeekingRange": -0.50
-            }
-        },
-        "file": "game:config/traits.json"
-    },
-    {
-        "op": "add",
-        "path": "/-",
-        "value": {
-            "code": "skyforge",
-            "type": "positive",
-            "attributes": {
-            }
-        },
+        ],
         "file": "game:config/traits.json"
     }
 ]

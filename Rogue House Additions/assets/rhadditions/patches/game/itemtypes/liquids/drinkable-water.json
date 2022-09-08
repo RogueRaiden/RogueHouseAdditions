@@ -6,6 +6,7 @@
 			"satiety": 1,
 			"foodcategory": "NoNutrition"
 		},
-		"file": "game:itemtypes/liquid/waterportion.json"
+		"file": "game:itemtypes/liquid/waterportion.json",
+		"side": "Server"
 	}
 ]

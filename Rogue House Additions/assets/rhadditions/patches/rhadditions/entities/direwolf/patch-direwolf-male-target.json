@@ -7,7 +7,8 @@
             "tamed-direwolf-female"
         ],
         "file": "entities/land/direwolf/direwolf-male.json",
-        "dependsOn": [ { "modid": "petai" } ]
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
     },
     {
         "op": "addeach",
@@ -17,7 +18,8 @@
             "tamed-direwolf-female"
         ],
         "file": "entities/land/direwolf/direwolf-male.json",
-        "dependsOn": [ { "modid": "petai" } ]
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
     },
     {
         "op": "addeach",
@@ -27,6 +29,7 @@
             "tamed-direwolf-female"
         ],
         "file": "entities/land/direwolf/direwolf-male.json",
-        "dependsOn": [ { "modid": "petai" } ]
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
     }
 ]

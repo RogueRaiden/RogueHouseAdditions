@@ -1,0 +1,71 @@
+{
+	"code": "stackrandomizer",
+	"class": "ItemStackRandomizer",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [
+				"rot"
+			]
+		}
+	],
+	"attributesByType": {
+		"*-rot": {
+			"handbook": { "exclude": true },
+			"stacks": [
+				{
+					"type": "item",
+					"code": "rot",
+					"quantity": {
+						"avg": 4,
+						"var": 2
+					},
+					"chance": 10
+				},
+				{
+					"type": "item",
+					"code": "bonemeal",
+					"quantity": {
+						"avg": 4,
+						"var": 1
+					},
+					"chance": 6
+				},
+				{
+					"type": "item",
+					"code": "bone",
+					"quantity": {
+						"avg": 3,
+						"var": 1
+					},
+					"chance": 5
+				},
+				{
+					"type": "item",
+					"code": "creature-grub",
+					"quantity": {
+						"avg": 4,
+						"var": 1
+					},
+					"chance": 4
+				},
+				{
+					"type": "item",
+					"code": "stick",
+					"quantity": {
+						"avg": 3,
+						"var": 1
+					},
+					"chance": 4
+				}
+			]
+		}
+	},
+	"maxstacksize": 1,
+	"texture": { "base": "rhadditions:item/meta/randomizer/{type}" },
+	"creativeinventory": {
+		"meta": [ "*" ],
+		"rhadditions": [ "*" ]
+	},
+	"materialDensity": 600
+}

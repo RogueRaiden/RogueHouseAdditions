@@ -126,8 +126,8 @@
 		"behaviors": [
 			{
 				"code": "health",
-				"currenthealth": 40,
-				"maxhealth": 40
+				"currenthealth": 6,
+				"maxhealth": 6
 			},
 			{ "code": "breathe" },
 			{
@@ -143,7 +143,7 @@
 			{
 				"code": "deaddecay",
 				"hoursToDecay": 90,
-				"decayedBlock": "carcass-large"
+				"decayedBlock": "carcass-small"
 			},
 			{ "code": "repulseagents" },
 			{
@@ -157,23 +157,23 @@
 						"type": "item",
 						"code": "bushmeat-raw",
 						"quantity": {
-							"avg": 10,
-							"var": 2
+							"avg": 1,
+							"var": 1
 						}
 					},
 					{
 						"type": "item",
-						"code": "hide-raw-medium",
+						"code": "hide-raw-small",
 						"quantity": {
-							"avg": 2,
-							"var": 1
+							"avg": 1,
+							"var": 0.2
 						}
 					},
 					{
 						"type": "item",
 						"code": "fat",
 						"quantity": {
-							"avg": 2,
+							"avg": 1,
 							"var": 0.5
 						}
 					},
@@ -181,12 +181,13 @@
 						"type": "item",
 						"code": "bone",
 						"quantity": {
-							"avg": 6,
+							"avg": 2,
 							"var": 0.5
 						}
 					}
 				]
 			},
+			{ "code": "breathe" },
 			{
 				"code": "emotionstates",
 				"states": [
@@ -199,6 +200,11 @@
 					}
 
 				]
+			},
+			{
+				"hoursToGrow": 336,
+				"adultEntityCodes": [ "rhadditions:gorilla-male", "rhadditions:gorilla-female" ],
+				"code": "grow"
 			},
 			{
 				"code": "taskai",
@@ -216,7 +222,7 @@
 					{
 						"code": "stayclosetoentity",
 						"priority": 1.9,
-						"entityCode": "gorilla-female-*",
+						"entityCode": "rhadditions:gorilla-female-*",
 						"movespeed": 0.02,
 						"animationSpeed": 4,
 						"maxDistance": 5,

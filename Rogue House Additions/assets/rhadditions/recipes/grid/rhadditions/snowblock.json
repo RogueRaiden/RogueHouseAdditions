@@ -3,7 +3,7 @@
     "ingredients": {
         "B": {
             "type": "item",
-            "code": "game:stone-snowball"
+            "code": "rhadditions:stone-snowball"
         }
     },
     "width": 3,

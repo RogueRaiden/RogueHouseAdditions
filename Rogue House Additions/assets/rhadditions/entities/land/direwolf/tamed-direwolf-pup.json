@@ -249,12 +249,12 @@
             },
             {
                 "code": "health",
-                "currenthealth": 15,
-                "maxhealth": 15
+                "currenthealth": 8,
+                "maxhealth": 8
             },
             {
                 "code": "deaddecay",
-                "hoursToDecay": 96,
+                "hoursToDecay": 720,
                 "decayedBlock": "carcass-small"
             },
             {
@@ -280,7 +280,7 @@
             },
             {
                 "hoursToGrow": 336,
-                "adultEntityCodes": [ "tamed-direwolf-male", "tamed-direwolf-female" ],
+                "adultEntityCodes": [ "rhadditions:tamed-direwolf-male", "rhadditions:tamed-direwolf-female" ],
                 "code": "raisable"
             },
             {

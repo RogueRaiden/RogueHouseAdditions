@@ -5,7 +5,7 @@
     "variantgroups": [
         {
             "code": "type",
-            "states": [ "humanoid-trader-clothier", "humanoid-trader-daelynn", "humanoid-trader-barkeeper", "gorilla-baby", "gorilla-female", "gorilla-male", "gorilla-silverback", "gorilla-kong", "locust-prime", "direwolf-pup", "direwolf-female", "direwolf-male", "trout-green" ]
+            "states": [ "humanoid-trader-clothier", "humanoid-trader-barkeeper", "gorilla-baby", "gorilla-female", "gorilla-male", "gorilla-silverback", "gorilla-kong", "locust-prime", "direwolf-pup", "direwolf-female", "direwolf-male", "trout-green" ]
         }
     ],
     "shapeByType": {

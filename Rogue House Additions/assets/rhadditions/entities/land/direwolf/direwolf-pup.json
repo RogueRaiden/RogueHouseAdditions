@@ -100,8 +100,8 @@
             },
             {
                 "code": "health",
-                "currenthealth": 15,
-                "maxhealth": 15
+                "currenthealth": 9,
+                "maxhealth": 9
             },
             {
                 "code": "deaddecay",
@@ -131,7 +131,7 @@
             },
             {
                 "hoursToGrow": 336,
-                "adultEntityCodes": [ "direwolf-male", "direwolf-female" ],
+                "adultEntityCodes": [ "rhadditions:direwolf-male", "rhadditions:direwolf-female" ],
                 "code": "grow"
             },
             {
@@ -157,7 +157,7 @@
                     {
                         "code": "stayclosetoentity",
                         "priority": 1.4,
-                        "entityCode": "wolf-female",
+                        "entityCode": "rhadditions:direwolf-female",
                         "movespeed": 0.02,
                         "animationSpeed": 4,
                         "maxDistance": 5,

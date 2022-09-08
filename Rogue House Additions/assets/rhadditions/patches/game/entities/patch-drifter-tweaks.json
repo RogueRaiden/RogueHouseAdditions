@@ -3,6 +3,7 @@
         "op": "replace",
         "path": "/server/spawnconditions/runtime/maxLightLevel",
         "value": 7,
-        "file": "game:entities/land/drifter.json"
+        "file": "game:entities/land/drifter.json",
+        "side": "Server"
     }
 ]

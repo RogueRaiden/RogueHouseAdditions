@@ -259,31 +259,7 @@
 
     "_comment7": "RESOURCES **********************",
 
-    "item-powder-temporal": "Temporal powder",
-    "itemdesc-powder-temporal": "<font color=\"#99c9f9\"><i>They have discovered this powder to have some magical properties.</i></font>",
-
-    "item-powder-rune": "Rune powder",
-    "itemdesc-powder-rune": "<font color=\"#99c9f9\"><i>Mixed from the magical Temporal powder as a base. Known to be used for personal Translocation rune crafting.</i></font>",
-    "handbooktitle-powder-rune": "",
-    "handbooktext-powder-rune": "Crafts 8 Rune powder",
-
-    "item-powder-diamond": "Crushed diamond",
-
-    "item-powder-emerald": "Crushed emerald",
-
-    "item-powder-peridot": "Crushed peridot",
-
-    "item-powder-obsidian": "Crushed obsidian",
-
-    "item-powder-rose-quartz": "Crushed rose quartz",
-
-    "item-powder-smoky-quartz": "Crushed smoky quartz",
-
-    "item-powder-amethyst": "Crushed amethyst",
-
-    "item-powder-clear-quartz": "Crushed clear quartz",
-
-    "game:item-stone-snowball": "Snowball",
+    "item-stone-snowball": "Snowball",
 
     "item-drifterskin-surface": "Surface drifter skin",
     "itemdesc-drifterskin-surface": "<font color=\"#99c9f9\"><i></i></font>",
@@ -303,18 +279,9 @@
     "item-drifterskin-double": "Double-headed drifter skin",
     "itemdesc-drifterskin-double": "<font color=\"#99c9f9\"><i></i></font>",
 
-    "item-obsidian-glass-mix-vintage": "Obsidian glass mix (Plain)",
-    "item-obsidian-glass-mix-quartz": "Obsidian glass mix (Quartz)",
-    "item-obsidian-glass-mix-smoky": "Obsidian glass mix (Smoky)",
-    "item-obsidian-glass-mix-blue": "Obsidian glass mix (Blue)",
-    "item-obsidian-glass-mix-brown": "Obsidian glass mix (Brown)",
-    "item-obsidian-glass-mix-green": "Obsidian glass mix (Green)",
-    "item-obsidian-glass-mix-pink": "Obsidian glass mix (Pink)",
-    "item-obsidian-glass-mix-red": "Obsidian glass mix (Red)",
-    "item-obsidian-glass-mix-violet": "Obsidian glass mix (Violet)",
-    "item-obsidian-glass-mix-yellow": "Obsidian glass mix (Yellow)",
-
     "block-layerofrot-*": "Layer of Rot",
+
+    "item-stackrandomizer-rot": "Rot Randomizer",
 
 
 
@@ -403,18 +370,11 @@
 
     "_comment12": "TRADERS **********************",
 
-    "item-creature-humanoid-trader-daelynn": "Daelynn",
-    "game:tradingwindow-humanoid-trader-daelynn": "Local goods - {0} the helper",
-
     "item-creature-humanoid-trader-barkeeper": "Barkeeper",
     "game:tradingwindow-humanoid-trader-barkeeper": "Local goods - {0} the Barkeeper",
-    "block-shopkeeper-mat-barkeeper": "Shopkeeper mat (Barkeeper)",
-    "blockdesc-shopkeeper-mat-barkeeper": "Invite a Barkeeper to run a shop. Needs a nearby bed and chest with food.",
 
     "item-creature-humanoid-trader-clothier": "Clothier",
     "game:tradingwindow-humanoid-trader-clothier": "Local goods - {0} the Clothier",
-    "block-shopkeeper-mat-clothier": "Shopkeeper mat (Clothier)",
-    "blockdesc-shopkeeper-mat-clothier": "Invite a Clothier to run a shop. Needs a nearby bed and chest with food.",
 
 
 

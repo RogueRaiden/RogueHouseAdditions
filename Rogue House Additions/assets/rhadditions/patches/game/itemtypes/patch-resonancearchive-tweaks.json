@@ -2,25 +2,29 @@
 	{
 		"op": "remove",
 		"path": "/texture",
-		"file": "game:itemtypes/resonancearchive.json"
+		"file": "game:itemtypes/resonancearchive.json",
+		"side": "Server"
 	},
 	{
 		"op": "add",
 		"path": "/shape",
 		"value": { "base": "rhadditions:item/resource/resonancearchive" },
-		"file": "game:itemtypes/resonancearchive.json"
+		"file": "game:itemtypes/resonancearchive.json",
+		"side": "Server"
 	},
 	{
 		"op": "add",
 		"path": "/textures",
 		"value": { "resonancearchive": { "base": "item/resource/resonancearchives/{type}" } },
-		"file": "game:itemtypes/resonancearchive.json"
+		"file": "game:itemtypes/resonancearchive.json",
+		"side": "Server"
 	},
 	{
 		"op": "add",
 		"path": "/attributes/moldrackable",
 		"value": true,
-		"file": "game:itemtypes/resonancearchive.json"
+		"file": "game:itemtypes/resonancearchive.json",
+		"side": "Server"
 	},
 	{
 		"op": "add",
@@ -43,6 +47,7 @@
 			},
 			"scale": 0.80
 		},
-		"file": "game:itemtypes/resonancearchive.json"
+		"file": "game:itemtypes/resonancearchive.json",
+		"side": "Server"
 	}
 ]

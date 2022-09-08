@@ -7,34 +7,35 @@
 			"y": 1
 		},
 		"file": "wolftaming:entities/land/tame-wolf-male.json",
-		"dependsOn": [ { "modid": "wolftaming" } ]
+		"dependsOn": [ { "modid": "wolftaming" } ],
+		"side": "Server"
 	},
 	{
 		"op": "replace",
-		"path": "/server/behaviors/6/currenthealth",
-		"value": 40,
+		"path": "/server/behaviors/7",
+		"value": {
+			"code": "deaddecay",
+			"hoursToDecay": 720,
+			"decayedBlock": "carcass-medium"
+		},
 		"file": "wolftaming:entities/land/tame-wolf-male.json",
-		"dependsOn": [ { "modid": "wolftaming" } ]
-	},
-	{
-		"op": "replace",
-		"path": "/server/behaviors/6/maxhealth",
-		"value": 40,
-		"file": "wolftaming:entities/land/tame-wolf-male.json",
-		"dependsOn": [ { "modid": "wolftaming" } ]
+		"dependsOn": [ { "modid": "wolftaming" } ],
+		"side": "Server"
 	},
 	{
 		"op": "add",
 		"path": "/server/behaviors/12/aitasks/0/entityCodes/-",
 		"value": "bell-*",
 		"file": "wolftaming:entities/land/tame-wolf-male.json",
-		"dependsOn": [ { "modid": "wolftaming" } ]
+		"dependsOn": [ { "modid": "wolftaming" } ],
+		"side": "Server"
 	},
 	{
 		"op": "add",
 		"path": "/server/behaviors/12/aitasks/1/entityCodes/-",
 		"value": "bell-*",
 		"file": "wolftaming:entities/land/tame-wolf-male.json",
-		"dependsOn": [ { "modid": "wolftaming" } ]
+		"dependsOn": [ { "modid": "wolftaming" } ],
+		"side": "Server"
 	}
 ]

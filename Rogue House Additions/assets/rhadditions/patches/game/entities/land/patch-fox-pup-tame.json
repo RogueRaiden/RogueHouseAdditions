@@ -116,7 +116,8 @@
             }
         ],
         "file": "game:entities/land/fox-pup.json",
-        "dependsOn": [ { "modid": "petai" } ]
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
     },
     {
         "op": "addeach",
@@ -234,7 +235,8 @@
             }
         ],
         "file": "game:entities/land/fox-pup.json",
-        "dependsOn": [ { "modid": "petai" } ]
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
     },
     {
         "op": "add",
@@ -267,6 +269,7 @@
             "maxcooldownHours": 1.5
         },
         "file": "game:entities/land/fox-pup.json",
-        "dependsOn": [ { "modid": "petai" } ]
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
     }
 ]
