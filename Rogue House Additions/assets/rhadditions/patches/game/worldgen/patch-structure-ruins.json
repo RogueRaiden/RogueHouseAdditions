@@ -5,7 +5,7 @@
         "value": {
             "code": "rh-bunker",
             "name": "bunker",
-            "chance": 0.10,
+            "chance": 0.03,
             "schematics": [ "rhadditions/bunker/*" ],
             "depth": {
                 "avg": 9,
