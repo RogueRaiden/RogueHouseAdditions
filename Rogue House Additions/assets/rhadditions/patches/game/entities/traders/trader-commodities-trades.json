@@ -1,0 +1,36 @@
+[
+    {
+        "op": "addeach",
+        "path": "/attributes/tradeProps/selling/list/-",
+        "value": [
+            {
+                "code": "ore-borax",
+                "type": "item",
+                "stacksize": 4,
+                "stock": {
+                    "avg": 3,
+                    "var": 1.25
+                },
+                "price": {
+                    "avg": 9.51,
+                    "var": 2
+                }
+            },
+            {
+                "code": "powderedborax",
+                "type": "item",
+                "stacksize": 10,
+                "stock": {
+                    "avg": 4,
+                    "var": 1.25
+                },
+                "price": {
+                    "avg": 12.51,
+                    "var": 2
+                }
+            }
+        ],
+        "file": "game:entities/humanoid/trader-commodities.json",
+        "side": "Server"
+    }
+]

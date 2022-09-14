@@ -106,11 +106,37 @@
                 "type": "item",
                 "stacksize": 1,
                 "stock": {
-                    "avg": 0.8,
+                    "avg": 1.5,
                     "var": 0.5
                 },
                 "price": {
                     "avg": 10,
+                    "var": 2
+                }
+            },
+            {
+                "code": "rhadditions:clothes-shoulder-moon-robe",
+                "type": "item",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 1.5,
+                    "var": 0.5
+                },
+                "price": {
+                    "avg": 12,
+                    "var": 2
+                }
+            },
+            {
+                "code": "rhadditions:clothes-shoulder-dark-robe",
+                "type": "item",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 1.5,
+                    "var": 0.5
+                },
+                "price": {
+                    "avg": 12,
                     "var": 2
                 }
             }

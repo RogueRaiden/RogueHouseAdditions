@@ -33,9 +33,6 @@
 		"warmthByType": {
 			"clothes-ranger-boots": 1.5,
 			"*": 1
-		},
-		"statModifiersByType": {
-			"*-ranger-boots": { "walkSpeed": 0.05 }
 		}
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"], "rhadditions": ["*"] },

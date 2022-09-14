@@ -1,3 +1,10 @@
+v2.0.2
+-Tweak: Added borax, berry bushes and some clothing to trader selling lists.
+-Tweak: Increased tree seed and stick drop rates.
+-Tweak: Further reduced some ruin spawns.
+
+-Fix: Centered Baby Gorilla shape.
+
 v2.0.1
 -Tweak: Quick ruin adjustment
 
