@@ -182,7 +182,6 @@
                 "onlyWhenDead": true
             },
             { "code": "interpolatemount" },
-            { "code": "harvestable" },
             { "code": "multiply" },
             {
                 "code": "ropetieable",
@@ -387,49 +386,12 @@
             },
             {
                 "code": "deaddecay",
-                "hoursToDecay": 720,
+                "hoursToDecay": 1440,
                 "decayedBlock": "carcass-large"
             },
             {
                 "code": "floatupwhenstuck",
                 "onlyWhenDead": true
-            },
-            {
-                "code": "harvestable",
-                "drops": [
-                    {
-                        "type": "item",
-                        "code": "bushmeat-raw",
-                        "quantity": {
-                            "avg": 9,
-                            "var": 2
-                        }
-                    },
-                    {
-                        "type": "item",
-                        "code": "hide-raw-large",
-                        "quantity": {
-                            "avg": 1.5,
-                            "var": 0
-                        }
-                    },
-                    {
-                        "type": "item",
-                        "code": "fat",
-                        "quantity": {
-                            "avg": 3.25,
-                            "var": 0
-                        }
-                    },
-                    {
-                        "type": "item",
-                        "code": "bone",
-                        "quantity": {
-                            "avg": 9,
-                            "var": 0.5
-                        }
-                    }
-                ]
             },
             { "code": "breathe" },
             {

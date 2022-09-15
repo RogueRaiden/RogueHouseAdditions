@@ -1,5 +1,19 @@
 [
 	{
+		"op": "remove",
+		"path": "/client/behaviors/8",
+		"file": "wolftaming:entities/land/tame-wolf-female.json",
+		"dependsOn": [ { "modid": "wolftaming" } ],
+		"side": "Server"
+	},
+	{
+		"op": "remove",
+		"path": "/server/behaviors/9",
+		"file": "wolftaming:entities/land/tame-wolf-female.json",
+		"dependsOn": [ { "modid": "wolftaming" } ],
+		"side": "Server"
+	},
+	{
 		"op": "replace",
 		"path": "/hitboxSize",
 		"value": {
@@ -24,7 +38,7 @@
 	},
 	{
 		"op": "add",
-		"path": "/server/behaviors/13/aitasks/0/entityCodes/-",
+		"path": "/server/behaviors/12/aitasks/0/entityCodes/-",
 		"value": "bell-*",
 		"file": "wolftaming:entities/land/tame-wolf-female.json",
 		"dependsOn": [ { "modid": "wolftaming" } ],
@@ -32,7 +46,7 @@
 	},
 	{
 		"op": "add",
-		"path": "/server/behaviors/13/aitasks/1/entityCodes/-",
+		"path": "/server/behaviors/12/aitasks/1/entityCodes/-",
 		"value": "bell-*",
 		"file": "wolftaming:entities/land/tame-wolf-female.json",
 		"dependsOn": [ { "modid": "wolftaming" } ],

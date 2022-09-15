@@ -204,7 +204,6 @@
 				"onlyWhenDead": true
 			},
 			{ "code": "interpolatemount" },
-			{ "code": "harvestable" },
 			{
 				"code": "ropetieable",
 				"minGeneration": 2
@@ -416,49 +415,12 @@
 			},
 			{
 				"code": "deaddecay",
-				"hoursToDecay": 720,
+				"hoursToDecay": 1440,
 				"decayedBlock": "carcass-medium"
 			},
 			{
 				"code": "floatupwhenstuck",
 				"onlyWhenDead": true
-			},
-			{
-				"code": "harvestable",
-				"drops": [
-					{
-						"type": "item",
-						"code": "redmeat-raw",
-						"quantity": {
-							"avg": 13,
-							"var": 3
-						}
-					},
-					{
-						"type": "item",
-						"code": "hide-raw-large",
-						"quantity": {
-							"avg": 1.2,
-							"var": 0.2
-						}
-					},
-					{
-						"type": "item",
-						"code": "fat",
-						"quantity": {
-							"avg": 1,
-							"var": 0.3
-						}
-					},
-					{
-						"type": "item",
-						"code": "bone",
-						"quantity": {
-							"avg": 5,
-							"var": 0
-						}
-					}
-				]
 			},
 			{ "code": "breathe" },
 			{

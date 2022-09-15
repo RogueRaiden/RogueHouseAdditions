@@ -144,7 +144,6 @@
 				"onlyWhenDead": true
 			},
 			{ "code": "interpolateposition" },
-			{ "code": "harvestable" },
 			{
 				"code": "ropetieable",
 				"minGeneration": 2
@@ -306,16 +305,12 @@
 			},
 			{
 				"code": "deaddecay",
-				"hoursToDecay": 720,
+				"hoursToDecay": 1440,
 				"decayedBlock": "carcass-tiny"
 			},
 			{
 				"code": "floatupwhenstuck",
 				"onlyWhenDead": true
-			},
-			{
-				"code": "harvestable",
-				"drops": []
 			},
 			{ "code": "breathe" },
 			{

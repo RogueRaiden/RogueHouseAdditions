@@ -4,13 +4,13 @@
     "\\Rogue House Additions",
     "\\Rogue House Additions\\assets",
     "\\Rogue House Additions\\assets\\rhadditions",
+    "\\Rogue House Additions\\assets\\rhadditions\\itemtypes",
+    "\\Rogue House Additions\\assets\\rhadditions\\itemtypes\\wearable",
     "\\Rogue House Additions\\assets\\rhadditions\\patches",
     "\\Rogue House Additions\\assets\\rhadditions\\patches\\game",
-    "\\Rogue House Additions\\assets\\rhadditions\\patches\\game\\blocktypes",
     "\\Rogue House Additions\\assets\\rhadditions\\patches\\game\\entities",
-    "\\Rogue House Additions\\assets\\rhadditions\\patches\\game\\worldgen",
-    "\\Rogue House Additions\\assets\\rhadditions\\patches\\wolftaming"
+    "\\Rogue House Additions\\assets\\rhadditions\\patches\\game\\entities\\traders"
   ],
-  "SelectedNode": "\\Rogue House Additions\\assets\\rhadditions\\patches\\game\\worldgen\\patch-structure-ruins.json",
+  "SelectedNode": "\\Rogue House Additions\\assets\\rhadditions\\patches\\cats",
   "PreviewInSolutionExplorer": false
 }

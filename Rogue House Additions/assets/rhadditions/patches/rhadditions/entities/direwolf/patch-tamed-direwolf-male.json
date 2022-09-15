@@ -23,7 +23,7 @@
     },
     {
         "op": "add",
-        "path": "/server/behaviors/12/aitasks/-",
+        "path": "/server/behaviors/11/aitasks/-",
         "value": {
             "code": "playfetch",
             "priority": 2.2,

@@ -1,10 +1,24 @@
 [
 	{
+		"op": "remove",
+		"path": "/client/behaviors/8",
+		"file": "wolftaming:entities/land/tame-wolf-pup.json",
+		"dependsOn": [ { "modid": "wolftaming" } ],
+		"side": "Server"
+	},
+	{
+		"op": "remove",
+		"path": "/server/behaviors/9",
+		"file": "wolftaming:entities/land/tame-wolf-pup.json",
+		"dependsOn": [ { "modid": "wolftaming" } ],
+		"side": "Server"
+	},
+	{
 		"op": "replace",
 		"path": "/server/behaviors/7",
 		"value": {
 			"code": "deaddecay",
-			"hoursToDecay": 720,
+			"hoursToDecay": 1440,
 			"decayedBlock": "carcass-small"
 		},
 		"file": "wolftaming:entities/land/tame-wolf-pup.json",

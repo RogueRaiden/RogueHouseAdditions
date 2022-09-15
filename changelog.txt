@@ -1,3 +1,7 @@
+v2.0.3
+-Tweak: Some pet adjustments.
+-Fix: Some missing lang entries.
+
 v2.0.2
 -Tweak: Added borax, berry bushes and some clothing to trader selling lists.
 -Tweak: Increased tree seed and stick drop rates.
