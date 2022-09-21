@@ -11,21 +11,21 @@
         "moldrackable": true,
         "onmoldrackTransform": {
             "translation": {
-                "x": 0.73,
-                "y": -0.25,
-                "z": -0.2
+                "x": 1.29,
+                "y": -0.6,
+                "z": -0.8
             },
             "rotation": {
-                "x": 90,
-                "y": 98,
+                "x": 0,
+                "y": 110,
                 "z": 0
             },
             "origin": {
-                "x": -0.23,
-                "y": 0.35,
-                "z": 0.7
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
             },
-            "scale": 0.80
+            "scale": 2.1
         },
         "musicTrackByType": {
             "*-fall-o'-croft": "game:music/fall-o'-croft.ogg",
@@ -38,8 +38,7 @@
         }
     },
     "maxstacksize": 1,
-    "shape": { "base": "item/resource/resonancearchive" },
-    "textures": { "resonancearchive": { "base": "item/resource/resonancearchives/{type}" } },
+    "texture": { "base": "item/resource/resonancearchives/{type}" },
     "creativeinventory": {
         "general": [ "*" ],
         "items": [ "*" ],
@@ -61,6 +60,6 @@
             "y": 0.5,
             "z": 0.5
         },
-        "scale": 1.55
+        "scale": 1.45
     }
 }

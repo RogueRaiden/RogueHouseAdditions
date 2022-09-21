@@ -4,13 +4,10 @@
     "\\Rogue House Additions",
     "\\Rogue House Additions\\assets",
     "\\Rogue House Additions\\assets\\rhadditions",
-    "\\Rogue House Additions\\assets\\rhadditions\\itemtypes",
-    "\\Rogue House Additions\\assets\\rhadditions\\itemtypes\\wearable",
+    "\\Rogue House Additions\\assets\\rhadditions\\lang",
     "\\Rogue House Additions\\assets\\rhadditions\\patches",
-    "\\Rogue House Additions\\assets\\rhadditions\\patches\\game",
-    "\\Rogue House Additions\\assets\\rhadditions\\patches\\game\\entities",
-    "\\Rogue House Additions\\assets\\rhadditions\\patches\\game\\entities\\traders"
+    "\\Rogue House Additions\\assets\\rhadditions\\patches\\cats",
+    "\\Rogue House Additions\\assets\\rhadditions\\patches\\wolftaming"
   ],
-  "SelectedNode": "\\Rogue House Additions\\assets\\rhadditions\\patches\\cats",
   "PreviewInSolutionExplorer": false
 }
