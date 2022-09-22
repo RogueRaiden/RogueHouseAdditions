@@ -1,7 +1,7 @@
 v2.0.4
 -Tweak: Removed changes and patches that made Resonance Archives placeable on moldracks - It was added to Vanilla 1.17.4
 -Tweak: Changed the name of the "Tool Mold Rack {type}" to "Vertical Rack {type}" to match the Vanilla 1.17.4 changes.
--Tweak: Added attachment points for some pets - Thanks G3rste!
+-Tweak: Added attachment points for mouth inventory on pets - Thanks G3rste!
 
 v2.0.3
 -Tweak: Some pet adjustments.
