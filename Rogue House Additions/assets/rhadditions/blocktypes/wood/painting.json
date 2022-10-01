@@ -129,6 +129,7 @@
     "rainPermeable": true,
     "materialDensity": 600,
     "guiTransform": {
+        "rotate": false,
         "rotation": {
             "x": -22.6,
             "y": 25,

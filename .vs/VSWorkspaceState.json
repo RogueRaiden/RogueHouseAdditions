@@ -4,10 +4,14 @@
     "\\Rogue House Additions",
     "\\Rogue House Additions\\assets",
     "\\Rogue House Additions\\assets\\rhadditions",
-    "\\Rogue House Additions\\assets\\rhadditions\\lang",
+    "\\Rogue House Additions\\assets\\rhadditions\\blocktypes",
+    "\\Rogue House Additions\\assets\\rhadditions\\blocktypes\\metal",
+    "\\Rogue House Additions\\assets\\rhadditions\\entities",
+    "\\Rogue House Additions\\assets\\rhadditions\\entities\\water",
     "\\Rogue House Additions\\assets\\rhadditions\\patches",
-    "\\Rogue House Additions\\assets\\rhadditions\\patches\\cats",
-    "\\Rogue House Additions\\assets\\rhadditions\\patches\\wolftaming"
+    "\\Rogue House Additions\\assets\\rhadditions\\patches\\game",
+    "\\Rogue House Additions\\assets\\rhadditions\\patches\\game\\entities"
   ],
+  "SelectedNode": "\\Rogue House Additions\\assets\\rhadditions\\patches\\game\\entities\\patch-grub-drops.json",
   "PreviewInSolutionExplorer": false
 }

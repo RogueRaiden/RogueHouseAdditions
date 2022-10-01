@@ -150,6 +150,12 @@
 						"code": "flower-woad-free",
 						"progress": 0.2,
 						"cooldown": 2
+					},
+					{
+						"code": "petcookie-veggie-perfect",
+						"domain": "petai",
+						"progress": 0.6,
+						"cooldown": 3
 					}
 				]
 			},
@@ -309,6 +315,12 @@
 						"code": "flower-woad-free",
 						"progress": 0.2,
 						"cooldown": 2
+					},
+					{
+						"code": "petcookie-veggie-perfect",
+						"domain": "petai",
+						"progress": 0.6,
+						"cooldown": 3
 					}
 				]
 			},

@@ -12,7 +12,12 @@
 		}
 	],
 	"eyeHeight": 0.2,
-	"drops": [],
+	"drops": [
+		{
+			"type": "item",
+			"code": "rhadditions:wholefish-raw-trout{color}"
+		}
+	],
 	"habitat": "Underwater",
 	"client": {
 		"renderer": "Shape",
@@ -32,7 +37,6 @@
 				"code": "floatupwhenstuck",
 				"onlyWhenDead": true
 			},
-			{ "code": "harvestable" },
 			{
 				"code": "despawn",
 				"minPlayerDistance": 8,
@@ -92,26 +96,8 @@
 				"maxhealth": 2
 			},
 			{
-				"code": "deaddecay",
-				"hoursToDecay": 96,
-				"decayedBlock": "carcass-tiny"
-			},
-			{
 				"code": "floatupwhenstuck",
 				"onlyWhenDead": true
-			},
-			{
-				"code": "harvestable",
-				"drops": [
-					{
-						"type": "item",
-						"code": "game:fish-raw",
-						"quantity": {
-							"avg": 1,
-							"var": 0
-						}
-					}
-				]
 			},
 			{
 				"code": "emotionstates",
@@ -139,7 +125,14 @@
 					},
 					{
 						"code": "fleeentity",
-						"entityCodes": [ "player", "game:wolf-male", "game:wolf-female", "game:fox-*", "game:hyena-male", "game:hyena-female" ],
+						"entityCodes": [
+							"player",
+							"game:wolf-male",
+							"game:wolf-female",
+							"game:fox-*",
+							"game:hyena-male",
+							"game:hyena-female"
+						],
 						"priority": 2,
 						"movespeed": 0.06,
 						"seekingRange": 14,
@@ -196,8 +189,8 @@
 					"var": 3
 				},
 				"insideBlockCodes": [ "game:water-*" ],
-				"minTemp": 4,
-				"maxTemp": 20
+				"minTemp": 6,
+				"maxTemp": 24
 			},
 			"runtime": {
 				"group": "neutral",
@@ -206,12 +199,12 @@
 				"minLightLevel": 3,
 				"groupSize": {
 					"dist": "verynarrowgaussian",
-					"avg": 2,
-					"var": 3
+					"avg": 3,
+					"var": 4
 				},
 				"insideBlockCodes": [ "game:water-*" ],
-				"minTemp": 4,
-				"maxTemp": 20
+				"minTemp": 6,
+				"maxTemp": 24
 			}
 		}
 	}

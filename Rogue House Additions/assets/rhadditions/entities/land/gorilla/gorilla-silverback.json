@@ -247,7 +247,8 @@
 						"damagePlayerAtMs": 500,
 						"animation": "Attack",
 						"animationSpeed": 2,
-						"sound": "rhadditions:creature/gorilla/attack"
+						"sound": "rhadditions:creature/gorilla/attack",
+						"soundRange": 8
 					},
 					{
 						"code": "meleeattack",
@@ -273,7 +274,8 @@
 						"animation": "Attack",
 						"animationSpeed": 2,
 						"whenInEmotionState": "aggressiveondamage",
-						"sound": "rhadditions:creature/gorilla/attack"
+						"sound": "rhadditions:creature/gorilla/attack",
+						"soundRange": 8
 					},
 					{
 						"code": "throwatentity",
@@ -331,6 +333,7 @@
 						"animation": "Run",
 						"animationSpeed": 2,
 						"sound": "rhadditions:creature/gorilla/flee",
+						"soundRange": 8,
 						"whenInEmotionState": "fleeondamage"
 					},
 					{
@@ -341,7 +344,8 @@
 						"seekingRange": 3,
 						"animation": "Run",
 						"animationSpeed": 2,
-						"sound": "rhadditions:creature/gorilla/agressive"
+						"sound": "rhadditions:creature/gorilla/agressive",
+						"soundRange": 8
 					},
 					{
 						"code": "seekentity",
@@ -362,6 +366,7 @@
 						"animation": "Run",
 						"animationSpeed": 2,
 						"sound": "rhadditions:creature/gorilla/aggressive",
+						"soundRange": 8,
 						"whenInEmotionState": "aggressiveondamage"
 					},
 					{
@@ -465,6 +470,7 @@
 						"animationSpeed": 1.5,
 						"whenNotInEmotionState": "aggressiveondamage",
 						"sound": "rhadditions:creature/gorilla/threaten ",
+						"soundRange": 8,
 						"stopOnHurt": true,
 						"chance": 0.5
 					},
@@ -608,7 +614,7 @@
 		"spawnconditions": {
 			"worldgen": {
 				"TriesPerChunk": {
-					"avg": 0.05,
+					"avg": 0.03,
 					"var": 0
 				},
 				"tryOnlySurface": true,
@@ -627,7 +633,7 @@
 			"runtime": {
 				"group": "neutral",
 				"tryOnlySurface": true,
-				"chance": 0.0007,
+				"chance": 0.0005,
 				"maxQuantity": 4,
 				"maxLightLevel": 7,
 				"lightLevelType": "onlyBlockLight",

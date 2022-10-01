@@ -1,0 +1,324 @@
+{
+    "code": "armor",
+    "class": "ItemWearable",
+    "heldTpIdleAnimation": "holdunderarm",
+    "variantgroups": [
+        {
+            "code": "bodypart",
+            "states": [ "head", "body", "legs" ]
+        },
+        {
+            "code": "construction",
+            "states": [
+                "found"
+            ]
+        },
+        {
+            "code": "material",
+            "states": [
+                "elvish-leather"
+            ]
+        }
+    ],
+    "skipVariants": [],
+    "allowedVariants": [
+        "armor-*-found-elvish-leather"
+    ],
+    "shapeByType": {
+        "armor-*-found-elvish-leather": { "base": "game:entity/humanoid/seraph/armor/leather/{bodypart}" }
+    },
+    "texturesByType": {
+        "*-found-elvish-leather": {
+            "seraph": { "base": "game:block/transparent" },
+            "material": {
+                "baseByType": {
+                    "*": "rhadditions:entity/humanoid/serapharmor/found/elvish-leather"
+                }
+            }
+        }
+    },
+    "storageFlags": 128,
+    "attributes": {
+        "visibleDamageEffect": true,
+        "wearableAttachment": true,
+        "clothescategoryByType": {
+            "armor-head-*": "armorhead",
+            "armor-body-*": "armorbody",
+            "armor-legs-*": "armorlegs"
+        },
+        "disableElementsByType": {
+            "armor-head-*": [ "Hair tile upper part", "Ponytail1", "hideme" ],
+            "armor-body-*": [ "Waist", "hideupperarm", "hidelowerarm" ]
+        },
+        "defaultProtLoss": {
+            "perTierRelativeProtectionLoss": [ 0.03, 0.15 ],
+            "perTierFlatDamageReductionLoss": [ 0.1, 0.2 ]
+        },
+        "footStepSoundByType": {
+            "armor-body-found-elvish-leather": "game:wearable/leather*"
+        },
+        "protectionModifiersByType": {
+            "armor-*-found-elvish-leather": {
+                "relativeProtection": 0.6,
+                "flatDamageReduction": 0.6,
+                "protectionTier": 1,
+                "perTierRelativeProtectionLoss": [ 0.02, 0.08 ],
+                "perTierFlatDamageReductionLoss": [ 0.05, 0.1 ]
+            }
+        },
+        "statModifiersByType": {}
+    },
+    "creativeinventory": {
+        "general": [ "*" ],
+        "items": [ "*" ],
+        "clothing": [ "*" ],
+        "rhadditions": [ "*" ]
+    },
+    "renderAlphaTest": 0.25,
+    "durabilityByType": {
+        "armor-*-found-elvish-leather": 850
+    },
+
+    "fpHandTransformByType": {
+        "armor-head-*": {
+            "translation": {
+                "x": 0.4,
+                "y": -1.9,
+                "z": -0.5
+            },
+            "rotation": {
+                "x": 163,
+                "y": -111,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 1.7,
+                "z": 0.5
+            },
+            "scale": 2.15
+        },
+        "armor-body-*": {
+            "translation": {
+                "x": 0.4,
+                "y": -1.2,
+                "z": -0.5
+            },
+            "rotation": {
+                "x": 163,
+                "y": -111,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 1.6,
+                "z": 0.5
+            },
+            "scale": 2.15
+        },
+        "armor-legs-*": {
+            "translation": {
+                "x": 0.4,
+                "y": -1.2,
+                "z": -0.5
+            },
+            "rotation": {
+                "x": 163,
+                "y": -111,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 1.6,
+                "z": 0.5
+            },
+            "scale": 2.15
+        }
+    },
+    "tpHandTransformByType": {
+        "armor-head-*": {
+            "translation": {
+                "x": -0.82,
+                "y": -2.2,
+                "z": -0.5
+            },
+            "rotation": {
+                "x": 18,
+                "y": 169,
+                "z": 30
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 1.7,
+                "z": 0.5
+            },
+            "scale": 0.64
+        },
+        "armor-body-*": {
+            "translation": {
+                "x": -1,
+                "y": -1.9,
+                "z": -0.5
+            },
+            "rotation": {
+                "x": 97,
+                "y": -168,
+                "z": 94
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 1.5,
+                "z": 0.5
+            },
+            "scale": 0.67
+        },
+        "armor-legs-*": {
+            "translation": {
+                "x": -0.7,
+                "y": -0.6,
+                "z": -0.4
+            },
+            "rotation": {
+                "x": 95,
+                "y": -20,
+                "z": -91
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.7,
+                "z": 0.5
+            },
+            "scale": 0.74
+        }
+    },
+    "guiTransformByType": {
+        "armor-legs-found-elvish-leather": {
+            "translation": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -26,
+                "y": -46,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.37,
+                "z": 0.53
+            },
+            "scale": 2.14
+        },
+        "armor-head-*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -26,
+                "y": -46,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.6,
+                "y": 1.72,
+                "z": 0.5
+            },
+            "scale": 2
+        },
+        "armor-body-*": {
+            "translation": {
+                "x": 3,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -26,
+                "y": -46,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 1.11,
+                "z": 0.5
+            },
+            "scale": 1.37
+        },
+        "armor-legs-*": {
+            "translation": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -26,
+                "y": -46,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.6,
+                "z": 0.5
+            },
+            "scale": 1.25
+        }
+    },
+    "groundTransformByType": {
+        "armor-head-*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.34,
+                "y": 1.71,
+                "z": 0.5
+            },
+            "scale": 3.1
+        },
+        "armor-body-*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 90
+            },
+            "origin": {
+                "x": 0.34,
+                "y": 1.12,
+                "z": 0.5
+            },
+            "scale": 3.1
+        },
+        "armor-legs-*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 90
+            },
+            "origin": {
+                "x": 0.34,
+                "y": 1.12,
+                "z": 0.5
+            },
+            "scale": 3.1
+        }
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "code": "toolrack",
+    "class": "BlockToolRack",
+    "entityclass": "ToolRack",
+    "variantgroups": [
+        {
+            "code": "metaltype",
+            "states": [ "bismuth", "bismuthbronze", "blackbronze", "brass", "chromium", "copper", "gold", "iron", "lead", "meteoriciron", "molybdochalkos", "silver", "steel", "tin", "tinbronze", "zinc" ]
+        },
+        {
+            "code": "side",
+            "loadFromProperties": "game:abstract/horizontalorientation"
+        }
+    ],
+    "behaviors": [ { "name": "HorizontalAttachable" } ],
+    "attributes": {
+        "toolTransforms": {
+
+        },
+        "handbook": {
+            "groupBy": [ "toolrack-*" ]
+        }
+    },
+    "shapebytype": {
+        "*-north": {
+            "base": "rhadditions:block/metal/toolrack",
+            "rotateY": 180
+        },
+        "*-east": {
+            "base": "rhadditions:block/metal/toolrack",
+            "rotateY": 90
+        },
+        "*-south": {
+            "base": "rhadditions:block/metal/toolrack",
+            "rotateY": 0
+        },
+        "*-west": {
+            "base": "rhadditions:block/metal/toolrack",
+            "rotateY": 270
+        }
+    },
+    "texturesbytype": {
+        "*-gold-*": {
+            "metal": { "base": "game:block/metal/ingot/{metaltype}" },
+            "bolt": { "base": "game:block/metal/ingot/silver" }
+        },
+        "*-meteoriciron-*": {
+            "metal": { "base": "game:block/metal/ingot/{metaltype}" },
+            "bolt": { "base": "game:block/metal/ingot/silver" }
+        },
+        "*-silver-*": {
+            "metal": { "base": "game:block/metal/ingot/{metaltype}" },
+            "bolt": { "base": "game:block/metal/ingot/gold" }
+        },
+        "*": {
+            "metal": { "base": "game:block/metal/ingot/{metaltype}" },
+            "bolt": { "base": "game:block/metal/ingot/iron" }
+        }
+    },
+    "creativeinventory": {
+        "general": [ "*-north" ],
+        "decorative": [ "*-north" ],
+        "rhadditions": [ "*-north" ]
+    },
+    "blockmaterial": "Metal",
+    "lightAbsorption": 0,
+    "faceCullMode": "NeverCull",
+    "sidesolid": {
+        "all": false
+    },
+    "sideopaque": {
+        "all": false
+    },
+    "replaceable": 999,
+    "resistance": 1.5,
+    "vertexFlags": {
+        "reflective": true
+    },
+    "collisionbox": null,
+    "selectionbox": {
+        "x1": 0,
+        "y1": 0,
+        "z1": 0,
+        "x2": 1,
+        "y2": 1,
+        "z2": 0.125,
+        "rotateYByType": {
+            "*-east": 270,
+            "*-south": 180,
+            "*-west": 90,
+            "*-north": 0
+        }
+    },
+    "sounds": {
+        "place": "game:block/plate",
+        "break": "game:block/plate",
+        "hit": "game:block/plate"
+    },
+    "rainPermeable": true,
+    "materialDensity": 600,
+    "guiTransform": {
+        "translation": {
+            "x": -1.2,
+            "y": -1,
+            "z": 0
+        },
+        "rotation": {
+            "x": -22,
+            "y": 136,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0
+        },
+        "scale": 1.26
+    }
+}

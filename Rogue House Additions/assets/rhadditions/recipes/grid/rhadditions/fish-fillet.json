@@ -1,0 +1,25 @@
+{
+    "ingredientPattern": "K,F",
+    "ingredients": {
+        "K": {
+            "type": "item",
+            "code": "game:knife-*",
+            "isTool": true,
+            "toolDurabilityCost": 4
+        },
+        "F": {
+            "type": "item",
+            "code": "rhadditions:wholefish-raw-*"
+        }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "F",
+    "name": "fish fillet",
+    "output": {
+        "type": "item",
+        "code": "game:fish-raw",
+        "quantity": 2
+    }
+}

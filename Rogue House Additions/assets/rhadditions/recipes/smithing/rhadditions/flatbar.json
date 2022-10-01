@@ -3,7 +3,7 @@
 		"type": "item",
 		"code": "game:ingot-*",
 		"name": "metal",
-		"allowedVariants": [ "copper" ]
+		"allowedVariants": [ "bismuth", "bismuthbronze", "blackbronze", "brass", "chromium", "copper", "gold", "iron", "lead", "meteoriciron", "molybdochalkos", "silver", "steel", "tin", "tinbronze", "zinc" ]
 	},
 	"pattern": [
 		[

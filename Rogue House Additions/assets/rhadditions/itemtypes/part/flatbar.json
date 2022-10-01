@@ -3,13 +3,13 @@
 	"variantgroups": [
 		{
 			"code": "metal",
-			"states": [ "copper" ]
+			"states": [ "bismuth", "bismuthbronze", "blackbronze", "brass", "chromium", "copper", "gold", "iron", "lead", "meteoriciron", "molybdochalkos", "silver", "steel", "tin", "tinbronze", "zinc" ]
 		}
 	],
 	"maxstacksize": 8,
 	"shape": { "base": "rhadditions:item/part/flatbar" },
 	"textures": {
-		"metal": { "base": "game:item/resource/plate/{metal}" }
+		"metal": { "base": "game:block/metal/ingot/{metal}" }
 	},
 	"creativeinventory": {
 		"general": [ "*" ],

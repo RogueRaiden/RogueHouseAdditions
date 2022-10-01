@@ -8,8 +8,7 @@
                 "type": "item",
                 "stacksize": 1,
                 "stock": {
-                    "avg": 1,
-                    "var": 0.25
+                    "avg": 1
                 },
                 "price": {
                     "avg": 15,
@@ -21,8 +20,7 @@
                 "type": "item",
                 "stacksize": 1,
                 "stock": {
-                    "avg": 1,
-                    "var": 0.25
+                    "avg": 1
                 },
                 "price": {
                     "avg": 4,
@@ -33,7 +31,7 @@
                 "code": "game:spear-hacking",
                 "type": "item",
                 "stacksize": 1,
-                "stock": { "avg": 0.8 },
+                "stock": { "avg": 1 },
                 "price": {
                     "avg": 18,
                     "var": 3
@@ -43,7 +41,7 @@
                 "code": "rhadditions:painting-rogueraiden-north",
                 "type": "block",
                 "stacksize": 1,
-                "stock": { "avg": 0.5 },
+                "stock": { "avg": 1 },
                 "price": {
                     "avg": 18,
                     "var": 2.8
@@ -51,6 +49,51 @@
             }
         ],
         "file": "game:entities/humanoid/trader-treasurehunter.json",
+        "side": "Server"
+    },
+    {
+        "op": "addeach",
+        "path": "/attributes/tradeProps/selling/list/-",
+        "value": [
+            {
+                "code": "translocatorengineeringredux:gatearray",
+                "type": "item",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 1
+                },
+                "price": {
+                    "avg": 38.51,
+                    "var": 4
+                }
+            },
+            {
+                "code": "translocatorengineeringredux:particulationcomponent",
+                "type": "item",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 1
+                },
+                "price": {
+                    "avg": 38.51,
+                    "var": 4
+                }
+            },
+            {
+                "code": "translocatorengineeringredux:powercore",
+                "type": "item",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 1
+                },
+                "price": {
+                    "avg": 49.51,
+                    "var": 4
+                }
+            }
+        ],
+        "file": "game:entities/humanoid/trader-treasurehunter.json",
+        "dependsOn": [ { "modid": "translocatorengineeringredux" } ],
         "side": "Server"
     }
 ]

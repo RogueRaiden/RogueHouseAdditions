@@ -1,0 +1,42 @@
+[
+    {
+        "op": "remove",
+        "path": "/attributes/handbook",
+        "file": "game:itemtypes/food/fish.json",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/creativeinventory",
+        "value": {
+            "general": [ "*-raw", "*-cooked", "*-cured" ],
+            "items": [ "*-raw", "*-cooked", "*-cured" ]
+        },
+        "file": "game:itemtypes/food/fish.json",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/nutritionPropsByType",
+        "value": {
+            "*-cooked": {
+                "satiety": 110,
+                "foodcategory": "Protein"
+            },
+            "*-cured": {
+                "satiety": 80,
+                "foodcategory": "Protein"
+            },
+            "*-smoked": {
+                "satiety": 90,
+                "foodcategory": "Protein"
+            },
+            "*-cured-smoked": {
+                "satiety": 100,
+                "foodcategory": "Protein"
+            }
+        },
+        "file": "game:itemtypes/food/fish.json",
+        "side": "Server"
+    }
+]

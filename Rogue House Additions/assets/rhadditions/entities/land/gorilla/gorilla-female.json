@@ -268,7 +268,8 @@
 						"animation": "Attack",
 						"animationSpeed": 2,
 						"whenInEmotionState": "aggressiveondamage",
-						"sound": "rhadditions:creature/gorilla/attack"
+						"sound": "rhadditions:creature/gorilla/attack",
+						"soundRange": 8
 					},
 					{
 						"code": "throwatentity",
@@ -315,6 +316,7 @@
 						"animation": "Run",
 						"animationSpeed": 2,
 						"sound": "rhadditions:creature/gorilla/flee",
+						"soundRange": 8,
 						"whenInEmotionState": "fleeondamage"
 					},
 					{
@@ -322,7 +324,7 @@
 						"priority": 1.9,
 						"entityCode": [ "gorilla-male", "gorilla-silverback" ],
 						"movespeed": 0.02,
-						"animationSpeed": 4,
+						"animationSpeed": 1,
 						"maxDistance": 5,
 						"searchRange": 25,
 						"animation": "Run"
@@ -346,6 +348,7 @@
 						"animation": "Run",
 						"animationSpeed": 2,
 						"sound": "rhadditions:creature/gorilla/aggressive",
+						"soundRange": 8,
 						"whenInEmotionState": "aggressiveondamage"
 					},
 					{
@@ -449,6 +452,7 @@
 						"animationSpeed": 1.5,
 						"whenNotInEmotionState": "aggressiveondamage",
 						"sound": "rhadditions:creature/gorilla/threaten",
+						"soundRange": 8,
 						"stopOnHurt": true,
 						"chance": 0.5
 					},

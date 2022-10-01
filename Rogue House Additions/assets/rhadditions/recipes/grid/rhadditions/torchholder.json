@@ -1,0 +1,18 @@
+{
+    "ingredientPattern": "P,P",
+    "ingredients": {
+        "P": {
+            "type": "item",
+            "name": "metaltype",
+            "code": "game:metalplate-*",
+            "allowedVariants": [ "bismuth", "bismuthbronze", "blackbronze", "chromium", "copper", "gold", "iron", "lead", "meteoriciron", "molybdochalkos", "silver", "steel", "tin", "tinbronze", "zinc" ]
+        }
+    },
+    "width": 1,
+    "height": 2,
+    "output": {
+        "type": "block",
+        "code": "rhadditions:torchholder-{metaltype}-empty-north",
+        "quantity": 2
+    }
+}

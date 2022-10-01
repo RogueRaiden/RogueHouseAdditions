@@ -1,3 +1,17 @@
+v2.1.0
+-Feature: More metal types for the Flat Bar, Vertical Racks, Tool Racks and Torch Holders.
+-Feature: Elvish Leather armor - repairable, only found in loot and at Traders.
+-Feature: Fish now drop Raw Fish, which can be cooked as is or cut into Fish Fillets.
+-Feature: Translocator Engineering Redux parts added to some trader lists.
+
+-Tweak: Several adjustments with the Rogue House guide, Claim guide and Pet guide with the addition of a Mods guide.
+-Tweak: Added Herbivore Pet Cookie as tamable item for Bighorn Sheep.
+-Tweak: Unhid the Quiver from the Handbook, changed slots to 12, allowed Spears to be stored and is craftable with the Bowyer trait.
+-Tweak: Unhide the Fish food items from the handbook + Creative menu and rebalanced the nutrition values.
+
+-Fix: Lang entry corrections.
+-Fix: Changed all the Gorilla sounds from Stereo to Mono. The sound is now locational and a bit quiet.
+
 v2.0.4
 -Tweak: Removed changes and patches that made Resonance Archives placeable on moldracks - It was added to Vanilla 1.17.4
 -Tweak: Changed the name of the "Tool Mold Rack {type}" to "Vertical Rack {type}" to match the Vanilla 1.17.4 changes.

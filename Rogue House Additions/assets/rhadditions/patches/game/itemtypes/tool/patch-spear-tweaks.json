@@ -1,0 +1,9 @@
+[
+    {
+        "op": "add",
+        "path": "/storageFlags",
+        "value": 513,
+        "file": "game:itemtypes/tool/spear.json",
+        "side": "Server"
+    }
+]

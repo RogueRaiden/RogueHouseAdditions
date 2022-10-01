@@ -35,9 +35,13 @@ Once both corners are marked, a yellow cuboid will appear showing the area of th
 
 First, load your claim with <strong>/land claim load [index]</strong>.
 
-<strong>/land claim grant [playerName] [use/all]</strong> This will grant the Player with either <strong>use</strong>-Can open doors, chests, pickup things<strong> OR all</strong>-Can build and break block.
+<strong>/land claim grant [playerName] [use/all]</strong> This will grant the Player with either <strong>use</strong>-Can open doors, chests, pickup things<strong> OR all</strong>-Can build and break blocks.
 
-<strong>/land claim grantgroup [groupName] [use/all]</strong> Same as above, but with Player Groups.
+<strong>/land claim revoke [playerName]</strong> This will revoke any permissions from the Player.
+
+<strong>/land claim grantgroup [groupName] [use/all]</strong> This will grant the Group with either <strong>use</strong>-Can open doors, chests, pickup things<strong> OR all</strong>-Can build and break blocks. All Players in or added to the Group get that permission only while in the Group.
+
+<strong>/land claim revokegroup [groupName]</strong> This will revoke any permissions from the Group.
 
 <strong>/land claim save [claimName]</strong> Be sure to Save your Claim again with the name you gave it.",
 
@@ -53,11 +57,27 @@ First, load your claim with <strong>/land claim load [index]</strong>.
     
     Obtaining a pet is rather simple: In the wild or in your animal pen, find a creature's offspring and feed it something it likes. You can tell when an animal is tamable with the feeding tooltip above them. This will also show things the animal likes. When fed, you'll receive a message with the tame progess.
     
-    Once tamed, you will be prompted to name your new best friend. Continuing to feed them will increase their Obedience level. Most commands can only be executed once a certain level of obedience is reached. Press your Sprint Key + right-click on your pet to get a listing of all available commands. The <a href=\"handbooksearch://pet whistle\">Pet whistle</a> allows you to issue commands from a distance.
+    Once tamed, you will be prompted to name your new best friend. Continuing to feed them will increase their Obedience level. Most commands can only be executed once a certain level of obedience is reached. Press your Sprint Key + right-click on your pet to get a listing of all available commands. The <a href=\"handbooksearch://pet whistle\">Pet whistle</a> allows you to issue commands from a distance. The higher the Generation of a pet, the lower the obedience drain until it no longer drains.
     
     When tired, your pets will prefer sleeping in certain spots, such as linen, rush mats and cushions. There are a few <a href=\"handbooksearch://dog toy or dog collar or dog scarf or dog armor or dog helmet or dog backpack\">accessories</a> available to aid you in making your pet a little bit more dapper looking.
     
-    Be careful and protect your Pets, as they <i>can</i> die, <i>and will not respawn!</i> If your pet does die, their corpse will persist for about 30 days before they rot away. That will give you grieving owners plenty of time to secure a <a href=\"handbooksearch://poultice or bandage\">Poultice or Bandage</a> to revive your pet, keeping them in this realm for a while longer.",
+    Be careful and protect your Pets, as they <i>can</i> die, <i>and will not respawn!</i> If your pet does die, their corpse will persist for about 60 days before they rot away. That will give you grieving owners plenty of time to secure a <a href=\"handbooksearch://poultice or bandage\">Poultice or Bandage</a> to revive your pet, keeping them in this realm for a while longer.
+
+    Pets <strong>ARE NOT</strong> harvestable. Meaning if some terrible person kills your pet, you'll see exactly who did it and can warn all with a nice screenshot.
+    
+<strong>Tamable Creatures And Their Foods</strong>
+    
+Bighorn Sheep:<a href=\"handbooksearch://salt\"> Salt,</a><a href=\"handbooksearch://dry grass\"> Dry Grass,</a><a href=\"handbooksearch://heather\"> Heather,</a><a href=\"handbooksearch://orange mallow\"> Orange Mallow,</a><a href=\"handbooksearch://redtop grass\"> Redtop Grass,</a><a href=\"handbooksearch://cow parsley\"> Cow Parsley,</a><a href=\"handbooksearch://dwarf furze\"> Dwarf Furze,</a><a href=\"handbooksearch://woad\"> Woad</a> and<a href=\"handbooksearch://herbivore pet cookie\"> Herbivore Pet Cookies</a>.
+
+Cats:<a href=\"handbooksearch://raw redmeat\"> Raw Redmeat,</a><a href=\"handbooksearch://raw bushmeat\"> Raw Bushmeat,</a><a href=\"handbooksearch://raw poultry\"> Raw Poultry,</a><a href=\"handbooksearch://raw fish\"> Raw Fish</a> and<a href=\"handbooksearch://carnivore pet cookie\"> Carnivore Pet Cookies</a>.
+
+Direwolves:<a href=\"handbooksearch://bone\"> Bones,</a><a href=\"handbooksearch://raw redmeat\"> Raw Redmeat,</a><a href=\"handbooksearch://raw bushmeat\"> Raw Bushmeat,</a><a href=\"handbooksearch://raw poultry\"> Raw Poultry</a> and<a href=\"handbooksearch://carnivore pet cookie\"> Carnivore Pet Cookies</a>.
+
+Foxes:<a href=\"handbooksearch://blueberry\"> Blueberries,</a><a href=\"handbooksearch://cranberry\"> Cranberries,</a><a href=\"handbooksearch://currant\"> Currants,</a><a href=\"handbooksearch://raw chicken egg\"> Raw Chicken Eggs,</a><a href=\"handbooksearch://raw redmeat\"> Raw Redmeat,</a><a href=\"handbooksearch://raw bushmeat\"> Raw Bushmeat,</a><a href=\"handbooksearch://raw poultry\"> Raw Poultry,</a><a href=\"handbooksearch://raw fish\"> Raw Fish</a> and<a href=\"handbooksearch://carnivore pet cookie\"> Carnivore Pet Cookies</a>.
+
+Raccoons:<a href=\"handbooksearch://grub\"> Grubs,</a><a href=\"handbooksearch://termites\"> Termites,</a><a href=\"handbooksearch://blueberry\"> Blueberries,</a><a href=\"handbooksearch://cranberry\"> Cranberries,</a><a href=\"handbooksearch://currant\"> Currants,</a><a href=\"handbooksearch://raw chicken egg\"> Raw Chicken Eggs</a> and<a href=\"handbooksearch://honeycomb\"> Honeycombs</a>.
+
+Wolves:<a href=\"handbooksearch://bone\"> Bones,</a><a href=\"handbooksearch://raw redmeat\"> Raw Redmeat,</a><a href=\"handbooksearch://raw bushmeat\"> Raw Bushmeat,</a><a href=\"handbooksearch://raw poultry\"> Raw Poultry</a> and<a href=\"handbooksearch://carnivore pet cookie\"> Carnivore Pet Cookies</a>.",
 
 
 

@@ -1,0 +1,301 @@
+{
+    "code": "wholefish",
+    "maxstacksize": 64,
+    "variantgroups": [
+        {
+            "code": "foodtype",
+            "states": [ "raw", "cooked", "cured" ]
+        },
+        {
+            "code": "fishtype",
+            "states": [ "salmonpink", "troutgreen" ]
+        }
+    ],
+    "attributes": {
+        "inContainerTextureByType": {
+            //"*-raw": { base: "block/wood/barrel/{type}-fish" },
+            //"*-cured": { base: "block/wood/barrel/{type}-fish" }
+        },
+        "inFirePitProps": {
+            "transform": {
+                "scale": 0.8,
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.0625,
+                    "z": 0.5
+                },
+                "translation": {
+                    "x": -0.01125,
+                    "y": 0.02,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": -90,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            "useFirepitModel": "Spit"
+        },
+        "nutritionPropsWhenInMeal": {
+            "satietyByType": {
+                "*-salmonpink": 320,
+                "*-troutgreen": 290
+            },
+            "foodcategory": "Protein"
+        },
+        "handbook": {
+            "groupBy": [ "wholefish-*" ]
+        }
+
+    },
+    "shapeByType": {
+        "*-salmonpink": {
+            "base": "game:entity/water/salmon"
+        },
+        "*-troutgreen": {
+            "base": "game:entity/water/salmon"
+        }
+    },
+    "texturesbytype": {
+        "*-raw-salmonpink": {
+            "salmon": { "base": "game:entity/fish/salmon-pink" }
+        },
+        "*-cooked-salmonpink": {
+            "salmon": { "base": "rhadditions:item/food/wholefish/cookedwholefish" }
+        },
+        "*-cured-salmonpink": {
+            "salmon": { "base": "rhadditions:item/food/wholefish/curedwholefish" }
+        },
+        "*-raw-troutgreen": {
+            "salmon": { "base": "rhadditions:entity/water/fish/trout-green" }
+        },
+        "*-cooked-troutgreen": {
+            "salmon": { "base": "rhadditions:item/food/wholefish/cookedwholefish" }
+        },
+        "*-cured-troutgreen": {
+            "salmon": { "base": "rhadditions:item/food/wholefish/curedwholefish" }
+        }
+    },
+    "heldRightTpIdleAnimation": "holdinglanternrighthand",
+    "creativeinventory": {
+        "general": [ "*" ],
+        "items": [ "*" ],
+        "rhadditions": [ "*" ]
+    },
+    "nutritionPropsByType": {
+        "*-cooked-salmonpink": {
+            "satiety": 260,
+            "foodcategory": "Protein"
+        },
+        "*-cooked-troutgreen": {
+            "satiety": 230,
+            "foodcategory": "Protein"
+        },
+        "*-cured-salmonpink": {
+            "satiety": 200,
+            "foodcategory": "Protein"
+        },
+        "*-cured-troutgreen": {
+            "satiety": 180,
+            "foodcategory": "Protein"
+        }
+    },
+    "transitionablePropsByType": {
+        "*-raw-*": [
+            {
+                "type": "Perish",
+                "freshHours": { "avg": 28 },
+                "transitionHours": { "avg": 8 },
+                "transitionedStack": {
+                    "type": "item",
+                    "code": "game:rot"
+                },
+                "transitionRatio": 2
+            }
+        ],
+        "*-cooked-*": [
+            {
+                "type": "Perish",
+                "freshHours": { "avg": 96 },
+                "transitionHours": { "avg": 24 },
+                "transitionedStack": {
+                    "type": "item",
+                    "code": "game:rot"
+                },
+                "transitionRatio": 2
+            }
+        ],
+        "*-cured-*": [
+            {
+                "type": "Perish",
+                "freshHours": { "avg": 8760 },
+                "spoilHours": { "avg": 4380 },
+                "transitionedStack": {
+                    "type": "item",
+                    "code": "game:rot"
+                },
+                "transitionRatio": 2
+            }
+        ]
+    },
+    "combustiblePropsByType": {
+        "wholefish-raw-salmonpink": {
+            "meltingPoint": 150,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltingType": "cook",
+            "smeltedStack": {
+                "type": "item",
+                "code": "wholefish-cooked-salmonpink"
+            },
+            "requiresContainer": false
+        },
+        "wholefish-raw-troutgreen": {
+            "meltingPoint": 150,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltingType": "cook",
+            "smeltedStack": {
+                "type": "item",
+                "code": "wholefish-cooked-troutgreen"
+            },
+            "requiresContainer": false
+        }
+    },
+    "materialDensity": 600,
+    "guiTransformByType": {
+        "*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -8,
+                "y": -11,
+                "z": 140
+            },
+            "origin": {
+                "x": 0.49,
+                "y": 0.2,
+                "z": 0.5899
+            },
+            "scale": 1.87
+        }
+    },
+    "fpHandTransformByType": {
+        "*-raw-*": {
+            "translation": {
+                "x": 3,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -22.5,
+                "y": -44.6875,
+                "z": -158
+            },
+            "origin": {
+                "x": 0.55,
+                "y": 0.03,
+                "z": 0.51
+            },
+            "scale": 2.81
+        },
+        "*": {
+            "translation": {
+                "x": 3,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -22.5,
+                "y": -44.6875,
+                "z": -158
+            },
+            "origin": {
+                "x": 0.55,
+                "y": 0.03,
+                "z": 0.51
+            },
+            "scale": 2.81
+        }
+    },
+    "tpHandTransformByType": {
+        "*-raw-*": {
+            "translation": {
+                "x": -0.48,
+                "y": -0.41,
+                "z": -0.5
+            },
+            "rotation": {
+                "x": 4,
+                "y": 6,
+                "z": -169
+            },
+            "origin": {
+                "x": 0.55,
+                "y": 0.15,
+                "z": 0.35
+            },
+            "scale": 0.6
+        },
+        "*": {
+            "translation": {
+                "x": -0.14,
+                "y": -0.31,
+                "z": -0.3
+            },
+            "rotation": {
+                "x": 4,
+                "y": 6,
+                "z": -169
+            },
+            "origin": {
+                "x": 0.55,
+                "y": 0.15,
+                "z": 0.35
+            },
+            "scale": 0.9
+        }
+    },
+    "groundTransformByType": {
+        "*-raw-*": {
+            "translation": {
+                "x": 0,
+                "y": 0.03,
+                "z": 0
+            },
+            "rotation": {
+                "x": -90,
+                "y": -58,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.2,
+                "z": 0.5
+            },
+            "scale": 2.5
+        },
+        "*": {
+            "translation": {
+                "x": 0,
+                "y": 0.03,
+                "z": 0
+            },
+            "rotation": {
+                "x": -90,
+                "y": -58,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.2,
+                "z": 0.5
+            },
+            "scale": 3.5
+        }
+    }
+}

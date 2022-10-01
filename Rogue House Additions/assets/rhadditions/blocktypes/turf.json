@@ -1,6 +1,5 @@
 {
 	"code": "turf",
-	"shape": { "base": "game:block/basic/cube" },
 	"variantgroups": [
 		{
 			"code": "turftype",
@@ -9,6 +8,7 @@
 	],
 	"drawtype": "cube",
 	"blockmaterial": "Soil",
+	"shape": { "base": "game:block/basic/cube" },
 	"texturesByType": {
 		"turf-spring": { "all": { "base": "game:block/plant/grasscoverage/inventory/top_normal" } }
 	},

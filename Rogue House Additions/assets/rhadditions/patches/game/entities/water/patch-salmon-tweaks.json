@@ -1,0 +1,32 @@
+[
+    {
+        "op": "remove",
+        "path": "/client/behaviors/4",
+        "file": "game:entities/water/salmon.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/server/behaviors/6",
+        "file": "game:entities/water/salmon.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/server/behaviors/4",
+        "file": "game:entities/water/salmon.json",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/drops",
+        "value": [
+            {
+                "type": "item",
+                "code": "rhadditions:wholefish-raw-salmonpink"
+            }
+        ],
+        "file": "game:entities/water/salmon.json",
+        "side": "Server"
+    }
+]

@@ -34,7 +34,7 @@
     "game:Cloth Category: Unknown": "Clothing Category: Unknown",
 
     "game:block-toolrack-north": "Tool Rack (Oak)",
-    "game:block-moldrack-normal-east": "Tool Mold Rack (Oak)",
+    "game:block-moldrack-normal-east": "Vertical Rack (Oak)",
 
     "game:item-creature-fox-pup-forest": "Forest Fox (Kit)",
     "game:item-creature-fox-female": "Forest Fox (Female)",
@@ -43,6 +43,14 @@
     "game:item-creature-fox-pup-arctic": "Arctic Fox (Kit)",
     "game:item-creature-fox-arctic-female": "Arctic Fox (Female)",
     "game:item-creature-fox-arctic-male": "Arctic Fox (Male)",
+
+    "game:block-torchholder-brass-empty-north": "Torch Holder (Brass)",
+    "game:blockdesc-torchholder-brass-empty-north": "Can be used to place torches inside, which will never burn out.",
+    "game:block-torchholder-aged-empty-north": "Torch Holder (Aged)",
+
+    "game:item-fish-raw": "Raw Fish Fillet",
+    "game:item-fish-cooked": "Cooked Fish Fillet",
+    "game:item-fish-cured": "Cured Fish Fillet",
 
 
 
@@ -248,11 +256,31 @@
     "item-clothes-upperbody-drifterskin-double-shirt": "Double-Headed Drifter Skin Shirt",
     "itemdesc-clothes-upperbody-drifterskin-double-shirt": "<font color=\"#99c9f9\"><i></i></font><br>",
 
+    "item-armor-head-found-elvish-leather": "Elvish Leather Head Armor",
+    "item-armor-body-found-elvish-leather": "Elvish Leather Body Armor",
+    "item-armor-legs-found-elvish-leather": "Elvish Leather Leg Armor",
+
 
 
     "_comment6": "PARTS **********************",
 
     "item-flatbar-copper": "Flat Bar (Copper)",
+    "item-flatbar-bismuth": "Flat Bar (Bismuth)",
+    "item-flatbar-bismuthbronze": "Flat Bar (Bismuthbronze)",
+    "item-flatbar-blackbronze": "Flat Bar (Blackbronze)",
+    "item-flatbar-brass": "Flat Bar (Brass)",
+    "item-flatbar-chromium": "Flat Bar (Chromium)",
+    "item-flatbar-gold": "Flat Bar (Gold)",
+    "item-flatbar-iron": "Flat Bar (Iron)",
+    "item-flatbar-lead": "Flat Bar (Lead)",
+    "item-flatbar-meteoriciron": "Flat Bar (Meteoriciron)",
+    "item-flatbar-molybdochalkos": "Flat Bar (Molybdochalkos)",
+    "item-flatbar-silver": "Flat Bar (Silver)",
+    "item-flatbar-steel": "Flat Bar (Steel)",
+    "item-flatbar-tin": "Flat Bar (Tin)",
+    "item-flatbar-tinbronze": "Flat Bar (Tinbronze)",
+    "item-flatbar-zinc": "Flat Bar (Zinc)",
+
     "itemdesc-flatbar-*": "A flatened metal bar.",
 
 
@@ -260,6 +288,7 @@
     "_comment7": "RESOURCES **********************",
 
     "item-stone-snowball": "Snowball",
+    "itemdesc-stone-snowball": "<font color=\"#99c9f9\"><i>Lovingly hand crafted by Duchow.</i></font><br>",
 
     "item-drifterskin-surface": "Surface drifter skin",
     "itemdesc-drifterskin-surface": "<font color=\"#99c9f9\"><i></i></font>",
@@ -283,11 +312,19 @@
 
     "item-stackrandomizer-rot": "Rot Randomizer",
 
+    "item-wholefish-raw-salmonpink": "Raw Salmon",
+    "item-wholefish-cooked-salmonpink": "Cooked Salmon",
+    "item-wholefish-cured-salmonpink": "Cured Salmon",
+    "item-wholefish-raw-troutgreen": "Raw Trout",
+    "item-wholefish-cooked-troutgreen": "Cooked Trout",
+    "item-wholefish-cured-troutgreen": "Cured Trout",
+
 
 
     "_comment8": "BLOCKS **********************",
 
-    "block-turf-spring": "Turf",
+    "block-turf-spring": "Evergreen Grass",
+    "blockdesc-turf-spring": "<font color=\"#99c9f9\"><i>Grass that always appears green. Can be chiseled for all sorts of decoration.</i></font>",
 
     "block-linen-bundle-black": "Linen Bundle (Black)",
     "block-linen-bundle-blue": "Linen Bundle (Blue)",
@@ -313,7 +350,7 @@
 
     "block-moldrack-aged-east": "Vertical Rack (Aged)",
     "block-moldrack-acacia-east": "Vertical Rack (Acacia)",
-    "block-moldrack-baldcypress-east": "Vertical Rack (Baldcypress)",
+    "block-moldrack-baldcypress-east": "Vertical Rack (Bald Cypress)",
     "block-moldrack-birch-east": "Vertical Rack (Birch)",
     "block-moldrack-ebony-east": "Vertical Rack (Ebony)",
     "block-moldrack-kapok-east": "Vertical Rack (Kapok)",
@@ -324,10 +361,27 @@
     "block-moldrack-redwood-east": "Vertical Rack (Redwood)",
     "block-moldrack-walnut-east": "Vertical Rack (Walnut)",
 
+    "rhadditions:block-verticalrack-bismuth-east": "Vertical Rack (Bismuth)",
+    "rhadditions:block-verticalrack-bismuthbronze-east": "Vertical Rack (Bismuth Bronze)",
+    "rhadditions:block-verticalrack-blackbronze-east": "Vertical Rack (Black Bronze)",
+    "rhadditions:block-verticalrack-brass-east": "Vertical Rack (Brass)",
+    "rhadditions:block-verticalrack-chromium-east": "Vertical Rack (Chromium)",
+    "rhadditions:block-verticalrack-copper-east": "Vertical Rack (Copper)",
+    "rhadditions:block-verticalrack-gold-east": "Vertical Rack (Gold)",
+    "rhadditions:block-verticalrack-iron-east": "Vertical Rack (Iron)",
+    "rhadditions:block-verticalrack-lead-east": "Vertical Rack (Lead)",
+    "rhadditions:block-verticalrack-meteoriciron-east": "Vertical Rack (Meteoric Iron)",
+    "rhadditions:block-verticalrack-molybdochalkos-east": "Vertical Rack (Molybdochalkos)",
+    "rhadditions:block-verticalrack-silver-east": "Vertical Rack (Silver)",
+    "rhadditions:block-verticalrack-steel-east": "Vertical Rack (Steel)",
+    "rhadditions:block-verticalrack-tin-east": "Vertical Rack (Tin)",
+    "rhadditions:block-verticalrack-tinbronze-east": "Vertical Rack (Tin Bronze)",
+    "rhadditions:block-verticalrack-zinc-east": "Vertical Rack (Zinc)",
+
     "block-toolrack-stick-north": "Tool Rack (Stick)",
     "block-toolrack-aged-north": "Tool Rack (Aged)",
     "block-toolrack-acacia-north": "Tool Rack (Acacia)",
-    "block-toolrack-baldcypress-north": "Tool Rack (Baldcypress)",
+    "block-toolrack-baldcypress-north": "Tool Rack (Bald Cypress)",
     "block-toolrack-birch-north": "Tool Rack (Birch)",
     "block-toolrack-ebony-north": "Tool Rack (Ebony)",
     "block-toolrack-kapok-north": "Tool Rack (Kapok)",
@@ -337,6 +391,40 @@
     "block-toolrack-purpleheart-north": "Tool Rack (Purpleheart)",
     "block-toolrack-redwood-north": "Tool Rack (Redwood)",
     "block-toolrack-walnut-north": "Tool Rack (Walnut)",
+
+    "block-toolrack-bismuth-north": "Tool Rack (Bismuth)",
+    "block-toolrack-bismuthbronze-north": "Tool Rack (Bismuth Bronze)",
+    "block-toolrack-blackbronze-north": "Tool Rack (Black Bronze)",
+    "block-toolrack-brass-north": "Tool Rack (Brass)",
+    "block-toolrack-chromium-north": "Tool Rack (Chromium)",
+    "block-toolrack-copper-north": "Tool Rack (Copper)",
+    "block-toolrack-gold-north": "Tool Rack (Gold)",
+    "block-toolrack-iron-north": "Tool Rack (Iron)",
+    "block-toolrack-lead-north": "Tool Rack (Lead)",
+    "block-toolrack-meteoriciron-north": "Tool Rack (Meteoric Iron)",
+    "block-toolrack-molybdochalkos-north": "Tool Rack (Molybdochalkos)",
+    "block-toolrack-silver-north": "Tool Rack (Silver)",
+    "block-toolrack-steel-north": "Tool Rack (Steel)",
+    "block-toolrack-tin-north": "Tool Rack (Tin)",
+    "block-toolrack-tinbronze-north": "Tool Rack (Tin Bronze)",
+    "block-toolrack-zinc-north": "Tool Rack (Zinc)",
+
+    "block-torchholder-bismuth-empty-north": "Torch Holder (Bismuth)",
+    "block-torchholder-bismuthbronze-empty-north": "Torch Holder (Bismuth Bronze)",
+    "block-torchholder-blackbronze-empty-north": "Torch Holder (Black Bronze)",
+    "block-torchholder-chromium-empty-north": "Torch Holder (Chromium)",
+    "block-torchholder-copper-empty-north": "Torch Holder (Copper)",
+    "block-torchholder-gold-empty-north": "Torch Holder (Gold)",
+    "block-torchholder-iron-empty-north": "Torch Holder (Iron)",
+    "block-torchholder-lead-empty-north": "Torch Holder (Lead)",
+    "block-torchholder-meteoriciron-empty-north": "Torch Holder (Meteoric Iron)",
+    "block-torchholder-molybdochalkos-empty-north": "Torch Holder (Molybdochalkos)",
+    "block-torchholder-silver-empty-north": "Torch Holder (Silver)",
+    "block-torchholder-steel-empty-north": "Torch Holder (Steel)",
+    "block-torchholder-tin-empty-north": "Torch Holder (Tin)",
+    "block-torchholder-tinbronze-empty-north": "Torch Holder (Tin Bronze)",
+    "block-torchholder-zinc-empty-north": "Torch Holder (Zinc)",
+    "blockdesc-torchholder-*": "Can be used to place torches inside, which will never burn out.",
 
 
 

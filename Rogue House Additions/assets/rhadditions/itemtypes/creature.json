@@ -61,7 +61,6 @@
             }
         },
         "*-gorilla-baby": {
-            "rotate": true,
             "translation": {
                 "x": 0,
                 "y": 0,
@@ -73,14 +72,13 @@
                 "z": -180
             },
             "origin": {
-                "x": 0.5,
-                "y": 0.65,
+                "x": 0.91,
+                "y": 0.4,
                 "z": 0
             },
-            "scale": 1.13
+            "scale": 1.27
         },
         "*-gorilla-female": {
-            "rotate": true,
             "translation": {
                 "x": 0,
                 "y": 0,
@@ -99,7 +97,6 @@
             "scale": 1.08
         },
         "*-silverback": {
-            "rotate": true,
             "translation": {
                 "x": 0,
                 "y": 0,
@@ -136,7 +133,6 @@
             "scale": 0.43
         },
         "*-gorilla-*": {
-            "rotate": true,
             "translation": {
                 "x": 0,
                 "y": 0,

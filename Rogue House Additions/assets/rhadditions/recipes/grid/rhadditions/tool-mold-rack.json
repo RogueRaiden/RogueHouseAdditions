@@ -17,8 +17,7 @@
         "height": 3,
         "output": {
             "type": "block",
-            "code": "rhadditions:moldrack-{woodtype}-east",
-            "quantity": 1
+            "code": "rhadditions:moldrack-{woodtype}-east"
         }
     },
     {
@@ -38,8 +37,37 @@
         "height": 3,
         "output": {
             "type": "block",
-            "code": "game:moldrack-normal-east",
-            "quantity": 1
+            "code": "game:moldrack-normal-east"
+        }
+    },
+    {
+        "ingredientPattern": "B_B,BFB,_P_",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "name": "metaltype",
+                "code": "rhadditions:flatbar-*",
+                "allowedVariants": [ "bismuth", "bismuthbronze", "blackbronze", "brass", "chromium", "copper", "gold", "iron", "lead", "meteoriciron", "molybdochalkos", "silver", "steel", "tin", "tinbronze", "zinc" ]
+            },
+            "F": {
+                "type": "item",
+                "name": "metaltype",
+                "code": "rhadditions:flatbar-*",
+                "allowedVariants": [ "bismuth", "bismuthbronze", "blackbronze", "brass", "chromium", "copper", "gold", "iron", "lead", "meteoriciron", "molybdochalkos", "silver", "steel", "tin", "tinbronze", "zinc" ],
+                "quantity": 2
+            },
+            "P": {
+                "type": "item",
+                "name": "metaltype",
+                "code": "game:metalplate-*",
+                "allowedVariants": [ "bismuth", "bismuthbronze", "blackbronze", "brass", "chromium", "copper", "gold", "iron", "lead", "meteoriciron", "molybdochalkos", "silver", "steel", "tin", "tinbronze", "zinc" ]
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "rhadditions:verticalrack-{metaltype}-east"
         }
     }
 ]

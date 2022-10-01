@@ -11,8 +11,7 @@
         "height": 3,
         "output": {
             "type": "block",
-            "code": "rhadditions:toolrack-stick-north",
-            "quantity": 1
+            "code": "rhadditions:toolrack-stick-north"
         }
     },
     {
@@ -29,8 +28,7 @@
         "height": 3,
         "output": {
             "type": "block",
-            "code": "rhadditions:toolrack-{woodtype}-north",
-            "quantity": 1
+            "code": "rhadditions:toolrack-{woodtype}-north"
         }
     },
     {
@@ -45,8 +43,24 @@
         "height": 3,
         "output": {
             "type": "block",
-            "code": "game:toolrack-north",
-            "quantity": 1
+            "code": "game:toolrack-north"
+        }
+    },
+    {
+        "ingredientPattern": "BBB,___,BBB",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "name": "metaltype",
+                "code": "rhadditions:flatbar-*",
+                "allowedVariants": [ "bismuth", "bismuthbronze", "blackbronze", "brass", "chromium", "copper", "gold", "iron", "lead", "meteoriciron", "molybdochalkos", "silver", "steel", "tin", "tinbronze", "zinc" ]
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "rhadditions:toolrack-{metaltype}-north"
         }
     }
 ]

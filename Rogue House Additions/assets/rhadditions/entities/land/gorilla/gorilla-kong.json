@@ -256,7 +256,8 @@
 						"animation": "Attack",
 						"animationSpeed": 2,
 						"whenInEmotionState": "aggressiveondamage",
-						"sound": "rhadditions:creature/gorilla/kong-aggressive"
+						"sound": "rhadditions:creature/gorilla/kong-aggressive",
+						"soundRange": 30
 					},
 					{
 						"code": "throwatentity",
@@ -313,6 +314,7 @@
 						"animation": "Run",
 						"animationSpeed": 2,
 						"sound": "rhadditions:creature/gorilla/kong-hurt",
+						"soundRange": 30,
 						"whenInEmotionState": "fleeondamage"
 					},
 					{
@@ -324,6 +326,7 @@
 						"animation": "Run",
 						"animationSpeed": 2,
 						"sound": "rhadditions:creature/gorilla/placeHolder ",
+						"soundRange": 30,
 						"whenInEmotionState": "aggressiveondamage"
 					},
 					{
@@ -427,6 +430,7 @@
 						"animationSpeed": 1.5,
 						"whenNotInEmotionState": "aggressiveondamage",
 						"sound": "rhadditions:creature/gorilla/kong-threaten",
+						"soundRange": 30,
 						"stopOnHurt": true,
 						"chance": 0.5
 					},
