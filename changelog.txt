@@ -1,3 +1,18 @@
+v2.2.0
+-Feature: 9 additional Resonance Archives from base game music tracks.
+
+-Tweak: Added ground storage for the Quiver.
+-Tweak: Made the Firestarter tool rackable.
+-Tweak: Adjusted Direwolves and Bell hitbox.
+-Tweak: Adjusted Resonance Archives Vertical Rack transforms.
+-Tweak: Changed recipes for Simple Elevator blocks and Teleportation Runes beacons and runes to require Expanded Matter materials. (Only when required mods are loaded)
+-Tweak: Added recipe for Sod roofing.
+
+-Fixed: Snowball texture client error.
+-Fixed: Direwolf pups not able to be tamed.
+
+-Patch: Fox pups should now spawn naturally, and grow up into their proper adult versions.
+
 v2.1.0
 -Feature: More metal types for the Flat Bar, Vertical Racks, Tool Racks and Torch Holders.
 -Feature: Elvish Leather armor - repairable, only found in loot and at Traders.
@@ -7,7 +22,7 @@ v2.1.0
 -Tweak: Several adjustments with the Rogue House guide, Claim guide and Pet guide with the addition of a Mods guide.
 -Tweak: Added Herbivore Pet Cookie as tamable item for Bighorn Sheep.
 -Tweak: Unhid the Quiver from the Handbook, changed slots to 12, allowed Spears to be stored and is craftable with the Bowyer trait.
--Tweak: Unhide the Fish food items from the handbook + Creative menu and rebalanced the nutrition values.
+-Tweak: Unhid the Fish food items from the handbook + Creative menu and rebalanced the nutrition values.
 
 -Fix: Lang entry corrections.
 -Fix: Changed all the Gorilla sounds from Stereo to Mono. The sound is now locational and a bit quiet.

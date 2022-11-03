@@ -1,0 +1,154 @@
+[
+	{
+		"op": "addeach",
+		"path": "/attributesByType/*-resonancearchive/stacks/-",
+		"value": [
+			{
+				"type": "item",
+				"code": "rhadditions:resonancearchive-adventuring",
+				"quantity": {
+					"avg": 1,
+					"var": 0
+				},
+				"chance": 1
+			},
+			{
+				"type": "item",
+				"code": "rhadditions:resonancearchive-building",
+				"quantity": {
+					"avg": 1,
+					"var": 0
+				},
+				"chance": 1
+			},
+			{
+				"type": "item",
+				"code": "rhadditions:resonancearchive-creating",
+				"quantity": {
+					"avg": 1,
+					"var": 0
+				},
+				"chance": 1
+			},
+			{
+				"type": "item",
+				"code": "rhadditions:resonancearchive-daylight",
+				"quantity": {
+					"avg": 1,
+					"var": 0
+				},
+				"chance": 1
+			},
+			{
+				"type": "item",
+				"code": "rhadditions:resonancearchive-groove",
+				"quantity": {
+					"avg": 1,
+					"var": 0
+				},
+				"chance": 1
+			},
+			{
+				"type": "item",
+				"code": "rhadditions:resonancearchive-heartbeat",
+				"quantity": {
+					"avg": 1,
+					"var": 0
+				},
+				"chance": 1
+			},
+			{
+				"type": "item",
+				"code": "rhadditions:resonancearchive-fall-o'-croft",
+				"quantity": {
+					"avg": 1,
+					"var": 0
+				},
+				"chance": 1
+			},
+			{
+				"type": "item",
+				"code": "rhadditions:resonancearchive-midnight",
+				"quantity": {
+					"avg": 1,
+					"var": 0
+				},
+				"chance": 1
+			},
+			{
+				"type": "item",
+				"code": "rhadditions:resonancearchive-mirror",
+				"quantity": {
+					"avg": 1,
+					"var": 0
+				},
+				"chance": 1
+			},
+			{
+				"type": "item",
+				"code": "rhadditions:resonancearchive-roots",
+				"quantity": {
+					"avg": 1,
+					"var": 0
+				},
+				"chance": 1
+			},
+			{
+				"type": "item",
+				"code": "rhadditions:resonancearchive-safety-of-a-warm-fire",
+				"quantity": {
+					"avg": 1,
+					"var": 0
+				},
+				"chance": 1
+			},
+			{
+				"type": "item",
+				"code": "rhadditions:resonancearchive-setting-sun",
+				"quantity": {
+					"avg": 1,
+					"var": 0
+				},
+				"chance": 1
+			},
+			{
+				"type": "item",
+				"code": "rhadditions:resonancearchive-spring",
+				"quantity": {
+					"avg": 1,
+					"var": 0
+				},
+				"chance": 1
+			},
+			{
+				"type": "item",
+				"code": "rhadditions:resonancearchive-summer-day",
+				"quantity": {
+					"avg": 1,
+					"var": 0
+				},
+				"chance": 1
+			},
+			{
+				"type": "item",
+				"code": "rhadditions:resonancearchive-to-dawn",
+				"quantity": {
+					"avg": 1,
+					"var": 0
+				},
+				"chance": 1
+			},
+			{
+				"type": "item",
+				"code": "rhadditions:resonancearchive-winter",
+				"quantity": {
+					"avg": 1,
+					"var": 0
+				},
+				"chance": 1
+			}
+		],
+		"file": "game:itemtypes/meta/stackrandomizer.json",
+		"side": "Server"
+	}
+]

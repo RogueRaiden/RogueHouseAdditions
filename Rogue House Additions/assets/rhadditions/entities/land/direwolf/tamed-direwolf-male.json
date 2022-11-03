@@ -3,7 +3,7 @@
     "class": "EntityMount",
     "enabled": false,
     "hitboxSize": {
-        "x": 2,
+        "x": 1.5,
         "y": 1.5
     },
     "deadHitboxSize": {

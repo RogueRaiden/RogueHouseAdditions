@@ -10,9 +10,7 @@
 	],
 	"maxstacksize": 64,
 	"shape": { "base": "rhadditions:item/resource/ball" },
-	"textures": {
-		"material": { "base": "game:block/snow/normal1" }
-	},
+	"texture": { "base": "game:block/snow/normal1" },
 	"guiTransform": {
 		"translation": {
 			"x": 2,

@@ -2,8 +2,8 @@
     "code": "direwolf-pup",
     "class": "EntityAgent",
     "hitboxSize": {
-        "x": 0.85,
-        "y": 0.5
+        "x": 0.8,
+        "y": 0.4
     },
     "deadHitboxSize": {
         "x": 0.75,

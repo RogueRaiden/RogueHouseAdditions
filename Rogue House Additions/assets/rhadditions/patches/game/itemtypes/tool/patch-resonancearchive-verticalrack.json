@@ -1,0 +1,26 @@
+[
+    {
+        "op": "replace",
+        "path": "/attributes/onmoldrackTransform",
+        "value": {
+            "translation": {
+                "x": 1.27,
+                "y": -0.6,
+                "z": -0.8
+            },
+            "rotation": {
+                "x": 0,
+                "y": 105,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            },
+            "scale": 2.1
+        },
+        "file": "game:itemtypes/resonancearchive.json",
+        "side": "Server"
+    }
+]

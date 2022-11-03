@@ -1,0 +1,24 @@
+[
+    {
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/simpleelevator/elevator.json",
+        "dependsOn": [
+            { "modid": "simpleelevator" },
+            { "modid": "em" }
+        ],
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/1/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/simpleelevator/elevator.json",
+        "dependsOn": [
+            { "modid": "simpleelevator" },
+            { "modid": "em" }
+        ],
+        "side": "Server"
+    }
+]

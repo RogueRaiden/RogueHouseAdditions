@@ -3,7 +3,7 @@
     "variantgroups": [
         {
             "code": "type",
-            "states": [ "fall-o'-croft", "midnight", "adventuring", "safety-of-a-warm-fire", "building", "creating", "daylight" ]
+            "states": [ "adventuring", "building", "creating", "daylight", "fall-o'-croft", "groove", "heartbeat", "midnight", "mirror", "roots", "safety-of-a-warm-fire", "setting-sun", "spring", "summer-day", "to-dawn", "winter" ]
         }
     ],
     "attributes": {
@@ -11,13 +11,13 @@
         "moldrackable": true,
         "onmoldrackTransform": {
             "translation": {
-                "x": 1.29,
+                "x": 1.27,
                 "y": -0.6,
                 "z": -0.8
             },
             "rotation": {
                 "x": 0,
-                "y": 110,
+                "y": 105,
                 "z": 0
             },
             "origin": {
@@ -28,17 +28,26 @@
             "scale": 2.1
         },
         "musicTrackByType": {
-            "*-fall-o'-croft": "game:music/fall-o'-croft.ogg",
-            "*-midnight": "game:music/midnight.ogg",
             "*-adventuring": "game:music/adventuring.ogg",
-            "*-safety-of-a-warm-fire": "game:music/safety-of-a-warm-fire.ogg",
             "*-building": "game:music/building.ogg",
             "*-creating": "game:music/creating.ogg",
-            "*-daylight": "game:music/daylight.ogg"
+            "*-daylight": "game:music/daylight.ogg",
+            "*-fall-o'-croft": "game:music/fall-o'-croft.ogg",
+            "*-groove": "game:music/groove.ogg",
+            "*-heartbeat": "game:music/heartbeat-survive.ogg",
+            "*-midnight": "game:music/midnight.ogg",
+            "*-mirror": "game:music/mirror.ogg",
+            "*-roots": "game:music/roots.ogg",
+            "*-safety-of-a-warm-fire": "game:music/safety-of-a-warm-fire.ogg",
+            "*-setting-sun": "game:music/setting-sun.ogg",
+            "*-spring": "game:music/spring.ogg",
+            "*-summer-day": "game:music/summer-day.ogg",
+            "*-to-dawn": "game:music/to-dawn.ogg",
+            "*-winter": "game:music/winter.ogg"
         }
     },
     "maxstacksize": 1,
-    "texture": { "base": "item/resource/resonancearchives/{type}" },
+    "texture": { "base": "rhadditions:item/resource/resonancearchives/{type}" },
     "creativeinventory": {
         "general": [ "*" ],
         "items": [ "*" ],

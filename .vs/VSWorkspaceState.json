@@ -4,14 +4,13 @@
     "\\Rogue House Additions",
     "\\Rogue House Additions\\assets",
     "\\Rogue House Additions\\assets\\rhadditions",
-    "\\Rogue House Additions\\assets\\rhadditions\\blocktypes",
-    "\\Rogue House Additions\\assets\\rhadditions\\blocktypes\\metal",
-    "\\Rogue House Additions\\assets\\rhadditions\\entities",
-    "\\Rogue House Additions\\assets\\rhadditions\\entities\\water",
     "\\Rogue House Additions\\assets\\rhadditions\\patches",
-    "\\Rogue House Additions\\assets\\rhadditions\\patches\\game",
-    "\\Rogue House Additions\\assets\\rhadditions\\patches\\game\\entities"
+    "\\Rogue House Additions\\assets\\rhadditions\\patches\\tprunes",
+    "\\Rogue House Additions\\assets\\rhadditions\\recipes",
+    "\\Rogue House Additions\\assets\\rhadditions\\recipes\\grid",
+    "\\Rogue House Additions\\assets\\rhadditions\\recipes\\grid\\simpleelevator",
+    "\\Rogue House Additions\\assets\\rhadditions\\recipes\\grid\\tprunes"
   ],
-  "SelectedNode": "\\Rogue House Additions\\assets\\rhadditions\\patches\\game\\entities\\patch-grub-drops.json",
+  "SelectedNode": "\\Rogue House Additions\\assets\\rhadditions\\patches\\rhadditions",
   "PreviewInSolutionExplorer": false
 }

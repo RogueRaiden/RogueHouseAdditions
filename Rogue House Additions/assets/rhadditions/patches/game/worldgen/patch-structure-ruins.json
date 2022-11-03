@@ -4,8 +4,10 @@
         "path": "/structures/-",
         "value": {
             "code": "rh-bunker",
+            "group": "bunker",
+            "minGroupDistance": 600,
             "name": "bunker",
-            "chance": 0.005,
+            "chance": 0.08,
             "schematics": [ "rhadditions/bunker/*" ],
             "depth": {
                 "avg": 9,

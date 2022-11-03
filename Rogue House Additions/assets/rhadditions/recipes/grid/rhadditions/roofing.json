@@ -1,0 +1,117 @@
+[
+    {
+        "ingredientPattern": "__H,CH_,H__",
+        "ingredients": {
+            "C": {
+                "type": "block",
+                "code": "game:soil-*",
+                "allowedVariants": [ "compost-none", "high-none" ],
+                "name": "soil"
+            },
+            "H": {
+                "type": "item",
+                "code": "game:plank-aged",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:slantedroofing-sod-east-free",
+            "quantity": 2
+        }
+    },
+    {
+        "ingredientPattern": "CH_,H_H",
+        "ingredients": {
+            "C": {
+                "type": "block",
+                "code": "game:soil-*",
+                "allowedVariants": [ "compost-none", "high-none" ],
+                "name": "soil"
+            },
+            "H": {
+                "type": "item",
+                "code": "game:plank-aged",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "game:slantedroofingridge-sod-ns-free",
+            "quantity": 2
+        }
+    },
+    {
+        "ingredientPattern": "CH_,HHH",
+        "ingredients": {
+            "C": {
+                "type": "block",
+                "code": "game:soil-*",
+                "allowedVariants": [ "compost-none", "high-none" ],
+                "name": "soil"
+            },
+            "H": {
+                "type": "item",
+                "code": "game:plank-aged",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "game:slantedroofingtip-sod-free",
+            "quantity": 2
+        }
+    },
+    {
+        "ingredientPattern": "_H,HC,_H",
+        "ingredients": {
+            "C": {
+                "type": "block",
+                "code": "game:soil-*",
+                "allowedVariants": [ "compost-none", "high-none" ],
+                "name": "soil"
+            },
+            "H": {
+                "type": "item",
+                "code": "game:plank-aged",
+                "quantity": 2
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:slantedroofingcornerinner-sod-east-free",
+            "quantity": 2
+        }
+    },
+    {
+        "ingredientPattern": "CH,HH",
+        "ingredients": {
+            "C": {
+                "type": "block",
+                "code": "game:soil-*",
+                "allowedVariants": [ "compost-none", "high-none" ],
+                "name": "soil"
+            },
+            "H": {
+                "type": "item",
+                "code": "game:plank-aged",
+                "quantity": 2
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "game:slantedroofingcornerouter-sod-east-free",
+            "quantity": 2
+        }
+    }
+]

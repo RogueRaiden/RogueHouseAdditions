@@ -1,0 +1,18 @@
+[
+    {
+        "op": "remove",
+        "path": "/attributes/handbook",
+        "file": "game:itemtypes/food/fish.json",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/creativeinventory",
+        "value": {
+            "general": [ "*-raw", "*-cooked", "*-cured" ],
+            "items": [ "*-raw", "*-cooked", "*-cured" ]
+        },
+        "file": "game:itemtypes/food/fish.json",
+        "side": "Server"
+    }
+]

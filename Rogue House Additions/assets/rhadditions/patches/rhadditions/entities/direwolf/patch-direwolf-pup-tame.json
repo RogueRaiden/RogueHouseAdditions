@@ -60,7 +60,7 @@
         "value": [
             {
                 "code": "tameable",
-                "tameEntityCode": "tamed-direwolf-pup",
+                "tameEntityCode": "rhadditions:tamed-direwolf-pup",
                 "treat": [
                     {
                         "code": "bone",

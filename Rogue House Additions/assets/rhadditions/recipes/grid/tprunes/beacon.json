@@ -1,0 +1,243 @@
+[
+	{
+		"width": 3,
+		"height": 3,
+		"ingredientPattern": "HBC,DBD,DPD",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"B": {
+				"type": "block",
+				"code": "game:rock-*",
+				"allowedVariants": [ "andesite" ],
+				"name": "stone"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-*",
+				"allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "steel" ],
+				"name": "metal"
+			},
+			"D": {
+				"type": "item",
+				"code": "em:powdered-metal-temporal",
+				"quantity": "3"
+			}
+		},
+		"enabled": false,
+		"name": "rune_beacon",
+		"output": {
+			"type": "block",
+			"code": "tprunes:rune_beacon-{stone}-{metal}"
+		}
+	},
+	{
+		"width": 3,
+		"height": 3,
+		"ingredientPattern": "HBC,DBD,DPD",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"B": {
+				"type": "block",
+				"code": "game:rock-*",
+				"allowedVariants": [ "granite" ],
+				"name": "stone"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-*",
+				"allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "steel" ],
+				"name": "metal"
+			},
+			"D": {
+				"type": "item",
+				"code": "em:powdered-metal-temporal",
+				"quantity": "3"
+			}
+		},
+		"enabled": false,
+		"name": "rune_beacon",
+		"output": {
+			"type": "block",
+			"code": "tprunes:rune_beacon-{stone}-{metal}"
+		}
+	},
+	{
+		"width": 3,
+		"height": 3,
+		"ingredientPattern": "HBC,DBD,DPD",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"B": {
+				"type": "block",
+				"code": "game:rock-*",
+				"allowedVariants": [ "basalt" ],
+				"name": "stone"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-*",
+				"allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "steel" ],
+				"name": "metal"
+			},
+			"D": {
+				"type": "item",
+				"code": "em:powdered-metal-temporal",
+				"quantity": "3"
+			}
+		},
+		"enabled": false,
+		"name": "rune_beacon",
+		"output": {
+			"type": "block",
+			"code": "tprunes:rune_beacon-{stone}-{metal}"
+		}
+	},
+
+	{
+		"width": 3,
+		"height": 3,
+		"ingredientPattern": "CBH,DBD,DPD",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"B": {
+				"type": "block",
+				"code": "game:rock-*",
+				"allowedVariants": [ "andesite" ],
+				"name": "stone"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-*",
+				"allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "steel" ],
+				"name": "metal"
+			},
+			"D": {
+				"type": "item",
+				"code": "em:powdered-metal-temporal",
+				"quantity": "3"
+			}
+		},
+		"enabled": false,
+		"name": "rune_beacon",
+		"output": {
+			"type": "block",
+			"code": "tprunes:rune_beacon-{stone}-{metal}"
+		}
+	},
+	{
+		"width": 3,
+		"height": 3,
+		"ingredientPattern": "CBH,DBD,DPD",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"B": {
+				"type": "block",
+				"code": "game:rock-*",
+				"allowedVariants": [ "granite" ],
+				"name": "stone"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-*",
+				"allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "steel" ],
+				"name": "metal"
+			},
+			"D": {
+				"type": "item",
+				"code": "em:powdered-metal-temporal",
+				"quantity": "3"
+			}
+		},
+		"enabled": false,
+		"name": "rune_beacon",
+		"output": {
+			"type": "block",
+			"code": "tprunes:rune_beacon-{stone}-{metal}"
+		}
+	},
+	{
+		"width": 3,
+		"height": 3,
+		"ingredientPattern": "CBH,DBD,DPD",
+		"ingredients": {
+			"C": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"isTool": true
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-*",
+				"isTool": true
+			},
+			"B": {
+				"type": "block",
+				"code": "game:rock-*",
+				"allowedVariants": [ "basalt" ],
+				"name": "stone"
+			},
+			"P": {
+				"type": "item",
+				"code": "game:metalplate-*",
+				"allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "steel" ],
+				"name": "metal"
+			},
+			"D": {
+				"type": "item",
+				"code": "em:powdered-metal-temporal",
+				"quantity": "3"
+			}
+		},
+		"enabled": false,
+		"name": "rune_beacon",
+		"output": {
+			"type": "block",
+			"code": "tprunes:rune_beacon-{stone}-{metal}"
+		}
+	}
+]
