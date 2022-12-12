@@ -12,5 +12,47 @@
 		"value": false,
 		"file": "game:recipes/grid/toolrack.json",
 		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/enabled",
+		"value": false,
+		"file": "game:recipes/grid/forge.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/enabled",
+		"value": false,
+		"file": "game:recipes/grid/backpack.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/enabled",
+		"value": false,
+		"file": "game:recipes/grid/miningbag.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/0/enabled",
+		"value": false,
+		"file": "game:recipes/grid/hunterbackpack.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/1/enabled",
+		"value": false,
+		"file": "game:recipes/grid/hunterbackpack.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/enabled",
+		"value": false,
+		"file": "game:recipes/grid/linensack.json",
+		"side": "Server"
 	}
 ]

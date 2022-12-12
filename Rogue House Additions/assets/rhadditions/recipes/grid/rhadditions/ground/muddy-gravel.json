@@ -1,0 +1,34 @@
+{
+    "ingredientPattern": "_W_,DDD,GGG",
+    "ingredients": {
+        "W": {
+            "type": "block",
+            "code": "game:woodbucket"
+        },
+        "D": {
+            "type": "block",
+            "code": "game:soil-*"
+        },
+        "G": {
+            "type": "block",
+            "code": "game:gravel-*",
+            "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite" ]
+        }
+    },
+    "width": 3,
+    "height": 3,
+    "attributes": {
+        "liquidContainerProps": {
+            "requiresContent": {
+                "type": "item",
+                "code": "game:waterportion"
+            },
+            "requiresLitres": 1
+        }
+    },
+    "output": {
+        "type": "block",
+        "code": "game:muddygravel",
+        "quantity": 6
+    }
+}

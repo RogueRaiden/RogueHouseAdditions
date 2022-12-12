@@ -45,6 +45,13 @@
         "creatures": [ "*" ],
         "rhadditions": [ "*" ]
     },
+    "attributesByType": {
+        "*-gorilla-kong": {
+            "handbook": {
+                "exclude": true
+            }
+        }
+    },
     "materialDensity": 600,
     "guiTransformByType": {
         "*-trader-*": {

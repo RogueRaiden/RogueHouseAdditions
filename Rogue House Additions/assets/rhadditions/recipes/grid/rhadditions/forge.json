@@ -1,0 +1,52 @@
+[
+    {
+        "ingredientPattern": "S_S,S_S,SSS",
+        "ingredients": {
+            "S": {
+                "type": "block",
+                "name": "stone",
+                "code": "game:cobblestone-*",
+                "allowedVariants": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "greenmarble", "kimberlite", "limestone", "obsidian", "peridotite", "phyllite", "redmarble", "sandstone", "scoria", "shale", "slate", "suevite", "whitemarble" ]
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "rhadditions:forge-{stone}"
+        }
+    },
+    {
+        "ingredientPattern": "S_S,S_S,SSS",
+        "ingredients": {
+            "S": {
+                "type": "block",
+                "name": "stone",
+                "code": "game:cobblestone-granite"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:forge"
+        }
+    },
+    {
+        "ingredientPattern": "S_S,S_S,SSS",
+        "ingredients": {
+            "S": {
+                "type": "block",
+                "name": "stone",
+                "code": "game:cobbleskull-*",
+                "allowedVariants": [ "andesite", "basalt", "chalk", "claystone", "granite", "sandstone", "shale" ]
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "rhadditions:forge-{stone}-skull"
+        }
+    }
+]

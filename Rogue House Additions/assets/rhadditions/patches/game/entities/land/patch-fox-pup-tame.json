@@ -5,7 +5,7 @@
         "value": [
             {
                 "code": "tameable",
-                "tameEntityCode": "rhadditions:tamed-fox-pup",
+                "tameEntityCode": "rhadditions:tamed-fox-pup-forest",
                 "treat": [
                     {
                         "code": "fruit-blueberry",

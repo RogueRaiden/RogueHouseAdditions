@@ -1,0 +1,25 @@
+[
+	{
+		"code": "curedfish",
+		"sealHours": 480,
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:salt",
+				"quantity": 2
+			},
+			{
+				"type": "item",
+				"code": "rhadditions:wholefish-raw-*",
+				"name": "meat",
+				"quantity": 1,
+				"allowedVariants": [ "salmonpink", "troutgreen" ]
+			}
+		],
+		"output": {
+			"type": "item",
+			"code": "rhadditions:wholefish-cured-{meat}",
+			"stackSize": 1
+		}
+	}
+]

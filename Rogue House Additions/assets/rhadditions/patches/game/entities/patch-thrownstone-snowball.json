@@ -38,33 +38,5 @@
         },
         "file": "game:entities/thrownstone.json",
         "side": "Server"
-    },
-
-    {
-        "op": "remove",
-        "path": "/attributes",
-        "file": "game:entities/thrownstone.json",
-        "side": "Server"
-    },
-    {
-        "op": "add",
-        "path": "/attributesByType",
-        "value": {
-            "*-snowball": {
-                "physics": {
-                    "groundDragFactor": 1,
-                    "airDragFactor": 0.15,
-                    "gravityFactor": 0.05
-                }
-            },
-            "*": {
-                "physics": {
-                    "groundDragFactor": 1,
-                    "airDragFactor": 0.25
-                }
-            }
-        },
-        "file": "game:entities/thrownstone.json",
-        "side": "Server"
     }
 ]

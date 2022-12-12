@@ -1,0 +1,49 @@
+[
+    {
+        "ingredientPattern": "H,C,S",
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "block",
+                "code": "game:glacierice"
+            }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "rhadditions:slab-glacier-down-free",
+            "quantity": 2
+        }
+    },
+    {
+        "ingredientPattern": "BSB,BBB",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "name": "material",
+                "code": "rhadditions:brick-*",
+                "allowedVariants": [ "glacier", "snow" ]
+            },
+            "S": {
+                "type": "item",
+                "code": "rhadditions:stone-snowball"
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "rhadditions:brickslab-{material}-down-free"
+        }
+    }
+]

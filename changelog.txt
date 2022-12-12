@@ -1,3 +1,21 @@
+v2.2.1
+-Feature: 5 New paintings to collect! "Dragon", "Death", "The Skull", "Goliath" & "Dark Angel".
+-Feature: Stone types for the Forge.
+-Feature: Snow and Ice brick blocks, ice slabs.
+
+-Tweak: Guide additions.
+-Tweak: Hid Wooden cage and Kong from the handbook.
+-Tweak: Removed Elvish armor repairing, its bugged for now.
+-Tweak: Added recipe for Muddy gravel.
+-Tweak: Added recipe to cure raw fish.
+-Tweak: Replaced bag recipes.
+-Tweak: Added recipes to cut down pelts.
+-Tweak: Disabled most Trade-o-mat blocks and items, only the trade crate is enabled.
+
+-Fixed: Fox kits not being tamed.
+-Fixed: Crash issue with Bullseye mod.
+-Fixed: Torch holder lang errors.
+
 v2.2.0
 -Feature: 9 additional Resonance Archives from base game music tracks.
 

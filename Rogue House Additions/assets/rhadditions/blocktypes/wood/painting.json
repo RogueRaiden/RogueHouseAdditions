@@ -3,7 +3,7 @@
     "variantgroups": [
         {
             "code": "painting",
-            "states": [ "phoenix", "rogueraiden" ]
+            "states": [ "phoenix", "rogueraiden", "dragon", "death", "skull", "goliath", "dark-angel" ]
         },
         {
             "code": "side",
@@ -90,9 +90,9 @@
         "painting": { "base": "block/painting/{painting}" }
     },
     "creativeinventory": {
-        "general": [ "painting-*-north" ],
-        "decorative": [ "painting-*-north" ],
-        "rhadditions": [ "painting-*-north" ]
+        "general": [ "*-north" ],
+        "decorative": [ "*-north" ],
+        "rhadditions": [ "*-north" ]
     },
     "blockmaterial": "Wood",
     "lightAbsorption": 0,

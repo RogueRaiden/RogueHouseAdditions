@@ -1,0 +1,177 @@
+[
+    {
+        "ingredientPattern": "_T_,L_L,_L_",
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine"
+            },
+            "L": {
+                "type": "block",
+                "code": "game:linen-*"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:linensack"
+        }
+    },
+    {
+        "ingredientPattern": "_R_,P_P,CPC",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:hide-pelt-small",
+                "quantity": 3
+            },
+            "C": {
+                "type": "item",
+                "code": "game:*",
+                "allowedVariants": [ "papyrustops", "cattailtops" ],
+                "quantity": 3
+            },
+            "R": {
+                "type": "item",
+                "code": "game:rope",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:hunterbackpack"
+        }
+    },
+    {
+        "ingredientPattern": "_R_,P_P,CPC",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:hide-pelt-medium",
+                "quantity": 2
+            },
+            "C": {
+                "type": "item",
+                "code": "game:*",
+                "allowedVariants": [ "papyrustops", "cattailtops" ],
+                "quantity": 3
+            },
+            "R": {
+                "type": "item",
+                "code": "game:rope",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:hunterbackpack"
+        }
+    },
+    {
+        "ingredientPattern": "_R_,P_P,CPC",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:hide-pelt-large"
+            },
+            "C": {
+                "type": "item",
+                "code": "game:*",
+                "allowedVariants": [ "papyrustops", "cattailtops" ],
+                "quantity": 3
+            },
+            "R": {
+                "type": "item",
+                "code": "game:rope",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:hunterbackpack"
+        }
+    },
+    {
+        "ingredientPattern": "_R_,_P_,C_C",
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:hide-pelt-huge"
+            },
+            "C": {
+                "type": "item",
+                "code": "game:*",
+                "allowedVariants": [ "papyrustops", "cattailtops" ],
+                "quantity": 3
+            },
+            "R": {
+                "type": "item",
+                "code": "game:rope",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:hunterbackpack"
+        }
+    },
+    {
+        "ingredientPattern": "_T_,L_L,LPL",
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine"
+            },
+            "L": {
+                "type": "block",
+                "code": "game:linen-*"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-*",
+                "allowedVariants": [ "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:miningbag"
+        }
+    },
+    {
+        "ingredientPattern": "_T_,L_L,FLF",
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine",
+                "quantity": 2
+            },
+            "F": {
+                "type": "item",
+                "code": "game:flaxfibers",
+                "quantity": 2
+            },
+            "L": {
+                "type": "item",
+                "code": "game:leather-plain",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "game:backpack"
+        }
+    }
+]

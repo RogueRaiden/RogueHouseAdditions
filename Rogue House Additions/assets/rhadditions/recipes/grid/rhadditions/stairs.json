@@ -1,0 +1,23 @@
+[
+    {
+        "ingredientPattern": "_BB,BSB,BBB",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "name": "material",
+                "code": "rhadditions:brick-*",
+                "allowedVariants": [ "glacier", "snow" ]
+            },
+            "S": {
+                "type": "item",
+                "code": "rhadditions:stone-snowball"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "rhadditions:brickstairs-{material}-up-north-free"
+        }
+    }
+]

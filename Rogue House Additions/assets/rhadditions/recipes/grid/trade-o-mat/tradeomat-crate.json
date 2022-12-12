@@ -1,0 +1,24 @@
+[
+    {
+        "ingredientPattern": "B_B,BHB,BBB",
+        "enabled": false,
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:plank-*"
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true,
+                "toolDurabilityCost": 4
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "tradeomat:tomat-crate-north"
+        }
+    }
+]

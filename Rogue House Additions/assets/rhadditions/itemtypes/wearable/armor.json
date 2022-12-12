@@ -10,7 +10,8 @@
         {
             "code": "construction",
             "states": [
-                "found"
+                "found",
+                "crafted"
             ]
         },
         {
@@ -22,10 +23,10 @@
     ],
     "skipVariants": [],
     "allowedVariants": [
-        "armor-*-found-elvish-leather"
+        "*-found-elvish-leather"
     ],
     "shapeByType": {
-        "armor-*-found-elvish-leather": { "base": "game:entity/humanoid/seraph/armor/leather/{bodypart}" }
+        "*-found-elvish-leather": { "base": "game:entity/humanoid/seraph/armor/leather/{bodypart}" }
     },
     "texturesByType": {
         "*-found-elvish-leather": {
@@ -42,23 +43,23 @@
         "visibleDamageEffect": true,
         "wearableAttachment": true,
         "clothescategoryByType": {
-            "armor-head-*": "armorhead",
-            "armor-body-*": "armorbody",
-            "armor-legs-*": "armorlegs"
+            "*-head-*": "armorhead",
+            "*-body-*": "armorbody",
+            "*-legs-*": "armorlegs"
         },
         "disableElementsByType": {
-            "armor-head-*": [ "Hair tile upper part", "Ponytail1", "hideme" ],
-            "armor-body-*": [ "Waist", "hideupperarm", "hidelowerarm" ]
+            "*-head-*": [ "Hair tile upper part", "Ponytail1", "hideme" ],
+            "*-body-*": [ "Waist", "hideupperarm", "hidelowerarm" ]
         },
         "defaultProtLoss": {
             "perTierRelativeProtectionLoss": [ 0.03, 0.15 ],
             "perTierFlatDamageReductionLoss": [ 0.1, 0.2 ]
         },
         "footStepSoundByType": {
-            "armor-body-found-elvish-leather": "game:wearable/leather*"
+            "*-elvish-leather": "game:wearable/leather*"
         },
         "protectionModifiersByType": {
-            "armor-*-found-elvish-leather": {
+            "*-found-elvish-leather": {
                 "relativeProtection": 0.6,
                 "flatDamageReduction": 0.6,
                 "protectionTier": 1,

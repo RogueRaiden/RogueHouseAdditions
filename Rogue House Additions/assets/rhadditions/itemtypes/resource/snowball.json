@@ -8,6 +8,7 @@
 			"states": [ "snowball" ]
 		}
 	],
+	"attributes": {},
 	"maxstacksize": 64,
 	"shape": { "base": "rhadditions:item/resource/ball" },
 	"texture": { "base": "game:block/snow/normal1" },

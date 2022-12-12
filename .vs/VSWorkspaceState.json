@@ -4,13 +4,13 @@
     "\\Rogue House Additions",
     "\\Rogue House Additions\\assets",
     "\\Rogue House Additions\\assets\\rhadditions",
+    "\\Rogue House Additions\\assets\\rhadditions\\blocktypes",
+    "\\Rogue House Additions\\assets\\rhadditions\\blocktypes\\wood",
+    "\\Rogue House Additions\\assets\\rhadditions\\itemtypes",
     "\\Rogue House Additions\\assets\\rhadditions\\patches",
-    "\\Rogue House Additions\\assets\\rhadditions\\patches\\tprunes",
-    "\\Rogue House Additions\\assets\\rhadditions\\recipes",
-    "\\Rogue House Additions\\assets\\rhadditions\\recipes\\grid",
-    "\\Rogue House Additions\\assets\\rhadditions\\recipes\\grid\\simpleelevator",
-    "\\Rogue House Additions\\assets\\rhadditions\\recipes\\grid\\tprunes"
+    "\\Rogue House Additions\\assets\\rhadditions\\patches\\rhadditions",
+    "\\Rogue House Additions\\assets\\rhadditions\\patches\\tradeomat"
   ],
-  "SelectedNode": "\\Rogue House Additions\\assets\\rhadditions\\patches\\rhadditions",
+  "SelectedNode": "\\Rogue House Additions\\assets\\rhadditions\\recipes\\grid\\rhadditions\\labeled-chest-cutoff-sign.json",
   "PreviewInSolutionExplorer": false
 }

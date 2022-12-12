@@ -13,8 +13,8 @@
     ],
     "attributes": {
         "inContainerTextureByType": {
-            //"*-raw": { base: "block/wood/barrel/{type}-fish" },
-            //"*-cured": { base: "block/wood/barrel/{type}-fish" }
+            "*-raw-*": { "base": "game:block/wood/barrel/{foodtype}-fish" },
+            "*-cured-*": { "base": "game:block/wood/barrel/{foodtype}-fish" }
         },
         "inFirePitProps": {
             "transform": {
