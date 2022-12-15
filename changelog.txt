@@ -1,3 +1,6 @@
+v2.2.2
+-
+
 v2.2.1
 -Feature: 5 New paintings to collect! "Dragon", "Death", "The Skull", "Goliath" & "Dark Angel".
 -Feature: Stone types for the Forge.
