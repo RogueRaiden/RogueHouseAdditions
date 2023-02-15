@@ -106,5 +106,30 @@
         "file": "rhadditions:entities/land/fox/tamed-fox-pup.json",
         "dependsOn": [ { "modid": "petai" } ],
         "side": "Server"
+    },
+
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:itemtypes/tool/vanilla-bow.json",
+        "dependsOn": [ { "modid": "bullseye" } ],
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:itemtypes/tool/vanilla-sling.json",
+        "dependsOn": [ { "modid": "bullseye" } ],
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/rhadditions/vanilla-aim-bows.json",
+        "dependsOn": [ { "modid": "bullseye" } ],
+        "side": "Server"
     }
 ]

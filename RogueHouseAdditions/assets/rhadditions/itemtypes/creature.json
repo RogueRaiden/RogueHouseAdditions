@@ -45,9 +45,9 @@
         "creatures": [ "*" ],
         "rhadditions": [ "*" ]
     },
-    "attributesByType": {
-        "*-gorilla-kong": {
-            "handbook": {
+    "attributes": {
+        "handbookByType": {
+            "*-gorilla-kong": {
                 "exclude": true
             }
         }

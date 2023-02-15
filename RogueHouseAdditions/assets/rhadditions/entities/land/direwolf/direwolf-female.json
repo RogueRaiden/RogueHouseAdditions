@@ -334,6 +334,20 @@
                         "animation": "Run"
                     },
                     {
+                        "code": "seekfoodandeat",
+                        "movespeed": 0.006,
+                        "priority": 1.6,
+                        "eatSound": "game:player/eat",
+                        "eatTime": 1.5,
+                        "eatLooseItems": true,
+                        "eatItemCategories": [ "Protein" ],
+                        "animationSpeed": 1.4,
+                        "animation": "Walk",
+                        "eatAnimation": "Eat",
+                        "mincooldownHours": 1,
+                        "maxcooldownHours": 4
+                    },
+                    {
                         "code": "idle",
                         "priority": 1.3,
                         "priorityForCancel": 1.35,

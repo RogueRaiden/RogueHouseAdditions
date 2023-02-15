@@ -1,0 +1,297 @@
+{
+    "code": "blade",
+    "enabled": false,
+    "damagedby": [ "blockbreaking", "attacking" ],
+    "tool": "sword",
+    "class": "ItemSword",
+    "attributes": {
+        "handbook": {
+            "groupBy": [ "blade-*" ]
+        },
+        "toolrackTransformByType": {
+            "*": {
+                "rotation": {
+                    "y": 180,
+                    "z": 1
+                },
+                "translation": {
+                    "x": -0.1,
+                    "y": 0.6
+                },
+                "scale": 1.25
+            }
+        },
+        "groundStorageTransformByType": {
+            "blade-curved-*": {
+                "translation": {
+                    "x": 0.24,
+                    "y": 0.34,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 24,
+                    "y": 61,
+                    "z": -87
+                },
+                "scale": 0.88
+            },
+            "blade-thrusting-*": {
+                "translation": {
+                    "x": 0,
+                    "y": 0.3,
+                    "z": -0.047
+                },
+                "rotation": {
+                    "x": 22,
+                    "y": 88,
+                    "z": -87
+                },
+                "scale": 0.88
+            },
+            "*": {
+                "translation": {
+                    "x": 0.24,
+                    "y": 0.195,
+                    "z": -0.06
+                },
+                "rotation": {
+                    "x": 24,
+                    "y": 61,
+                    "z": -87
+                },
+                "scale": 0.88
+            }
+        }
+    },
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "WallHalves",
+                "wallOffYByType": {
+                    "blade-thrusting-*": 2,
+                    "*": 1
+                },
+                "sprintKey": true,
+                "selectionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 1,
+                    "y2": 0.1,
+                    "z2": 1
+                },
+                "collisionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 0,
+                    "y2": 0,
+                    "z2": 0
+                }
+            }
+        }
+    ],
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [ "short", "long", "thrusting", "curved" ]
+        },
+        {
+            "code": "metal",
+            "states": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "forlorn" ]
+        }
+    ],
+    "skipVariants": [
+        "blade-long-forlorn"
+    ],
+    "allowedVariants": [
+        "blade-long-*"
+    ],
+    "shapeByType": {
+        "*-long-*": { "base": "rhadditions:item/tool/blade/long" }
+    },
+    "heldTpHitAnimationByType": {
+        "*-forlorn": "spearhit",
+        "*-blackguard": "spearhit",
+        "*": "falx"
+    },
+    "texturesByType": {
+        "*-forlorn": {},
+        "blade-long-*": { "metal": { "base": "game:block/metal/ingot/{metal}" } }
+    },
+    "attackRange": 2.5,
+    "tooltierbytype": {
+        "*-copper": 2,
+        "*-gold": 5,
+        "*-silver": 5,
+        "*-bismuthbronze": 3,
+        "*-tinbronze": 3,
+        "*-blackbronze": 3,
+        "*-iron": 4,
+        "*-meteoriciron": 4,
+        "*-steel": 5,
+        "*-forlorn": 4
+    },
+    "miningspeedbytype": {
+        "blade-long-copper": {
+            "wood": 2.2,
+            "leaves": 1.6
+        },
+        "blade-long-bismuthbronze": {
+            "wood": 2.3,
+            "leaves": 2
+        },
+        "blade-long-tinbronze": {
+            "wood": 2.4,
+            "leaves": 2.2
+        },
+        "blade-long-gold": {
+            "wood": 3.5,
+            "leaves": 4
+        },
+        "blade-long-silver": {
+            "wood": 3.5,
+            "leaves": 4
+        },
+        "blade-long-blackbronze": {
+            "wood": 2.5,
+            "leaves": 2.3
+        },
+        "blade-long-iron": {
+            "wood": 3,
+            "leaves": 3
+        },
+        "blade-long-meteoriciron": {
+            "wood": 3.25,
+            "leaves": 3.5
+        },
+        "blade-long-steel": {
+            "wood": 3.5,
+            "leaves": 4
+        }
+    },
+    "attackpowerbytype": {
+        "blade-long-copper": 3.75,
+        "blade-long-bismuthbronze": 4.25,
+        "blade-long-tinbronze": 4.25,
+        "blade-long-blackbronze": 4.75,
+        "blade-long-iron": 5,
+        "blade-long-meteoriciron": 5.25,
+        "blade-long-steel": 5.25,
+        "blade-long-gold": 5.25,
+        "blade-long-silver": 5.25
+    },
+    "durabilitybytype": {
+        "blade-long-copper": 250,
+        "blade-long-tinbronze": 450,
+        "blade-long-bismuthbronze": 530,
+        "blade-long-blackbronze": 600,
+        "blade-long-iron": 850,
+        "blade-long-meteoriciron": 1100,
+        "blade-long-steel": 2125,
+        "blade-long-gold": 2125,
+        "blade-long-silver": 2125
+    },
+    "creativeinventoryByType": {
+        "*": {
+            "general": [ "*" ],
+            "items": [ "*" ],
+            "tools": [ "*" ],
+            "rhadditions": [ "*" ]
+        }
+    },
+    "guiTransformByType": {
+        "blade-thrusting-forlorn": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -89,
+                "y": 47,
+                "z": 44
+            },
+            "origin": {
+                "x": 0.6,
+                "y": -0.2,
+                "z": 0.44
+            },
+            "scale": 1.42
+        },
+        "*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -53,
+                "y": 118,
+                "z": -5
+            },
+            "origin": {
+                "x": 0.64,
+                "y": 0.1,
+                "z": 0.44
+            },
+            "scale": 1.65
+        }
+    },
+    "fpHandTransformByType": {
+        "*": {
+            "translation": {
+                "x": -0.2,
+                "y": -0.2,
+                "z": 0
+            },
+            "rotation": {
+                "x": -3,
+                "y": 15,
+                "z": 90
+            },
+            "scale": 3.18
+        }
+    },
+    "groundTransformByType": {
+        "*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            },
+            "scale": 3.4
+        }
+    },
+    "tpHandTransformByType": {
+        "*": {
+            "translation": {
+                "x": -1.03,
+                "y": -0.005,
+                "z": -0.66
+            },
+            "rotation": {
+                "x": 85,
+                "y": 0,
+                "z": 2
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            },
+            "scale": 0.8
+        }
+    }
+}

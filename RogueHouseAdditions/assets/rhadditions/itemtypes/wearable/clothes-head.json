@@ -21,10 +21,17 @@
 		"*": { "base": "game:entity/humanoid/seraph" }
 	},
 	"texturesByType": {
-		"*-witch-hat": { "seraph": { "base": "game:block/transparent" } },
+		"*-witch-hat": {
+			"seraph": { "base": "game:block/transparent" },
+			"black": { "base": "game:block/cloth/linen/black" },
+			"gold": { "base": "game:block/metal/plate/gold" },
+			"plain": { "base": "game:block/leather/plain" }
+		},
 		"*-wizard-hat": {
 			"seraph": { "base": "game:block/transparent" },
-			"witch-hat": { "base": "rhadditions:entity/humanoid/seraphclothes/head/wizard-hat" }
+			"black": { "base": "game:block/cloth/linen/gray" },
+			"gold": { "base": "game:block/transparent" },
+			"plain": { "base": "game:block/transparent" }
 		},
 		"*": { "seraph": { "base": "rhadditions:entity/humanoid/seraphclothes/{category}/{head}" } }
 	},

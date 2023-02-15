@@ -1,5 +1,6 @@
 [
     {
+        "name": "linen sack",
         "ingredientPattern": "_T_,L_L,_L_",
         "ingredients": {
             "T": {
@@ -19,6 +20,7 @@
         }
     },
     {
+        "name": "hunter backpack small pelt",
         "ingredientPattern": "_R_,P_P,CPC",
         "ingredients": {
             "P": {
@@ -46,6 +48,7 @@
         }
     },
     {
+        "name": "hunter backpack medium pelt",
         "ingredientPattern": "_R_,P_P,CPC",
         "ingredients": {
             "P": {
@@ -73,6 +76,7 @@
         }
     },
     {
+        "name": "hunter backpack large pelt",
         "ingredientPattern": "_R_,P_P,CPC",
         "ingredients": {
             "P": {
@@ -99,6 +103,7 @@
         }
     },
     {
+        "name": "hunter backpack huge pelt",
         "ingredientPattern": "_R_,_P_,C_C",
         "ingredients": {
             "P": {
@@ -125,6 +130,7 @@
         }
     },
     {
+        "name": "mining bag",
         "ingredientPattern": "_T_,L_L,LPL",
         "ingredients": {
             "T": {
@@ -138,7 +144,8 @@
             "P": {
                 "type": "item",
                 "code": "game:metalplate-*",
-                "allowedVariants": [ "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]
+                "allowedVariants": [ "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ],
+                "quantity": 2
             }
         },
         "width": 3,
@@ -149,6 +156,7 @@
         }
     },
     {
+        "name": "leather plain backpack",
         "ingredientPattern": "_T_,L_L,FLF",
         "ingredients": {
             "T": {
@@ -172,6 +180,97 @@
         "output": {
             "type": "item",
             "code": "game:backpack"
+        }
+    },
+    {
+        "name": "leather colors backpack",
+        "ingredientPattern": "_T_,L_L,FLF",
+        "requiresTrait": "clothier",
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine",
+                "quantity": 2
+            },
+            "F": {
+                "type": "item",
+                "code": "game:flaxfibers",
+                "quantity": 2
+            },
+            "L": {
+                "type": "item",
+                "code": "game:leather-*",
+                "name": "color",
+                "allowedVariants": [ "black", "blue", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow" ],
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "rhadditions:backpack-{color}"
+        }
+    },
+    {
+        "name": "big leather plain backpack",
+        "ingredientPattern": "_L_,LBL,LML",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:leather-plain",
+                "quantity": 2
+            },
+            "M": {
+                "type": "item",
+                "name": "metal",
+                "code": "game:metalbit-*",
+                "allowedVariants": [ "tinbronze", "bismuthbronze", "blackbronze" ],
+                "quantity": 6
+            },
+            "B": {
+                "type": "item",
+                "code": "game:backpack"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "rhadditions:backpack-big-plain"
+        }
+    },
+    {
+        "name": "big leather colors backpack",
+        "ingredientPattern": "_L_,LBL,LML",
+        "requiresTrait": "clothier",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "name": "leather",
+                "code": "game:leather-*",
+                "allowedVariants": [ "black", "blue", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow" ],
+                "quantity": 2
+            },
+            "M": {
+                "type": "item",
+                "name": "metal",
+                "code": "game:metalbit-*",
+                "allowedVariants": [ "tinbronze", "bismuthbronze", "blackbronze" ],
+                "quantity": 6
+            },
+            "B": {
+                "type": "item",
+                "name": "leather",
+                "code": "rhadditions:backpack-*",
+                "allowedVariants": [ "black", "blue", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow" ]
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "rhadditions:backpack-big-{leather}"
         }
     }
 ]

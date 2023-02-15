@@ -1,0 +1,118 @@
+[
+    {
+        "op": "addeach",
+        "path": "/attributes/contentConfig/-",
+        "value": [
+            {
+                "code": "bushmeat",
+                "content": {
+                    "type": "item",
+                    "code": "bushmeat-raw"
+                },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [
+                    "block/wood/trough/small/grainfill1",
+                    "block/wood/trough/small/grainfill1",
+                    "block/wood/trough/small/grainfill2",
+                    "block/wood/trough/small/grainfill2",
+                    "block/wood/trough/small/grainfill3",
+                    "block/wood/trough/small/grainfill3",
+                    "block/wood/trough/small/grainfill4",
+                    "block/wood/trough/small/grainfill4"
+                ],
+                "foodFor": [
+                    "fox-*",
+                    "rhadditions:tamed-fox-*",
+                    "cats:cat-*-european",
+                    "cats:cat-*"
+                ],
+                "foodForDesc": "trough-food-smallcarnivores",
+                "textureCode": "contents-bushmeat"
+            },
+            {
+                "code": "redmeat",
+                "content": {
+                    "type": "item",
+                    "code": "redmeat-raw"
+                },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [
+                    "block/wood/trough/small/grainfill1",
+                    "block/wood/trough/small/grainfill1",
+                    "block/wood/trough/small/grainfill2",
+                    "block/wood/trough/small/grainfill2",
+                    "block/wood/trough/small/grainfill3",
+                    "block/wood/trough/small/grainfill3",
+                    "block/wood/trough/small/grainfill4",
+                    "block/wood/trough/small/grainfill4"
+                ],
+                "foodFor": [
+                    "fox-*",
+                    "rhadditions:tamed-fox-*",
+                    "cats:cat-*-european",
+                    "cats:cat-*"
+                ],
+                "foodForDesc": "trough-food-smallcarnivores",
+                "textureCode": "contents-redmeat"
+            },
+            {
+                "code": "fishfillet",
+                "content": {
+                    "type": "item",
+                    "code": "fish-raw"
+                },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [
+                    "block/wood/trough/small/grainfill1",
+                    "block/wood/trough/small/grainfill1",
+                    "block/wood/trough/small/grainfill2",
+                    "block/wood/trough/small/grainfill2",
+                    "block/wood/trough/small/grainfill3",
+                    "block/wood/trough/small/grainfill3",
+                    "block/wood/trough/small/grainfill4",
+                    "block/wood/trough/small/grainfill4"
+                ],
+                "foodFor": [
+                    "fox-*",
+                    "rhadditions:tamed-fox-*",
+                    "cats:cat-*-european",
+                    "cats:cat-*"
+                ],
+                "foodForDesc": "trough-food-smallcarnivores",
+                "textureCode": "contents-fishfillet"
+            }
+        ],
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-bushmeat",
+        "value": {
+            "base": "block/wood/trough/large/bushmeat"
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-redmeat",
+        "value": {
+            "base": "block/wood/trough/large/redmeat"
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-fishfillet",
+        "value": {
+            "base": "block/wood/trough/large/fishfillet"
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    }
+]

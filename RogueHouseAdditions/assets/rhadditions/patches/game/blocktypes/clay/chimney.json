@@ -1,0 +1,8 @@
+[
+    {
+        "op": "remove",
+        "path": "/attributes/handbook/excludeByType",
+        "file": "game:blocktypes/clay/chimney.json",
+        "side": "Server"
+    }
+]

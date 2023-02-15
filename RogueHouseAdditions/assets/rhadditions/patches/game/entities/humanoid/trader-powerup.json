@@ -4,8 +4,8 @@
 		"path": "/server/behaviors/4",
 		"value": {
 			"code": "health",
-			"currenthealth": 100,
-			"maxhealth": 100
+			"currenthealth": 150,
+			"maxhealth": 150
 		},
 		"file": "game:entities/humanoid/trader-artisan.json",
 		"side": "Server"
@@ -24,8 +24,8 @@
 		"path": "/server/behaviors/4",
 		"value": {
 			"code": "health",
-			"currenthealth": 100,
-			"maxhealth": 100
+			"currenthealth": 150,
+			"maxhealth": 150
 		},
 		"file": "game:entities/humanoid/trader-buildmaterials.json",
 		"side": "Server"
@@ -44,8 +44,8 @@
 		"path": "/server/behaviors/4",
 		"value": {
 			"code": "health",
-			"currenthealth": 100,
-			"maxhealth": 100
+			"currenthealth": 150,
+			"maxhealth": 150
 		},
 		"file": "game:entities/humanoid/trader-clothing.json",
 		"side": "Server"
@@ -64,8 +64,8 @@
 		"path": "/server/behaviors/4",
 		"value": {
 			"code": "health",
-			"currenthealth": 100,
-			"maxhealth": 100
+			"currenthealth": 150,
+			"maxhealth": 150
 		},
 		"file": "game:entities/humanoid/trader-commodities.json",
 		"side": "Server"
@@ -84,8 +84,8 @@
 		"path": "/server/behaviors/4",
 		"value": {
 			"code": "health",
-			"currenthealth": 100,
-			"maxhealth": 100
+			"currenthealth": 150,
+			"maxhealth": 150
 		},
 		"file": "game:entities/humanoid/trader-agriculture.json",
 		"side": "Server"
@@ -104,8 +104,8 @@
 		"path": "/server/behaviors/4",
 		"value": {
 			"code": "health",
-			"currenthealth": 100,
-			"maxhealth": 100
+			"currenthealth": 150,
+			"maxhealth": 150
 		},
 		"file": "game:entities/humanoid/trader-furniture.json",
 		"side": "Server"
@@ -124,8 +124,8 @@
 		"path": "/server/behaviors/4",
 		"value": {
 			"code": "health",
-			"currenthealth": 100,
-			"maxhealth": 100
+			"currenthealth": 150,
+			"maxhealth": 150
 		},
 		"file": "game:entities/humanoid/trader-luxuries.json",
 		"side": "Server"
@@ -144,8 +144,8 @@
 		"path": "/server/behaviors/4",
 		"value": {
 			"code": "health",
-			"currenthealth": 100,
-			"maxhealth": 100
+			"currenthealth": 150,
+			"maxhealth": 150
 		},
 		"file": "game:entities/humanoid/trader-survivalgoods.json",
 		"side": "Server"
@@ -164,8 +164,8 @@
 		"path": "/server/behaviors/4",
 		"value": {
 			"code": "health",
-			"currenthealth": 100,
-			"maxhealth": 100
+			"currenthealth": 150,
+			"maxhealth": 150
 		},
 		"file": "game:entities/humanoid/trader-treasurehunter.json",
 		"side": "Server"

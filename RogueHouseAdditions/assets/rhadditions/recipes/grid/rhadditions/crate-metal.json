@@ -1,0 +1,31 @@
+[
+    {
+        "ingredientPattern": "WPW,P_P,WPW",
+        "ingredients": {
+            "W": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood",
+                "allowedVariants": [ "ebony", "purpleheart" ],
+                "quantity": 1
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-*",
+                "name": "metal",
+                "allowedVariants": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ],
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:crate",
+            "attributes": {
+                "lidState": "closed",
+                "type": "wood-{metal}"
+            }
+        }
+    }
+]

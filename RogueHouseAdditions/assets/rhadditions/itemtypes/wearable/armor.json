@@ -11,22 +11,26 @@
             "code": "construction",
             "states": [
                 "found",
-                "crafted"
+                "crafted",
+                "creative"
             ]
         },
         {
             "code": "material",
             "states": [
-                "elvish-leather"
+                "elvish-leather",
+                "admin"
             ]
         }
     ],
     "skipVariants": [],
     "allowedVariants": [
-        "*-found-elvish-leather"
+        "*-found-elvish-leather",
+        "*-creative-admin"
     ],
     "shapeByType": {
-        "*-found-elvish-leather": { "base": "game:entity/humanoid/seraph/armor/leather/{bodypart}" }
+        "*-found-elvish-leather": { "base": "game:entity/humanoid/seraph/armor/leather/{bodypart}" },
+        "*-creative-admin": { "base": "game:entity/humanoid/seraph/armor/leather/{bodypart}" }
     },
     "texturesByType": {
         "*-found-elvish-leather": {
@@ -36,6 +40,10 @@
                     "*": "rhadditions:entity/humanoid/serapharmor/found/elvish-leather"
                 }
             }
+        },
+        "*-creative-admin": {
+            "seraph": { "base": "game:block/transparent" },
+            "material": { "base": "game:block/fire-pink" }
         }
     },
     "storageFlags": 128,
@@ -56,7 +64,8 @@
             "perTierFlatDamageReductionLoss": [ 0.1, 0.2 ]
         },
         "footStepSoundByType": {
-            "*-elvish-leather": "game:wearable/leather*"
+            "*-elvish-leather": "game:wearable/leather*",
+            "*-creative-admin": "game:wearable/leather*"
         },
         "protectionModifiersByType": {
             "*-found-elvish-leather": {
@@ -65,9 +74,21 @@
                 "protectionTier": 1,
                 "perTierRelativeProtectionLoss": [ 0.02, 0.08 ],
                 "perTierFlatDamageReductionLoss": [ 0.05, 0.1 ]
+            },
+            "*-creative-admin": {
+                "relativeProtection": 0.6,
+                "flatDamageReduction": 0.6,
+                "protectionTier": 5,
+                "perTierRelativeProtectionLoss": [ 0.02, 0.08 ],
+                "perTierFlatDamageReductionLoss": [ 0.05, 0.1 ]
             }
         },
-        "statModifiersByType": {}
+        "statModifiersByType": {},
+        "handbookByType": {
+            "*-creative-admin": {
+                "exclude": true
+            }
+        }
     },
     "creativeinventory": {
         "general": [ "*" ],
@@ -77,7 +98,8 @@
     },
     "renderAlphaTest": 0.25,
     "durabilityByType": {
-        "armor-*-found-elvish-leather": 850
+        "armor-*-found-elvish-leather": 850,
+        "armor-*-creative-admin": 99999
     },
 
     "fpHandTransformByType": {

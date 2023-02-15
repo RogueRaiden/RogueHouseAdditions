@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": "true",
+        "file": "rhadditions:recipes/grid/stonequarry/rubblestorage.json",
+        "dependsOn": [
+            { "modid": "stonequarry" }
+        ],
+        "side": "Server"
+    }
+]

@@ -164,7 +164,6 @@
                         "searchRange": 25,
                         "animation": "Run"
                     },
-
                     {
                         "code": "idle",
                         "priority": 1.35,
@@ -189,7 +188,6 @@
                         "stopRange": 6,
                         "stopOnHurt": true
                     },
-
                     {
                         "code": "idle",
                         "priority": 1.3,

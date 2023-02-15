@@ -1,14 +1,18 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Rogue House Additions",
-    "\\Rogue House Additions\\assets",
-    "\\Rogue House Additions\\assets\\rhadditions",
-    "\\Rogue House Additions\\assets\\rhadditions\\blocktypes",
-    "\\Rogue House Additions\\assets\\rhadditions\\itemtypes",
-    "\\Rogue House Additions\\assets\\rhadditions\\recipes",
-    "\\Rogue House Additions\\assets\\rhadditions\\recipes\\grid",
-    "\\Rogue House Additions\\assets\\rhadditions\\recipes\\grid\\rhadditions"
+    "\\RogueHouseAdditions",
+    "\\RogueHouseAdditions\\assets",
+    "\\RogueHouseAdditions\\assets\\game\\entities\\land",
+    "\\RogueHouseAdditions\\assets\\rhadditions",
+    "\\RogueHouseAdditions\\assets\\rhadditions\\patches",
+    "\\RogueHouseAdditions\\assets\\rhadditions\\patches\\game",
+    "\\RogueHouseAdditions\\assets\\rhadditions\\patches\\game\\itemtypes",
+    "\\RogueHouseAdditions\\assets\\rhadditions\\recipes",
+    "\\RogueHouseAdditions\\assets\\rhadditions\\recipes\\grid",
+    "\\RogueHouseAdditions\\assets\\rhadditions\\recipes\\grid\\rhadditions",
+    "\\RogueHouseAdditions\\assets\\rhadditions\\recipes\\grid\\rhadditions\\cloth"
   ],
+  "SelectedNode": "\\RogueHouseAdditions\\assets\\rhadditions\\patches\\game\\itemtypes\\resource",
   "PreviewInSolutionExplorer": false
 }

@@ -114,27 +114,6 @@
 				"code": "taskai",
 				"aitasks": [
 					{
-						"code": "bellalarm",
-						"onNearbyEntityCodes": [ "player" ],
-						"spawnMobs": [
-							"locust-bronze"
-						],
-						"spawnMaxQuantity": 8,
-						"spawnIntervalMsMin": 600,
-						"spawnIntervalMsMax": 900,
-						"mincooldown": 5000,
-						"maxcooldown": 7500,
-						"minduration": 400,
-						"maxduration": 900,
-						"spawnRange": 2,
-						"priority": 1.4,
-						"priorityForCancel": 1.3,
-						"seekingRange": 12,
-						"animationSpeed": 1,
-						"animation": "idle",
-						"repeatSound": "game:creature/bell/alarm"
-					},
-					{
 						"code": "meleeattack",
 						"entityCodes": [ "player" ],
 						"priority": 3,

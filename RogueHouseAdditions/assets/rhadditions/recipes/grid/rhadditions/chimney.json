@@ -1,0 +1,28 @@
+[
+    {
+        "ingredientPattern": "_T_,_M_,CCC",
+        "ingredients": {
+            "M": {
+                "type": "block",
+                "code": "game:claybrickchimney-*-unlit-ns",
+                "name": "clay"
+            },
+            "T": {
+                "type": "block",
+                "code": "game:torch-*-lit-up"
+            },
+            "C": {
+                "type": "item",
+                "code": "game:*",
+                "allowedVariants": [ "charcoal", "ore-bituminouscoal", "ore-lignite" ],
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:claybrickchimney-{clay}-lit-ns"
+        }
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "op": "replace",
+        "path": "/attributes/liquidContainerPropsByType/*-fired/capacityLitres",
+        "value": 6,
+        "file": "game:blocktypes/clay/jug.json",
+        "side": "Server"
+    }
+]

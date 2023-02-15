@@ -54,6 +54,8 @@
 
     "game:block-forge": "Forge (Granite)",
 
+    "game:backpack": "Leather Backpack (Plain)",
+
 
 
     "_comment3": "TRAITS **********************",
@@ -102,7 +104,7 @@
     "itemdesc-clothes-shoulder-rogue-cape": "<font color=\"#99c9f9\"><i>Stylish, yet mysterious.</i></font><br>",
 
     "item-clothes-upperbody-rogue-shirt": "Rogue Shirt",
-    "itemdesc-clothes-upperbody-rogue-shirt": "<font color=\"#99c9f9\"><i>Ragged shirt. Has been through a few adventures.</i></font><br>",
+    "itemdesc-clothes-upperbody-rogue-shirt": "<font color=\"#99c9f9\"><i>Ragged and torn. Has been through a few adventures.</i></font><br>",
 
     "item-clothes-head-dark-eye-mask": "Dark Eye Mask",
     "itemdesc-clothes-head-dark-eye-mask": "<font color=\"#99c9f9\"><i>As long as they don't see the eyes, they will never know.</i></font><br>",
@@ -147,40 +149,40 @@
     "itemdesc-clothes-head-wizard-hat": "<font color=\"#99c9f9\"><i></i></font><br>",
 
     "item-clothes-upperbody-rolledsleeve-shirt-yellow": "Rolled-Sleeve Shirt (Yellow)",
-    "itemdesc-clothes-upperbody-rolledsleeve-shirt-yellow": "<font color=\"#99c9f9\"><i>Sometimes, you just need to get your hands dirty.</i></font><br>",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-yellow": "<font color=\"#99c9f9\"><i>Sometimes you just need to get your hands dirty.</i></font><br>",
 
     "item-clothes-upperbody-rolledsleeve-shirt-gray": "Rolled-Sleeve Shirt (Gray)",
-    "itemdesc-clothes-upperbody-rolledsleeve-shirt-gray": "<font color=\"#99c9f9\"><i>Sometimes, you just need to get your hands dirty.</i></font><br>",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-gray": "<font color=\"#99c9f9\"><i>Sometimes you just need to get your hands dirty.</i></font><br>",
 
     "item-clothes-upperbody-rolledsleeve-shirt-purple": "Rolled-Sleeve Shirt (Purple)",
-    "itemdesc-clothes-upperbody-rolledsleeve-shirt-purple": "<font color=\"#99c9f9\"><i>Sometimes, you just need to get your hands dirty.</i></font><br>",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-purple": "<font color=\"#99c9f9\"><i>Sometimes you just need to get your hands dirty.</i></font><br>",
 
     "item-clothes-upperbody-rolledsleeve-shirt-orange": "Rolled-Sleeve Shirt (Orange)",
-    "itemdesc-clothes-upperbody-rolledsleeve-shirt-orange": "<font color=\"#99c9f9\"><i>Sometimes, you just need to get your hands dirty.</i></font><br>",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-orange": "<font color=\"#99c9f9\"><i>Sometimes you just need to get your hands dirty.</i></font><br>",
 
     "item-clothes-upperbody-rolledsleeve-shirt-blue": "Rolled-Sleeve Shirt (Blue)",
-    "itemdesc-clothes-upperbody-rolledsleeve-shirt-blue": "<font color=\"#99c9f9\"><i>Sometimes, you just need to get your hands dirty.</i></font><br>",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-blue": "<font color=\"#99c9f9\"><i>Sometimes you just need to get your hands dirty.</i></font><br>",
 
     "item-clothes-upperbody-rolledsleeve-shirt-pink": "Rolled-Sleeve Shirt (Pink)",
-    "itemdesc-clothes-upperbody-rolledsleeve-shirt-pink": "<font color=\"#99c9f9\"><i>Sometimes, you just need to get your hands dirty.</i></font><br>",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-pink": "<font color=\"#99c9f9\"><i>Sometimes you just need to get your hands dirty.</i></font><br>",
 
     "item-clothes-upperbody-rolledsleeve-shirt-black": "Rolled-Sleeve Shirt (Black)",
-    "itemdesc-clothes-upperbody-rolledsleeve-shirt-black": "<font color=\"#99c9f9\"><i>Sometimes, you just need to get your hands dirty.</i></font><br>",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-black": "<font color=\"#99c9f9\"><i>Sometimes you just need to get your hands dirty.</i></font><br>",
 
     "item-clothes-upperbody-rolledsleeve-shirt-brown": "Rolled-Sleeve Shirt (Brown)",
-    "itemdesc-clothes-upperbody-rolledsleeve-shirt-brown": "<font color=\"#99c9f9\"><i>Sometimes, you just need to get your hands dirty.</i></font><br>",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-brown": "<font color=\"#99c9f9\"><i>Sometimes you just need to get your hands dirty.</i></font><br>",
 
     "item-clothes-upperbody-rolledsleeve-shirt-green": "Rolled-Sleeve Shirt (Green)",
-    "itemdesc-clothes-upperbody-rolledsleeve-shirt-green": "<font color=\"#99c9f9\"><i>Sometimes, you just need to get your hands dirty.</i></font><br>",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-green": "<font color=\"#99c9f9\"><i>Sometimes you just need to get your hands dirty.</i></font><br>",
 
     "item-clothes-upperbody-rolledsleeve-shirt-plain": "Rolled-Sleeve Shirt (Plain)",
-    "itemdesc-clothes-upperbody-rolledsleeve-shirt-plain": "<font color=\"#99c9f9\"><i>Sometimes, you just need to get your hands dirty.</i></font><br>",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-plain": "<font color=\"#99c9f9\"><i>Sometimes you just need to get your hands dirty.</i></font><br>",
 
     "item-clothes-upperbody-rolledsleeve-shirt-red": "Rolled-Sleeve Shirt (Red)",
-    "itemdesc-clothes-upperbody-rolledsleeve-shirt-red": "<font color=\"#99c9f9\"><i>Sometimes, you just need to get your hands dirty.</i></font><br>",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-red": "<font color=\"#99c9f9\"><i>Sometimes you just need to get your hands dirty.</i></font><br>",
 
     "item-clothes-upperbody-rolledsleeve-shirt-white": "Rolled-Sleeve Shirt (White)",
-    "itemdesc-clothes-upperbody-rolledsleeve-shirt-white": "<font color=\"#99c9f9\"><i>Sometimes, you just need to get your hands dirty.</i></font><br>",
+    "itemdesc-clothes-upperbody-rolledsleeve-shirt-white": "<font color=\"#99c9f9\"><i>Sometimes you just need to get your hands dirty.</i></font><br>",
 
 
     "item-clothes-foot-drifterskin-surface-boots": "Surface Drifter Skin Boots",
@@ -262,6 +264,29 @@
     "item-armor-body-found-elvish-leather": "Elvish Leather Body Armor",
     "item-armor-legs-found-elvish-leather": "Elvish Leather Leg Armor",
 
+    "item-backpack-big-black": "Big Leather Backpack (Black)",
+    "item-backpack-big-blue": "Big Leather Backpack (Blue)",
+    "item-backpack-big-gray": "Big Leather Backpack (Gray)",
+    "item-backpack-big-green": "Big Leather Backpack (Green)",
+    "item-backpack-big-orange": "Big Leather Backpack (Orange)",
+    "item-backpack-big-pink": "Big Leather Backpack (Pink)",
+    "item-backpack-big-plain": "Big Leather Backpack (Plain)",
+    "item-backpack-big-purple": "Big Leather Backpack (Purple)",
+    "item-backpack-big-red": "Big Leather Backpack (Red)",
+    "item-backpack-big-white": "Big Leather Backpack (White)",
+    "item-backpack-big-yellow": "Big Leather Backpack (Yellow)",
+
+    "item-backpack-black": "Leather Backpack (Black)",
+    "item-backpack-blue": "Leather Backpack (Blue)",
+    "item-backpack-gray": "Leather Backpack (Gray)",
+    "item-backpack-green": "Leather Backpack (Green)",
+    "item-backpack-orange": "Leather Backpack (Orange)",
+    "item-backpack-pink": "Leather Backpack (Pink)",
+    "item-backpack-purple": "Leather Backpack (Purple)",
+    "item-backpack-red": "Leather Backpack (Red)",
+    "item-backpack-white": "Leather Backpack (White)",
+    "item-backpack-yellow": "Leather Backpack (Yellow)",
+
 
 
     "_comment6": "PARTS **********************",
@@ -323,6 +348,18 @@
 
     "item-brick-snow": "Brick (Snow)",
     "item-brick-glacier": "Brick (Glacier)",
+
+    "item-strips-leather-black": "Leather Strips (Black)",
+    "item-strips-leather-blue": "Leather Strips (Blue)",
+    "item-strips-leather-gray": "Leather Strips (Gray)",
+    "item-strips-leather-green": "Leather Strips (Green)",
+    "item-strips-leather-orange": "Leather Strips (Orange)",
+    "item-strips-leather-pink": "Leather Strips (Pink)",
+    "item-strips-leather-plain": "Leather Strips (Plain)",
+    "item-strips-leather-purple": "Leather Strips (Purple)",
+    "item-strips-leather-red": "Leather Strips (Red)",
+    "item-strips-leather-white": "Leather Strips (White)",
+    "item-strips-leather-yellow": "Leather Strips (Yellow)",
 
 
 
@@ -473,6 +510,16 @@
     "block-brickstairs-glacier-*": "Glacier ice brick stairs",
     "block-brickstairs-snow-*": "Snow brick stairs",
 
+    "game:block-wood-copper-crate": "Copper crate ({0})",
+    "game:block-wood-tinbronze-crate": "Tin Bronze crate ({0})",
+    "game:block-wood-bismuthbronze-crate": "Bismuth Bronze crate ({0})",
+    "game:block-wood-blackbronze-crate": "Black Bronze crate ({0})",
+    "game:block-wood-iron-crate": "Iron crate ({0})",
+    "game:block-wood-meteoriciron-crate": "Meteoric Iron crate ({0})",
+    "game:block-wood-silver-crate": "Silver crate ({0})",
+    "game:block-wood-gold-crate": "Gold crate ({0})",
+    "game:block-wood-steel-crate": "Steel crate ({0})",
+
 
 
     "_comment9": "MOLDS **********************",
@@ -605,31 +652,47 @@
 
     "item-creature-tamed-fox-pup-arctic": "Tamed Arctic Fox  (Kit)",
     "item-dead-creature-tamed-fox-pup-arctic": "Dead Tamed Arctic Fox  (Kit)",
+
     "item-creature-tamed-fox-female-arctic": "Tamed Arctic Fox (Female)",
     "item-dead-creature-tamed-fox-female-arctic": "Dead Tamed Arctic Fox (Female)",
+    "game:deathmsg-tamedfoxfemalearctic-1": "Player {0} was killed by a Tamed Arctic Fox.",
+
     "item-creature-tamed-fox-male-arctic": "Tamed Arctic Fox (Male)",
     "item-dead-creature-tamed-fox-male-arctic": "Dead Tamed Arctic Fox (Male)",
+    "game:deathmsg-tamedfoxmalearctic-1": "Player {0} was killed by a Tamed Arctic Fox.",
 
     "item-creature-tamed-fox-pup-forest": "Tamed Forest Fox (Kit)",
     "item-dead-creature-tamed-fox-pup-forest": "Dead Tamed Forest Fox (Kit)",
+
     "item-creature-tamed-fox-female-forest": "Tamed Forest Fox (Female)",
     "item-dead-creature-tamed-fox-female-forest": "Dead Tamed Forest Fox (Female)",
+    "game:deathmsg-tamedfoxfemaleforest-1": "Player {0} was killed by a Tamed Forest Fox.",
+
     "item-creature-tamed-fox-male-forest": "Tamed Forest Fox (Male)",
     "item-dead-creature-tamed-fox-male-forest": "Dead Tamed Forest Fox (Male)",
+    "game:deathmsg-tamedfoxmaleforest-1": "Player {0} was killed by a Tamed Forest Fox.",
 
     "item-creature-tamed-raccoon-pup": "Tamed Raccoon (Pup)",
     "item-dead-creature-tamed-raccoon-pup": "Dead Tamed Raccoon (Pup)",
+
     "item-creature-tamed-raccoon-female": "Tamed Raccoon (Female)",
     "item-dead-creature-tamed-raccoon-female": "Dead Tamed Raccoon (Female)",
+    "game:deathmsg-tamedraccoonfemale-1": "Player {0} was killed by a Tamed Raccoon.",
+
     "item-creature-tamed-raccoon-male": "Tamed Raccoon (Male)",
     "item-dead-creature-tamed-raccoon-male": "Dead Tamed Raccoon (Male)",
+    "game:deathmsg-tamedraccoonmale-1": "Player {0} was killed by a Tamed Raccoon.",
 
     "item-creature-tamed-sheep-bighorn-lamb": "Tamed Bighorn Lamb",
     "item-dead-creature-tamed-sheep-bighorn-lamb": "Dead Tamed Bighorn Lamb",
+
     "item-creature-tamed-sheep-bighorn-female": "Tamed Bighorn Ewe",
     "item-dead-creature-tamed-sheep-bighorn-female": "Dead Tamed Bighorn Ewe",
+    "game:deathmsg-tamedsheepbighornfemale-1": "Player {0} was killed by a Tamed Bighorn Ewe.",
+
     "item-creature-tamed-sheep-bighorn-male": "Tamed Bighorn Ram",
     "item-dead-creature-tamed-sheep-bighorn-male": "Dead Tamed Bighorn Ram",
+    "game:deathmsg-tamedsheepbighornmale-1": "Player {0} was killed by a Tamed Bighorn Ram.",
 
     "item-creature-locust-prime": "Prime Locust",
     "item-dead-creature-locust-prime": "Dead Prime Locust",
@@ -640,5 +703,30 @@
 
 
     "_comment14": "TROUGH **********************",
-    "game:trough-acceptable-wolves-cats-foxes": "Wolves, Cats and Foxes will eat this."
+    "game:trough-food-carnivores": "Dogs, wolves and large cats eat this.",
+    "game:trough-food-smallcarnivores": "Small cats and foxes eat this.",
+
+
+
+    "_comment15": "TOOLS/WEAPONS **********************",
+    "item-vanilla-bow-simple": "Simple Bow (Base Game)",
+    "itemdesc-vanilla-bow-simple": "<font color=\"#99c9f9\"><i>Uses the base Vintage Story aim system instead of the Bullseye mod aim system.</i></font>",
+    "item-vanilla-bow-crude": "Crude Bow (Base Game)",
+    "itemdesc-vanilla-bow-crude": "<font color=\"#99c9f9\"><i>Uses the base Vintage Story aim system instead of the Bullseye mod aim system.</i></font>",
+    "item-vanilla-bow-long": "Long Bow (Base Game)",
+    "itemdesc-vanilla-bow-long": "<font color=\"#99c9f9\"><i>Uses the base Vintage Story aim system instead of the Bullseye mod aim system.</i></font>",
+    "item-vanilla-bow-recurve": "Recurve Bow (Base Game)",
+    "itemdesc-vanilla-bow-recurve": "<font color=\"#99c9f9\"><i>Uses the base Vintage Story aim system instead of the Bullseye mod aim system.</i></font>",
+    "item-vanilla-sling": "Sling (Base Game)",
+    "itemdesc-vanilla-sling": "<font color=\"#99c9f9\"><i>Uses the base Vintage Story aim system instead of the Bullseye mod aim system.</i></font>",
+
+    "item-blade-long-copper": "Crude Long Blade (Copper)",
+    "item-blade-long-tinbronze": "Crude Long Blade (Tin Bronze)",
+    "item-blade-long-bismuthbronze": "Crude Long Blade (Bismuth Bronze)",
+    "item-blade-long-blackbronze": "Crude Long Blade (Black Bronze)",
+    "item-blade-long-iron": "Crude Long Blade (Iron)",
+    "item-blade-long-meteoriciron": "Crude Long Blade (Meteoric Iron)",
+    "item-blade-long-silver": "Crude Long Blade (Silver)",
+    "item-blade-long-gold": "Crude Long Blade (Gold)",
+    "item-blade-long-steel": "Crude Long Blade (Steel)"
 }

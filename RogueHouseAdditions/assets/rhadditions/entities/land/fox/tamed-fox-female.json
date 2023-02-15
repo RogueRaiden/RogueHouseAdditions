@@ -522,6 +522,20 @@
 						"animation": "Walk"
 					},
 					{
+						"code": "seekfoodandeat",
+						"movespeed": 0.006,
+						"priority": 1.6,
+						"eatSound": "game:player/eat",
+						"eatTime": 1.5,
+						"eatLooseItems": true,
+						"eatItemCategories": [ "Protein", "Fruit" ],
+						"animationSpeed": 1.4,
+						"animation": "Walk",
+						"eatAnimation": "Eat",
+						"mincooldownHours": 1,
+						"maxcooldownHours": 4
+					},
+					{
 						"code": "useinventory",
 						"animation": "eat",
 						"animationSpeed": 0.75,

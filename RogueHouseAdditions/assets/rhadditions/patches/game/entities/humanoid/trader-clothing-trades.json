@@ -139,6 +139,32 @@
                     "avg": 12,
                     "var": 2
                 }
+            },
+            {
+                "code": "rhadditions:clothes-head-witch-hat",
+                "type": "item",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 1.5,
+                    "var": 0.5
+                },
+                "price": {
+                    "avg": 17,
+                    "var": 3
+                }
+            },
+            {
+                "code": "rhadditions:clothes-head-wizard-hat",
+                "type": "item",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 1.5,
+                    "var": 0.5
+                },
+                "price": {
+                    "avg": 14,
+                    "var": 2
+                }
             }
         ],
         "file": "game:entities/humanoid/trader-clothing.json",

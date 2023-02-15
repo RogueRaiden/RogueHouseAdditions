@@ -1,0 +1,22 @@
+[
+    {
+        "ingredientPattern": "B",
+        "enabled": false,
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:bow-*",
+                "name": "type",
+                "allowedVariants": [ "simple", "crude", "long", "recurve" ],
+                "quantity": 1
+            }
+        },
+        "width": 1,
+        "height": 1,
+        "shapeless": true,
+        "output": {
+            "type": "item",
+            "code": "rhadditions:vanilla-bow-{type}"
+        }
+    }
+]

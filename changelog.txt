@@ -1,5 +1,17 @@
-v2.2.2
--
+v2.3.0
+-Feature: Can fill large troughs with bushmeat, redmeat and fish fillets to feed wolves, direwolves and large cats. Small troughs for foxes and small cats. (Tames will not gain obedience)
+-Feature: Big leather backpacks! Provide +1 inventory space compaired to normal leather backpacks. A variety of colors for both normal and big backpacks craftable by Tailors.
+-Feature: While the mod Bullseye is installed, bows using the base game aim system will be available.
+-Feature: Metal Crates with higher storage capacity!
+
+-Tweak: Adjusted the Rogue Mask and Hunter Mask textures to properly cover the lower jaw area.
+-Tweak: Redid the Witch Hat and Wizard Hat models/textures. They look much better now.
+-Tweak: Adjusted the Clay Oven model to look better when stacking them.
+-Tweak: Recipes for lit chimneys.
+-Tweak: Mining bag recipe balance.
+-Tweak: Increased Jug capacity from 3 to 6.
+-Tweak: Changed recipe for the Rubble Storage from Stone Quarry mod so it can be crafted with any metal plate.
+-Tweak: Unhid the Metal fence from the handbook.
 
 v2.2.1
 -Feature: 5 New paintings to collect! "Dragon", "Death", "The Skull", "Goliath" & "Dark Angel".
@@ -86,7 +98,7 @@ v2.0.0
 -Tweak: Mod Resonance archives are now a new itemtype rather than patched into the Vanilla Resonance archive file.
 -Tweak: All Resonance archives are now storable on Mold racks.
 -Tweak: Mod Paintings are now a new blocktype rather than patched into the Vanilla Painting file.
--Tweak: Adjusted flying animations - the arms no longer block immersive first person view. (Removed, Vanilla introduced this at the same lol)
+-Tweak: Adjusted flying animations - the arms no longer block immersive first person view. (Removed, Vanilla introduced this at the same time lol)
 -Tweak: Adjusted falling animations - the arms look more graceful when falling, especially short distances.
 -Tweak: Edible Grub items will drop from killed Grubs and can be found inside Drifters.
 -Tweak: Snowball item no longer patched into Vanilla stones, and no longer useable in Stone Path recipes. Still causes 1 blunt damage.

@@ -1,0 +1,50 @@
+[
+    {
+        "op": "add",
+        "path": "/server/behaviors/9/aitasks/-",
+        "value": {
+            "code": "seekfoodandeat",
+            "movespeed": 0.006,
+            "priority": 1.6,
+            "eatSound": "game:player/eat",
+            "eatTime": 1.5,
+            "eatLooseItems": true,
+            "eatItemCategories": [ "Protein", "Fruit" ],
+            "animationSpeed": 1.4,
+            "animation": "Walk",
+            "eatAnimation": "Eat",
+            "mincooldownHours": 1,
+            "maxcooldownHours": 4
+        },
+        "file": "game:entities/land/fox-arctic-female.json",
+        "side": "Server"
+    },
+    {
+        "comment": "Vanilla fixes - fox reproduction",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "multiply",
+            "spawnEntityCode": "fox-pup-arctic",
+            "requiresNearbyEntityCode": "fox-arctic-male",
+            "requiresNearbyEntityRange": 10,
+            "spawnQuantityMin": 1,
+            "spawnQuantityMax": 4,
+            "eatAnyway": true,
+            "pregnancyDays": 5,
+            "multiplyCooldownDaysMin": 2,
+            "multiplyCooldownDaysMax": 5,
+            "portionsEatenForMultiply": 1
+        },
+        "file": "game:entities/land/fox-arctic-female.json",
+        "side": "Server"
+    },
+    {
+        "comment": "Vanilla fixes - fox reproduction",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": { "code": "multiply" },
+        "file": "game:entities/land/fox-arctic-female.json",
+        "side": "Server"
+    }
+]

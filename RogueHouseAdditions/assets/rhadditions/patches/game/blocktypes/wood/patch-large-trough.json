@@ -1,0 +1,244 @@
+[
+    {
+        "comment_foodType": "Flax",
+        "op": "add",
+        "path": "/attributes/contentConfig/0/foodFor/-",
+        "value": "rhadditions:tamed-sheep-*",
+        "file": "game:blocktypes/wood/trough-large.json",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    },
+    {
+        "comment_foodType": "Rye",
+        "op": "add",
+        "path": "/attributes/contentConfig/2/foodFor/-",
+        "value": "rhadditions:tamed-sheep-*",
+        "file": "game:blocktypes/wood/trough-large.json",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    },
+    {
+        "comment_foodType": "Spelt",
+        "op": "add",
+        "path": "/attributes/contentConfig/3/foodFor/-",
+        "value": "rhadditions:tamed-sheep-*",
+        "file": "game:blocktypes/wood/trough-large.json",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    },
+    {
+        "comment_foodType": "Amaranth",
+        "op": "add",
+        "path": "/attributes/contentConfig/4/foodFor/-",
+        "value": "rhadditions:tamed-sheep-*",
+        "file": "game:blocktypes/wood/trough-large.json",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    },
+    {
+        "comment_foodType": "Sunflower",
+        "op": "add",
+        "path": "/attributes/contentConfig/5/foodFor/-",
+        "value": "rhadditions:tamed-sheep-*",
+        "file": "game:blocktypes/wood/trough-large.json",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    },
+    {
+        "comment_foodType": "Cabbage",
+        "op": "add",
+        "path": "/attributes/contentConfig/7/foodFor/-",
+        "value": "rhadditions:tamed-sheep-*",
+        "file": "game:blocktypes/wood/trough-large.json",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    },
+    {
+        "comment_foodType": "Carrot",
+        "op": "add",
+        "path": "/attributes/contentConfig/8/foodFor/-",
+        "value": "rhadditions:tamed-sheep-*",
+        "file": "game:blocktypes/wood/trough-large.json",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    },
+    {
+        "comment_foodType": "Onion",
+        "op": "add",
+        "path": "/attributes/contentConfig/10/foodFor/-",
+        "value": "rhadditions:tamed-sheep-*",
+        "file": "game:blocktypes/wood/trough-large.json",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    },
+    {
+        "comment_foodType": "Soybean",
+        "op": "add",
+        "path": "/attributes/contentConfig/14/foodFor/-",
+        "value": "rhadditions:tamed-sheep-*",
+        "file": "game:blocktypes/wood/trough-large.json",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    },
+    {
+        "comment_foodType": "Turnip",
+        "op": "add",
+        "path": "/attributes/contentConfig/15/foodFor/-",
+        "value": "rhadditions:tamed-sheep-*",
+        "file": "game:blocktypes/wood/trough-large.json",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    },
+    {
+        "comment_foodType": "Drygrass",
+        "op": "add",
+        "path": "/attributes/contentConfig/16/foodFor/-",
+        "value": "rhadditions:tamed-sheep-*",
+        "file": "game:blocktypes/wood/trough-large.json",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    },
+    {
+        "comment_foodType": "Hay",
+        "op": "add",
+        "path": "/attributes/contentConfig/17/foodFor/-",
+        "value": "rhadditions:tamed-sheep-*",
+        "file": "game:blocktypes/wood/trough-large.json",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    },
+    {
+        "comment_foodType": "Fruitmash",
+        "op": "add",
+        "path": "/attributes/contentConfig/18/foodFor/-",
+        "value": "rhadditions:tamed-sheep-*",
+        "file": "game:blocktypes/wood/trough-large.json",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    },
+
+
+
+    {
+        "op": "addeach",
+        "path": "/attributes/contentConfig/-",
+        "value": [
+            {
+                "code": "bushmeat",
+                "content": {
+                    "type": "item",
+                    "code": "bushmeat-raw"
+                },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [
+                    "block/wood/trough/large/legumefill1",
+                    "block/wood/trough/large/legumefill1",
+                    "block/wood/trough/large/legumefill2",
+                    "block/wood/trough/large/legumefill2",
+                    "block/wood/trough/large/legumefill3",
+                    "block/wood/trough/large/legumefill3",
+                    "block/wood/trough/large/legumefill4",
+                    "block/wood/trough/large/legumefill4"
+                ],
+                "foodFor": [
+                    "wolf-*",
+                    "cats:cat-*-ocelot",
+                    "cats:cat-*-serval",
+                    "wolftaming:tame-wolf-*",
+                    "rhadditions:direwolf-*",
+                    "rhadditions:tamed-direwolf-*"
+                ],
+                "foodForDesc": "trough-food-carnivores",
+                "textureCode": "contents-bushmeat"
+            },
+            {
+                "code": "redmeat",
+                "content": {
+                    "type": "item",
+                    "code": "redmeat-raw"
+                },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [
+                    "block/wood/trough/large/legumefill1",
+                    "block/wood/trough/large/legumefill1",
+                    "block/wood/trough/large/legumefill2",
+                    "block/wood/trough/large/legumefill2",
+                    "block/wood/trough/large/legumefill3",
+                    "block/wood/trough/large/legumefill3",
+                    "block/wood/trough/large/legumefill4",
+                    "block/wood/trough/large/legumefill4"
+                ],
+                "foodFor": [
+                    "wolf-*",
+                    "cats:cat-*-ocelot",
+                    "cats:cat-*-serval",
+                    "wolftaming:tame-wolf-*",
+                    "rhadditions:direwolf-*",
+                    "rhadditions:tamed-direwolf-*"
+                ],
+                "foodForDesc": "trough-food-carnivores",
+                "textureCode": "contents-redmeat"
+            },
+            {
+                "code": "fishfillet",
+                "content": {
+                    "type": "item",
+                    "code": "fish-raw"
+                },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [
+                    "block/wood/trough/large/legumefill1",
+                    "block/wood/trough/large/legumefill1",
+                    "block/wood/trough/large/legumefill2",
+                    "block/wood/trough/large/legumefill2",
+                    "block/wood/trough/large/legumefill3",
+                    "block/wood/trough/large/legumefill3",
+                    "block/wood/trough/large/legumefill4",
+                    "block/wood/trough/large/legumefill4"
+                ],
+                "foodFor": [
+                    "wolf-*",
+                    "cats:cat-*-ocelot",
+                    "cats:cat-*-serval",
+                    "wolftaming:tame-wolf-*",
+                    "rhadditions:direwolf-*",
+                    "rhadditions:tamed-direwolf-*"
+                ],
+                "foodForDesc": "trough-food-carnivores",
+                "textureCode": "contents-fishfillet"
+            }
+        ],
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-bushmeat",
+        "value": {
+            "base": "block/wood/trough/large/bushmeat"
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-redmeat",
+        "value": {
+            "base": "block/wood/trough/large/redmeat"
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-fishfillet",
+        "value": {
+            "base": "block/wood/trough/large/fishfillet"
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    }
+]
