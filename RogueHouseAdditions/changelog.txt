@@ -1,0 +1,200 @@
+v2.3.0
+-Feature: Can fill large troughs with bushmeat, redmeat and fish fillets to feed wolves, direwolves and large cats. Small troughs for foxes and small cats. (Tames will not gain obedience)
+-Feature: Big leather backpacks! Provide +1 inventory space compaired to normal leather backpacks. A variety of colors for both normal and big backpacks craftable by Tailors.
+-Feature: While the mod Bullseye is installed, bows using the base game aim system will be available.
+-Feature: Metal Crates with higher storage capacity!
+
+-Tweak: Adjusted the Rogue Mask and Hunter Mask textures to properly cover the lower jaw area.
+-Tweak: Redid the Witch Hat and Wizard Hat models/textures. They look much better now.
+-Tweak: Adjusted the Clay Oven model to look better when stacking them.
+-Tweak: Recipes for lit chimneys.
+-Tweak: Mining bag recipe balance.
+-Tweak: Increased Jug capacity from 3 to 6.
+-Tweak: Changed recipe for the Rubble Storage from Stone Quarry mod so it can be crafted with any metal plate.
+-Tweak: Unhid the Metal fence from the handbook.
+
+v2.2.1
+-Feature: 5 New paintings to collect! "Dragon", "Death", "The Skull", "Goliath" & "Dark Angel".
+-Feature: Stone types for the Forge.
+-Feature: Snow and Ice brick blocks, ice slabs.
+
+-Tweak: Guide additions.
+-Tweak: Hid Wooden cage and Kong from the handbook.
+-Tweak: Removed Elvish armor repairing, its bugged for now.
+-Tweak: Added recipe for Muddy gravel.
+-Tweak: Added recipe to cure raw fish.
+-Tweak: Replaced bag recipes.
+-Tweak: Added recipes to cut down pelts.
+-Tweak: Disabled most Trade-o-mat blocks and items, only the trade crate is enabled.
+
+-Fixed: Fox kits not being tamed.
+-Fixed: Crash issue with Bullseye mod.
+-Fixed: Torch holder lang errors.
+
+v2.2.0
+-Feature: 9 additional Resonance Archives from base game music tracks.
+
+-Tweak: Added ground storage for the Quiver.
+-Tweak: Made the Firestarter tool rackable.
+-Tweak: Adjusted Direwolves and Bell hitbox.
+-Tweak: Adjusted Resonance Archives Vertical Rack transforms.
+-Tweak: Changed recipes for Simple Elevator blocks and Teleportation Runes beacons and runes to require Expanded Matter materials. (Only when required mods are loaded)
+-Tweak: Added recipe for Sod roofing.
+
+-Fixed: Snowball texture client error.
+-Fixed: Direwolf pups not able to be tamed.
+
+-Patch: Fox pups should now spawn naturally, and grow up into their proper adult versions.
+
+v2.1.0
+-Feature: More metal types for the Flat Bar, Vertical Racks, Tool Racks and Torch Holders.
+-Feature: Elvish Leather armor - repairable, only found in loot and at Traders.
+-Feature: Fish now drop Raw Fish, which can be cooked as is or cut into Fish Fillets.
+-Feature: Translocator Engineering Redux parts added to some trader lists.
+
+-Tweak: Several adjustments with the Rogue House guide, Claim guide and Pet guide with the addition of a Mods guide.
+-Tweak: Added Herbivore Pet Cookie as tamable item for Bighorn Sheep.
+-Tweak: Unhid the Quiver from the Handbook, changed slots to 12, allowed Spears to be stored and is craftable with the Bowyer trait.
+-Tweak: Unhid the Fish food items from the handbook + Creative menu and rebalanced the nutrition values.
+
+-Fix: Lang entry corrections.
+-Fix: Changed all the Gorilla sounds from Stereo to Mono. The sound is now locational and a bit quiet.
+
+v2.0.4
+-Tweak: Removed changes and patches that made Resonance Archives placeable on moldracks - It was added to Vanilla 1.17.4
+-Tweak: Changed the name of the "Tool Mold Rack {type}" to "Vertical Rack {type}" to match the Vanilla 1.17.4 changes.
+-Tweak: Added attachment points for mouth inventory on pets - Thanks G3rste!
+
+v2.0.3
+-Tweak: Some pet adjustments.
+-Fix: Some missing lang entries.
+
+v2.0.2
+-Tweak: Added borax, berry bushes and some clothing to trader selling lists.
+-Tweak: Increased tree seed and stick drop rates.
+-Tweak: Further reduced some ruin spawns.
+
+-Fix: Centered Baby Gorilla shape.
+
+v2.0.1
+-Tweak: Quick ruin adjustment
+
+v2.0.0
+**Major changes from last version, not compatable with older versions!** (It'll still load but there will be missing items/blocks)
+
+-Feature: Gorillas - They enjoy the warmer areas of the South. Models & textures by Zinth. Thanks!
+-Feature: Direwolves! - Tameable & Ridable, found in the cold forests of the North.
+-Feature: The Trout! - Found in most places alongside the Salmon.
+-Feature: Tameable Foxes, Raccoons and ridable Bighorn Sheep!
+-Feature: Witch and Wizard hats.
+-Feature: "Sea" world generation - Large connected bodies of water.
+-Feature: A new cave creature lurking in the depths... rare mini boss basically :)
+-Feature: More cave clutter - Spiderwebs, Layer of Rot, bones/carcasses, more rocks and boulders.
+-Feature: New ruins, both on the surface and underground.
+-Feature: Wood varients of Tool Racks and Mold Racks - Requires a saw for planks. Vanilla Tool Rack and Tool Mold Rack are now the Oak varients.
+-Feature: New Stick tool rack - Early game tool storage.
+
+-Tweak: Removed most of the changes for other mods.
+-Tweak: Mod Resonance archives are now a new itemtype rather than patched into the Vanilla Resonance archive file.
+-Tweak: All Resonance archives are now storable on Mold racks.
+-Tweak: Mod Paintings are now a new blocktype rather than patched into the Vanilla Painting file.
+-Tweak: Adjusted flying animations - the arms no longer block immersive first person view. (Removed, Vanilla introduced this at the same lol)
+-Tweak: Adjusted falling animations - the arms look more graceful when falling, especially short distances.
+-Tweak: Edible Grub items will drop from killed Grubs and can be found inside Drifters.
+-Tweak: Snowball item no longer patched into Vanilla stones, and no longer useable in Stone Path recipes. Still causes 1 blunt damage.
+
+-Fix: Updated Cats mod patches to newest version.
+-Fix: Updated some recipes to adapt to 1.17 changes.
+ 
+-Tweaks/Fixes: Tons of creature adjustments.
+-Tweaks/Fixes: Tons of patch adjustments - server side value and addeach optimization pass on all patches.
+
+-Many other small fixes and adjustments throughout the mod and file structure changes.
+
+v2.0.0-rc.1
+**Major changes from last version, not compatable with older versions!**
+This is an early release for the Rogue House Testing Grounds server.
+
+-Feature: Gorillas - They enjoy the warmer areas of the South. Models & textures by Zinth. Thanks!
+-Feature: Direwolves! - Tameable & Ridable, found in the cold forests of the North.
+-Feature: The Trout! - Found in most places alongside the Salmon.
+-Feature: Tameable Foxes, Raccoons and ridable Bighorn Sheep!
+-Feature: Witch and Wizard hats.
+-Feature: "Sea" world generation - Large connected bodies of water.
+-Feature: A new cave creature lurking in the depths... rare mini boss basically :)
+-Feature: More cave clutter - Spiderwebs, Layer of Rot, more rocks and boulders.
+-Feature: New ruins, both on the surface and underground.
+-Feature: Wood varients of Tool Racks and Mold Racks - Requires a saw for planks. Vanilla Tool Rack and Tool Mold Rack are now the Oak varients.
+-Feature: New Stick tool rack - Early game tool storage.
+
+-Tweak: Removed most of the changes for other mods.
+-Tweak: Mod Resonance archives are now a new itemtype rather than patched into the Vanilla Resonance archive file.
+-Tweak: All Resonance archives are now storable on Mold racks.
+-Tweak: Mod Paintings are now a new blocktype rather than patched into the Vanilla Painting file.
+-Tweak: Adjusted flying animations - the arms no longer block immersive first person view.
+-Tweak: Adjusted falling animations - the arms look more graceful when falling, especially short distances.
+-Tweak: Edible Grub items will drop from killed Grubs and can be found inside Drifters. 
+
+-Fix: Updated Cats mod patches to newest version.
+-Fix: Updated some recipes to adapt to 1.17 changes.
+
+-Many other small fixes and adjustments throughout the mod and file structure changes.
+
+
+v1.0.13
+-Removed Useful Stuff mod requirement.
+-Can now cut signs off of Labeled chests.
+-Fixed errors about missing mods on recipes and patches when required mods are not installed.
+-Updated cats mod patches.
+-Tweaked Drifter drops.
+
+
+v1.0.12
+-Guide tweaks.
+
+
+v1.0.11
+-Refactored various files.
+-Removed Zeekea and Wildcraft requirements.
+-New Obsidian glass: Special crafted chiselable glass blocks. In several colors.
+-New Obsidian glass mix: Bake in a Bloomery to get Obsidian glass blocks.
+-New pulverized ingredients for Obsidian glass mix: Crushed obsidian, rose quartz, smoky quartz, clear quartz, amethyst.
+-Updated textures for Emerald powder, Peridot powder, Rune powder and Rogue cape.
+
+
+v1.0.10
+-Re-enabled the Primitive survival Particulator.
+-Adjusted Drifter drops.
+-Adjusted Daelynn's trades.
+
+
+v1.0.9
+-Removed Shovel requirement, and increased drop rate for Snowballs.
+-Modlist guide additions and other guide tweaks.
+-Barrels are stackable to 16.
+-New creepy clothing.
+-New Soil recipes.
+-Drifter drop adjustments, with new surprises.
+-Turf recipe adjustment.
+-Made Pots shelvable.
+-Added 6 more variations of a shirt, Tailor exclusive recipes.
+
+
+v1.0.8
+-Test release
+
+
+v1.0.7
+-Disabled coins and vending machine from Trade-o-mat mod.
+-Adjusted recipes for Trade-o-mats.
+
+
+v1.0.6
+-Placed Torches and filled Torch holders now provide some warmth.
+-Added Snowball item, replaced Snow block recipe.
+-Adjusted Tamed Dogs hitbox size for opened doors again.
+-Barkeeper and Daelynn shopkeeper trade adjustments.
+-Tweaks with some Guides.
+-Added 6 variations of a shirt, Tailor exclusive recipes.
+-Croc backpack is now Tailor exclusive.
+-Petai Pet whistle, Primitive Survival Bone hook and Ancient tools Bone curing hook recipes adjusted.

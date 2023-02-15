@@ -8,7 +8,7 @@
     "version": "2.3.0",
     "website": "https://mods.vintagestory.at/rhadditions",
     "dependencies": {
-        "game": "1.17.9"
+        "game": "1.17.11"
     },
     "Side": "Universal",
     "RequiredOnClient": true,
