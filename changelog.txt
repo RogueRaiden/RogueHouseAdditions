@@ -1,3 +1,6 @@
+v2.3.1
+-Tweak: Removed Trade-o-mat mod changes, server is no longer using the mod.
+
 v2.3.0
 -Feature: Can fill large troughs with bushmeat, redmeat and fish fillets to feed wolves, direwolves and large cats. Small troughs for foxes and small cats. (Tames will not gain obedience)
 -Feature: Big leather backpacks! Provide +1 inventory space compaired to normal leather backpacks. A variety of colors for both normal and big backpacks craftable by Tailors.
