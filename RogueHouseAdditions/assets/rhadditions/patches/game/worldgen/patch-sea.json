@@ -1,32 +1,5 @@
 [
     {
-        "op": "add",
-        "path": "/variants/-",
-        "value": {
-            "code": "sea",
-            "comment": "Large sea-like water",
-            "hexcolor": "#0000FF",
-            "weight": 85,
-            "useClimateMap": true,
-            "terrainOctaves": [ 0, 0, 0, 0, 1, 0.1, 0.1, 0, 0 ],
-            "terrainOctaveThresholds": [ 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-
-            "terrainYKeyPositions": [ 0, 0.39, 0.40, 0.42, 0.43, 0.44, 0.46, 0.47 ],
-            "terrainYKeyThresholds": [ 1, 0.9, 0.8, 0.4, 0.3, 0.15, 0.1, 0 ],
-            "mutations": [
-                {
-                    "chance": 0.8,
-                    "code": "sea01",
-                    "hexcolor": "#79E02E",
-                    "terrainYKeyPositions": [ 0.000, 0.395, 0.401, 0.429, 0.434, 0.449, 0.461, 0.475 ],
-                    "terrainYKeyThresholds": [ 1.000, 0.965, 0.877, 0.464, 0.381, 0.153, 0.125, 0.000 ]
-                }
-            ]
-        },
-        "file": "game:worldgen/landforms.json",
-        "side": "Server"
-    },
-    {
         "op": "addeach",
         "path": "/-",
         "value": [

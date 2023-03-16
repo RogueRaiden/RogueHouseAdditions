@@ -9,7 +9,7 @@
 		"general": [ "layerofrot-d" ],
 		"rhadditions": [ "layerofrot-d" ]
 	},
-	"textures": { "all": { "base": "game:block/rot/rot" } },
+	"textures": { "all": { "base": "game:item/resource/rot/rot-solids" } },
 	"shapeByType": {
 		"layerofrot-d": { "base": "game:block/coating/d" },
 		"layerofrot-u": {

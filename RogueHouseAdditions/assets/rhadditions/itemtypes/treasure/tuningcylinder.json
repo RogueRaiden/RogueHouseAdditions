@@ -1,0 +1,124 @@
+{
+    "code": "tuningcylinder",
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [ "adventuring", "building", "creating", "daylight", "fall-o'-croft", "groove", "heartbeat", "midnight", "mirror", "roots", "safety-of-a-warm-fire", "setting-sun", "spring", "summer-day", "to-dawn", "winter" ]
+        }
+    ],
+    "attributes": {
+        "isPlayableDisc": true,
+        "musicTrackByType": {
+            "*-adventuring": "game:music/adventuring.ogg",
+            "*-building": "game:music/building.ogg",
+            "*-creating": "game:music/creating.ogg",
+            "*-daylight": "game:music/daylight.ogg",
+            "*-fall-o'-croft": "game:music/fall-o'-croft.ogg",
+            "*-groove": "game:music/groove.ogg",
+            "*-heartbeat": "game:music/heartbeat-survive.ogg",
+            "*-midnight": "game:music/midnight.ogg",
+            "*-mirror": "game:music/mirror.ogg",
+            "*-roots": "game:music/roots.ogg",
+            "*-safety-of-a-warm-fire": "game:music/safety-of-a-warm-fire.ogg",
+            "*-setting-sun": "game:music/setting-sun.ogg",
+            "*-spring": "game:music/spring.ogg",
+            "*-summer-day": "game:music/summer-day.ogg",
+            "*-to-dawn": "game:music/to-dawn.ogg",
+            "*-winter": "game:music/winter.ogg"
+        }
+    },
+    "shape": { "base": "game:block/machine/resonator-cylinder" },
+    "textures": {
+        "colorByType": {
+            "*-adventuring": { "base": "game:block/liquid/beer" },
+            "*-building": { "base": "game:block/liquid/brine" },
+            "*-creating": { "base": "game:block/liquid/honey" },
+            "*-daylight": { "base": "game:block/liquid/limewater" },
+            "*-fall-o'-croft": { "base": "game:block/liquid/milkportion" },
+            "*-groove": { "base": "game:block/liquid/saltwater" },
+            "*-heartbeat": { "base": "game:block/liquid/slakedlime" },
+            "*-midnight": { "base": "game:block/liquid/whiskey" },
+            "*-mirror": { "base": "game:block/liquid/wine" },
+            "*-roots": { "base": "game:block/liquid/strongtannen" },
+            "*-safety-of-a-warm-fire": { "base": "game:block/liquid/weaktannen" },
+            "*-setting-sun": { "base": "game:block/liquid/dilutedalum" },
+            "*-spring": { "base": "game:block/liquid/dilutedborax" },
+            "*-summer-day": { "base": "game:block/liquid/dilutedchromite" },
+            "*-to-dawn": { "base": "game:block/liquid/vinegar" },
+            "*-winter": { "base": "game:block/liquid/dilutedcassiterite" }
+        }
+    },
+    "creativeinventory": {
+        "general": [ "*" ],
+        "items": [ "*" ],
+        "rhadditions": [ "*" ]
+    },
+    "maxstacksize": 1,
+    "guiTransform": {
+        "translation": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 147,
+            "y": -14,
+            "z": -31
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.3,
+            "z": 0.5
+        },
+        "scale": 2.39
+    },
+    "fpHandTransform": {
+        "translation": {
+            "x": -0.05,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 15,
+            "y": 99,
+            "z": -30
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.1,
+            "z": 0.5
+        },
+        "scale": 1.75
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -1.1,
+            "y": -0.7,
+            "z": -0.7
+        },
+        "rotation": {
+            "x": 95,
+            "y": -1,
+            "z": -76
+        },
+        "scale": 0.65
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 90,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.58
+        },
+        "scale": 4.1
+    }
+}
