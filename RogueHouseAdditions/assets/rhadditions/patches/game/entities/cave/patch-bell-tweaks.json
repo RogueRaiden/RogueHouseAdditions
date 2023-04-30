@@ -30,97 +30,97 @@
         "value": [
             {
                 "type": "item",
-                "code": "rhadditions:resonancearchive-adventuring",
+                "code": "rhadditions:tuningcylinder-adventuring",
                 "quantity": { "avg": 0.22 },
                 "lastDrop": true
             },
             {
                 "type": "item",
-                "code": "rhadditions:resonancearchive-building",
+                "code": "rhadditions:tuningcylinder-building",
                 "quantity": { "avg": 0.24 },
                 "lastDrop": true
             },
             {
                 "type": "item",
-                "code": "rhadditions:resonancearchive-creating",
+                "code": "rhadditions:tuningcylinder-creating",
                 "quantity": { "avg": 0.26 },
                 "lastDrop": true
             },
             {
                 "type": "item",
-                "code": "rhadditions:resonancearchive-daylight",
+                "code": "rhadditions:tuningcylinder-daylight",
                 "quantity": { "avg": 0.28 },
                 "lastDrop": true
             },
             {
                 "type": "item",
-                "code": "rhadditions:resonancearchive-groove",
+                "code": "rhadditions:tuningcylinder-groove",
                 "quantity": { "avg": 0.30 },
                 "lastDrop": true
             },
             {
                 "type": "item",
-                "code": "rhadditions:resonancearchive-heartbeat",
+                "code": "rhadditions:tuningcylinder-heartbeat",
                 "quantity": { "avg": 0.32 },
                 "lastDrop": true
             },
             {
                 "type": "item",
-                "code": "rhadditions:resonancearchive-fall-o'-croft",
+                "code": "rhadditions:tuningcylinder-fall-o'-croft",
                 "quantity": { "avg": 0.34 },
                 "lastDrop": true
             },
             {
                 "type": "item",
-                "code": "rhadditions:resonancearchive-midnight",
+                "code": "rhadditions:tuningcylinder-midnight",
                 "quantity": { "avg": 0.36 },
                 "lastDrop": true
             },
             {
                 "type": "item",
-                "code": "rhadditions:resonancearchive-mirror",
+                "code": "rhadditions:tuningcylinder-mirror",
                 "quantity": { "avg": 0.38 },
                 "lastDrop": true
             },
             {
                 "type": "item",
-                "code": "rhadditions:resonancearchive-roots",
+                "code": "rhadditions:tuningcylinder-roots",
                 "quantity": { "avg": 0.40 },
                 "lastDrop": true
             },
             {
                 "type": "item",
-                "code": "rhadditions:resonancearchive-safety-of-a-warm-fire",
+                "code": "rhadditions:tuningcylinder-safety-of-a-warm-fire",
                 "quantity": { "avg": 0.42 },
                 "lastDrop": true
             },
             {
                 "type": "item",
-                "code": "rhadditions:resonancearchive-setting-sun",
+                "code": "rhadditions:tuningcylinder-setting-sun",
                 "quantity": { "avg": 0.44 },
                 "lastDrop": true
             },
             {
                 "type": "item",
-                "code": "rhadditions:resonancearchive-spring",
+                "code": "rhadditions:tuningcylinder-spring",
                 "quantity": { "avg": 0.46 },
                 "lastDrop": true
             },
             {
                 "type": "item",
-                "code": "rhadditions:resonancearchive-summer-day",
+                "code": "rhadditions:tuningcylinder-summer-day",
                 "quantity": { "avg": 0.48 },
                 "lastDrop": true
             },
             {
                 "type": "item",
-                "code": "rhadditions:resonancearchive-to-dawn",
+                "code": "rhadditions:tuningcylinder-to-dawn",
                 "quantity": { "avg": 0.50 },
                 "lastDrop": true
             },
             {
                 "type": "item",
-                "code": "rhadditions:resonancearchive-winter",
+                "code": "rhadditions:tuningcylinder-winter",
                 "quantity": { "avg": 0.52 },
                 "lastDrop": true
             }

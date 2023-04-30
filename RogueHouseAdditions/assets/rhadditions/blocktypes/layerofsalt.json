@@ -1,0 +1,352 @@
+{
+	"code": "layerofsalt",
+	"class": "BlockFullCoating",
+	"variantgroups": [
+		{ "loadFromProperties": "game:abstract/coating" }
+	],
+	"blockmaterial": "Soil",
+	"creativeinventory": {
+		"general": [ "layerofsalt-d" ],
+		"rhadditions": [ "layerofsalt-d" ]
+	},
+	"textures": { "all": { "base": "rhadditions:block/salt" } },
+	"shapeByType": {
+		"layerofsalt-d": { "base": "game:block/coating/d" },
+		"layerofsalt-u": {
+			"base": "game:block/coating/d",
+			"rotateX": 180
+		},
+		"layerofsalt-s": {
+			"base": "game:block/coating/d",
+			"rotateX": 90,
+			"rotateZ": 180
+		},
+		"layerofsalt-n": {
+			"base": "game:block/coating/d",
+			"rotateX": 90,
+			"rotateZ": 0
+		},
+		"layerofsalt-e": {
+			"base": "game:block/coating/d",
+			"rotateX": 90,
+			"rotateZ": 90
+		},
+		"layerofsalt-w": {
+			"base": "game:block/coating/d",
+			"rotateX": 90,
+			"rotateZ": 270
+		},
+		"layerofsalt-ud": { "base": "game:block/coating/ud" },
+		"layerofsalt-ns": {
+			"base": "game:block/coating/ud",
+			"rotateX": 90
+		},
+		"layerofsalt-ew": {
+			"base": "game:block/coating/ud",
+			"rotateX": 90,
+			"rotateY": 90
+		},
+		"layerofsalt-nd": { "base": "game:block/coating/nd" },
+		"layerofsalt-ed": {
+			"base": "game:block/coating/nd",
+			"rotateY": 270
+		},
+		"layerofsalt-sd": {
+			"base": "game:block/coating/nd",
+			"rotateY": 180
+		},
+		"layerofsalt-wd": {
+			"base": "game:block/coating/nd",
+			"rotateY": 90
+		},
+		"layerofsalt-su": {
+			"base": "game:block/coating/nd",
+			"rotateX": 180
+		},
+		"layerofsalt-wu": {
+			"base": "game:block/coating/nd",
+			"rotateX": 180,
+			"rotateY": 90
+		},
+		"layerofsalt-nu": {
+			"base": "game:block/coating/nd",
+			"rotateX": 180,
+			"rotateY": 180
+		},
+		"layerofsalt-eu": {
+			"base": "game:block/coating/nd",
+			"rotateX": 180,
+			"rotateY": 270
+		},
+		"layerofsalt-es": { "base": "game:block/coating/es" },
+		"layerofsalt-sw": {
+			"base": "game:block/coating/es",
+			"rotateY": 270
+		},
+		"layerofsalt-nw": {
+			"base": "game:block/coating/es",
+			"rotateY": 180
+		},
+		"layerofsalt-ne": {
+			"base": "game:block/coating/es",
+			"rotateY": 90
+		},
+		"layerofsalt-nwd": { "base": "game:block/coating/nwd" },
+		"layerofsalt-ned": {
+			"base": "game:block/coating/nwd",
+			"rotateY": 270
+		},
+		"layerofsalt-esd": {
+			"base": "game:block/coating/nwd",
+			"rotateY": 180
+		},
+		"layerofsalt-swd": {
+			"base": "game:block/coating/nwd",
+			"rotateY": 90
+		},
+		"layerofsalt-nwu": {
+			"base": "game:block/coating/nwd",
+			"rotateX": 180,
+			"rotateY": 90
+		},
+		"layerofsalt-neu": {
+			"base": "game:block/coating/nwd",
+			"rotateX": 180,
+			"rotateY": 180
+		},
+		"layerofsalt-esu": {
+			"base": "game:block/coating/nwd",
+			"rotateX": 180,
+			"rotateY": 270
+		},
+		"layerofsalt-swu": {
+			"base": "game:block/coating/nwd",
+			"rotateX": 180
+		},
+		"layerofsalt-nsd": { "base": "game:block/coating/nsd" },
+		"layerofsalt-ewd": {
+			"base": "game:block/coating/nsd",
+			"rotateY": 90
+		},
+		"layerofsalt-sud": {
+			"base": "game:block/coating/nsd",
+			"rotateX": 90,
+			"rotateZ": 180
+		},
+		"layerofsalt-wud": {
+			"base": "game:block/coating/nsd",
+			"rotateX": 90,
+			"rotateZ": 270
+		},
+		"layerofsalt-nud": {
+			"base": "game:block/coating/nsd",
+			"rotateX": 90,
+			"rotateZ": 0
+		},
+		"layerofsalt-eud": {
+			"base": "game:block/coating/nsd",
+			"rotateX": 90,
+			"rotateZ": 90
+		},
+		"layerofsalt-nsu": {
+			"base": "game:block/coating/nsd",
+			"rotateX": 180
+		},
+		"layerofsalt-ewu": {
+			"base": "game:block/coating/nsd",
+			"rotateX": 180,
+			"rotateY": 90
+		},
+		"layerofsalt-nes": { "base": "game:block/coating/nes" },
+		"layerofsalt-esw": {
+			"base": "game:block/coating/nes",
+			"rotateY": 90
+		},
+		"layerofsalt-nsw": {
+			"base": "game:block/coating/nes",
+			"rotateY": 180
+		},
+		"layerofsalt-new": {
+			"base": "game:block/coating/nes",
+			"rotateY": 270
+		},
+		"layerofsalt-newd": { "base": "game:block/coating/newd" },
+		"layerofsalt-nesd": {
+			"base": "game:block/coating/newd",
+			"rotateY": 270
+		},
+		"layerofsalt-eswd": {
+			"base": "game:block/coating/newd",
+			"rotateY": 180
+		},
+		"layerofsalt-nswd": {
+			"base": "game:block/coating/newd",
+			"rotateY": 90
+		},
+		"layerofsalt-eswu": {
+			"base": "game:block/coating/newd",
+			"rotateX": 180
+		},
+		"layerofsalt-newu": {
+			"base": "game:block/coating/newd",
+			"rotateX": 0,
+			"rotateZ": 180
+		},
+		"layerofsalt-nswu": {
+			"base": "game:block/coating/newd",
+			"rotateX": 90,
+			"rotateZ": 270
+		},
+		"layerofsalt-nesu": {
+			"base": "game:block/coating/newd",
+			"rotateX": 90,
+			"rotateZ": 90
+		},
+		"layerofsalt-nesw": { "base": "game:block/coating/nesw" },
+		"layerofsalt-ewud": {
+			"base": "game:block/coating/nesw",
+			"rotateX": 90
+		},
+		"layerofsalt-nsud": {
+			"base": "game:block/coating/nesw",
+			"rotateX": 90,
+			"rotateZ": 90
+		},
+		"layerofsalt-neud": { "base": "game:block/coating/neud" },
+		"layerofsalt-esud": {
+			"base": "game:block/coating/neud",
+			"rotateY": 270
+		},
+		"layerofsalt-swud": {
+			"base": "game:block/coating/neud",
+			"rotateY": 180
+		},
+		"layerofsalt-nwud": {
+			"base": "game:block/coating/neud",
+			"rotateY": 90
+		},
+		"layerofsalt-neswd": { "base": "game:block/coating/neswd" },
+		"layerofsalt-neswu": {
+			"base": "game:block/coating/neswd",
+			"rotateX": 180
+		},
+		"layerofsalt-newud": {
+			"base": "game:block/coating/neswd",
+			"rotateX": 90,
+			"rotateZ": 0
+		},
+		"layerofsalt-nesud": {
+			"base": "game:block/coating/neswd",
+			"rotateX": 90,
+			"rotateZ": 90
+		},
+		"layerofsalt-eswud": {
+			"base": "game:block/coating/neswd",
+			"rotateX": 90,
+			"rotateZ": 180
+		},
+		"layerofsalt-nswud": {
+			"base": "game:block/coating/neswd",
+			"rotateX": 90,
+			"rotateZ": 270
+		},
+		"layerofsalt-neswud": { "base": "game:block/coating/neswud" }
+	},
+	"replaceable": 6001,
+	"resistance": 1.2,
+	"lightAbsorption": 0,
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"drops": [
+		{
+			"type": "item",
+			"code": "game:salt",
+			"quantity": {
+				"avg": 3,
+				"var": 1
+			}
+		}
+	],
+	"selectionbox": {
+		"x1": 0,
+		"y1": 0,
+		"z1": 0,
+		"x2": 1,
+		"y2": 1,
+		"z2": 1
+	},
+	"selectionboxByType": {
+		"layerofsalt-d": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 0.0625,
+			"z2": 1
+		},
+		"layerofsalt-u": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 0.0625,
+			"z2": 1,
+			"rotateX": 180
+		},
+
+		"layerofsalt-n": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.0625
+		},
+		"layerofsalt-e": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.0625,
+			"rotateY": 270
+		},
+		"layerofsalt-s": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.0625,
+			"rotateY": 180
+		},
+		"layerofsalt-w": {
+			"x1": 0,
+			"y1": 0,
+			"z1": 0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.0625,
+			"rotateY": 90
+		}
+	},
+	"collisionbox": null,
+	"sounds": {
+		"place": "game:block/sand",
+		"break": "game:block/sand",
+		"hit": "game:block/sand",
+		"walk": "game:walk/sand"
+	},
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 2,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.0625,
+			"z": 0.5
+		}
+	}
+}

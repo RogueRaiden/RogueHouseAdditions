@@ -1,12 +1,26 @@
-v3.0.0-pre.1
--Feature: 
+v3.0.3
+-Tweak: Fixed error spam
+-Tweak: More guide adjustments.
+
+v3.0.2
+-Tweak: More guide adjustments.
+
+v3.0.1
+-Tweak: Guide adjustments.
+
+v3.0.0
+-Feature: Changed the Butterfly Net to capture Butterflies alive.
+-Feature: Overhaul of the mods ruins.
+-Feature: A new wallpaper.
+-Feature: Rare layers of salt crust in caves.
+-Feature: Class additions! The Druid, Miner and Blacksmith. Also an overhaul of the Blackguard.
 
 -Tweak: Removed Drifter spawning light level changes, done in 1.18.
 -Tweak: Changed the "Resonance Archives" into "Tuning Cylinders" to match the changes in 1.18.
 -Tweak: Removed changes for fish items in the handbook, fixed in 1.18.
 -Tweak: Removed Sod Roofing recipes, added in 1.18.
 -Tweak: Removed "Sea" world generation, much better done in 1.18.
--Tweak: 
+-Tweak: Removed patches for Cats and Wolftaming mods that prevented tamed animals from being harvested.
 
 -Fixed: "Layer of Rot" missing texture.
 

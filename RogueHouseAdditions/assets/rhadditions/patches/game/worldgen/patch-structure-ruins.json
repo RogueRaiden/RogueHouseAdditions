@@ -1,20 +1,45 @@
 [
     {
-        "op": "add",
+        "op": "addeach",
         "path": "/structures/-",
-        "value": {
-            "code": "rh-bunker",
-            "group": "bunker",
-            "minGroupDistance": 600,
-            "name": "bunker",
-            "chance": 0.08,
-            "schematics": [ "rhadditions/bunker/*" ],
-            "depth": {
-                "avg": 9,
-                "var": 1
+        "value": [
+            {
+                "code": "rh-bunker",
+                "group": "bunker",
+                "minGroupDistance": 550,
+                "name": "old bunkers",
+                "chance": 0.8,
+                "schematics": [ "rhadditions:rhadditions/bunker/*" ],
+                "depth": {
+                    "avg": 8,
+                    "var": 1
+                },
+                "postPass": true,
+                "rockTypeRemapGroup": "surfaceruins",
+                "placement": "underground"
             },
-            "placement": "underground"
-        },
+            {
+                "code": "rh-bigtree",
+                "group": "bigtree",
+                "minGroupDistance": 550,
+                "name": "big trees",
+                "chance": 0.8,
+                "schematics": [ "rhadditions:rhadditions/bigtree/*" ],
+                "minTemp": "4",
+                "minForest": 1.5,
+                "placement": "surface"
+            },
+            {
+                "code": "rh-surfaceruin",
+                "name": "surface ruins",
+                "chance": 0.5,
+                "offsetY": -5,
+                "minTemp": "-6",
+                "schematics": [ "rhadditions:rhadditions/surfaceruin/*" ],
+                "postPass": true,
+                "placement": "surface"
+            }
+        ],
         "file": "game:worldgen/structures.json",
         "side": "Server"
     }

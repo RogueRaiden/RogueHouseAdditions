@@ -130,32 +130,6 @@
         }
     },
     {
-        "name": "mining bag",
-        "ingredientPattern": "_T_,L_L,LPL",
-        "ingredients": {
-            "T": {
-                "type": "item",
-                "code": "game:flaxtwine"
-            },
-            "L": {
-                "type": "block",
-                "code": "game:linen-*"
-            },
-            "P": {
-                "type": "item",
-                "code": "game:metalplate-*",
-                "allowedVariants": [ "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ],
-                "quantity": 2
-            }
-        },
-        "width": 3,
-        "height": 3,
-        "output": {
-            "type": "item",
-            "code": "game:miningbag"
-        }
-    },
-    {
         "name": "leather plain backpack",
         "ingredientPattern": "_T_,L_L,FLF",
         "ingredients": {

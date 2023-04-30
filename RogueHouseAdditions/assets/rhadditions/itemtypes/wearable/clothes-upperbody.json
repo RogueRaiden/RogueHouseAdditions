@@ -1,96 +1,225 @@
 {
-	"code": "clothes",
-	"class": "ItemWearable",
-	"variantgroups": [
-		{ "code": "category",  "states": ["upperbody"] },
-		{ "code": "upperbody", "combine": "SelectiveMultiply", "onVariant": "category", "states": [
-			"blacksmith-shirt", "rogue-shirt", "ranger-tunic", "rolledsleeve-shirt-yellow", "rolledsleeve-shirt-gray",
-			"rolledsleeve-shirt-purple", "rolledsleeve-shirt-orange", "rolledsleeve-shirt-pink", "rolledsleeve-shirt-blue",
-			"rolledsleeve-shirt-black", "rolledsleeve-shirt-brown", "rolledsleeve-shirt-green", "rolledsleeve-shirt-plain",
-			"rolledsleeve-shirt-red", "rolledsleeve-shirt-white", "drifterskin-surface-shirt", "drifterskin-deep-shirt",
-			"drifterskin-tainted-shirt", "drifterskin-corrupt-shirt", "drifterskin-nightmare-shirt", "drifterskin-double-shirt" ]
-		}
-	],
-	"shape": { "base": "game:entity/humanoid/seraph" },
-	"textures": { "seraph": { "base": "rhadditions:entity/humanoid/seraphclothes/{category}/{upperbody}" } },
-	"storageFlags": 128,
-	"attributesByType": {
-		"*-ranger-shirt": {
-			"clothescategory": "upperbody",
-			"warmth": 2.5
-		},
-		"*-rogue-shirt": {
-			"clothescategory": "upperbody",
-			"warmth": 1.5
-		},
-		"*-blacksmith-shirt": {
-			"clothescategory": "upperbody",
-			"warmth": 3
-		},
-		"*-rolledsleeve-shirt-*": {
-			"clothescategory": "upperbody",
-			"warmth": 2
-		},
-		"*": {
-			"clothescategory": "upperbody",
-			"warmth": 2
-		}
-	},
-	"creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"], "rhadditions": ["*"] },
-	"renderAlphaTest": 0.25,
-	"guiTransformByType": {
-		"*-ranger-tunic": {
-			"translation": { "x": 0, "y": 0, "z": 0 },
-			"rotation": { "x": -178, "y": -65, "z": 10 },
-			"origin": { "x": 0.43, "y": 1.16, "z": 0.5 },
-			"scale": 1.69
-		},
-		"*-drifterskin-*": {
-			"translation": { "x": 0, "y": 0, "z": 0 },
-			"rotation": { "x": -178, "y": -65, "z": 10 },
-			"origin": { "x": 0.9, "y": 1.12, "z": 0.7 },
-			"scale": 1.96
-		},
-		"*-rogue-shirt": {
-			"translation": { "x": 0, "y": 0, "z": 0 },
-			"rotation": { "x": -178, "y": -65, "z": 10 },
-			"origin": { "x": 0.9, "y": 1.12, "z": 0.7 },
-			"scale": 1.96
-		},
-		"*-blacksmith-shirt": {
-			"translation": { "x": 0, "y": 0, "z": 0 },
-			"rotation": { "x": -178, "y": -65, "z": 10 },
-			"origin": { "x": 0.92, "y": 1.16, "z": 0.71 },
-			"scale": 2.26
-		},
-		"*-rolledsleeve-shirt-*": {
-			"translation": { "x": 0, "y": 0, "z": 0 },
-			"rotation": { "x": -178, "y": -65, "z": 10 },
-			"origin": { "x": 0.92, "y": 1.16, "z": 0.71 },
-			"scale": 2.26
-		},
-		"*": {
-			"rotate": false,
-			"translation": { "x": 0, "y": 0, "z": 0 },
-			"rotation": { "x": -178, "y": -65, "z": 10 },
-			"origin": { "x": 0.43, "y": 1.1, "z": 0.5 },
-			"scale": 1.69
-		}
-	},
-	"fpHandTransform": {
-		"translation": { "x": 0.05, "y": -0.6, "z": 0.3 },
-		"rotation": { "x": 180, "y": 150, "z": 180 },
-		"scale": 2
-	},
-	"tpHandTransform": {
-		"translation": { "x": -0.3, "y": -0.9, "z": -0.7 },
-		"rotation": { "x": -71, "y": 180, "z": 83 },
-		"scale": 0.55
-	},
-	"groundTransform": {
-		"translation": { "x": 0.05, "y": 0.05, "z": 0 },
-		"rotation": { "x": 0, "y": 0, "z": -87 },
-		"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
-		"scale": 2.19
-	}
+    "code": "clothes",
+    "class": "ItemWearable",
+    "variantgroups": [
+        {
+            "code": "category",
+            "states": [ "upperbody" ]
+        },
+        {
+            "code": "upperbody",
+            "combine": "SelectiveMultiply",
+            "onVariant": "category",
+            "states": [
+                "blacksmith-shirt",
+                "rogue-shirt",
+                "druid-tunic",
+                "rolledsleeve-shirt-yellow",
+                "rolledsleeve-shirt-gray",
+                "rolledsleeve-shirt-purple",
+                "rolledsleeve-shirt-orange",
+                "rolledsleeve-shirt-pink",
+                "rolledsleeve-shirt-blue",
+                "rolledsleeve-shirt-black",
+                "rolledsleeve-shirt-brown",
+                "rolledsleeve-shirt-green",
+                "rolledsleeve-shirt-plain",
+                "rolledsleeve-shirt-red",
+                "rolledsleeve-shirt-white",
+                "drifterskin-surface-shirt",
+                "drifterskin-deep-shirt",
+                "drifterskin-tainted-shirt",
+                "drifterskin-corrupt-shirt",
+                "drifterskin-nightmare-shirt",
+                "drifterskin-double-shirt"
+            ]
+        }
+    ],
+    "shape": { "base": "game:entity/humanoid/seraph" },
+    "textures": { "seraph": { "base": "rhadditions:entity/humanoid/seraphclothes/{category}/{upperbody}" } },
+    "storageFlags": 128,
+    "attributesByType": {
+        "*-druid-shirt": {
+            "clothescategory": "upperbody",
+            "warmth": 2.5
+        },
+        "*-rogue-shirt": {
+            "clothescategory": "upperbody",
+            "warmth": 1.5
+        },
+        "*-blacksmith-shirt": {
+            "clothescategory": "upperbody",
+            "warmth": 3
+        },
+        "*-rolledsleeve-shirt-*": {
+            "clothescategory": "upperbody",
+            "warmth": 2
+        },
+        "*": {
+            "clothescategory": "upperbody",
+            "warmth": 2
+        }
+    },
+    "creativeinventory": {
+        "general": [ "*" ],
+        "items": [ "*" ],
+        "clothing": [ "*" ],
+        "rhadditions": [ "*" ]
+    },
+    "renderAlphaTest": 0.25,
+    "guiTransformByType": {
+        "*-druid-tunic": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -178,
+                "y": -65,
+                "z": 10
+            },
+            "origin": {
+                "x": 0.43,
+                "y": 1.16,
+                "z": 0.5
+            },
+            "scale": 1.69
+        },
+        "*-drifterskin-*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -178,
+                "y": -65,
+                "z": 10
+            },
+            "origin": {
+                "x": 0.9,
+                "y": 1.12,
+                "z": 0.7
+            },
+            "scale": 1.96
+        },
+        "*-rogue-shirt": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -178,
+                "y": -65,
+                "z": 10
+            },
+            "origin": {
+                "x": 0.9,
+                "y": 1.12,
+                "z": 0.7
+            },
+            "scale": 1.96
+        },
+        "*-blacksmith-shirt": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -178,
+                "y": -65,
+                "z": 10
+            },
+            "origin": {
+                "x": 0.92,
+                "y": 1.16,
+                "z": 0.71
+            },
+            "scale": 2.26
+        },
+        "*-rolledsleeve-shirt-*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -178,
+                "y": -65,
+                "z": 10
+            },
+            "origin": {
+                "x": 0.92,
+                "y": 1.16,
+                "z": 0.71
+            },
+            "scale": 2.26
+        },
+        "*": {
+            "rotate": false,
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -178,
+                "y": -65,
+                "z": 10
+            },
+            "origin": {
+                "x": 0.43,
+                "y": 1.1,
+                "z": 0.5
+            },
+            "scale": 1.69
+        }
+    },
+    "fpHandTransform": {
+        "translation": {
+            "x": 0.05,
+            "y": -0.6,
+            "z": 0.3
+        },
+        "rotation": {
+            "x": 180,
+            "y": 150,
+            "z": 180
+        },
+        "scale": 2
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.3,
+            "y": -0.9,
+            "z": -0.7
+        },
+        "rotation": {
+            "x": -71,
+            "y": 180,
+            "z": 83
+        },
+        "scale": 0.55
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0.05,
+            "y": 0.05,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": -87
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5299
+        },
+        "scale": 2.19
+    }
 }

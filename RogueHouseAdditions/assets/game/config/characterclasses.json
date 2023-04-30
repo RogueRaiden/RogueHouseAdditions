@@ -32,41 +32,34 @@
 		]
 	},
 	{
-		"code": "commoner",
-		"traits": [],
+		"code": "druid",
+		"traits": [ "archer", "forestwalk", "herbalist", "naturalist", "claustrophobic2" ],
 		"gear": [
 			{
 				"type": "item",
-				"code": "clothes-upperbody-commoner-shirt"
+				"code": "rhadditions:clothes-upperbody-druid-tunic"
 			},
 			{
 				"type": "item",
-				"code": "clothes-upperbodyover-commoner-coat"
+				"code": "rhadditions:clothes-hand-druid-gloves"
 			},
 			{
 				"type": "item",
-				"code": "clothes-lowerbody-commoner-trousers"
+				"code": "clothes-waist-moss-embroidered-belt"
 			},
 			{
 				"type": "item",
-				"code": "clothes-foot-commoner-boots"
+				"code": "clothes-lowerbody-raw-hide-trousers"
 			},
 			{
 				"type": "item",
-				"code": "clothes-hand-commoner-gloves"
+				"code": "rhadditions:clothes-foot-druid-boots"
 			}
 		]
 	},
 	{
 		"code": "hunter",
-		"traits": [
-			"focused",
-			"resourceful",
-			"fleetfooted",
-			"bowyer",
-			"farsighted",
-			"claustrophobic"
-		],
+		"traits": [ "focused", "resourceful", "fleetfooted", "bowyer", "farsighted", "claustrophobic" ],
 		"gear": [
 			{
 				"type": "item",
@@ -104,14 +97,7 @@
 	},
 	{
 		"code": "malefactor",
-		"traits": [
-			"forager",
-			"pilferer",
-			"furtive",
-			"improviser",
-			"frail",
-			"nervous"
-		],
+		"traits": [ "forager", "pilferer", "furtive", "improviser", "frail", "nervous" ],
 		"gear": [
 			{
 				"type": "item",
@@ -152,15 +138,72 @@
 		]
 	},
 	{
+		"code": "commoner",
+		"traits": [],
+		"gear": [
+			{
+				"type": "item",
+				"code": "clothes-upperbody-commoner-shirt"
+			},
+			{
+				"type": "item",
+				"code": "clothes-upperbodyover-commoner-coat"
+			},
+			{
+				"type": "item",
+				"code": "clothes-lowerbody-commoner-trousers"
+			},
+			{
+				"type": "item",
+				"code": "clothes-foot-commoner-boots"
+			},
+			{
+				"type": "item",
+				"code": "clothes-hand-commoner-gloves"
+			}
+		]
+	},
+	{
+		"code": "tailor",
+		"traits": [ "clothier", "mender", "civil", "weak", "kind" ],
+		"gear": [
+			{
+				"type": "item",
+				"code": "clothes-face-tailor-mask"
+			},
+			{
+				"type": "item",
+				"code": "clothes-upperbodyover-tailor-jacket"
+			},
+			{
+				"type": "item",
+				"code": "clothes-upperbody-tailor-blouse"
+			},
+			{
+				"type": "item",
+				"code": "clothes-waist-tailor-belt"
+			},
+			{
+				"type": "item",
+				"code": "clothes-lowerbody-tailor-trousers"
+			},
+			{
+				"type": "item",
+				"code": "clothes-hand-tailor-gloves"
+			},
+			{
+				"type": "item",
+				"code": "clothes-foot-tailor-shoes"
+			},
+			{
+				"type": "item",
+				"code": "clothes-arm-tailor-needlepuff"
+			}
+		]
+	},
+	{
 		"code": "clockmaker",
-		"traits": [
-			"precise",
-			"technical",
-			"fleetfooted",
-			"frail",
-			"nervous",
-			"tinkerer"
-		],
+		"traits": [ "precise", "technical", "fleetfooted", "frail", "nervous", "tinkerer" ],
 		"gear": [
 			{
 				"type": "item",
@@ -194,26 +237,11 @@
 	},
 	{
 		"code": "blackguard",
-		"traits": [
-			"soldier",
-			"hardy",
-			"merciless",
-			"ravenous",
-			"nearsighted",
-			"heavyhanded"
-		],
+		"traits": [ "swordsmen", "tank", "blackguard", "ravenous", "barbarian" ],
 		"gear": [
 			{
 				"type": "item",
 				"code": "clothes-upperbody-blackguard-shirt"
-			},
-			{
-				"type": "item",
-				"code": "clothes-lowerbody-blackguard-leggings"
-			},
-			{
-				"type": "item",
-				"code": "clothes-foot-blackguard-shoes"
 			},
 			{
 				"type": "item",
@@ -222,50 +250,82 @@
 			{
 				"type": "item",
 				"code": "clothes-waist-blackguard-belt"
+			},
+			{
+				"type": "item",
+				"code": "clothes-lowerbody-blackguard-leggings"
+			},
+			{
+				"type": "item",
+				"code": "clothes-foot-blackguard-shoes"
 			}
 		]
 	},
 	{
-		"code": "tailor",
-		"traits": [
-			"clothier",
-			"mender",
-			"civil",
-			"weak",
-			"kind"
-		],
+		"code": "miner",
+		"traits": [ "toned", "miner", "geologist", "hungry", "brute", "heavyfeet" ],
 		"gear": [
 			{
 				"type": "item",
-				"code": "clothes-face-tailor-mask"
+				"code": "clothes-face-miner"
 			},
 			{
 				"type": "item",
-				"code": "clothes-upperbodyover-tailor-jacket"
+				"code": "clothes-shoulder-miner"
 			},
 			{
 				"type": "item",
-				"code": "clothes-upperbody-tailor-blouse"
+				"code": "clothes-upperbodyover-miner"
 			},
 			{
 				"type": "item",
-				"code": "clothes-waist-tailor-belt"
+				"code": "clothes-upperbody-miner"
 			},
 			{
 				"type": "item",
-				"code": "clothes-lowerbody-tailor-trousers"
+				"code": "clothes-waist-miner"
 			},
 			{
 				"type": "item",
-				"code": "clothes-hand-tailor-gloves"
+				"code": "clothes-lowerbody-miner"
 			},
 			{
 				"type": "item",
-				"code": "clothes-foot-tailor-shoes"
+				"code": "clothes-hand-miner"
 			},
 			{
 				"type": "item",
-				"code": "clothes-arm-tailor-needlepuff"
+				"code": "clothes-foot-miner"
+			}
+		]
+	},
+	{
+		"code": "blacksmith",
+		"traits": [ "strong", "blacksmith", "skyforge", "hungry", "thickfingers" ],
+		"gear": [
+			{
+				"type": "item",
+				"code": "clothes-shoulder-blacksmith-apron"
+			},
+			{
+				"type": "item",
+				"code": "rhadditions:clothes-upperbody-blacksmith-shirt"
+			},
+			{
+				"type": "item",
+				"code": "clothes-waist-heavy-tool-belt"
+			},
+			{
+				"type": "item",
+				"code": "clothes-lowerbody-workmans-gown"
+			},
+			{
+				"type": "item",
+				"code": "clothes-hand-heavy-leather-gloves"
+			},
+			{
+				"type": "item",
+				"code": "clothes-foot-worn-leather-boots"
 			}
 		]
 	}

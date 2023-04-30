@@ -4,24 +4,6 @@
         "path": "/-",
         "value": [
             {
-                "comment": "Spiderwebs underground",
-                "blockCodes": [ "game:spiderweb" ],
-                "quantity": {
-                    "avg": 6
-                },
-                "offsetX": {
-                    "avg": 0,
-                    "var": 3
-                },
-                "offsetZ": {
-                    "avg": 0,
-                    "var": 3
-                },
-                "chance": 30,
-                "maxY": 0.35,
-                "placement": "Underground"
-            },
-            {
                 "comment": "Extra loose boulders in underground",
                 "blockCodes": [ "looseboulders-{rocktype}-free" ],
                 "quantity": {
@@ -50,16 +32,6 @@
                 },
                 "chance": 35,
                 "placement": "Underground"
-            },
-            {
-                "comment": "Deep patches of seaweed",
-                "blockCodes": [ "seaweed-section" ],
-                "quantity": {
-                    "avg": 16,
-                    "var": 8
-                },
-                "chance": 8,
-                "placement": "UnderWater"
             }
         ],
         "file": "game:worldgen/blockpatches/other.json",

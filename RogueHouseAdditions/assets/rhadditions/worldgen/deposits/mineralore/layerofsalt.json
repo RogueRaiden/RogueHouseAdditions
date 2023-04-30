@@ -1,0 +1,26 @@
+[
+    {
+        "code": "layerofsalt",
+        "triesPerChunk": 4,
+        "generator": "disc-followsealevel",
+        "withBlockCallback": true,
+        "attributes": {
+            "inblock": { "code": "air" },
+            "placeblock": { "code": "rhadditions:layerofsalt-d" },
+            "radius": {
+                "dist": "gaussian",
+                "avg": 4,
+                "var": 4
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 0,
+                "var": 0.8
+            },
+            "thickness": {
+                "avg": 7,
+                "var": 3
+            }
+        }
+    }
+]

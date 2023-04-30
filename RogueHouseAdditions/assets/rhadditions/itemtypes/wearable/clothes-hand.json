@@ -1,70 +1,164 @@
 {
-	"code": "clothes",
-	"class": "ItemWearable",
-	"variantgroups": [
-		{ "code": "category",  "states": ["hand"] },
-		{ "code": "hand", "combine": "SelectiveMultiply", "onVariant": "category", "states": [
-			"rogue-gloves", "ranger-gloves", "drifterskin-surface-gloves", "drifterskin-deep-gloves",
-			"drifterskin-tainted-gloves", "drifterskin-corrupt-gloves", "drifterskin-nightmare-gloves",
-			"drifterskin-double-gloves" ]
-		}
-	],
-	"shapeByType": {
-		"*": { "base": "game:entity/humanoid/seraph" }
-	},
-	"texturesByType": {
-		"*": { "seraph": { "base": "rhadditions:entity/humanoid/seraphclothes/{category}/{hand}" } }
-	},
-	"storageFlags": 128,
-	"attributes": {
-		"clothescategory": "hand",
-		"warmthByType": {
-			"*": 0.5
-		}
-	},
-	"creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"], "rhadditions": ["*"] },
-	"renderAlphaTest": 0.25,
-	"guiTransformByType": {
-		"*-drifterskin-*": {
-			"translation": { "x": 0, "y": 0, "z": 19 },
-			"rotation": { "x": 174, "y": -30, "z": 23 },
-			"origin": { "x": 0.52, "y": 0.88, "z": 0.47 },
-			"scale": 2.5
-		},
-		"*-rogue-gloves": {
-			"translation": { "x": 0, "y": 0, "z": 19 },
-			"rotation": { "x": 174, "y": -30, "z": 23 },
-			"origin": { "x": 0.52, "y": 0.88, "z": 0.47 },
-			"scale": 2.5
-		},
-		"*-ranger-gloves": {
-			"translation": { "x": 0, "y": 0, "z": 19 },
-			"rotation": { "x": 174, "y": -30, "z": 23 },
-			"origin": { "x": 0.52, "y": 0.8599, "z": 0.5 },
-			"scale": 2.5
-		},
-		"*": {
-			"rotate": false,
-			"translation": { "x": 0, "y": 0, "z": 19 },
-			"rotation": { "x": 174, "y": -30, "z": 23 },
-			"origin": { "x": 0.52, "y": 0.8599, "z": 0.5 },
-			"scale": 2.5
-		}
-	},
-	"fpHandTransform": {
-		"translation": { "x": 0.6, "y": 0, "z": -0.5 },
-		"rotation": { "x": 180, "y": 42, "z": -29 },
-		"scale": 2.5
-	},
-	"tpHandTransform": {
-		"translation": { "x": -0.9, "y": -1, "z": -1 },
-		"rotation": { "x": -11, "y": -69, "z": 24 },
-		"origin": { "x": 0.4, "y": 0.2, "z": 0.5 },
-		"scale": 0.55
-	},
-	"groundTransform": {
-		"rotation": { "x": 0, "y": 0, "z": 90 },
-		"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
-		"scale": 3.04
-	}
+    "code": "clothes",
+    "class": "ItemWearable",
+    "variantgroups": [
+        {
+            "code": "category",
+            "states": [ "hand" ]
+        },
+        {
+            "code": "hand",
+            "combine": "SelectiveMultiply",
+            "onVariant": "category",
+            "states": [
+                "rogue-gloves",
+                "druid-gloves",
+                "drifterskin-surface-gloves",
+                "drifterskin-deep-gloves",
+                "drifterskin-tainted-gloves",
+                "drifterskin-corrupt-gloves",
+                "drifterskin-nightmare-gloves",
+                "drifterskin-double-gloves"
+            ]
+        }
+    ],
+    "shapeByType": {
+        "*": { "base": "game:entity/humanoid/seraph" }
+    },
+    "texturesByType": {
+        "*": { "seraph": { "base": "rhadditions:entity/humanoid/seraphclothes/{category}/{hand}" } }
+    },
+    "storageFlags": 128,
+    "attributes": {
+        "clothescategory": "hand",
+        "warmthByType": {
+            "*": 0.5
+        }
+    },
+    "creativeinventory": {
+        "general": [ "*" ],
+        "items": [ "*" ],
+        "clothing": [ "*" ],
+        "rhadditions": [ "*" ]
+    },
+    "renderAlphaTest": 0.25,
+    "guiTransformByType": {
+        "*-drifterskin-*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 19
+            },
+            "rotation": {
+                "x": 174,
+                "y": -30,
+                "z": 23
+            },
+            "origin": {
+                "x": 0.52,
+                "y": 0.88,
+                "z": 0.47
+            },
+            "scale": 2.5
+        },
+        "*-rogue-gloves": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 19
+            },
+            "rotation": {
+                "x": 174,
+                "y": -30,
+                "z": 23
+            },
+            "origin": {
+                "x": 0.52,
+                "y": 0.88,
+                "z": 0.47
+            },
+            "scale": 2.5
+        },
+        "*-druid-gloves": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 19
+            },
+            "rotation": {
+                "x": 174,
+                "y": -30,
+                "z": 23
+            },
+            "origin": {
+                "x": 0.52,
+                "y": 0.8599,
+                "z": 0.5
+            },
+            "scale": 2.5
+        },
+        "*": {
+            "rotate": false,
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 19
+            },
+            "rotation": {
+                "x": 174,
+                "y": -30,
+                "z": 23
+            },
+            "origin": {
+                "x": 0.52,
+                "y": 0.8599,
+                "z": 0.5
+            },
+            "scale": 2.5
+        }
+    },
+    "fpHandTransform": {
+        "translation": {
+            "x": 0.6,
+            "y": 0,
+            "z": -0.5
+        },
+        "rotation": {
+            "x": 180,
+            "y": 42,
+            "z": -29
+        },
+        "scale": 2.5
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.9,
+            "y": -1,
+            "z": -1
+        },
+        "rotation": {
+            "x": -11,
+            "y": -69,
+            "z": 24
+        },
+        "origin": {
+            "x": 0.4,
+            "y": 0.2,
+            "z": 0.5
+        },
+        "scale": 0.55
+    },
+    "groundTransform": {
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 90
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5299
+        },
+        "scale": 3.04
+    }
 }

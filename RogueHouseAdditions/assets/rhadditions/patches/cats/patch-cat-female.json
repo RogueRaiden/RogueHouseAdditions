@@ -1,19 +1,5 @@
 [
 	{
-		"op": "remove",
-		"path": "/client/behaviors/9",
-		"file": "cats:entities/land/cat-female.json",
-		"dependsOn": [ { "modid": "cats" } ],
-		"side": "Server"
-	},
-	{
-		"op": "remove",
-		"path": "/server/behaviors/9",
-		"file": "cats:entities/land/cat-female.json",
-		"dependsOn": [ { "modid": "cats" } ],
-		"side": "Server"
-	},
-	{
 		"op": "replace",
 		"path": "/hitboxSize",
 		"value": {
@@ -38,7 +24,7 @@
 	},
 	{
 		"op": "replace",
-		"path": "/server/behaviors/12/aitasks/4/entityCodes",
+		"path": "/server/behaviors/13/aitasks/4/entityCodes",
 		"value": [
 			"wolf-*",
 			"fox-*"
@@ -49,7 +35,7 @@
 	},
 	{
 		"op": "replace",
-		"path": "/server/behaviors/12/aitasks/1/entityCodes",
+		"path": "/server/behaviors/13/aitasks/1/entityCodes",
 		"value": [
 		],
 		"file": "cats:entities/land/cat-female.json",
@@ -58,7 +44,7 @@
 	},
 	{
 		"op": "add",
-		"path": "/server/behaviors/12/aitasks/-",
+		"path": "/server/behaviors/13/aitasks/-",
 		"value": {
 			"code": "seekfoodandeat",
 			"movespeed": 0.006,

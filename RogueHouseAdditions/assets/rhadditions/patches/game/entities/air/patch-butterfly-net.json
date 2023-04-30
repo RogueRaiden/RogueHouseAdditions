@@ -1,0 +1,8 @@
+[
+    {
+        "op": "replace",
+        "path": "/attributes/netCaughtItemCode",
+        "value": "creature-butterfly-{type}",
+        "file": "game:entities/air/butterfly.json"
+    }
+]

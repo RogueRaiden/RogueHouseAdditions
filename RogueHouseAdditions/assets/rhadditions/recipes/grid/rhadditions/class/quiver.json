@@ -1,0 +1,28 @@
+{
+    "ingredientPattern": "_K_,FLL",
+    "requiresTrait": "archer",
+    "ingredients": {
+        "K": {
+            "type": "item",
+            "code": "game:knife-*",
+            "isTool": true,
+            "toolDurabilityCost": 8
+        },
+        "L": {
+            "type": "item",
+            "code": "game:leather-*",
+            "quantity": 2
+        },
+        "F": {
+            "type": "item",
+            "code": "game:flaxtwine",
+            "quantity": 2
+        }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+        "type": "item",
+        "code": "game:quiver"
+    }
+}

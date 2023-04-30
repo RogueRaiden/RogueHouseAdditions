@@ -1,14 +1,9 @@
 [
     {
-        "op": "remove",
-        "path": "/drops",
-        "file": "game:blocktypes/plant/tallgrass.json",
-        "side": "Server"
-    },
-    {
-        "op": "add",
+        "op": "replace",
         "path": "/dropsByType",
         "value": {
+            "tallgrass-eaten-*": [],
             "*-verytall-*": [
                 {
                     "type": "item",

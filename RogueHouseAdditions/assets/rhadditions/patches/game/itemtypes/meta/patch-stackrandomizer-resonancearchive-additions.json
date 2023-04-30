@@ -1,11 +1,11 @@
 [
 	{
 		"op": "addeach",
-		"path": "/attributesByType/*-resonancearchive/stacks/-",
+		"path": "/attributesByType/*-tuningcylinder/stacks/-",
 		"value": [
 			{
 				"type": "item",
-				"code": "rhadditions:resonancearchive-adventuring",
+				"code": "rhadditions:tuningcylinder-adventuring",
 				"quantity": {
 					"avg": 1,
 					"var": 0
@@ -14,7 +14,7 @@
 			},
 			{
 				"type": "item",
-				"code": "rhadditions:resonancearchive-building",
+				"code": "rhadditions:tuningcylinder-building",
 				"quantity": {
 					"avg": 1,
 					"var": 0
@@ -23,7 +23,7 @@
 			},
 			{
 				"type": "item",
-				"code": "rhadditions:resonancearchive-creating",
+				"code": "rhadditions:tuningcylinder-creating",
 				"quantity": {
 					"avg": 1,
 					"var": 0
@@ -32,7 +32,7 @@
 			},
 			{
 				"type": "item",
-				"code": "rhadditions:resonancearchive-daylight",
+				"code": "rhadditions:tuningcylinder-daylight",
 				"quantity": {
 					"avg": 1,
 					"var": 0
@@ -41,7 +41,7 @@
 			},
 			{
 				"type": "item",
-				"code": "rhadditions:resonancearchive-groove",
+				"code": "rhadditions:tuningcylinder-groove",
 				"quantity": {
 					"avg": 1,
 					"var": 0
@@ -50,7 +50,7 @@
 			},
 			{
 				"type": "item",
-				"code": "rhadditions:resonancearchive-heartbeat",
+				"code": "rhadditions:tuningcylinder-heartbeat",
 				"quantity": {
 					"avg": 1,
 					"var": 0
@@ -59,7 +59,7 @@
 			},
 			{
 				"type": "item",
-				"code": "rhadditions:resonancearchive-fall-o'-croft",
+				"code": "rhadditions:tuningcylinder-fall-o'-croft",
 				"quantity": {
 					"avg": 1,
 					"var": 0
@@ -68,7 +68,7 @@
 			},
 			{
 				"type": "item",
-				"code": "rhadditions:resonancearchive-midnight",
+				"code": "rhadditions:tuningcylinder-midnight",
 				"quantity": {
 					"avg": 1,
 					"var": 0
@@ -77,7 +77,7 @@
 			},
 			{
 				"type": "item",
-				"code": "rhadditions:resonancearchive-mirror",
+				"code": "rhadditions:tuningcylinder-mirror",
 				"quantity": {
 					"avg": 1,
 					"var": 0
@@ -86,7 +86,7 @@
 			},
 			{
 				"type": "item",
-				"code": "rhadditions:resonancearchive-roots",
+				"code": "rhadditions:tuningcylinder-roots",
 				"quantity": {
 					"avg": 1,
 					"var": 0
@@ -95,7 +95,7 @@
 			},
 			{
 				"type": "item",
-				"code": "rhadditions:resonancearchive-safety-of-a-warm-fire",
+				"code": "rhadditions:tuningcylinder-safety-of-a-warm-fire",
 				"quantity": {
 					"avg": 1,
 					"var": 0
@@ -104,7 +104,7 @@
 			},
 			{
 				"type": "item",
-				"code": "rhadditions:resonancearchive-setting-sun",
+				"code": "rhadditions:tuningcylinder-setting-sun",
 				"quantity": {
 					"avg": 1,
 					"var": 0
@@ -113,7 +113,7 @@
 			},
 			{
 				"type": "item",
-				"code": "rhadditions:resonancearchive-spring",
+				"code": "rhadditions:tuningcylinder-spring",
 				"quantity": {
 					"avg": 1,
 					"var": 0
@@ -122,7 +122,7 @@
 			},
 			{
 				"type": "item",
-				"code": "rhadditions:resonancearchive-summer-day",
+				"code": "rhadditions:tuningcylinder-summer-day",
 				"quantity": {
 					"avg": 1,
 					"var": 0
@@ -131,7 +131,7 @@
 			},
 			{
 				"type": "item",
-				"code": "rhadditions:resonancearchive-to-dawn",
+				"code": "rhadditions:tuningcylinder-to-dawn",
 				"quantity": {
 					"avg": 1,
 					"var": 0
@@ -140,7 +140,7 @@
 			},
 			{
 				"type": "item",
-				"code": "rhadditions:resonancearchive-winter",
+				"code": "rhadditions:tuningcylinder-winter",
 				"quantity": {
 					"avg": 1,
 					"var": 0

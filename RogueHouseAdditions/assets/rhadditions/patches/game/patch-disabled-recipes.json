@@ -1,5 +1,6 @@
 [
 	{
+		"comment": "custom soil compost recipe",
 		"op": "add",
 		"path": "/enabled",
 		"value": false,
@@ -7,6 +8,7 @@
 		"side": "Server"
 	},
 	{
+		"comment": "typed toolracks",
 		"op": "add",
 		"path": "/enabled",
 		"value": false,
@@ -14,6 +16,7 @@
 		"side": "Server"
 	},
 	{
+		"comment": "typed forges",
 		"op": "add",
 		"path": "/enabled",
 		"value": false,
@@ -21,6 +24,7 @@
 		"side": "Server"
 	},
 	{
+		"comment": "colored backpacks",
 		"op": "add",
 		"path": "/enabled",
 		"value": false,
@@ -28,6 +32,7 @@
 		"side": "Server"
 	},
 	{
+		"comment": "rebalance",
 		"op": "add",
 		"path": "/enabled",
 		"value": false,
@@ -35,6 +40,7 @@
 		"side": "Server"
 	},
 	{
+		"comment": "rebalance",
 		"op": "add",
 		"path": "/0/enabled",
 		"value": false,
@@ -42,6 +48,7 @@
 		"side": "Server"
 	},
 	{
+		"comment": "rebalance",
 		"op": "add",
 		"path": "/1/enabled",
 		"value": false,
@@ -49,10 +56,36 @@
 		"side": "Server"
 	},
 	{
+		"comment": "rebalance",
 		"op": "add",
 		"path": "/enabled",
 		"value": false,
 		"file": "game:recipes/grid/linensack.json",
+		"side": "Server"
+	},
+
+	{
+		"comment": "class recipe",
+		"op": "add",
+		"path": "/1/enabled",
+		"value": false,
+		"file": "game:recipes/grid/tool/blade.json",
+		"side": "Server"
+	},
+	{
+		"comment": "class recipe",
+		"op": "add",
+		"path": "/31/enabled",
+		"value": false,
+		"file": "game:recipes/grid/tool/shield.json",
+		"side": "Server"
+	},
+	{
+		"comment": "class recipe",
+		"op": "add",
+		"path": "/enabled",
+		"value": false,
+		"file": "game:recipes/grid/miningbag.json",
 		"side": "Server"
 	}
 ]

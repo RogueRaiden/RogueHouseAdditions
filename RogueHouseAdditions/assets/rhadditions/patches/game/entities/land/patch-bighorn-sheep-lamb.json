@@ -17,11 +17,6 @@
                         "cooldown": 1
                     },
                     {
-                        "code": "flower-smallheather-free",
-                        "progress": 0.1,
-                        "cooldown": 1
-                    },
-                    {
                         "code": "flower-heather-free",
                         "progress": 0.2,
                         "cooldown": 2
@@ -63,10 +58,6 @@
                     {
                         "type": "item",
                         "code": "drygrass"
-                    },
-                    {
-                        "type": "block",
-                        "code": "flower-smallheather-free"
                     },
                     {
                         "type": "block",
@@ -118,11 +109,6 @@
                         "cooldown": 1
                     },
                     {
-                        "code": "flower-smallheather-free",
-                        "progress": 0.1,
-                        "cooldown": 1
-                    },
-                    {
                         "code": "flower-heather-free",
                         "progress": 0.2,
                         "cooldown": 2
@@ -164,10 +150,6 @@
                     {
                         "type": "item",
                         "code": "drygrass"
-                    },
-                    {
-                        "type": "block",
-                        "code": "flower-smallheather-free"
                     },
                     {
                         "type": "block",
@@ -215,7 +197,6 @@
             "eatItemCodes": [
                 "salt",
                 "drygrass",
-                "flower-smallheather-free",
                 "flower-heather-free",
                 "flower-orangemallow-free",
                 "flower-redtopgrass-free",

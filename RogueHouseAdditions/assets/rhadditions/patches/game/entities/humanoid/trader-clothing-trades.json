@@ -37,7 +37,7 @@
                 }
             },
             {
-                "code": "rhadditions:clothes-foot-ranger-boots",
+                "code": "rhadditions:clothes-foot-druid-boots",
                 "type": "item",
                 "stacksize": 1,
                 "stock": {
@@ -50,7 +50,7 @@
                 }
             },
             {
-                "code": "rhadditions:clothes-hand-ranger-gloves",
+                "code": "rhadditions:clothes-hand-druid-gloves",
                 "type": "item",
                 "stacksize": 1,
                 "stock": {
@@ -63,7 +63,7 @@
                 }
             },
             {
-                "code": "rhadditions:clothes-upperbody-ranger-tunic",
+                "code": "rhadditions:clothes-upperbody-druid-tunic",
                 "type": "item",
                 "stacksize": 1,
                 "stock": {

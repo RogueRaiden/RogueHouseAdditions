@@ -67,7 +67,7 @@
     "game:charattribute-bowDrawingStrength-0.15": "+15% ranged distance",
 
     "game:trait-sneaky": "<font color=\"#84ff84\">• Sneaky</font>",
-    "game:charattribute-animalSeekingRange--0.5": "-50% animal seeking range",
+    "game:charattribute-animalSeekingRange--0.2": "-20% animal seeking range",
 
     "game:trait-outlaw": "<font color=\"#ff8484\">• Outlaw</font>",
     "game:charattribute-hungerrate-0.12": "+12% hunger rate",
@@ -77,8 +77,77 @@
     "game:charattribute-animalLootDropRate--0.15": "-15% animal loot",
     "game:charattribute-oreDropRate--15": "-15% ore drop rate",
 
-    "game:trait-skyforge": "<font color=\"#ff8484\">• Skyforge</font>",
-    "game:traitdesc-skyforge": "Exclusive craftables <a href=\"handbooksearch://blacksmith \">blacksmiths</a>",
+    "game:trait-blacksmith": "<font color=\"#84ff84\">• Blacksmith</font>",
+    "game:traitdesc-blacksmith": "Exclusive craftables <a href=\"handbooksearch:// \">blacksmith stuff (wip)</a>",
+
+    "game:trait-skyforge": "<font color=\"#84ff84\">• Skyforge</font>",
+    "game:charattribute-armorDurabilityLoss--0.3": "+30% armor durability",
+
+    "game:trait-strong": "<font color=\"#84ff84\">• Strong</font>",
+    "game:charattribute-maxhealthExtraPoints-3": "+3 health points",
+    "game:charattribute-bowDrawingStrength-0.1": "+10% ranged distance",
+    "game:charattribute-rangedWeaponsDamage-0.1": "+10% ranged damage",
+
+    "game:trait-hungry": "<font color=\"#ff8484\">• Hungry</font>",
+    "game:charattribute-hungerrate-0.2": "+20% hunger rate",
+
+    "game:trait-brute": "<font color=\"#ff8484\">• Brute</font>",
+
+    "game:trait-heavyfeet": "<font color=\"#ff8484\">• Heavy feet</font>",
+    "game:charattribute-animalSeekingRange-0.35": "+35% animal seeking range",
+
+    "game:trait-thickfingers": "<font color=\"#ff8484\">• Thick fingers</font>",
+    "game:charattribute-wildCropDropRate--0.1": "-10% wild crop drop rate",
+
+    "game:trait-toned": "<font color=\"#84ff84\">• Toned</font>",
+    "game:charattribute-armorWalkSpeedAffectedness--0.1": "+10% ranged distance",
+
+    "game:trait-geologist": "<font color=\"#84ff84\">• Geologist</font>",
+    "game:charattribute-oreDropRate-0.25": "+25% ore drop rate",
+    "game:charattribute-miningSpeedMul-0.25": "+25% mining speed",
+
+    "game:trait-miner": "<font color=\"#84ff84\">• Miner</font>",
+    "game:traitdesc-miner": "Exclusive craftables <a href=\"handbooksearch://mining bag \">mining gear</a>",
+
+    "game:trait-archer": "<font color=\"#84ff84\">• Archer</font>",
+    "game:charattribute-rangedWeaponsDamage-0.25": "+25% ranged damage",
+    "game:charattribute-rangedWeaponsAcc-0.3": "+30% ranged accuracy",
+    "game:charattribute-bowDrawingStrength-0.25": "+25% ranged distance",
+    "game:charattribute-rangedWeaponsSpeed-0.15": "+15% bow draw speed",
+
+    "game:trait-forestwalk": "<font color=\"#84ff84\">• Forest walk</font>",
+    "game:charattribute-animalSeekingRange--0.65": "-65% animal seeking range",
+    "game:charattribute-walkspeed-0.12": "+12% walk speed",
+
+    "game:trait-herbalist": "<font color=\"#84ff84\">• Herbalist</font>",
+    "game:charattribute-forageDropRate-0.2": "+20% loot from foraging",
+    "game:charattribute-healingeffectivness-0.1": "+10% healing effectivness",
+
+    "game:trait-naturalist": "<font color=\"#ff8484\">• Naturalist</font>",
+    "game:charattribute-temporalGearTLRepairCost-2": "+2 temporal gear cost to repair translocators",
+    "game:charattribute-rustyGearDropRate--0.15": "-15% rusty gear drop rate",
+    "game:charattribute-mechanicalsDamage--0.25": "-25% damage against mechanicals",
+
+    "game:trait-claustrophobic2": "<font color=\"#ff8484\">• Claustrophobic II</font>",
+    "game:charattribute-oreDropRate--0.25": "-25% ore drop rate",
+    "game:charattribute-miningSpeedMul--0.12": "-12% mining speed",
+
+    "game:trait-swordsmen": "<font color=\"#84ff84\">• Swordsmen</font>",
+    "game:charattribute-armorWalkSpeedAffectedness--0.3": "+30% armor walk speed",
+    "game:charattribute-rangedWeaponsAcc--0.25": "-25% ranged accuracy",
+
+    "game:trait-tank": "<font color=\"#84ff84\">• Tank</font>",
+    "game:charattribute-maxhealthExtraPoints-6": "+6 health points",
+    "game:charattribute-animalSeekingRange-0.5": "+50% animal seeking range",
+
+    "game:trait-blackguard": "<font color=\"#84ff84\">• Blackguard</font>",
+    "game:traitdesc-blackguard": "Exclusive craftables <a href=\"handbooksearch://blackguard shield or blackguard shortsword \">Blackguard shield, sword</a>",
+
+    "game:trait-barbarian": "<font color=\"#ff8484\">• Barbarian</font>",
+    "game:charattribute-animalLootDropRate--0.2": "-20% animal loot",
+    "game:charattribute-vesselContentsDropRate--0.2": "-20% vessel loot",
+    "game:charattribute-forageDropRate--0.25": "-25% forage drop rate",
+    "game:charattribute-wildCropDropRate--0.25": "-25% wild crop drop rate",
 
 
 
@@ -87,11 +156,14 @@
     "game:characterclass-rogue": "Rogue",
     "game:characterdesc-rogue": "<font color=\"#99c9f9\"><i>Slipping through the shadows, avoiding the Beasts that roam the lands.<br>Far from the life you once had, but the only one you know of now.</i></font><br><br>The Beasts have taught many lessons in stealth, ranged and melee combat. Constant movement keeps your weight down, keeping you light on your feet but less hardy.",
 
-    "game:characterclass-ranger": "Ranger",
-    "game:characterdesc-ranger": "<font color=\"#99c9f9\"><i>Part 1</i></font><br><br>Part 2",
+    "game:characterclass-druid": "Druid",
+    "game:characterdesc-druid": "<font color=\"#99c9f9\"><i>None shall taint our forests for as long as We remain.</i></font><br><br>Druids are protectors of the forests, masters of nature. They fill excellent support roles with their natural archery abilities and knowledge of plants. They despise the caves and the unnatural things within...",
 
     "game:characterclass-blacksmith": "Blacksmith",
-    "game:characterdesc-blacksmith": "<font color=\"#99c9f9\"><i>Part 1</i></font><br><br>Part 2",
+    "game:characterdesc-blacksmith": "<font color=\"#99c9f9\"><i>Blacksmith description top.</i></font><br><br>Blacksmith description bottom.",
+
+    "game:characterclass-miner": "Miner",
+    "game:characterdesc-miner": "<font color=\"#99c9f9\"><i>Miner description top.</i></font><br><br>Born for digging, Miners excel at stone carving and sniffing out precious minerals. However, time underground has detached them from nature.",
 
 
 
@@ -124,14 +196,14 @@
     "item-clothes-upperbodyover-rogue-cloak": "Rogue Cloak",
     "itemdesc-clothes-upperbodyover-rogue-cloak": "<font color=\"#99c9f9\"><i>Perfect for dark, stormy nights.</i></font><br>",
 
-    "item-clothes-upperbody-ranger-tunic": "Ranger Tunic",
-    "itemdesc-clothes-upperbody-ranger-tunic": "<font color=\"#99c9f9\"><i></i></font><br>",
+    "item-clothes-upperbody-druid-tunic": "Druid Tunic",
+    "itemdesc-clothes-upperbody-druid-tunic": "<font color=\"#99c9f9\"><i></i></font><br>",
 
-    "item-clothes-foot-ranger-boots": "Ranger Boots",
-    "itemdesc-clothes-foot-ranger-boots": "<font color=\"#99c9f9\"><i>Used by the Ranger's Guild to move silently through the forest.</i></font><br>",
+    "item-clothes-foot-druid-boots": "Druid Boots",
+    "itemdesc-clothes-foot-druid-boots": "<font color=\"#99c9f9\"><i></i></font><br>",
 
-    "item-clothes-hand-ranger-gloves": "Ranger Gloves",
-    "itemdesc-clothes-hand-ranger-gloves": "<font color=\"#99c9f9\"><i></i></font><br>",
+    "item-clothes-hand-druid-gloves": "Druid Gloves",
+    "itemdesc-clothes-hand-druid-gloves": "<font color=\"#99c9f9\"><i></i></font><br>",
 
     "item-clothes-shoulder-elvish-coat": "Elvish Coat",
     "itemdesc-clothes-shoulder-elvish-coat": "<font color=\"#99c9f9\"><i>The craftsmanship is unrivaled. Only the Elves could have stitched this.</i></font><br>",
@@ -287,6 +359,10 @@
     "item-backpack-white": "Leather Backpack (White)",
     "item-backpack-yellow": "Leather Backpack (Yellow)",
 
+    "item-armor-head-creative-admin": "Admin Head Armor",
+    "item-armor-body-creative-admin": "Admin Body Armor",
+    "item-armor-legs-creative-admin": "Admin Leg Armor",
+
 
 
     "_comment6": "PARTS **********************",
@@ -336,6 +412,8 @@
     "itemdesc-drifterskin-double": "<font color=\"#99c9f9\"><i></i></font>",
 
     "block-layerofrot-*": "Layer of Rot",
+
+    "block-layerofsalt-*": "Crusty Salt",
 
     "item-stackrandomizer-rot": "Rot Randomizer",
 
@@ -519,6 +597,8 @@
     "game:block-wood-silver-crate": "Silver crate ({0})",
     "game:block-wood-gold-crate": "Gold crate ({0})",
     "game:block-wood-steel-crate": "Steel crate ({0})",
+
+    "block-wallpaper-purple_pattern": "Wallpaper (purple pattern)",
 
 
 
