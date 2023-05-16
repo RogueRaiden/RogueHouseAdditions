@@ -1,0 +1,10 @@
+[
+    {
+        "op": "replace",
+        "path": "/server/spawnconditions/runtime/chance",
+        "value": 0,
+        "file": "rhadditions:entities/cave/locust-prime.json",
+        "dependsOn": [ { "modid": "reallynomonsters" } ],
+        "side": "Server"
+    }
+]

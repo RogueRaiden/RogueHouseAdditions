@@ -1,0 +1,19 @@
+[
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "name": "butterfly",
+                "code": "game:creature-butterfly-*"
+            }
+        },
+        "width": 1,
+        "height": 1,
+        "shapeless": true,
+        "output": {
+            "type": "item",
+            "code": "game:butterfly-dead-{butterfly}"
+        }
+    }
+]

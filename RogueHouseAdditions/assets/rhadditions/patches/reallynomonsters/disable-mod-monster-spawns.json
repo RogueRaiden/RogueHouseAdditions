@@ -1,0 +1,13 @@
+[
+    {
+        "op": "replace",
+        "path": "/server/spawnconditions/runtime/chance",
+        "value": 0,
+        "file": "primitivesurvival:entities/land/livingdead.json",
+        "dependsOn": [
+            { "modid": "reallynomonsters" },
+            { "modid": "primitivesurvival" }
+        ],
+        "side": "Server"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "op": "add",
+        "enabled": false,
+        "path": "/server/behaviors/9/aitasks/-",
+        "value": {
+            "code": "idle",
+            "priority": 1.2,
+            "priorityForCancel": 1.35,
+            "minduration": 4667,
+            "maxduration": 4667,
+            "mincooldown": 80000,
+            "maxcooldown": 500000,
+            "animation": "Stand",
+            "whenNotInEmotionState": "aggressiveondamage",
+            "animationSpeed": 0.5,
+            "sound": "game:creature/bear/aggro",
+            "soundRange": 65
+        },
+        "file": "game:entities/land/bear.json",
+        "side": "Server"
+    }
+]

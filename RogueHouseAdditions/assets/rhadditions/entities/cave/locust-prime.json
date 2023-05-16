@@ -24,8 +24,8 @@
 			"code": "game:gear-rusty",
 			"dropModbyStat": "rustyGearDropRate",
 			"quantity": {
-				"avg": 3.2,
-				"var": 1.8
+				"avg": 21.2,
+				"var": 6.8
 			}
 		},
 		{
@@ -98,8 +98,8 @@
 			},
 			{
 				"code": "health",
-				"currenthealth": 72,
-				"maxhealth": 72
+				"currenthealth": 100,
+				"maxhealth": 100
 			},
 			{
 				"code": "floatupwhenstuck",
@@ -107,8 +107,8 @@
 			},
 			{
 				"code": "despawn",
-				"minPlayerDistance": 30,
-				"minSeconds": 900
+				"minPlayerDistance": 90,
+				"minSeconds": 1800
 			},
 			{
 				"code": "taskai",
@@ -117,7 +117,7 @@
 						"code": "meleeattack",
 						"entityCodes": [ "player" ],
 						"priority": 3,
-						"damage": 10,
+						"damage": 26,
 						"damageTier": 4,
 						"mincooldown": 1500,
 						"maxcooldown": 2200,
@@ -135,10 +135,10 @@
 						"priority": 1.5,
 						"mincooldown": 500,
 						"maxcooldown": 1000,
-						"movespeed": 0.03,
-						"seekingRange": 15,
-						"maxFollowTime": 20,
-						"animationSpeed": 7,
+						"movespeed": 0.04,
+						"seekingRange": 18,
+						"maxFollowTime": 30,
+						"animationSpeed": 8,
 						"alarmHerd": true,
 						"leapAtTarget": true,
 						"leapAnimation": "jump",
@@ -151,7 +151,7 @@
 						"movespeed": 0.024,
 						"animationSpeed": 4,
 						"animation": "run",
-						"teleportWhenOutOfRange": true,
+						"teleportWhenOutOfRange": false,
 						"teleportInGameHours": 1,
 						"maxDistanceToSpawn": 4
 					},
@@ -242,13 +242,14 @@
 				"group": "hostile",
 				"maxQuantity": 1,
 				"maxLightLevel": 5,
-				"chance": 0.0012,
+				"chance": 0.0015,
 				"lightLevelType": "MaxTimeOfDayLight",
 				"groupSize": {
 					"dist": "invexp",
 					"avg": 1,
 					"var": 0
 				},
+				"companions": [ "locust-corrupt" ],
 				"insideBlockCodes": [ "game:air" ],
 				"maxY": 0.5
 			}

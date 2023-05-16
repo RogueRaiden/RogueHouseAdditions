@@ -63,7 +63,7 @@
         "op": "add",
         "path": "/attributes/properties/wood-iron",
         "value": {
-            "quantitySlots": 100,
+            "quantitySlots": 75,
             "rotatatableInterval": "22.5deg",
             "storageType": 189,
             "retrieveOnly": false,
@@ -78,7 +78,7 @@
         "op": "add",
         "path": "/attributes/properties/wood-meteoriciron",
         "value": {
-            "quantitySlots": 125,
+            "quantitySlots": 90,
             "rotatatableInterval": "22.5deg",
             "storageType": 189,
             "retrieveOnly": false,
@@ -93,7 +93,7 @@
         "op": "add",
         "path": "/attributes/properties/wood-silver",
         "value": {
-            "quantitySlots": 150,
+            "quantitySlots": 80,
             "rotatatableInterval": "22.5deg",
             "storageType": 189,
             "retrieveOnly": false,
@@ -108,7 +108,7 @@
         "op": "add",
         "path": "/attributes/properties/wood-gold",
         "value": {
-            "quantitySlots": 175,
+            "quantitySlots": 100,
             "rotatatableInterval": "22.5deg",
             "storageType": 189,
             "retrieveOnly": false,
@@ -123,7 +123,7 @@
         "op": "add",
         "path": "/attributes/properties/wood-steel",
         "value": {
-            "quantitySlots": 200,
+            "quantitySlots": 130,
             "rotatatableInterval": "22.5deg",
             "storageType": 189,
             "retrieveOnly": false,

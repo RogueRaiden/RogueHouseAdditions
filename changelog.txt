@@ -1,3 +1,27 @@
+To Do:
+-Check to see what is preventing vessels in fireclay
+-Frame pack - blacksmith exclusive frame, tailor exclusive pack. combine together
+-
+v3.0.8
+-
+
+v3.0.7
+-Feature: Metal Tongs! Blacksmith exclusive craftable. Prettier than the stick tongs.
+-Feature: Re-enabled the Vanilla aim system bow and sling additions when the Bullseye mod is installed, for those that hate the Bullseye aim system. (You can convert the bow's aim system by crafting the bow on its own)
+
+-Tweak: Guide adjustments.
+
+v3.0.6
+-Feature: Prime Locust spawning will be disabled if the mod "No Monsters. Really!" is installed on the server (or singleplayer). As well as the Living Dead from the mod Primitive Survival.
+
+v3.0.5
+-Tweak: Locust Prime buffs - should be much more horrifying.
+-Tweak: Can murder captured butterflies in the crafting grid.
+
+v3.0.4
+-Tweak: Rebalance of the metal crate storage amounts.
+-Tweak: Guide adjustments.
+
 v3.0.3
 -Tweak: Fixed error spam
 -Tweak: More guide adjustments.

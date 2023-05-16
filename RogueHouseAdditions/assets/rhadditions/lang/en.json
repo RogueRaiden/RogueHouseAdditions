@@ -56,6 +56,8 @@
 
     "game:backpack": "Leather Backpack (Plain)",
 
+    "game:prefixandcreature-thrownstonegranite": "a rock",
+
 
 
     "_comment3": "TRAITS **********************",
@@ -78,6 +80,7 @@
     "game:charattribute-oreDropRate--15": "-15% ore drop rate",
 
     "game:trait-blacksmith": "<font color=\"#84ff84\">• Blacksmith</font>",
+    "game:traitname-blacksmith": "Blacksmith",
     "game:traitdesc-blacksmith": "Exclusive craftables <a href=\"handbooksearch:// \">blacksmith stuff (wip)</a>",
 
     "game:trait-skyforge": "<font color=\"#84ff84\">• Skyforge</font>",
@@ -657,13 +660,20 @@
 
 
 
-    "_comment12": "TRADERS **********************",
+    "_comment12": "TRADERS/NPCS **********************",
+
+    "game:deadcreature-blade": "Someone with a blade killed this creature.",
 
     "item-creature-humanoid-trader-barkeeper": "Barkeeper",
     "game:tradingwindow-humanoid-trader-barkeeper": "Local goods - {0} the Barkeeper",
 
-    "item-creature-humanoid-trader-clothier": "Clothier",
-    "game:tradingwindow-humanoid-trader-clothier": "Local goods - {0} the Clothier",
+    "item-creature-npc-druid-markus": "Markus the Druid",
+    "game:tradingwindow-npc-druid-markus": "{0} the Druid",
+    "game:prefixandcreature-npcdruidmarkus": "Markus the Druid",
+
+    "item-creature-npc-guard": "Guard",
+    "game:tradingwindow-npc-guard": "{0} the Guard",
+    "game:prefixandcreature-npcguard": "a Guard",
 
 
 
@@ -808,5 +818,12 @@
     "item-blade-long-meteoriciron": "Crude Long Blade (Meteoric Iron)",
     "item-blade-long-silver": "Crude Long Blade (Silver)",
     "item-blade-long-gold": "Crude Long Blade (Gold)",
-    "item-blade-long-steel": "Crude Long Blade (Steel)"
+    "item-blade-long-steel": "Crude Long Blade (Steel)",
+
+    "item-metaltongs-copper": "Metal Tongs (Copper)",
+    "item-metaltongs-brass": "Metal Tongs (Brass)",
+    "item-metaltongs-iron": "Metal Tongs (Iron)",
+    "item-metaltongs-meteoriciron": "Metal Tongs (Meteoric Iron)",
+    "item-metaltongs-steel": "Metal Tongs (Steel)",
+    "item-metaltongs-chromium": "Metal Tongs (Chromium)"
 }

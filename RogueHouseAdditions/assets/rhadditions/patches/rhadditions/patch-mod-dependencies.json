@@ -110,7 +110,6 @@
 
     {
         "op": "replace",
-        "enabled": false,
         "path": "/enabled",
         "value": true,
         "file": "rhadditions:itemtypes/tool/vanilla-bow.json",
@@ -119,7 +118,6 @@
     },
     {
         "op": "replace",
-        "enabled": false,
         "path": "/enabled",
         "value": true,
         "file": "rhadditions:itemtypes/tool/vanilla-sling.json",
@@ -128,7 +126,6 @@
     },
     {
         "op": "replace",
-        "enabled": false,
         "path": "/0/enabled",
         "value": true,
         "file": "rhadditions:recipes/grid/rhadditions/vanilla-aim-bows.json",

@@ -1,0 +1,226 @@
+{
+    "components": [
+        {
+            "code": "testhasmet",
+            "owner": "trader",
+            "type": "condition",
+            "variable": "entity.hasmet",
+            "isNotValue": "true",
+            "thenJumpTo": "firstmeet",
+            "elseJumpTo": "welcomeback"
+        },
+        {
+            "code": "firstmeet",
+            "owner": "trader",
+            "type": "talk",
+            "setVariables": { "entity.hasmet": "true" },
+            "text": [
+                { "value": "Keep an eye out, bears and wolves have been spotted in the area." }
+            ]
+        },
+        {
+            "code": "firstmeetresponse",
+            "owner": "player",
+            "type": "talk",
+            "text": [
+                {
+                    "value": "Wolves? Bears?! I gotta get out of here!",
+                    "jumpTo": "safety"
+                },
+                {
+                    "value": "Nothing I can't handle.",
+                    "jumpTo": "bold"
+                }
+            ]
+        },
+        {
+            "code": "bold",
+            "owner": "trader",
+            "type": "talk",
+            "trigger": "playanimation",
+            "triggerdata": {
+                "animation": "nod",
+                "code": "nod"
+            },
+            "text": [
+                {
+                    "value": "Good to hear it.",
+                    "jumpTo": "main"
+                }
+            ]
+        },
+
+        {
+            "code": "welcomeback",
+            "owner": "trader",
+            "type": "talk",
+            "text": [
+                { "value": "Good to see you, {playername}." }
+            ]
+        },
+        {
+            "code": "main",
+            "owner": "trader",
+            "type": "talk",
+            "text": [
+                { "value": "What brings ya out here?" }
+            ]
+        },
+        {
+            "code": "mainresponse",
+            "owner": "player",
+            "type": "talk",
+            "text": [
+                {
+                    "value": "Anything I can do to help?",
+                    "jumpTo": "help"
+                },
+                {
+                    "value": "Where is this Town at?",
+                    "condition": {
+                        "variable": "entity.firsthelp",
+                        "isValue": "true"
+                    },
+                    "jumpTo": "town"
+                },
+                {
+                    "value": "How am I gonna harvest them? I don't have a knife...",
+                    "conditions": [
+                        {
+                            "variable": "entity.knife",
+                            "isNotValue": "true"
+                        },
+                        {
+                            "variable": "entity.firsthelp",
+                            "isValue": "true"
+                        }
+                    ],
+                    "jumpTo": "knife"
+                }
+            ]
+        },
+
+        {
+            "code": "help",
+            "owner": "trader",
+            "type": "condition",
+            "variable": "entity.firsthelp",
+            "isNotValue": "true",
+            "thenJumpTo": "help1",
+            "elseJumpTo": "help2"
+        },
+        {
+            "code": "help2",
+            "owner": "trader",
+            "type": "talk",
+            "text": [
+                {
+                    "value": "Keeping the Public Shelter supplied is all I need help with."
+                }
+            ]
+        },
+        {
+            "code": "help2response",
+            "owner": "player",
+            "type": "talk",
+            "text": [
+                {
+                    "value": "Got it.",
+                    "jumpTo": "main"
+                }
+            ]
+        },
+        {
+            "code": "help1",
+            "owner": "trader",
+            "type": "talk",
+            "setVariables": {
+                "entity.firsthelp": "true"
+            },
+            "text": [
+                {
+                    "value": "Yeah, there is. You see those animal corpses laying around this forest? Take what you can harvest to the Public Shelter in Town."
+                }
+            ]
+        },
+        {
+            "code": "help1response",
+            "owner": "player",
+            "type": "talk",
+            "text": [
+                {
+                    "value": "Where is this Town at?",
+                    "jumpTo": "town"
+                },
+                {
+                    "value": "How am I gonna harvest them? I don't have a knife...",
+                    "jumpTo": "knife"
+                }
+            ]
+        },
+
+        {
+            "code": "knife",
+            "owner": "trader",
+            "type": "talk",
+            "setVariables": {
+                "entity.knife": "true"
+            },
+            "trigger": "giveitemstack",
+            "triggerdata": {
+                "type": "item",
+                "code": "game:knife-generic-boneobsidian",
+                "stacksize": 1
+            },
+            "text": [
+                {
+                    "value": "Here, you can have my old hunting knife."
+                }
+            ]
+        },
+        {
+            "code": "kniferesponse",
+            "owner": "player",
+            "type": "talk",
+            "text": [
+                {
+                    "value": "This will help a lot!",
+                    "jumpTo": "main"
+                }
+            ]
+        },
+
+        {
+            "code": "town",
+            "owner": "trader",
+            "type": "talk",
+            "text": [
+                {
+                    "value": "Follow the path West and you'll find it. Be sure to look out for the poison oak, you don't want to step in that!"
+                }
+            ]
+        },
+        {
+            "code": "townresponse",
+            "owner": "player",
+            "type": "talk",
+            "text": [
+                {
+                    "value": "Thanks!",
+                    "jumpTo": "main"
+                }
+            ]
+        },
+
+        {
+            "code": "safety",
+            "owner": "trader",
+            "type": "talk",
+            "text": [
+                {
+                    "value": "Follow the path West to Town. You'll be safe there. And look out for the poison oak, you don't want to step in that!"
+                }
+            ]
+        }
+    ]
+}
