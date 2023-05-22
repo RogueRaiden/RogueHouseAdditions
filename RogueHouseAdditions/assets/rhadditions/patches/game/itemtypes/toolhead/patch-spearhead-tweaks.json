@@ -1,0 +1,58 @@
+[
+    {
+        "op": "add",
+        "path": "/storageFlagsByType",
+        "value": {
+            "*-copper": 4,
+            "*-tinbronze": 4,
+            "*-bismuthbronze": 4,
+            "*-blackbronze": 4
+        },
+        "file": "game:itemtypes/toolhead/spearhead.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType",
+        "value": {
+            "*-copper": {
+                "meltingPoint": 1084,
+                "meltingDuration": 30,
+                "smeltedRatio": 1,
+                "smeltedStack": {
+                    "type": "item",
+                    "code": "ingot-copper"
+                }
+            },
+            "*-tinbronze": {
+                "meltingPoint": 950,
+                "meltingDuration": 30,
+                "smeltedRatio": 1,
+                "smeltedStack": {
+                    "type": "item",
+                    "code": "ingot-tinbronze"
+                }
+            },
+            "*-bismuthbronze": {
+                "meltingPoint": 850,
+                "meltingDuration": 30,
+                "smeltedRatio": 1,
+                "smeltedStack": {
+                    "type": "item",
+                    "code": "ingot-bismuthbronze"
+                }
+            },
+            "*-blackbronze": {
+                "meltingPoint": 1020,
+                "meltingDuration": 30,
+                "smeltedRatio": 1,
+                "smeltedStack": {
+                    "type": "item",
+                    "code": "ingot-blackbronze"
+                }
+            }
+        },
+        "file": "game:itemtypes/toolhead/spearhead.json",
+        "side": "Server"
+    }
+]

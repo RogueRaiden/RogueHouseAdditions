@@ -4,6 +4,22 @@
     "damagedby": [ "blockbreaking", "attacking" ],
     "tool": "sword",
     "class": "ItemSword",
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [ "short", "long", "thrusting", "curved" ]
+        },
+        {
+            "code": "metal",
+            "states": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "forlorn" ]
+        }
+    ],
+    "skipVariants": [
+        "blade-long-forlorn"
+    ],
+    "allowedVariants": [
+        "blade-long-*"
+    ],
     "attributes": {
         "handbook": {
             "groupBy": [ "blade-*" ]
@@ -91,22 +107,6 @@
                 }
             }
         }
-    ],
-    "variantgroups": [
-        {
-            "code": "type",
-            "states": [ "short", "long", "thrusting", "curved" ]
-        },
-        {
-            "code": "metal",
-            "states": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "forlorn" ]
-        }
-    ],
-    "skipVariants": [
-        "blade-long-forlorn"
-    ],
-    "allowedVariants": [
-        "blade-long-*"
     ],
     "shapeByType": {
         "*-long-*": { "base": "rhadditions:item/tool/blade/long" }
@@ -202,24 +202,6 @@
         }
     },
     "guiTransformByType": {
-        "blade-thrusting-forlorn": {
-            "translation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-            },
-            "rotation": {
-                "x": -89,
-                "y": 47,
-                "z": 44
-            },
-            "origin": {
-                "x": 0.6,
-                "y": -0.2,
-                "z": 0.44
-            },
-            "scale": 1.42
-        },
         "*": {
             "translation": {
                 "x": 0,

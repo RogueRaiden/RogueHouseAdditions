@@ -1,5 +1,5 @@
 {
-    "_comment1": "SERVER GUIDE **********************",
+    "comment-serverguide": "SERVER GUIDE **********************",
 
     "roguehouseguide-title": "Rogue House: Server Guide",
     "roguehouseguide-text": "<strong>Rogue House Community Server Guide</strong>
@@ -21,43 +21,49 @@ MorwenAbendstern: Server Admin & Builder
 Help keep the server running with <a href=\"https://www.ko-fi.com/RogueRaiden\">Ko-fi!</a> Expanded claims available with monthly Memberships :D
 ",
 
-"_comment2": "SERVER MOD LIST **********************",
+"comment-clientmodlist": "CLIENT MOD LIST **********************",
 
-"roguehousemodlist-title": "Server Mod List & Allowed Client Mods",
-"roguehousemodlist-text": "<strong>Rogue House Mods & Client Mods Available To Use </strong>
-
-<strong>Allowed Client Mods:</strong>
+"roguehouse-clientmodlist-title": "Rogue House: Allowed Client Mods",
+"roguehouse-clientmodlist-text": "<strong>Client Mods Permitted For Use</strong>
 <i>Due to cheat mods on the mod database and users caught using said cheat mods, these are the only allowed client mods on Rogue House Servers. Attempting to use others will prevent you from joining. Direct any client mod requests to our <a href=\"https://discord.gg/bxeGxWmcae\">Discord.</a></i>
-<i>You have to manually install these!</i>
 
 <strong>01. </strong><a href=\"https://mods.vintagestory.at/accessibilitytweaks\">Accessibility Tweaks</a><strong> - </strong>Allows adjusting of nearly every sound and visual effect and more to help in all kinds of ways. Pickaxe sound on rock too loud? Piercing wolf howls? Turn them down! Open the menu with default F8.
 
-<strong>02. </strong><a href=\"https://mods.vintagestory.at/campaigncartographer\">Campaign Cartographer</a><strong> - </strong>All sorts of waypoint and minimap utilities and tools.
+<strong>02. </strong><a href=\"https://mods.vintagestory.at/autowalk\">Auto Walk</a><strong> - </strong>Adds a keybind for auto walking.
 
-<strong>03. </strong><a href=\"https://mods.vintagestory.at/show/mod/1599\">Emote Menu</a><strong> - </strong>Press the default key 'K' to open a radial menu with all of the game emotes available!
+<strong>03. </strong><a href=\"https://mods.vintagestory.at/bodyheatbar\">Body Heat Bar</a><strong> - </strong>HUD element that shows when your character is getting cold.
 
-<strong>04. </strong><a href=\"https://mods.vintagestory.at/show/mod/282\">Simple Hud Clock</a><strong> - </strong>Adds a clock to the hud with helpful information.
+<strong>04. </strong><a href=\"https://mods.vintagestory.at/campaigncartographer\">Campaign Cartographer</a><strong> - </strong>All sorts of waypoint and minimap utilities and tools.
 
-<strong>05. </strong><a href=\"https://mods.vintagestory.at/interfacesandrainbows\">Interfaces And Rainbows</a><strong> - </strong>Allows customizing the colors of your inventory screens.
+<strong>05. </strong><a href=\"https://mods.vintagestory.at/show/mod/1599\">Emote Menu</a><strong> - </strong>Press the default key 'K' to open a radial menu with all of the game emotes available!
 
-<strong>06. </strong><a href=\"https://mods.vintagestory.at/show/mod/5586\">Mumble Link</a><strong> - </strong>Positional audio plugin for Mumble. We'll have a Mumble Roleplay server soon!
+<strong>06. </strong><a href=\"https://mods.vintagestory.at/show/mod/282\">Simple Hud Clock</a><strong> - </strong>Adds a clock to the hud with helpful information.
 
-<strong>07. </strong><a href=\"https://mods.vintagestory.at/naturalnight\">Natural Night</a><strong> - </strong>Adjusts the ambient color of dawn, dusk and night time from the crazy red to a more realistic blue.
+<strong>07. </strong><a href=\"https://mods.vintagestory.at/interfacesandrainbows\">Interfaces And Rainbows</a><strong> - </strong>Allows customizing the colors of your inventory screens.
 
-<strong>08. </strong><a href=\"https://mods.vintagestory.at/pixelwaypoints\">Pixel Waypoints</a><strong> - </strong>Replaced the vanilla waypoint icons with more visible, pixelated ones.
+<strong>08. </strong><a href=\"https://mods.vintagestory.at/show/mod/5586\">Mumble Link</a><strong> - </strong>Positional audio plugin for Mumble. We'll have a Mumble Roleplay server soon!
 
-<strong>09. </strong><a href=\"https://mods.vintagestory.at/show/mod/1235\">Prospector Info</a><strong> - </strong>Keeps track of each chunk you prospect on the map.
+<strong>09. </strong><a href=\"https://mods.vintagestory.at/naturalnight\">Natural Night</a><strong> - </strong>Adjusts the ambient color of dawn, dusk and night time from the crazy red to a more realistic blue.
 
-<strong>10. </strong><a href=\"https://mods.vintagestory.at/targetdot\">Target Dot</a><strong> - </strong>This retextures the very large 'plus' crosshair with a much smaller 'dot' crosshair. (Both Small and Medium are allowed)
+<strong>10. </strong><a href=\"https://mods.vintagestory.at/pixelwaypoints\">Pixel Waypoints</a><strong> - </strong>Replaced the vanilla waypoint icons with more visible, pixelated ones.
 
-<strong>11. </strong><a href=\"https://mods.vintagestory.at/temporalstormgear\">Temporal Storm Gear</a><strong> - </strong>The 'Sanity Gear' meter in the middle will turn rusty when a storm is near.
+<strong>11. </strong><a href=\"https://mods.vintagestory.at/show/mod/1235\">Prospector Info</a><strong> - </strong>Keeps track of each chunk you prospect on the map.
 
-<strong>12. </strong><a href=\"https://mods.vintagestory.at/show/mod/367\">Xandus Inventory Tweaks</a><strong> - </strong>A collection of small tweaks to improve the inventory handling.
-************************************************************************
+<strong>12. </strong><a href=\"https://mods.vintagestory.at/roomindicator\">Room Indicator</a><strong> - </strong>HUD element that shows what type of room you are in.
 
+<strong>13. </strong><a href=\"https://mods.vintagestory.at/targetdot\">Target Dot</a><strong> - </strong>This retextures the very large 'plus' crosshair with a much smaller 'dot' crosshair. (Both Small and Medium are allowed)
 
-<strong>Rogue House Server Mods:</strong>
-<i>Ready and available!</i>
+<strong>14. </strong><a href=\"https://mods.vintagestory.at/temperaturescales\">Temperature Scales</a><strong> - </strong>Allows displaying temperatures in Celsius, Fahrenheit and Kelvin.
+
+<strong>15. </strong><a href=\"https://mods.vintagestory.at/temporalstormgear\">Temporal Storm Gear</a><strong> - </strong>The 'Sanity Gear' meter in the middle will turn rusty when a storm is near.
+
+<strong>16. </strong><a href=\"https://mods.vintagestory.at/show/mod/367\">Xandus Inventory Tweaks</a><strong> - </strong>A collection of small tweaks to improve the inventory handling.
+",
+
+"comment-servermodlist": "SERVER MOD LIST **********************",
+
+"roguehouse-servermodlist-title": "Rogue House: Server Mod List",
+"roguehouse-servermodlist-text": "<strong>Rogue House Mod List</strong>
 
 <strong>01. </strong><a href=\"https://mods.vintagestory.at/aculinaryartillery\">A Culinary Artillery</a><strong> - </strong>Library mod adding all the tools and features for enhanced foods and recipes.
 
@@ -111,24 +117,26 @@ Help keep the server running with <a href=\"https://www.ko-fi.com/RogueRaiden\">
 
 <strong>26. </strong><a href=\"https://mods.vintagestory.at/simplewinddirection\">Simple Wind Direction</a><strong> - </strong>Enables random wind direction that affects entities.
 
-<strong>27. </strong><a href=\"https://mods.vintagestory.at/simpleelevator\">Simple Elevator</a><strong> - </strong>Adds Elevator blocks for quickly getting up and down.
+<strong>27. </strong><a href=\"https://mods.vintagestory.at/spyglass\">Spyglass</a><strong> - </strong>Craftable item for getting a close look at things.
 
-<strong>28. </strong><a href=\"https://mods.vintagestory.at/stonebakeoven\">Stone Bake Oven</a><strong> - </strong>Multiblock oven for baking!
+<strong>28. </strong><a href=\"https://mods.vintagestory.at/simpleelevator\">Simple Elevator (Currently Outdated)</a><strong> - </strong>Adds Elevator blocks for quickly getting up and down.
 
-<strong>29. </strong><a href=\"https://mods.vintagestory.at/stonequarry\">Stone Quarry</a><strong> - </strong>Use metal plugs to quarry stone in large slabs to take materials from later.
+<strong>29. </strong><a href=\"https://mods.vintagestory.at/stonebakeoven\">Stone Bake Oven</a><strong> - </strong>Multiblock oven for baking!
 
-<strong>30. </strong><a href=\"https://mods.vintagestory.at/tprunes\">Teleportation Runes</a><strong> - </strong>An item based 'warp' system. Craft the rune, bind it to a Beacon, then use the Rune to travel back to the bound location.
+<strong>30. </strong><a href=\"https://mods.vintagestory.at/stonequarry\">Stone Quarry</a><strong> - </strong>Use metal plugs to quarry stone in large slabs to take materials from later.
 
-<strong>31. </strong><a href=\"https://mods.vintagestory.at/vsquest\">VSQuest</a><strong> - </strong>Framework for adding quest giving entities.
+<strong>31. </strong><a href=\"https://mods.vintagestory.at/tprunes\">Teleportation Runes</a><strong> - </strong>An item based 'warp' system. Craft the rune, bind it to a Beacon, then use the Rune to travel back to the bound location.
 
-<strong>32. </strong><a href=\"https://mods.vintagestory.at/wildcraft\">Wildcraft</a><strong> - </strong>Adds in all sorts of herbs and poultices.
+<strong>32. </strong><a href=\"https://mods.vintagestory.at/vsquest\">VSQuest</a><strong> - </strong>Framework for adding quest giving entities.
 
-<strong>33. </strong><a href=\"https://mods.vintagestory.at/wildfarmingrevival\">Wild Farming Revival</a><strong> - </strong>Expansion to farming mechanics such as growing trees, spreading forests, growth of mushrooms, seaweed and vines plus some more.
+<strong>33. </strong><a href=\"https://mods.vintagestory.at/wildcraft\">Wildcraft</a><strong> - </strong>Adds in all sorts of herbs and poultices.
 
-<strong>34. </strong><a href=\"https://mods.vintagestory.at/wolftaming\">Wolf Taming</a><strong> - </strong>Utilizes <a href=\"https://mods.vintagestory.at/petai\">Pet AI</a> to tame wolf pups and domesticate them into dogs. Includes some armor and accessories.
+<strong>34. </strong><a href=\"https://mods.vintagestory.at/wildfarmingrevival\">Wild Farming Revival</a><strong> - </strong>Expansion to farming mechanics such as growing trees, spreading forests, growth of mushrooms, seaweed and vines plus some more.
 
-<strong>35. </strong><a href=\"https://mods.vintagestory.at/show/mod/244\">xLib</a><strong> - </strong>Library mod for skill systems.
+<strong>35. </strong><a href=\"https://mods.vintagestory.at/wolftaming\">Wolf Taming</a><strong> - </strong>Utilizes <a href=\"https://mods.vintagestory.at/petai\">Pet AI</a> to tame wolf pups and domesticate them into dogs. Includes some armor and accessories.
 
-<strong>36. </strong><a href=\"https://mods.vintagestory.at/show/mod/247\">xSkills</a><strong> - </strong>Utilizes <a href=\"https://mods.vintagestory.at/show/mod/244\">xLib</a> for a full Skill Tree. Earn experience for a skill by performing actions under the skill. Get Ability Points on leveling the skill. Distribute your Ability Points to a skill's perks and gain powerful abilities!
+<strong>36. </strong><a href=\"https://mods.vintagestory.at/show/mod/244\">xLib</a><strong> - </strong>Library mod for skill systems.
+
+<strong>37. </strong><a href=\"https://mods.vintagestory.at/show/mod/247\">xSkills</a><strong> - </strong>Utilizes <a href=\"https://mods.vintagestory.at/show/mod/244\">xLib</a> for a full Skill Tree. Earn experience for a skill by performing actions under the skill. Get Ability Points on leveling the skill. Distribute your Ability Points to a skill's perks and gain powerful abilities!
 "
 }

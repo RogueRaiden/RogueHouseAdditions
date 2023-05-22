@@ -16,9 +16,7 @@
                 "direwolf-pup",
                 "direwolf-female",
                 "direwolf-male",
-                "trout-green",
-                "npc-druid-markus",
-                "npc-guard"
+                "trout-green"
             ]
         }
     ],
@@ -32,9 +30,7 @@
         "*-locust-prime": { "base": "rhadditions:entity/land/locust-prime" },
         "*-direwolf-pup": { "base": "rhadditions:entity/land/direwolf-pup" },
         "*-direwolf-*": { "base": "rhadditions:entity/land/direwolf-male" },
-        "*-trout-*": { "base": "game:entity/water/salmon" },
-        "*-npc-druid-markus": { "base": "game:entity/humanoid/trader" },
-        "*-npc-guard": { "base": "game:entity/humanoid/trader" }
+        "*-trout-*": { "base": "game:entity/water/salmon" }
     },
     "texturesByType": {
         "*-gorilla-silverback": {
@@ -71,19 +67,6 @@
     "materialDensity": 600,
     "guiTransformByType": {
         "*-trader-*": {
-            "rotate": true,
-            "rotation": {
-                "x": 0,
-                "y": -90,
-                "z": -178
-            },
-            "origin": {
-                "x": 0.6,
-                "y": 0.78,
-                "z": 0.5
-            }
-        },
-        "*-npc-*": {
             "rotate": true,
             "rotation": {
                 "x": 0,
@@ -298,24 +281,6 @@
             },
             "scale": 0.9
         },
-        "*-npc-*": {
-            "translation": {
-                "x": -0.53,
-                "y": -0.88,
-                "z": -0.4
-            },
-            "rotation": {
-                "x": -115,
-                "y": 8,
-                "z": -98
-            },
-            "origin": {
-                "x": 0.5,
-                "y": 1,
-                "z": 0.5
-            },
-            "scale": 0.9
-        },
         "*-trout-*": {
             "translation": {
                 "x": -0.8,
@@ -332,24 +297,6 @@
     },
     "fpHandTransformByType": {
         "*-trader-*": {
-            "translation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-            },
-            "rotation": {
-                "x": 180,
-                "y": -96,
-                "z": -180
-            },
-            "origin": {
-                "x": 0.5,
-                "y": -1,
-                "z": 0.4
-            },
-            "scale": 1.42
-        },
-        "*-npc-*": {
             "translation": {
                 "x": 0,
                 "y": 0,

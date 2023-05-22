@@ -19,18 +19,20 @@
         "renderer": "Shape",
         "shape": { "base": "rhadditions:entity/land/direwolf-male" },
         "size": 0.9,
-        "texture": {
-            "base": "game:entity/wolf/wolf1",
-            "alternates": [
-                { "base": "game:entity/wolf/wolf2" },
-                { "base": "game:entity/wolf/wolf3" },
-                { "base": "game:entity/wolf/wolf4" },
-                { "base": "game:entity/wolf/wolf5" },
-                { "base": "game:entity/wolf/wolf6" },
-                { "base": "game:entity/wolf/wolf7" },
-                { "base": "game:entity/wolf/wolf8" },
-                { "base": "game:entity/wolf/wolf9" }
-            ]
+        "textures": {
+            "wolf1": {
+                "base": "game:entity/wolf/wolf1",
+                "alternates": [
+                    { "base": "game:entity/wolf/wolf2" },
+                    { "base": "game:entity/wolf/wolf3" },
+                    { "base": "game:entity/wolf/wolf4" },
+                    { "base": "game:entity/wolf/wolf5" },
+                    { "base": "game:entity/wolf/wolf6" },
+                    { "base": "game:entity/wolf/wolf7" },
+                    { "base": "game:entity/wolf/wolf8" },
+                    { "base": "game:entity/wolf/wolf9" }
+                ]
+            }
         },
         "behaviors": [
             { "code": "repulseagents" },
