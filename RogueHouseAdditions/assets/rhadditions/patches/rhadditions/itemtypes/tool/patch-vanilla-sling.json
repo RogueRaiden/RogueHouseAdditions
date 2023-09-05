@@ -1,0 +1,11 @@
+[
+    {
+        "comment": "Bullseye mod dependency",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:itemtypes/tool/vanilla-sling.json",
+        "dependsOn": [ { "modid": "bullseye" } ],
+        "side": "Server"
+    }
+]

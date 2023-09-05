@@ -1,0 +1,10 @@
+[
+    {
+        "comment": "Custom soil compost recipe",
+        "op": "add",
+        "path": "/enabled",
+        "value": false,
+        "file": "game:recipes/grid/soil-compost.json",
+        "side": "Server"
+    }
+]

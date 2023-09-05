@@ -1,0 +1,44 @@
+[
+    {
+        "ingredientPattern": "C,S",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "item",
+                "code": "rhadditions:brick-snow"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "rhadditions:stone-snowball",
+            "quantity": 2
+        }
+    },
+    {
+        "ingredientPattern": "C,S",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "item",
+                "code": "rhadditions:brick-snow"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "rhadditions:stone-snowball",
+            "quantity": 2
+        }
+    }
+]

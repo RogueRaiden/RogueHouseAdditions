@@ -31,27 +31,27 @@
 					{
 						"commandName": "sit",
 						"commandType": "SIMPLE",
-						"minObedience": 0.2
+						"minObedience": 0.25
 					},
 					{
 						"commandName": "lay",
 						"commandType": "SIMPLE",
-						"minObedience": 0.2
+						"minObedience": 0.4
 					},
 					{
 						"commandName": "speak",
 						"commandType": "SIMPLE",
-						"minObedience": 0.2
+						"minObedience": 0.1
 					},
 					{
 						"commandName": "followmaster",
 						"commandType": "COMPLEX",
-						"minObedience": 0.6
+						"minObedience": 0.2
 					},
 					{
 						"commandName": "stay",
 						"commandType": "COMPLEX",
-						"minObedience": 0.1
+						"minObedience": 0.4
 					}
 				]
 			},
@@ -156,6 +156,7 @@
 				"onlyWhenDead": true
 			},
 			{ "code": "interpolateposition" },
+			{ "code": "harvestable" },
 			{ "code": "multiply" },
 			{
 				"code": "ropetieable",
@@ -297,27 +298,27 @@
 					{
 						"commandName": "sit",
 						"commandType": "SIMPLE",
-						"minObedience": 0.2
+						"minObedience": 0.25
 					},
 					{
 						"commandName": "lay",
 						"commandType": "SIMPLE",
-						"minObedience": 0.2
+						"minObedience": 0.4
 					},
 					{
 						"commandName": "speak",
 						"commandType": "SIMPLE",
-						"minObedience": 0.2
+						"minObedience": 0.1
 					},
 					{
 						"commandName": "followmaster",
 						"commandType": "COMPLEX",
-						"minObedience": 0.6
+						"minObedience": 0.2
 					},
 					{
 						"commandName": "stay",
 						"commandType": "COMPLEX",
-						"minObedience": 0.1
+						"minObedience": 0.4
 					}
 				]
 			},
@@ -340,11 +341,40 @@
 				"code": "floatupwhenstuck",
 				"onlyWhenDead": true
 			},
+			{
+				"code": "harvestable",
+				"drops": [
+					{
+						"type": "item",
+						"code": "game:bushmeat-raw",
+						"quantity": {
+							"avg": 2,
+							"var": 1
+						}
+					},
+					{
+						"type": "item",
+						"code": "game:hide-raw-small",
+						"quantity": {
+							"avg": 1.25,
+							"var": 0
+						}
+					},
+					{
+						"type": "item",
+						"code": "game:fat",
+						"quantity": {
+							"avg": 0.25,
+							"var": 0
+						}
+					}
+				]
+			},
 			{ "code": "breathe" },
 			{
 				"code": "multiply",
-				"spawnEntityCode": "tame-raccoon-pup",
-				"requiresNearbyEntityCode": "tame-racoon-male",
+				"spawnEntityCode": "rhadditions:tamed-raccoon-pup",
+				"requiresNearbyEntityCode": "rhadditions:tamed-racoon-male",
 				"requiresNearbyEntityRange": 3,
 				"spawnQuantityMin": 1,
 				"spawnQuantityMax": 1,

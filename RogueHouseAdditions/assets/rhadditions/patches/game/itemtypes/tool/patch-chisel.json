@@ -1,0 +1,35 @@
+[
+	{
+		"comment": "Allowing to store on bookshelves",
+		"op": "add",
+		"path": "/attributes/bookshelveable",
+		"value": true,
+		"file": "game:itemtypes/tool/chisel.json",
+		"side": "Server"
+	},
+	{
+		"comment": "Bookshelf transform",
+		"op": "add",
+		"path": "/attributes/onshelfTransform",
+		"value": {
+			"translation": {
+				"x": 0,
+				"y": -0.13,
+				"z": 0.06
+			},
+			"rotation": {
+				"x": 0,
+				"y": 86,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.4,
+				"z": 0.5
+			},
+			"scale": 0.68
+		},
+		"file": "game:itemtypes/tool/chisel.json",
+		"side": "Server"
+	}
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "comment": "Unhide from handbook",
+        "op": "remove",
+        "path": "/attributes",
+        "file": "game:blocktypes/metal/ironfence.json",
+        "side": "Server"
+    }
+]

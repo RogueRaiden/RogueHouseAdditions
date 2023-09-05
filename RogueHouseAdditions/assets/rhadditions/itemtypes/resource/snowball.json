@@ -11,7 +11,7 @@
 	"attributes": {},
 	"maxstacksize": 64,
 	"shape": { "base": "rhadditions:item/resource/ball" },
-	"texture": { "base": "game:block/snow/normal1" },
+	"texture": { "base": "game:block/liquid/snow/normal1" },
 	"guiTransform": {
 		"translation": {
 			"x": 2,

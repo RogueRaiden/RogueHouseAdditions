@@ -32,10 +32,10 @@
 	},
 	"attributes": {
 		"damageByType": {
-			"*-crude": 2,
-			"*-simple": 2.25,
-			"*-long": 2.75,
-			"*-recurve": 3
+			"*-crude": 1.5,
+			"*-simple": 1.75,
+			"*-long": 2,
+			"*-recurve": 2.5
 		},
 		"toolrackTransformByType": {
 			"*-long": {

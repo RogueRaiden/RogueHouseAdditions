@@ -1,0 +1,11 @@
+[
+    {
+        "comment": "Remove Calender parchment recipe",
+        "op": "add",
+        "path": "/enabled",
+        "value": false,
+        "file": "calender:recipes/grid/parchmentrecipe",
+        "dependsOn": [ { "modid": "calendar" } ],
+        "side": "Server"
+    }
+]

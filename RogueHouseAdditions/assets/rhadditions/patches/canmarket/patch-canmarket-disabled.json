@@ -1,0 +1,12 @@
+[
+	{
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "canmarket:itemtypes/cangearpayment.json",
+		"dependsOn": [
+			{ "modid": "canmarket" }
+		],
+		"side": "Server"
+	}
+]

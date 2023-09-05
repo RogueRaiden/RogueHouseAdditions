@@ -1,0 +1,9 @@
+[
+    {
+        "op": "replace",
+        "path": "/server/behaviors/3/hoursToDecay",
+        "value": 2,
+        "file": "game:entities/land/locust",
+        "side": "Server"
+    }
+]

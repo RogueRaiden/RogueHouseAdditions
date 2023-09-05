@@ -16,7 +16,16 @@
                 "direwolf-pup",
                 "direwolf-female",
                 "direwolf-male",
-                "trout-green"
+                "trout-green",
+                "npc-druid-markus",
+                "npc-guard",
+                "npc-thecaretaker",
+                "mermaid-drifter-normal",
+                "mermaid-drifter-deep",
+                "mermaid-drifter-tainted",
+                "mermaid-drifter-corrupt",
+                "mermaid-drifter-nightmare",
+                "mermaid-drifter-double-headed"
             ]
         }
     ],
@@ -30,7 +39,16 @@
         "*-locust-prime": { "base": "rhadditions:entity/land/locust-prime" },
         "*-direwolf-pup": { "base": "rhadditions:entity/land/direwolf-pup" },
         "*-direwolf-*": { "base": "rhadditions:entity/land/direwolf-male" },
-        "*-trout-*": { "base": "game:entity/water/salmon" }
+        "*-trout-*": { "base": "game:entity/water/salmon" },
+        "*-npc-druid-markus": { "base": "game:entity/humanoid/trader" },
+        "*-npc-guard": { "base": "game:entity/humanoid/trader" },
+        "*-npc-thecaretaker": { "base": "game:entity/humanoid/trader" },
+        "*-mermaid-drifter-normal": { "base": "rhadditions:entity/water/mermaiddrifter" },
+        "*-mermaid-drifter-deep": { "base": "rhadditions:entity/water/mermaiddrifter" },
+        "*-mermaid-drifter-tainted": { "base": "rhadditions:entity/water/mermaiddrifter" },
+        "*-mermaid-drifter-corrupt": { "base": "rhadditions:entity/water/mermaiddrifter" },
+        "*-mermaid-drifter-nightmare": { "base": "rhadditions:entity/water/mermaiddrifter" },
+        "*-mermaid-drifter-double-headed": { "base": "rhadditions:entity/water/mermaiddrifter" }
     },
     "texturesByType": {
         "*-gorilla-silverback": {
@@ -50,6 +68,24 @@
         },
         "*-trout-green": {
             "salmon": { "base": "rhadditions:entity/water/fish/trout-green" }
+        },
+        "*-mermaid-drifter-normal": {
+            "skin": { "base": "game:entity/drifter/surface1" }
+        },
+        "*-mermaid-drifter-deep": {
+            "skin": { "base": "game:entity/drifter/deep1" }
+        },
+        "*-mermaid-drifter-tainted": {
+            "skin": { "base": "game:entity/drifter/spiked1" }
+        },
+        "*-mermaid-drifter-corrupt": {
+            "skin": { "base": "game:entity/drifter/deerhorn" }
+        },
+        "*-mermaid-drifter-nightmare": {
+            "skin": { "base": "game:entity/drifter/knife" }
+        },
+        "*-mermaid-drifter-double-headed": {
+            "skin": { "base": "game:entity/drifter/double" }
         }
     },
     "creativeinventory": {
@@ -61,12 +97,28 @@
         "handbookByType": {
             "*-gorilla-kong": {
                 "exclude": true
+            },
+            "*-mermaid-drifter-*": {
+                "exclude": true
             }
         }
     },
     "materialDensity": 600,
     "guiTransformByType": {
         "*-trader-*": {
+            "rotate": true,
+            "rotation": {
+                "x": 0,
+                "y": -90,
+                "z": -178
+            },
+            "origin": {
+                "x": 0.6,
+                "y": 0.78,
+                "z": 0.5
+            }
+        },
+        "*-npc-*": {
             "rotate": true,
             "rotation": {
                 "x": 0,
@@ -242,6 +294,19 @@
                 "z": 0.5
             },
             "scale": 1.9
+        },
+        "*-mermaid-drifter-*": {
+            "translation": {
+                "x": 55,
+                "y": -19,
+                "z": 0
+            },
+            "rotation": {
+                "x": 11,
+                "y": -122,
+                "z": 167
+            },
+            "scale": 3.15
         }
     },
     "tpHandTransformByType": {
@@ -281,6 +346,24 @@
             },
             "scale": 0.9
         },
+        "*-npc-*": {
+            "translation": {
+                "x": -0.53,
+                "y": -0.88,
+                "z": -0.4
+            },
+            "rotation": {
+                "x": -115,
+                "y": 8,
+                "z": -98
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 1,
+                "z": 0.5
+            },
+            "scale": 0.9
+        },
         "*-trout-*": {
             "translation": {
                 "x": -0.8,
@@ -293,10 +376,41 @@
                 "z": 28
             },
             "scale": 0.62
+        },
+        "*-mermaid-drifter-*": {
+            "translation": {
+                "x": -1.4,
+                "y": -1.2,
+                "z": -1.1
+            },
+            "rotation": {
+                "x": -107,
+                "y": 33,
+                "z": -140
+            },
+            "scale": 0.45
         }
     },
     "fpHandTransformByType": {
         "*-trader-*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 180,
+                "y": -96,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.5,
+                "y": -1,
+                "z": 0.4
+            },
+            "scale": 1.42
+        },
+        "*-npc-*": {
             "translation": {
                 "x": 0,
                 "y": 0,
@@ -397,6 +511,19 @@
                 "z": 0.6
             },
             "scale": 1.71
+        },
+        "*-mermaid-drifter-*": {
+            "translation": {
+                "x": 0.25,
+                "y": 0.3,
+                "z": 0
+            },
+            "rotation": {
+                "x": 180,
+                "y": -142,
+                "z": 150
+            },
+            "scale": 1.08
         }
     },
     "groundTransformByType": {
@@ -456,6 +583,24 @@
         },
         "*-trout-*": {
             "scale": 4.06
+        },
+        "*-mermaid-drifter-*": {
+            "translation": {
+                "x": 0,
+                "y": 0.27,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 1,
+                "z": -1
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5299
+            },
+            "scale": 3.09
         }
     }
 }

@@ -16,7 +16,6 @@
         "width": 1,
         "height": 2,
         "shapeless": true,
-        "copyAttributesFrom": 'A',
         "averageDurability": false,
         "name": "elvish leather helmet repair",
         "output": {
@@ -41,18 +40,17 @@
         "width": 1,
         "height": 2,
         "shapeless": true,
-        "copyAttributesFrom": "A",
         "averageDurability": false,
         "name": "elvish leather body armor repair",
         "output": {
             "type": "item",
-            "code": "rhadditions:armor-body-found-elvish-leather"
+            "code": "rhadditions:armor-body-found-elvish-leather",
+            "attributes": { "durability": 850 }
         }
     },
     {
         "ingredientPattern": "A,L",
         "enabled": false,
-        "recipeGroup": 2,
         "ingredients": {
             "A": {
                 "type": "item",
@@ -66,8 +64,6 @@
         "width": 1,
         "height": 2,
         "shapeless": true,
-        "copyAttributesFrom": "A",
-        "averageDurability": false,
         "name": "elvish leather leg armor repair",
         "output": {
             "type": "item",

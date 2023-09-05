@@ -1,0 +1,72 @@
+[
+    {
+        "comment": "Ferntree mineable.",
+        "op": "remove",
+        "path": "/requiredMiningTier",
+        "file": "game:blocktypes/plant/ferntree.json",
+        "side": "Server"
+    },
+    {
+        "comment": "Ferntree mineable.",
+        "op": "add",
+        "path": "/requiredMiningTierByType",
+        "value": {
+            "*-foliage": 0,
+            "*": 1
+        },
+        "file": "game:blocktypes/plant/ferntree.json",
+        "side": "Server"
+    },
+    {
+        "comment": "Ferntree top foliage drops itself.",
+        "op": "replace",
+        "path": "/dropsByType",
+        "value": {
+            "*-trunk": [
+                {
+                    "type": "item",
+                    "code": "firewood",
+                    "quantity": {
+                        "avg": 2.5,
+                        "var": 1.5
+                    }
+                }
+            ],
+            "*-trunk-top-*": [
+                {
+                    "type": "item",
+                    "code": "firewood",
+                    "quantity": {
+                        "avg": 2.5,
+                        "var": 1.5
+                    }
+                }
+            ],
+            "*-foliage": [
+                {
+                    "type": "block",
+                    "code": "ferntree-normal-foliage",
+                    "quantity": {
+                        "avg": 1
+                    }
+                }
+            ]
+        },
+        "file": "game:blocktypes/plant/ferntree.json",
+        "side": "Server"
+    },
+    {
+        "comment": "Ferntree placeable in large planters.",
+        "op": "add",
+        "path": "/attributes/plantContainable",
+        "value": {
+            "largeContainer": {
+                "shapeByType": {
+                    "*-foliage": { "base": "block/plant/ferntree/planter/normal1" }
+                }
+            }
+        },
+        "file": "game:blocktypes/plant/ferntree.json",
+        "side": "Server"
+    }
+]

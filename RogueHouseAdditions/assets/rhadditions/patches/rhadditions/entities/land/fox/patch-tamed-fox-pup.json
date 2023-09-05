@@ -1,0 +1,77 @@
+[
+    {
+        "comment": "PetAI dependency",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:entities/land/fox/tamed-fox-pup",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    },
+    {
+        "comment": "Wolftaming fetching collect client",
+        "op": "add",
+        "path": "/client/behaviors/3/acceptStacks/-",
+        "value": {
+            "type": "item",
+            "code": "wolftaming:dogtoy"
+        },
+        "file": "rhadditions:entities/land/fox/tamed-fox-pup",
+        "dependsOn": [ { "modid": "wolftaming" } ],
+        "side": "Server"
+    },
+    {
+        "comment": "Wolftaming fetching collect server",
+        "op": "add",
+        "path": "/server/behaviors/2/acceptStacks/-",
+        "value": {
+            "type": "item",
+            "code": "wolftaming:dogtoy"
+        },
+        "file": "rhadditions:entities/land/fox/tamed-fox-pup",
+        "dependsOn": [ { "modid": "wolftaming" } ],
+        "side": "Server"
+    },
+    {
+        "comment": "Wolftaming fetching ai task",
+        "op": "add",
+        "path": "/server/behaviors/12/aitasks/-",
+        "value": {
+            "code": "playfetch",
+            "priority": 2.2,
+            "priorityForCancel": 2.1,
+            "movespeed": 0.02,
+            "animationSpeed": 4,
+            "animation": "Run"
+        },
+        "file": "rhadditions:entities/land/fox/tamed-fox-pup",
+        "dependsOn": [ { "modid": "wolftaming" } ],
+        "side": "Server"
+    },
+    {
+        "comment": "XSkills cage catchable client",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "XSkillsAnimal",
+            "xp": 1.0,
+            "catchable": "true"
+        },
+        "file": "rhadditions:entities/land/fox/tamed-fox-pup",
+        "dependsOn": [ { "modid": "xskills" } ],
+        "side": "Server"
+    },
+    {
+        "comment": "XSkills cage catchable server",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "XSkillsAnimal",
+            "xp": 1.0,
+            "catchable": "true"
+        },
+        "file": "rhadditions:entities/land/fox/tamed-fox-pup",
+        "dependsOn": [ { "modid": "xskills" } ],
+        "side": "Server"
+    }
+]

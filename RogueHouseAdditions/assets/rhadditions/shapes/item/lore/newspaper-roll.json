@@ -1,0 +1,103 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"item-paper": "game:item/lore/item-paper",
+		"rope": "game:item/resource/rope"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "mid",
+					"from": [ -5.5, 0.5, -0.5 ],
+					"to": [ 5.5, 1.5, 0.5 ],
+					"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+					"faces": {
+						"east": { "texture": "#item-paper", "uv": [ 2.0, 1.0, 2.5, 2.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#item-paper", "uv": [ 2.0, 1.0, 2.5, 2.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "d",
+							"from": [ -0.5, -0.5, 0.0 ],
+							"to": [ 11.5, 0.0, 1.5 ],
+							"rotationOrigin": [ 5.5, -0.5, 0.5 ],
+							"faces": {
+								"east": { "texture": "#item-paper", "uv": [ 10.5, 11.5, 12.0, 12.0 ] },
+								"south": { "texture": "#item-paper", "uv": [ 0.0, 4.0, 10.0, 4.5 ], "autoUv": false },
+								"west": { "texture": "#item-paper", "uv": [ 11.5, 7.5, 12.0, 9.0 ], "rotation": 90 },
+								"up": { "texture": "#item-paper", "uv": [ 0.0, 14.5, 12.0, 16.0 ] },
+								"down": { "texture": "#item-paper", "uv": [ 0.0, 4.5, 10.0, 6.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "n",
+							"from": [ -0.5, -0.5, -0.5 ],
+							"to": [ 11.5, 1.0, 0.0 ],
+							"rotationOrigin": [ 5.5, 0.5, 0.6 ],
+							"faces": {
+								"north": { "texture": "#item-paper", "uv": [ 0.0, 6.5, 10.0, 8.0 ], "autoUv": false },
+								"east": { "texture": "#item-paper", "uv": [ 11.0, 7.0, 11.5, 8.5 ] },
+								"south": { "texture": "#item-paper", "uv": [ 0.0, 14.5, 12.0, 16.0 ] },
+								"west": { "texture": "#item-paper", "uv": [ 10.5, 10.0, 11.0, 11.5 ] },
+								"down": { "texture": "#item-paper", "uv": [ 0.0, 6.0, 10.0, 6.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "u",
+							"from": [ -0.5, 1.0, -0.5 ],
+							"to": [ 11.5, 1.5, 1.0 ],
+							"rotationOrigin": [ 5.5, 1.0, 0.5 ],
+							"faces": {
+								"north": { "texture": "#item-paper", "uv": [ 0.0, 8.0, 10.0, 8.5 ], "autoUv": false },
+								"east": { "texture": "#item-paper", "uv": [ 10.0, 10.5, 11.5, 11.0 ] },
+								"west": { "texture": "#item-paper", "uv": [ 0.5, 14.5, 2.0, 15.0 ] },
+								"up": { "texture": "#item-paper", "uv": [ 0.0, 0.5, 10.0, 2.0 ], "autoUv": false },
+								"down": { "texture": "#item-paper", "uv": [ 0.0, 14.5, 12.0, 16.0 ] }
+							}
+						},
+						{
+							"name": "s",
+							"from": [ -0.5, 0.0, 1.0 ],
+							"to": [ 11.5, 1.5, 1.5 ],
+							"rotationOrigin": [ 5.5, 0.0, 0.5 ],
+							"faces": {
+								"north": { "texture": "#item-paper", "uv": [ 0.0, 14.5, 12.0, 16.0 ] },
+								"east": { "texture": "#item-paper", "uv": [ 10.5, 13.0, 11.0, 14.5 ] },
+								"south": { "texture": "#item-paper", "uv": [ 0.0, 2.5, 10.0, 4.0 ], "autoUv": false },
+								"west": { "texture": "#item-paper", "uv": [ 9.5, 9.0, 10.0, 10.5 ] },
+								"up": { "texture": "#item-paper", "uv": [ 0.0, 2.0, 10.0, 2.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "tie",
+							"from": [ 5.0, -0.6, -0.6 ],
+							"to": [ 6.0, 1.6, 1.6 ],
+							"rotationOrigin": [ 5.5, 0.5, 0.5 ],
+							"faces": {
+								"north": { "texture": "#rope", "uv": [ 2.0, 1.5, 3.0, 3.5 ] },
+								"east": { "texture": "#rope", "uv": [ 2.0, 3.5, 4.0, 5.5 ] },
+								"south": { "texture": "#rope", "uv": [ 2.0, 1.5, 3.0, 3.5 ] },
+								"west": { "texture": "#rope", "uv": [ 3.5, 3.0, 5.5, 5.0 ] },
+								"up": { "texture": "#rope", "uv": [ 2.0, 1.5, 3.0, 3.5 ] },
+								"down": { "texture": "#rope", "uv": [ 1.0, 1.5, 2.0, 3.5 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

@@ -1,0 +1,10 @@
+[
+    {
+        "op": "add",
+        "path": "/enabled",
+        "value": false,
+        "file": "primitivesurvival:blocktypes/raft/raftshark.json",
+        "dependsOn": [ { "modid": "primitivesurvival" } ],
+        "side": "Server"
+    }
+]

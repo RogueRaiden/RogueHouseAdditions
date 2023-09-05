@@ -1,9 +1,0 @@
-[
-    {
-        "op": "replace",
-        "path": "/maxStackSize",
-        "value": 16,
-        "file": "game:blocktypes/wood/barrel.json",
-        "side": "Server"
-    }
-]

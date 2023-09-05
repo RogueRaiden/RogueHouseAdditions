@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Taller grass drops more drygrass",
+        "op": "replace",
+        "path": "/dropsByType",
+        "value": {
+            "tallgrass-eaten-*": [],
+            "*-verytall-*": [
+                {
+                    "type": "item",
+                    "code": "drygrass",
+                    "quantity": {
+                        "avg": 2.4
+                    },
+                    "tool": "knife"
+                },
+                {
+                    "type": "item",
+                    "code": "drygrass",
+                    "quantity": {
+                        "avg": 2.5
+                    },
+                    "tool": "scythe"
+                }
+            ],
+            "*-tall-*": [
+                {
+                    "type": "item",
+                    "code": "drygrass",
+                    "quantity": {
+                        "avg": 2.4
+                    },
+                    "tool": "knife"
+                },
+                {
+                    "type": "item",
+                    "code": "drygrass",
+                    "quantity": {
+                        "avg": 2.5
+                    },
+                    "tool": "scythe"
+                }
+            ],
+            "*-medium-*": [
+                {
+                    "type": "item",
+                    "code": "drygrass",
+                    "quantity": {
+                        "avg": 1.4
+                    },
+                    "tool": "knife"
+                },
+                {
+                    "type": "item",
+                    "code": "drygrass",
+                    "quantity": {
+                        "avg": 1.5
+                    },
+                    "tool": "scythe"
+                }
+            ],
+            "*-mediumshort-*": [
+                {
+                    "type": "item",
+                    "code": "drygrass",
+                    "quantity": {
+                        "avg": 1.4
+                    },
+                    "tool": "knife"
+                },
+                {
+                    "type": "item",
+                    "code": "drygrass",
+                    "quantity": {
+                        "avg": 1.5
+                    },
+                    "tool": "scythe"
+                }
+            ],
+            "*-short-*": [
+                {
+                    "type": "item",
+                    "code": "drygrass",
+                    "quantity": {
+                        "avg": 0.85
+                    },
+                    "tool": "knife"
+                },
+                {
+                    "type": "item",
+                    "code": "drygrass",
+                    "quantity": {
+                        "avg": 0.9
+                    },
+                    "tool": "scythe"
+                }
+            ],
+            "*-veryshort-*": [
+                {
+                    "type": "item",
+                    "code": "drygrass",
+                    "quantity": {
+                        "avg": 0.85
+                    },
+                    "tool": "knife"
+                },
+                {
+                    "type": "item",
+                    "code": "drygrass",
+                    "quantity": {
+                        "avg": 0.9
+                    },
+                    "tool": "scythe"
+                }
+            ]
+        },
+        "file": "game:blocktypes/plant/tallgrass.json",
+        "side": "Server"
+    }
+]

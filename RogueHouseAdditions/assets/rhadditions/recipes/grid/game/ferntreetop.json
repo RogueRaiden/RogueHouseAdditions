@@ -1,0 +1,24 @@
+[
+    {
+        "comment": "Cut fern tree top into firewood",
+        "ingredientPattern": "A\tT",
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "game:axe-*",
+                "isTool": true,
+                "toolDurabilityCost": 1
+            },
+            "T": {
+                "type": "block",
+                "code": "game:ferntree-normal-foliage"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "game:firewood"
+        }
+    }
+]

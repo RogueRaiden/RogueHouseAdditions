@@ -1,0 +1,390 @@
+{
+    "code": "club",
+    "enabled": false,
+    "damagedby": [ "blockbreaking", "attacking" ],
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [ "mace", "flanged", "morningstar", "spiked", "warhammer" ]
+        },
+        {
+            "code": "metal",
+            "states": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel", "forlorn" ]
+        }
+    ],
+    "skipVariants": [
+        "club-mace-*"
+    ],
+    "allowedVariants": [
+        "club-*-iron"
+    ],
+    "attributes": {
+        "handbook": {
+            "groupBy": [ "club-*" ]
+        },
+        "toolrackTransformByType": {
+            "club-flanged-iron": {
+                "translation": {
+                    "x": -0.7,
+                    "y": 0.64,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 180,
+                    "y": 0,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0,
+                    "z": 0.5
+                },
+                "scale": 1.3
+            },
+            "club-morningstar-iron": {
+                "translation": {
+                    "x": -0.5,
+                    "y": 0.6,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0,
+                    "z": 0.5
+                },
+                "scale": 1.3
+            },
+            "club-spiked-iron": {
+                "translation": {
+                    "x": -0.53,
+                    "y": 0.55,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0,
+                    "z": 0.5
+                },
+                "scale": 1.3
+            },
+            "club-warhammer-iron": {
+                "translation": {
+                    "x": -0.9,
+                    "y": 0.57,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 10,
+                    "y": 0,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0,
+                    "z": 0.5
+                },
+                "scale": 1.3
+            },
+            "*": {
+                "translation": {
+                    "x": -0.23,
+                    "y": 0.5,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0,
+                    "z": 0.5
+                },
+                "scale": 1.3
+            }
+        },
+        "groundStorageTransformByType": {
+            "club-morningstar-iron": {
+                "translation": {
+                    "x": 0,
+                    "y": 0.35,
+                    "z": -0.17
+                },
+                "rotation": {
+                    "x": 26,
+                    "y": 88,
+                    "z": -87
+                },
+                "scale": 0.88
+            },
+            "club-spiked-iron": {
+                "translation": {
+                    "x": 0,
+                    "y": 0.59,
+                    "z": -0.125
+                },
+                "rotation": {
+                    "x": 26,
+                    "y": 88,
+                    "z": -90
+                },
+                "scale": 0.88
+            },
+            "club-warhammer-iron": {
+                "translation": {
+                    "x": 0,
+                    "y": 0.47,
+                    "z": -0.125
+                },
+                "rotation": {
+                    "x": 26,
+                    "y": 82,
+                    "z": -87
+                },
+                "scale": 0.88
+            },
+            "club-flanged-iron": {
+                "translation": {
+                    "x": 0,
+                    "y": 0.4,
+                    "z": -0.1
+                },
+                "rotation": {
+                    "x": 26,
+                    "y": 88,
+                    "z": -87
+                },
+                "scale": 0.88
+            },
+            "*": {
+                "translation": {
+                    "x": 0,
+                    "y": 0.02,
+                    "z": -0.005
+                },
+                "rotation": {
+                    "x": 26,
+                    "y": 88,
+                    "z": -87
+                },
+                "scale": 0.88
+            }
+        }
+    },
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "WallHalves",
+                "wallOffYByType": {
+                    "club-spiked-ruined": 2,
+                    "club-warhammer-ruined": 2,
+                    "*": 1
+                },
+                "sprintKey": true,
+                "selectionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 1,
+                    "y2": 0.1,
+                    "z2": 1
+                },
+                "collisionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 0,
+                    "y2": 0,
+                    "z2": 0
+                }
+            }
+        }
+    ],
+    "shapeByType": {
+        "*-flanged-*": { "base": "game:item/tool/club/flanged" },
+        "*-morningstar-*": { "base": "game:item/tool/club/morningstar" },
+        "*-spiked-*": { "base": "game:item/tool/club/spiked" },
+        "*-warhammer-*": { "base": "game:item/tool/club/warhammer" }
+    },
+    "heldTpHitAnimationByType": {
+        "*": "falx"
+    },
+    "texturesByType": {
+        "*": {}
+    },
+    "attackRangebytype": {
+        "*": 2
+    },
+    "attackpowerbytype": {
+        "*-flanged-iron": 5,
+        "*-morningstar-iron": 5,
+        "*-spiked-iron": 5,
+        "*-warhammer-iron": 5
+    },
+    "durabilitybytype": {
+        "*-flanged-iron": 600,
+        "*-morningstar-iron": 600,
+        "*-spiked-iron": 600,
+        "*-warhammer-iron": 600
+    },
+    "creativeinventoryByType": {
+        "*": {
+            "general": [ "*" ],
+            "items": [ "*" ],
+            "tools": [ "*" ],
+            "rhadditions": [ "*" ]
+        }
+    },
+    "guiTransformByType": {
+        "club-morningstar-iron": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -66,
+                "y": -128,
+                "z": 164
+            },
+            "origin": {
+                "x": 1.15,
+                "y": -0.19,
+                "z": 0.7
+            },
+            "scale": 2.39
+        },
+        "*-iron": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -66,
+                "y": -128,
+                "z": 164
+            },
+            "origin": {
+                "x": 1.15,
+                "y": 0.11,
+                "z": 0.6
+            },
+            "scale": 2.39
+        },
+        "*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -66,
+                "y": -128,
+                "z": 164
+            },
+            "origin": {
+                "x": 0.55,
+                "y": 0.51,
+                "z": 0.57
+            },
+            "scale": 2.1
+        }
+    },
+    "fpHandTransformByType": {
+        "*-iron": {
+            "translation": {
+                "x": 0.1,
+                "y": -0.4,
+                "z": 0
+            },
+            "rotation": {
+                "x": -13,
+                "y": 15,
+                "z": 93
+            },
+            "scale": 2
+        },
+        "*": {
+            "translation": {
+                "x": 0.1,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -13,
+                "y": 15,
+                "z": 93
+            },
+            "scale": 2
+        }
+    },
+    "groundTransformByType": {
+        "*-iron": {
+            "translation": {
+                "x": 0,
+                "y": 0.36,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.45,
+                "z": 0.5
+            },
+            "scale": 3.6
+        },
+        "*": {
+            "translation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.45,
+                "z": 0.5
+            },
+            "scale": 3.6
+        }
+    },
+    "tpHandTransformByType": {
+        "*-iron": {
+            "translation": {
+                "x": -0.8,
+                "y": -0.57,
+                "z": -0.08
+            },
+            "rotation": {
+                "x": 90,
+                "y": 1,
+                "z": 0
+            },
+            "scale": 0.85
+        },
+        "*": {
+            "translation": {
+                "x": -0.9,
+                "y": -0.6,
+                "z": -0.6
+            },
+            "rotation": {
+                "x": 90,
+                "y": 1,
+                "z": 0
+            },
+            "scale": 0.85
+        }
+    }
+}

@@ -1,0 +1,30 @@
+[
+	{
+		"comment": "Allowing to store on bookshelves",
+		"op": "add",
+		"path": "/attributes/bookshelveable",
+		"value": true,
+		"file": "game:itemtypes/tuningcylinder.json",
+		"side": "Server"
+	},
+	{
+		"comment": "Bookshelf transform",
+		"op": "add",
+		"path": "/attributes/onshelfTransform",
+		"value": {
+			"translation": {
+				"x": 0.003,
+				"y": -0.42,
+				"z": -0.12
+			},
+			"rotation": {
+				"x": -90,
+				"y": 0,
+				"z": 1
+			},
+			"scale": 0.68
+		},
+		"file": "game:itemtypes/tuningcylinder.json",
+		"side": "Server"
+	}
+]

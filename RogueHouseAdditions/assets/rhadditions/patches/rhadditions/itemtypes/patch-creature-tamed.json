@@ -1,0 +1,11 @@
+[
+    {
+        "comment": "PetAI dependency",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:itemtypes/creature-tamed.json",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    }
+]

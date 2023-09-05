@@ -164,11 +164,14 @@
             {
                 "code": "multiply",
                 "quantityPerDay": 0,
-                "spawnEntityCode": "direwolf-pup",
-                "growthCapQuantity": 10,
+                "spawnEntityCode": "rhadditions:direwolf-pup",
+                "growthCapQuantity": 6,
                 "growthCapRange": 15,
-                "growthCapEntityCodes": [ "direwolf-pup", "direwolf-female", "direwolf-male" ],
-                "requiresNearbyEntityCode": "direwolf-male",
+                "pregnancyDays": 30,
+                "multiplyCooldownDaysMin": 8,
+                "multiplyCooldownDaysMax": 17,
+                "growthCapEntityCodes": [ "rhadditions:direwolf-pup", "rhadditions:direwolf-female", "rhadditions:direwolf-male" ],
+                "requiresNearbyEntityCode": "rhadditions:direwolf-male",
                 "requiresNearbyEntityRange": 10
             },
             {

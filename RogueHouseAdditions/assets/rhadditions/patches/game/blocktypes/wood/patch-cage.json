@@ -1,0 +1,14 @@
+[
+	{
+		"comment": "Hide from handbook",
+		"op": "add",
+		"path": "/attributes",
+		"value": {
+			"handbook": {
+				"exclude": true
+			}
+		},
+		"file": "game:blocktypes/wood/cage.json",
+		"side": "Server"
+	}
+]

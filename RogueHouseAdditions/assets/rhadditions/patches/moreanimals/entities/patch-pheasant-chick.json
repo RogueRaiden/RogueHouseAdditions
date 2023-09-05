@@ -1,0 +1,34 @@
+[
+	{
+		"comment": "XSkills cage catchable client",
+		"op": "add",
+		"path": "/client/behaviors/-",
+		"value": {
+			"code": "XSkillsAnimal",
+			"xp": 0,
+			"catchable": "true"
+		},
+		"file": "moreanimals:entities/pheasant-chick.json",
+		"dependsOn": [
+			{ "modid": "xskills" },
+			{ "modid": "moreanimals" }
+		],
+		"side": "Server"
+	},
+	{
+		"comment": "XSkills cage catchable server",
+		"op": "add",
+		"path": "/server/behaviors/-",
+		"value": {
+			"code": "XSkillsAnimal",
+			"xp": 0,
+			"catchable": "true"
+		},
+		"file": "moreanimals:entities/pheasant-chick.json",
+		"dependsOn": [
+			{ "modid": "xskills" },
+			{ "modid": "moreanimals" }
+		],
+		"side": "Server"
+	}
+]

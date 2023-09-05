@@ -1,0 +1,10 @@
+[
+    {
+        "comment": "Rebalance",
+        "op": "add",
+        "path": "/enabled",
+        "value": false,
+        "file": "game:recipes/grid/miningbag.json",
+        "side": "Server"
+    }
+]

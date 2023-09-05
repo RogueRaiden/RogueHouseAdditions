@@ -3,11 +3,46 @@
     "variantgroups": [
         {
             "code": "type",
-            "states": [ "adventuring", "building", "creating", "daylight", "fall-o'-croft", "groove", "heartbeat", "midnight", "mirror", "roots", "safety-of-a-warm-fire", "setting-sun", "spring", "summer-day", "to-dawn", "winter" ]
+            "states": [
+                "adventuring",
+                "building",
+                "creating",
+                "daylight",
+                "fall-o'-croft",
+                "groove",
+                "heartbeat",
+                "midnight",
+                "mirror",
+                "roots",
+                "safety-of-a-warm-fire",
+                "setting-sun",
+                "spring",
+                "summer-day",
+                "to-dawn",
+                "winter",
+                "radianceandrust",
+                "barren",
+                "eidolon",
+                "library"
+            ]
         }
     ],
     "attributes": {
         "isPlayableDisc": true,
+        "bookshelveable": true,
+        "onshelfTransform": {
+            "translation": {
+                "x": 0.003,
+                "y": -0.42,
+                "z": -0.12
+            },
+            "rotation": {
+                "x": -90,
+                "y": 0,
+                "z": 1
+            },
+            "scale": 0.68
+        },
         "musicTrackByType": {
             "*-adventuring": "game:music/adventuring.ogg",
             "*-building": "game:music/building.ogg",
@@ -24,28 +59,36 @@
             "*-spring": "game:music/spring.ogg",
             "*-summer-day": "game:music/summer-day.ogg",
             "*-to-dawn": "game:music/to-dawn.ogg",
-            "*-winter": "game:music/winter.ogg"
+            "*-winter": "game:music/winter.ogg",
+            "*-radianceandrust": "game:music/radianceandrust.ogg",
+            "*-barren": "game:music/theresonancearchives-barren.ogg",
+            "*-eidolon": "game:music/theresonancearchives-eidolon.ogg",
+            "*-library": "game:music/theresonancearchives-library.ogg"
         }
     },
     "shape": { "base": "game:block/machine/resonator-cylinder" },
     "textures": {
         "colorByType": {
-            "*-adventuring": { "base": "game:block/liquid/beer" },
-            "*-building": { "base": "game:block/liquid/brine" },
-            "*-creating": { "base": "game:block/liquid/honey" },
-            "*-daylight": { "base": "game:block/liquid/limewater" },
-            "*-fall-o'-croft": { "base": "game:block/liquid/milkportion" },
-            "*-groove": { "base": "game:block/liquid/saltwater" },
-            "*-heartbeat": { "base": "game:block/liquid/slakedlime" },
-            "*-midnight": { "base": "game:block/liquid/whiskey" },
-            "*-mirror": { "base": "game:block/liquid/wine" },
-            "*-roots": { "base": "game:block/liquid/strongtannen" },
-            "*-safety-of-a-warm-fire": { "base": "game:block/liquid/weaktannen" },
-            "*-setting-sun": { "base": "game:block/liquid/dilutedalum" },
-            "*-spring": { "base": "game:block/liquid/dilutedborax" },
-            "*-summer-day": { "base": "game:block/liquid/dilutedchromite" },
-            "*-to-dawn": { "base": "game:block/liquid/vinegar" },
-            "*-winter": { "base": "game:block/liquid/dilutedcassiterite" }
+            "*-adventuring": { "base": "game:item/resource/plate/copper" },
+            "*-building": { "base": "game:item/resource/plate/tin" },
+            "*-creating": { "base": "game:item/resource/plate/tinbronze" },
+            "*-daylight": { "base": "game:item/resource/plate/bismuthbronze" },
+            "*-fall-o'-croft": { "base": "game:item/resource/plate/blackbronze" },
+            "*-groove": { "base": "game:item/resource/plate/bismuth" },
+            "*-heartbeat": { "base": "game:item/resource/plate/brass" },
+            "*-midnight": { "base": "game:item/resource/plate/iron" },
+            "*-mirror": { "base": "game:item/resource/plate/lead" },
+            "*-roots": { "base": "game:item/resource/plate/zinc" },
+            "*-safety-of-a-warm-fire": { "base": "game:item/resource/plate/steel" },
+            "*-setting-sun": { "base": "game:item/resource/plate/nickel" },
+            "*-spring": { "base": "game:item/resource/plate/bismuth" },
+            "*-summer-day": { "base": "game:item/resource/plate/tin" },
+            "*-to-dawn": { "base": "game:item/resource/plate/lead" },
+            "*-winter": { "base": "game:item/resource/plate/iron" },
+            "*-radianceandrust": { "base": "game:item/resource/plate/zinc" },
+            "*-barren": { "base": "game:item/resource/plate/brass" },
+            "*-eidolon": { "base": "game:item/resource/plate/blackbronze" },
+            "*-library": { "base": "game:item/resource/plate/tinbronze" }
         }
     },
     "creativeinventory": {

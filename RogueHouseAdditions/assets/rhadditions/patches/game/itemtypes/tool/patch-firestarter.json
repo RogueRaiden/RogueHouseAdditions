@@ -1,0 +1,29 @@
+[
+    {
+        "comment": "Allowing to store on toolrack",
+        "op": "add",
+        "path": "/attributes/rackable",
+        "value": "true",
+        "file": "game:itemtypes/tool/firestarter.json",
+        "side": "Server"
+    },
+    {
+        "comment": "Toolrack transform",
+        "op": "add",
+        "path": "/attributes/toolrackTransform",
+        "value": {
+            "translation": {
+                "x": -0.14,
+                "y": 0.1,
+                "z": -0.2
+            },
+            "rotation": {
+                "x": 55,
+                "y": -25,
+                "z": 101
+            }
+        },
+        "file": "game:itemtypes/tool/firestarter.json",
+        "side": "Server"
+    }
+]

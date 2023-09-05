@@ -1,0 +1,11 @@
+[
+    {
+        "comment": "PetAI dependency",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:entities/land/raccoon/tamed-raccoon-male",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    }
+]

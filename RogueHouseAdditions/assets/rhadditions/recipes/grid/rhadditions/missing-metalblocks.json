@@ -1,0 +1,18 @@
+{
+	"ingredientPattern": "GGG,GGG",
+	"ingredients": {
+		"G": {
+			"type": "item",
+			"code": "game:metalplate-*",
+			"name": "metal",
+			"allowedVariants": [ "bismuth", "brass", "chromium", "meteoriciron", "molybdochalkos", "platinum", "nickel", "stainlesssteel", "tin", "titanium", "uranium", "zinc", "electrum" ]
+		}
+	},
+	"width": 3,
+	"height": 2,
+	"output": {
+		"type": "block",
+		"code": "game:metalblock-new-riveted-{metal}",
+		"quantity": 1
+	}
+}

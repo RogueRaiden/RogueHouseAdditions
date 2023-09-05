@@ -73,47 +73,47 @@
                     {
                         "commandName": "sit",
                         "commandType": "SIMPLE",
-                        "minObedience": 0.2
+                        "minObedience": 0.25
                     },
                     {
                         "commandName": "lay",
                         "commandType": "SIMPLE",
-                        "minObedience": 0.2
+                        "minObedience": 0.4
                     },
                     {
                         "commandName": "speak",
                         "commandType": "SIMPLE",
-                        "minObedience": 0.2
+                        "minObedience": 0.1
                     },
                     {
                         "commandName": "followmaster",
                         "commandType": "COMPLEX",
-                        "minObedience": 0.6
+                        "minObedience": 0.2
                     },
                     {
                         "commandName": "stay",
                         "commandType": "COMPLEX",
-                        "minObedience": 0.1
+                        "minObedience": 0.4
                     },
                     {
                         "commandName": "NEUTRAL",
                         "commandType": "AGGRESSIONLEVEL",
-                        "minObedience": 0
+                        "minObedience": 0.25
                     },
                     {
                         "commandName": "PROTECTIVE",
                         "commandType": "AGGRESSIONLEVEL",
-                        "minObedience": 0.5
+                        "minObedience": 0.75
                     },
                     {
                         "commandName": "AGGRESSIVE",
                         "commandType": "AGGRESSIONLEVEL",
-                        "minObedience": 0.7
+                        "minObedience": 0.5
                     },
                     {
                         "commandName": "PASSIVE",
                         "commandType": "AGGRESSIONLEVEL",
-                        "minObedience": 0.8
+                        "minObedience": 0
                     }
                 ]
             },
@@ -184,6 +184,7 @@
                 "onlyWhenDead": true
             },
             { "code": "interpolatemount" },
+            { "code": "harvestable" },
             {
                 "code": "ropetieable",
                 "minGeneration": 2
@@ -331,47 +332,47 @@
                     {
                         "commandName": "sit",
                         "commandType": "SIMPLE",
-                        "minObedience": 0.2
+                        "minObedience": 0.25
                     },
                     {
                         "commandName": "lay",
                         "commandType": "SIMPLE",
-                        "minObedience": 0.2
+                        "minObedience": 0.4
                     },
                     {
                         "commandName": "speak",
                         "commandType": "SIMPLE",
-                        "minObedience": 0.2
+                        "minObedience": 0.1
                     },
                     {
                         "commandName": "followmaster",
                         "commandType": "COMPLEX",
-                        "minObedience": 0.6
+                        "minObedience": 0.2
                     },
                     {
                         "commandName": "stay",
                         "commandType": "COMPLEX",
-                        "minObedience": 0.1
+                        "minObedience": 0.4
                     },
                     {
                         "commandName": "NEUTRAL",
                         "commandType": "AGGRESSIONLEVEL",
-                        "minObedience": 0
+                        "minObedience": 0.25
                     },
                     {
                         "commandName": "PROTECTIVE",
                         "commandType": "AGGRESSIONLEVEL",
-                        "minObedience": 0.5
+                        "minObedience": 0.75
                     },
                     {
                         "commandName": "AGGRESSIVE",
                         "commandType": "AGGRESSIONLEVEL",
-                        "minObedience": 0.7
+                        "minObedience": 0.5
                     },
                     {
                         "commandName": "PASSIVE",
                         "commandType": "AGGRESSIONLEVEL",
-                        "minObedience": 0.8
+                        "minObedience": 0
                     }
                 ]
             },
@@ -393,6 +394,44 @@
             {
                 "code": "floatupwhenstuck",
                 "onlyWhenDead": true
+            },
+            {
+                "code": "harvestable",
+                "duration": 4,
+                "drops": [
+                    {
+                        "type": "item",
+                        "code": "bushmeat-raw",
+                        "quantity": {
+                            "avg": 9,
+                            "var": 2
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "hide-raw-large",
+                        "quantity": {
+                            "avg": 1.5,
+                            "var": 0
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "fat",
+                        "quantity": {
+                            "avg": 3.25,
+                            "var": 0
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "bone",
+                        "quantity": {
+                            "avg": 9,
+                            "var": 0.5
+                        }
+                    }
+                ]
             },
             { "code": "breathe" },
             {

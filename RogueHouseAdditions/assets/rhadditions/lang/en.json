@@ -56,7 +56,18 @@
 
     "game:backpack": "Leather Backpack (Plain)",
 
-    "game:prefixandcreature-thrownstonegranite": "a rock",
+    "game:prefixandcreature-thrownstone*": "a rock",
+
+    "game:item-bow-simple": "Simple Bow (Mod Aim)",
+    "game:item-bow-crude": "Crude Bow (Mod Aim)",
+    "game:item-bow-long": "Long Bow (Mod Aim)",
+    "game:item-bow-recurve": "Recurve Bow (Mod Aim)",
+    "game:item-sling": "Sling (Mod Aim)",
+
+
+    "xskills:blockdesc-cage-*": "<font color=\"#99c9f9\"><i>Requires the Catcher perk from the Husbandry skill to craft or use.</i></font>",
+    "game:traitname-ability-catcher": "Catcher",
+    "game:traitname-ability-blackguard": "Blackguard",
 
 
 
@@ -157,7 +168,7 @@
     "_comment4": "CLASSES **********************",
 
     "game:characterclass-rogue": "Rogue",
-    "game:characterdesc-rogue": "<font color=\"#99c9f9\"><i>Slipping through the shadows, avoiding the Beasts that roam the lands.<br>Far from the life you once had, but the only one you know of now.</i></font><br><br>The Beasts have taught many lessons in stealth, ranged and melee combat. Constant movement keeps your weight down, keeping you light on your feet but less hardy.",
+    "game:characterdesc-rogue": "<font color=\"#99c9f9\"><i>Slipping through the shadows, avoiding the Beasts that roam the lands.Far from the life you once had, but the only one you know of now.</i></font><br><br>The Beasts have taught many lessons in stealth, ranged and melee combat. Constant movement keeps your weight down, keeping you light on your feet but less hardy.",
 
     "game:characterclass-druid": "Druid",
     "game:characterdesc-druid": "<font color=\"#99c9f9\"><i>None shall taint our forests for as long as We remain.</i></font><br><br>Druids are protectors of the forests, masters of nature. They fill excellent support roles with their natural archery abilities and knowledge of plants. They despise the caves and the unnatural things within...",
@@ -395,6 +406,7 @@
 
     "item-stone-snowball": "Snowball",
     "itemdesc-stone-snowball": "<font color=\"#99c9f9\"><i>Lovingly hand crafted by Duchow.</i></font><br>",
+    "game:prefixandcreature-thrownstonesnowball": "a snowball",
 
     "item-drifterskin-surface": "Surface drifter skin",
     "itemdesc-drifterskin-surface": "<font color=\"#99c9f9\"><i></i></font>",
@@ -441,6 +453,10 @@
     "item-strips-leather-red": "Leather Strips (Red)",
     "item-strips-leather-white": "Leather Strips (White)",
     "item-strips-leather-yellow": "Leather Strips (Yellow)",
+
+
+    "item-schilling": "Schilling",
+    "item-newspaper-roll": "Newspaper",
 
 
 
@@ -632,6 +648,10 @@
     "item-tuningcylinder-summer-day": "Tuning Cylinder (Summer Day)",
     "item-tuningcylinder-to-dawn": "Tuning Cylinder (To Dawn)",
     "item-tuningcylinder-winter": "Tuning Cylinder (Winter)",
+    "item-tuningcylinder-radianceandrust": "Tuning Cylinder (Radiance and Rust)",
+    "item-tuningcylinder-barren": "Tuning Cylinder (Barren)",
+    "item-tuningcylinder-eidolon": "Tuning Cylinder (Eidolon)",
+    "item-tuningcylinder-library": "Tuning Cylinder (Library)",
 
 
 
@@ -662,16 +682,23 @@
 
     "_comment12": "TRADERS/NPCS **********************",
 
-    "game:deadcreature-blade": "Someone with a blade killed this creature.",
+    "game:deadcreature-townguard": "Was hunted down by the Town Guards.",
 
     "item-creature-humanoid-trader-barkeeper": "Barkeeper",
     "game:tradingwindow-humanoid-trader-barkeeper": "Local goods - {0} the Barkeeper",
 
     "item-creature-npc-druid-markus": "Markus the Druid",
-    "game:tradingwindow-npc-druid-markus": "{0} the Druid",
+    "item-dead-creature-npc-druid-markus": "Markus the Druid's Corpse",
+    "game:tradingwindow-npc-druid-markus": "Markus the Druid",
     "game:prefixandcreature-npcdruidmarkus": "Markus the Druid",
 
+    "item-creature-npc-thecaretaker": "The Caretaker",
+    "item-dead-creature-npc-thecaretaker": "The Caretaker's Corpse",
+    "game:tradingwindow-npc-thecaretaker": "The Caretaker",
+    "game:prefixandcreature-thecaretaker": "The Caretaker",
+
     "item-creature-npc-guard": "Guard",
+    "item-dead-creature-npc-guard": "Guard's Corpse",
     "game:tradingwindow-npc-guard": "{0} the Guard",
     "game:prefixandcreature-npcguard": "a Guard",
 
@@ -799,16 +826,15 @@
 
 
     "_comment15": "TOOLS/WEAPONS **********************",
-    "item-vanilla-bow-simple": "Simple Bow (Base Game)",
-    "itemdesc-vanilla-bow-simple": "<font color=\"#99c9f9\"><i>Uses the base Vintage Story aim system instead of the Bullseye mod aim system.</i></font>",
-    "item-vanilla-bow-crude": "Crude Bow (Base Game)",
-    "itemdesc-vanilla-bow-crude": "<font color=\"#99c9f9\"><i>Uses the base Vintage Story aim system instead of the Bullseye mod aim system.</i></font>",
-    "item-vanilla-bow-long": "Long Bow (Base Game)",
-    "itemdesc-vanilla-bow-long": "<font color=\"#99c9f9\"><i>Uses the base Vintage Story aim system instead of the Bullseye mod aim system.</i></font>",
-    "item-vanilla-bow-recurve": "Recurve Bow (Base Game)",
-    "itemdesc-vanilla-bow-recurve": "<font color=\"#99c9f9\"><i>Uses the base Vintage Story aim system instead of the Bullseye mod aim system.</i></font>",
-    "item-vanilla-sling": "Sling (Base Game)",
-    "itemdesc-vanilla-sling": "<font color=\"#99c9f9\"><i>Uses the base Vintage Story aim system instead of the Bullseye mod aim system.</i></font>",
+    "item-vanilla-bow-simple": "Simple Bow (Vanilla Aim)",
+    "item-vanilla-bow-crude": "Crude Bow (Vanilla Aim)",
+    "itemdesc-vanilla-bow-crude": "<font color=\"#99c9f9\"><i>Does not always shoot straight, but still serviceable.</i></font>",
+    "item-vanilla-bow-long": "Long Bow (Vanilla Aim)",
+    "itemdesc-vanilla-bow-long": "<font color=\"#99c9f9\"><i>Slow, but far-reaching and powerful.</i></font>",
+    "item-vanilla-bow-recurve": "Recurve Bow (Vanilla Aim)",
+    "itemdesc-vanilla-bow-recurve": "<font color=\"#99c9f9\"><i>A strong bow for those who prefer shooting on the move.</i></font>",
+    "item-vanilla-sling": "Sling (Vanilla Aim)",
+    "itemdesc-vanilla-sling": "<font color=\"#99c9f9\"><i>Uses the vanilla Vintage Story aim system.</i></font>",
 
     "item-blade-long-copper": "Crude Long Blade (Copper)",
     "item-blade-long-tinbronze": "Crude Long Blade (Tin Bronze)",

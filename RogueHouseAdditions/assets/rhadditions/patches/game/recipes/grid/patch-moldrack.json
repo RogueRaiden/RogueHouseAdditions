@@ -1,0 +1,10 @@
+[
+    {
+        "comment": "Typed moldracks",
+        "op": "add",
+        "path": "/enabled",
+        "value": false,
+        "file": "game:recipes/grid/moldrack.json",
+        "side": "Server"
+    }
+]

@@ -1,5 +1,47 @@
 [
     {
+        "ingredientPattern": "C,S",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "block",
+                "code": "game:snowblock"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "rhadditions:brick-snow",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "C,S",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true
+            },
+            "S": {
+                "type": "block",
+                "code": "game:snowblock"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "rhadditions:brick-snow",
+            "quantity": 4
+        }
+    },
+    {
         "ingredientPattern": "SS,SS",
         "ingredients": {
             "S": {

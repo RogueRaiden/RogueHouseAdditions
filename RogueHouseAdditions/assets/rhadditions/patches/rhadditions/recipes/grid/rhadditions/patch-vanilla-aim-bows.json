@@ -1,0 +1,38 @@
+[
+    {
+        "comment": "Bullseye mod dependency",
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/rhadditions/vanilla-aim-bows.json",
+        "dependsOn": [ { "modid": "bullseye" } ],
+        "side": "Server"
+    },
+    {
+        "comment": "Bullseye mod dependency",
+        "op": "replace",
+        "path": "/1/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/rhadditions/vanilla-aim-bows.json",
+        "dependsOn": [ { "modid": "bullseye" } ],
+        "side": "Server"
+    },
+    {
+        "comment": "Bullseye mod dependency",
+        "op": "replace",
+        "path": "/2/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/rhadditions/vanilla-aim-bows.json",
+        "dependsOn": [ { "modid": "bullseye" } ],
+        "side": "Server"
+    },
+    {
+        "comment": "Bullseye mod dependency",
+        "op": "replace",
+        "path": "/3/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/rhadditions/vanilla-aim-bows.json",
+        "dependsOn": [ { "modid": "bullseye" } ],
+        "side": "Server"
+    }
+]

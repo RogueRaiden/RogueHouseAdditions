@@ -1,0 +1,168 @@
+[
+    {
+        "comment": "PetAI tame items client",
+        "op": "addeach",
+        "path": "/client/behaviors/-",
+        "value": [
+            {
+                "code": "tameable",
+                "treat": [
+                    {
+                        "code": "bone",
+                        "progress": 0.05,
+                        "cooldown": 2
+                    },
+                    {
+                        "code": "bushmeat-raw",
+                        "progress": 0.05,
+                        "cooldown": 2
+                    },
+                    {
+                        "code": "redmeat-raw",
+                        "progress": 0.1,
+                        "cooldown": 3
+                    },
+                    {
+                        "code": "poultry-raw",
+                        "progress": 0.1,
+                        "cooldown": 3
+                    }
+                ]
+            },
+            {
+                "code": "mouthinventory",
+                "acceptStacks": [
+                    {
+                        "type": "item",
+                        "code": "bone"
+                    },
+                    {
+                        "type": "item",
+                        "code": "bushmeat-raw"
+                    },
+                    {
+                        "type": "item",
+                        "code": "redmeat-raw"
+                    },
+                    {
+                        "type": "item",
+                        "code": "poultry-raw"
+                    }
+                ]
+            }
+        ],
+        "file": "rhadditions:entities/land/direwolf/direwolf-pup",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    },
+    {
+        "comment": "PetAI tame items server",
+        "op": "addeach",
+        "path": "/server/behaviors/-",
+        "value": [
+            {
+                "code": "tameable",
+                "tameEntityCode": "rhadditions:tamed-direwolf-pup",
+                "treat": [
+                    {
+                        "code": "bone",
+                        "progress": 0.05,
+                        "cooldown": 2
+                    },
+                    {
+                        "code": "bushmeat-raw",
+                        "progress": 0.05,
+                        "cooldown": 2
+                    },
+                    {
+                        "code": "redmeat-raw",
+                        "progress": 0.1,
+                        "cooldown": 3
+                    },
+                    {
+                        "code": "poultry-raw",
+                        "progress": 0.1,
+                        "cooldown": 3
+                    }
+                ]
+            },
+            {
+                "code": "mouthinventory",
+                "acceptStacks": [
+                    {
+                        "type": "item",
+                        "code": "bone"
+                    },
+                    {
+                        "type": "item",
+                        "code": "bushmeat-raw"
+                    },
+                    {
+                        "type": "item",
+                        "code": "redmeat-raw"
+                    },
+                    {
+                        "type": "item",
+                        "code": "poultry-raw"
+                    }
+                ]
+            }
+        ],
+        "file": "rhadditions:entities/land/direwolf/direwolf-pup",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    },
+    {
+        "comment": "Eat items out of trough and off ground",
+        "op": "add",
+        "path": "/server/behaviors/10/aitasks/-",
+        "value": {
+            "code": "useinventory",
+            "animation": "eat",
+            "animationSpeed": 0.75,
+            "priority": 2.1,
+            "priorityForCancel": 2.2,
+            "eatItemCategories": [
+                "Protein"
+            ],
+            "eatItemCodes": [
+                "bone",
+                "bushmeat-raw",
+                "redmeat-raw",
+                "poultry-raw"
+            ],
+            "useTime": 1.5,
+            "mincooldownHours": 1,
+            "maxcooldownHours": 1.5
+        },
+        "file": "rhadditions:entities/land/direwolf/direwolf-pup",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    },
+    {
+        "comment": "XSkills cage catchable client",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "XSkillsAnimal",
+            "xp": 1.0,
+            "catchable": "true"
+        },
+        "file": "rhadditions:entities/land/direwolf/direwolf-pup",
+        "dependsOn": [ { "modid": "xskills" } ],
+        "side": "Server"
+    },
+    {
+        "comment": "XSkills cage catchable server",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "XSkillsAnimal",
+            "xp": 1.0,
+            "catchable": "true"
+        },
+        "file": "rhadditions:entities/land/direwolf/direwolf-pup",
+        "dependsOn": [ { "modid": "xskills" } ],
+        "side": "Server"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "comment": "Rebalance",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false,
+        "file": "game:recipes/grid/hunterbackpack.json",
+        "side": "Server"
+    },
+    {
+        "comment": "Rebalance",
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false,
+        "file": "game:recipes/grid/hunterbackpack.json",
+        "side": "Server"
+    }
+]

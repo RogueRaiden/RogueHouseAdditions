@@ -20,7 +20,7 @@
         "side": "Server"
     },
     {
-        "comment": "Vanilla fixes - fox reproduction",
+        "comment": "Vanilla fixes - fox spawning",
         "op": "replace",
         "path": "/server/spawnconditions/worldgen/companions",
         "value": [ "fox-female", "fox-pup-forest" ],
@@ -28,7 +28,7 @@
         "side": "Server"
     },
     {
-        "comment": "Vanilla fixes - fox reproduction",
+        "comment": "Vanilla fixes - fox spawning",
         "op": "replace",
         "path": "/server/spawnconditions/runtime/companions",
         "value": [ "fox-female", "fox-pup-forest" ],

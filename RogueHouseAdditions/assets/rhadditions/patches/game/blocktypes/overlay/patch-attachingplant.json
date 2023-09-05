@@ -1,0 +1,9 @@
+[
+    {
+        "comment": "Unhide from handbook",
+        "op": "remove",
+        "path": "/attributes/handbook",
+        "file": "game:blocktypes/overlay/attachingplant.json",
+        "side": "Server"
+    }
+]

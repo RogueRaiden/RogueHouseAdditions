@@ -1,0 +1,109 @@
+[
+	{
+		"comment": "Allowing to store on bookshelves",
+		"op": "add",
+		"path": "/attributes/bookshelveable",
+		"value": true,
+		"file": "game:itemtypes/tool/knife.json",
+		"side": "Server"
+	},
+	{
+		"comment": "Bookshelf transforms",
+		"op": "add",
+		"path": "/attributes/onshelfTransformByType",
+		"value": {
+			"*-dagger-*": {
+				"translation": {
+					"x": -0.01,
+					"y": 0.3,
+					"z": -0.07
+				},
+				"rotation": {
+					"x": -19,
+					"y": 10,
+					"z": 78
+				},
+				"origin": {
+					"x": 0.55,
+					"y": 0,
+					"z": 0.5
+				},
+				"scale": 0.7
+			},
+			"*-stiletto-*": {
+				"translation": {
+					"x": -0.04,
+					"y": 0.24,
+					"z": -0.07
+				},
+				"rotation": {
+					"x": -19,
+					"y": 10,
+					"z": 78
+				},
+				"origin": {
+					"x": 0.55,
+					"y": 0,
+					"z": 0.5
+				},
+				"scale": 0.7
+			},
+			"*-khanjar-*": {
+				"translation": {
+					"x": -0.01,
+					"y": 0.28,
+					"z": -0.09
+				},
+				"rotation": {
+					"x": -19,
+					"y": 10,
+					"z": 78
+				},
+				"origin": {
+					"x": 0.55,
+					"y": 0,
+					"z": 0.5
+				},
+				"scale": 0.7
+			},
+			"*-baselard-*": {
+				"translation": {
+					"x": -0.05,
+					"y": 0.2,
+					"z": -0.06
+				},
+				"rotation": {
+					"x": -16,
+					"y": 12,
+					"z": 87
+				},
+				"origin": {
+					"x": 0.55,
+					"y": 0,
+					"z": 0.5
+				},
+				"scale": 0.7
+			},
+			"*": {
+				"translation": {
+					"x": -0.02,
+					"y": 0,
+					"z": 0.06
+				},
+				"rotation": {
+					"x": -90,
+					"y": 12,
+					"z": 80
+				},
+				"origin": {
+					"x": 0.55,
+					"y": 0,
+					"z": 0.5
+				},
+				"scale": 0.7
+			}
+		},
+		"file": "game:itemtypes/tool/knife.json",
+		"side": "Server"
+	}
+]

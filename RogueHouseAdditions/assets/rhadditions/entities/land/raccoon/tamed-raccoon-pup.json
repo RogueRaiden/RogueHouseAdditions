@@ -144,6 +144,7 @@
 				"onlyWhenDead": true
 			},
 			{ "code": "interpolateposition" },
+			{ "code": "harvestable" },
 			{
 				"code": "ropetieable",
 				"minGeneration": 2
@@ -311,6 +312,10 @@
 			{
 				"code": "floatupwhenstuck",
 				"onlyWhenDead": true
+			},
+			{
+				"code": "harvestable",
+				"drops": []
 			},
 			{ "code": "breathe" },
 			{

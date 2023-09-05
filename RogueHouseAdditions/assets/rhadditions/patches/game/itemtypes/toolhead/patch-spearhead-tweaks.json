@@ -18,7 +18,7 @@
             "*-copper": {
                 "meltingPoint": 1084,
                 "meltingDuration": 30,
-                "smeltedRatio": 1,
+                "smeltedRatio": 2,
                 "smeltedStack": {
                     "type": "item",
                     "code": "ingot-copper"
@@ -27,7 +27,7 @@
             "*-tinbronze": {
                 "meltingPoint": 950,
                 "meltingDuration": 30,
-                "smeltedRatio": 1,
+                "smeltedRatio": 2,
                 "smeltedStack": {
                     "type": "item",
                     "code": "ingot-tinbronze"
@@ -36,7 +36,7 @@
             "*-bismuthbronze": {
                 "meltingPoint": 850,
                 "meltingDuration": 30,
-                "smeltedRatio": 1,
+                "smeltedRatio": 2,
                 "smeltedStack": {
                     "type": "item",
                     "code": "ingot-bismuthbronze"
@@ -45,7 +45,7 @@
             "*-blackbronze": {
                 "meltingPoint": 1020,
                 "meltingDuration": 30,
-                "smeltedRatio": 1,
+                "smeltedRatio": 2,
                 "smeltedStack": {
                     "type": "item",
                     "code": "ingot-blackbronze"

@@ -19,7 +19,7 @@
 		"rhadditions": [ "*" ]
 	},
 	"attributes": {
-		"damage": 2,
+		"damage": 1.5,
 		"toolrackTransform": {
 			"translation": {
 				"x": -0.35,

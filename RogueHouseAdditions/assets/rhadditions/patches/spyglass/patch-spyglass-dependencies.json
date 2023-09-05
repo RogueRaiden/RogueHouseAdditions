@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": true,
+        "file": "rhadditions:recipes/grid/spyglass/spyglass.json",
+        "dependsOn": [
+            { "modid": "spyglass" }
+        ],
+        "side": "Server"
+    }
+]

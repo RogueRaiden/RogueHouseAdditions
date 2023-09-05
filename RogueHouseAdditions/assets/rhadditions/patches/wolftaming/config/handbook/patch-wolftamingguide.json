@@ -1,0 +1,26 @@
+[
+    {
+        "comment": "Replacing wolftaming guide with custom handbook entry",
+        "op": "replace",
+        "path": "/pageCode",
+        "value": "pettamingguide",
+        "file": "wolftaming:config/handbook/wolftamingguide.json",
+        "dependsOn": [ { "modid": "wolftaming" } ]
+    },
+    {
+        "comment": "Replacing wolftaming guide with custom handbook entry",
+        "op": "replace",
+        "path": "/title",
+        "value": "zz-rhguides:pettamingguide-title",
+        "file": "wolftaming:config/handbook/wolftamingguide.json",
+        "dependsOn": [ { "modid": "wolftaming" } ]
+    },
+    {
+        "comment": "Replacing wolftaming guide with custom handbook entry",
+        "op": "replace",
+        "path": "/text",
+        "value": "zz-rhguides:pettamingguide-text",
+        "file": "wolftaming:config/handbook/wolftamingguide.json",
+        "dependsOn": [ { "modid": "wolftaming" } ]
+    }
+]

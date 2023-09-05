@@ -1,0 +1,144 @@
+{
+    "code": "newspaper",
+    "class": "ItemBook",
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [ "roll" ]
+        }
+    ],
+    "shape": { "base": "rhadditions:item/lore/newspaper-{type}" },
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Quadrants",
+                "collisionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 1,
+                    "y2": 0.125,
+                    "z2": 1
+                }
+            }
+        }
+    ],
+    "attributes": {
+        "bookshelveable": true,
+        "editable": true,
+        "readable": true,
+        "maxPageCount": 16,
+        "canTranscribeOn": true,
+        "groundStorageTransform": {
+            "translation": {
+                "x": 0.23,
+                "y": -0.45,
+                "z": 0.27
+            },
+            "rotation": {
+                "x": 90,
+                "y": 0,
+                "z": -41
+            },
+            "scale": 0.8
+        },
+        "onshelfTransform": {
+            "translation": {
+                "x": -0.01,
+                "y": 0,
+                "z": -0.02
+            },
+            "rotation": {
+                "x": 0,
+                "y": -90,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.47,
+                "y": 0,
+                "z": 0.56
+            },
+            "scale": 0.66
+        }
+    },
+    "creativeinventory": {
+        "general": [ "*" ],
+        "items": [ "*" ],
+        "rhadditions": [ "*" ]
+    },
+    "maxstacksize": 32,
+    "materialDensity": 210,
+    "fpHandTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0.2,
+            "z": 0
+        },
+        "rotation": {
+            "x": 70,
+            "y": -88,
+            "z": 6
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.1,
+            "z": 0.5
+        },
+        "scale": 1.7
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.75,
+            "y": -0.08,
+            "z": -0.63
+        },
+        "rotation": {
+            "x": -56,
+            "y": -8,
+            "z": -8
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.1,
+            "z": 0.5
+        },
+        "scale": 0.8
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 1,
+            "y": -3,
+            "z": 2
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.01,
+            "z": 0.5
+        },
+        "scale": 4.03
+    },
+    "guiTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": -19,
+            "y": -59,
+            "z": 20
+        },
+        "origin": {
+            "x": 0.48,
+            "y": 0.05,
+            "z": 0.52
+        },
+        "scale": 2.4
+    }
+}

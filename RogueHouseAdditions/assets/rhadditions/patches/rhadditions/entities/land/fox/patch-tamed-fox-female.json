@@ -1,0 +1,51 @@
+[
+    {
+        "comment": "PetAI dependency",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:entities/land/fox/tamed-fox-female",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    },
+    {
+        "comment": "Wolftaming fetching collect client",
+        "op": "add",
+        "path": "/client/behaviors/3/acceptStacks/-",
+        "value": {
+            "type": "item",
+            "code": "wolftaming:dogtoy"
+        },
+        "file": "rhadditions:entities/land/fox/tamed-fox-female",
+        "dependsOn": [ { "modid": "wolftaming" } ],
+        "side": "Server"
+    },
+    {
+        "comment": "Wolftaming fetching collect server",
+        "op": "add",
+        "path": "/server/behaviors/2/acceptStacks/-",
+        "value": {
+            "type": "item",
+            "code": "wolftaming:dogtoy"
+        },
+        "file": "rhadditions:entities/land/fox/tamed-fox-female",
+        "dependsOn": [ { "modid": "wolftaming" } ],
+        "side": "Server"
+    },
+    {
+        "comment": "Wolftaming fetching ai task",
+        "op": "add",
+        "path": "/server/behaviors/13/aitasks/-",
+        "value": {
+            "code": "playfetch",
+            "priority": 2.2,
+            "priorityForCancel": 2.1,
+            "movespeed": 0.045,
+            "animationSpeed": 2.2,
+            "animation": "Run"
+        },
+        "file": "rhadditions:entities/land/fox/tamed-fox-female",
+        "dependsOn": [ { "modid": "wolftaming" } ],
+        "side": "Server"
+    }
+]

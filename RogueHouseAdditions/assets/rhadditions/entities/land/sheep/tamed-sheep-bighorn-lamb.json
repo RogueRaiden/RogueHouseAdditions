@@ -30,17 +30,27 @@
 					{
 						"commandName": "sit",
 						"commandType": "SIMPLE",
-						"minObedience": 0.2
+						"minObedience": 0.4
 					},
 					{
 						"commandName": "lay",
 						"commandType": "SIMPLE",
-						"minObedience": 0.4
+						"minObedience": 0.6
 					},
 					{
 						"commandName": "speak",
 						"commandType": "SIMPLE",
 						"minObedience": 0.2
+					},
+					{
+						"commandName": "followmaster",
+						"commandType": "COMPLEX",
+						"minObedience": 0.5
+					},
+					{
+						"commandName": "stay",
+						"commandType": "COMPLEX",
+						"minObedience": 0.7
 					}
 				]
 			},
@@ -86,6 +96,10 @@
 						"code": "flower-woad-free",
 						"progress": 0.2,
 						"cooldown": 2
+					},
+					{
+						"type": "item",
+						"code": "petai:petcookie-veggie-perfect"
 					}
 				]
 			},
@@ -142,6 +156,7 @@
 				"onlyWhenDead": true
 			},
 			{ "code": "interpolateposition" },
+			{ "code": "harvestable" },
 			{
 				"code": "ropetieable",
 				"minGeneration": 2
@@ -292,6 +307,10 @@
 					{
 						"type": "block",
 						"code": "flower-woad-free"
+					},
+					{
+						"type": "item",
+						"code": "petai:petcookie-veggie-perfect"
 					}
 				]
 			},
@@ -301,17 +320,27 @@
 					{
 						"commandName": "sit",
 						"commandType": "SIMPLE",
-						"minObedience": 0.2
+						"minObedience": 0.4
 					},
 					{
 						"commandName": "lay",
 						"commandType": "SIMPLE",
-						"minObedience": 0.4
+						"minObedience": 0.6
 					},
 					{
 						"commandName": "speak",
 						"commandType": "SIMPLE",
 						"minObedience": 0.2
+					},
+					{
+						"commandName": "followmaster",
+						"commandType": "COMPLEX",
+						"minObedience": 0.5
+					},
+					{
+						"commandName": "stay",
+						"commandType": "COMPLEX",
+						"minObedience": 0.7
 					}
 				]
 			},
@@ -333,6 +362,28 @@
 			{
 				"code": "floatupwhenstuck",
 				"onlyWhenDead": true
+			},
+			{
+				"code": "harvestable",
+				"duration": 4,
+				"drops": [
+					{
+						"type": "item",
+						"code": "game:redmeat-raw",
+						"quantity": {
+							"avg": 1.5,
+							"var": 0.5
+						}
+					},
+					{
+						"type": "item",
+						"code": "game:hide-raw-small",
+						"quantity": {
+							"avg": 1,
+							"var": 0.5
+						}
+					}
+				]
 			},
 			{ "code": "breathe" },
 			{
@@ -455,7 +506,8 @@
 							"flower-redtopgrass-free",
 							"flower-cowparsley-free",
 							"flower-westerngorse-free",
-							"flower-woad-free"
+							"flower-woad-free",
+							"petai:petcookie-veggie-perfect"
 						],
 						"useTime": 1.5,
 						"mincooldownHours": 1,

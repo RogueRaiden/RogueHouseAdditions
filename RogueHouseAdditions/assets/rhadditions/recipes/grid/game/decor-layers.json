@@ -1,0 +1,208 @@
+[
+    {
+        "ingredientPattern": "RCG",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true,
+                "toolDurabilityCost": 4
+            },
+            "R": {
+                "type": "item",
+                "code": "game:rot",
+                "quantity": 2
+            },
+            "G": {
+                "type": "item",
+                "code": "game:drygrass",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "shapeless": true,
+        "output": {
+            "type": "block",
+            "code": "game:attachingplant-mold"
+        }
+    },
+    {
+        "ingredientPattern": "C,V",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true,
+                "toolDurabilityCost": 4
+            },
+            "V": {
+                "type": "block",
+                "code": "game:wildvine-section-north"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "shapeless": true,
+        "output": {
+            "type": "block",
+            "code": "game:attachingplant-spottymoss"
+        }
+    },
+    {
+        "ingredientPattern": "C,V",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true,
+                "toolDurabilityCost": 4
+            },
+            "V": {
+                "type": "block",
+                "code": "game:wildvine-tropical-section-north"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "shapeless": true,
+        "output": {
+            "type": "block",
+            "code": "game:attachingplant-spottymoss"
+        }
+    },
+    {
+        "ingredientPattern": "VCV",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true,
+                "toolDurabilityCost": 4
+            },
+            "V": {
+                "type": "block",
+                "code": "game:wildvine-section-north"
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "output": {
+            "type": "block",
+            "code": "game:attachingplant-moss"
+        }
+    },
+    {
+        "ingredientPattern": "C,S",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true,
+                "toolDurabilityCost": 4
+            },
+            "S": {
+                "type": "block",
+                "code": "game:metal-scraps"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "shapeless": true,
+        "output": {
+            "type": "block",
+            "code": "game:oxidation-rust-dripping",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "C,S,S",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true,
+                "toolDurabilityCost": 4
+            },
+            "S": {
+                "type": "block",
+                "code": "game:metal-scraps"
+            }
+        },
+        "width": 1,
+        "height": 3,
+        "shapeless": true,
+        "output": {
+            "type": "block",
+            "code": "game:oxidation-rust-normal",
+            "quantity": 4
+        }
+    },
+
+    {
+        "ingredientPattern": "SCS,___,___",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true,
+                "toolDurabilityCost": 4
+            },
+            "S": {
+                "type": "block",
+                "code": "game:metal-scraps"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:oxidation-rust-3tall-top",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "___,SCS,___",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true,
+                "toolDurabilityCost": 4
+            },
+            "S": {
+                "type": "block",
+                "code": "game:metal-scraps"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:oxidation-rust-3tall-mid",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "___,___,SCS",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true,
+                "toolDurabilityCost": 4
+            },
+            "S": {
+                "type": "block",
+                "code": "game:metal-scraps"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:oxidation-rust-3tall-bot",
+            "quantity": 4
+        }
+    }
+]

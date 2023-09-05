@@ -1,0 +1,10 @@
+[
+	{
+		"comment": "Allowing to store on bookshelves",
+		"op": "add",
+		"path": "/attributes/bookshelveable",
+		"value": true,
+		"file": "game:itemtypes/resource/gem-rough.json",
+		"side": "Server"
+	}
+]

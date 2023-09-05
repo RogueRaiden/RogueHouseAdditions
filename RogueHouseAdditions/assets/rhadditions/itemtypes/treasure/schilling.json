@@ -1,0 +1,118 @@
+{
+    "code": "schilling",
+    "attributes": {
+        "displaycaseable": true,
+        "shelvable": true,
+        "onDisplayTransform": {
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 2
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            },
+            "scale": 0.85
+        },
+        "onshelfTransform": {
+            "translation": {
+                "x": 0,
+                "y": -0.06,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": -21,
+                "z": 0
+            },
+            "scale": 0.89
+        }
+    },
+    "shape": { "base": "rhadditions:item/treasure/schilling" },
+    "creativeinventory": {
+        "general": [ "*" ],
+        "items": [ "*" ],
+        "rhadditions": [ "*" ]
+    },
+    "maxstacksize": 1000,
+    "materialDensity": 4000,
+    "guiTransform": {
+        "rotate": true,
+        "translation": {
+            "x": 2.5,
+            "y": 1.5,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 90
+        },
+        "origin": {
+            "x": 0.51,
+            "y": 0.0425,
+            "z": 0.5
+        },
+        "scaleXyz": {
+            "x": -2.8,
+            "y": 2.8,
+            "z": 2.8
+        }
+    },
+    "fpHandTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0.2,
+            "z": 0
+        },
+        "rotation": {
+            "x": 15,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+        },
+        "scale": 1.8
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -1.35,
+            "y": -0.24,
+            "z": -1.13
+        },
+        "rotation": {
+            "x": 21,
+            "y": -31,
+            "z": -47
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+        },
+        "scale": 0.47
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.39,
+            "y": 0,
+            "z": 0.47
+        },
+        "scale": 2.5
+    }
+}

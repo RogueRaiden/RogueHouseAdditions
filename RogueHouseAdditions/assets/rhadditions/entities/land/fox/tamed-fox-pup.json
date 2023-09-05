@@ -41,17 +41,27 @@
 					{
 						"commandName": "sit",
 						"commandType": "SIMPLE",
-						"minObedience": 0.2
+						"minObedience": 0.4
 					},
 					{
 						"commandName": "lay",
 						"commandType": "SIMPLE",
-						"minObedience": 0.4
+						"minObedience": 0.6
 					},
 					{
 						"commandName": "speak",
 						"commandType": "SIMPLE",
-						"minObedience": 0.6
+						"minObedience": 0.2
+					},
+					{
+						"commandName": "followmaster",
+						"commandType": "COMPLEX",
+						"minObedience": 0.5
+					},
+					{
+						"commandName": "stay",
+						"commandType": "COMPLEX",
+						"minObedience": 0.7
 					}
 				]
 			},
@@ -175,6 +185,7 @@
 				"onlyWhenDead": true
 			},
 			{ "code": "interpolateposition" },
+			{ "code": "harvestable" },
 			{
 				"code": "ropetieable",
 				"minGeneration": 2
@@ -343,17 +354,27 @@
 					{
 						"commandName": "sit",
 						"commandType": "SIMPLE",
-						"minObedience": 0.2
+						"minObedience": 0.4
 					},
 					{
 						"commandName": "lay",
 						"commandType": "SIMPLE",
-						"minObedience": 0.4
+						"minObedience": 0.6
 					},
 					{
 						"commandName": "speak",
 						"commandType": "SIMPLE",
-						"minObedience": 0.6
+						"minObedience": 0.2
+					},
+					{
+						"commandName": "followmaster",
+						"commandType": "COMPLEX",
+						"minObedience": 0.5
+					},
+					{
+						"commandName": "stay",
+						"commandType": "COMPLEX",
+						"minObedience": 0.7
 					}
 				]
 			},
@@ -375,6 +396,10 @@
 			{
 				"code": "floatupwhenstuck",
 				"onlyWhenDead": true
+			},
+			{
+				"code": "harvestable",
+				"drops": []
 			},
 			{ "code": "breathe" },
 			{

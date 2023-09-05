@@ -1,0 +1,11 @@
+[
+    {
+        "comment": "PetAI dependency",
+        "op": "replace",
+        "path": "/enabled",
+        "value": true,
+        "file": "rhadditions:entities/land/sheep/tamed-sheep-bighorn-male",
+        "dependsOn": [ { "modid": "petai" } ],
+        "side": "Server"
+    }
+]

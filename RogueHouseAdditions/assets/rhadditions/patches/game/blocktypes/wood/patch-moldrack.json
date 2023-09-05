@@ -1,0 +1,13 @@
+[
+	{
+		"comment": "Moldrack adjustments for woodtypes",
+		"op": "add",
+		"path": "/textures",
+		"value": {
+			"wood": { "base": "game:block/wood/debarked/oak" },
+			"surface": { "base": "game:block/wood/debarked/oak" }
+		},
+		"file": "game:blocktypes/wood/moldrack.json",
+		"side": "Server"
+	}
+]

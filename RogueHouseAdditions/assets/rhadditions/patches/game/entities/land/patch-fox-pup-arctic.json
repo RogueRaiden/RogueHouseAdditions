@@ -271,5 +271,31 @@
         "file": "game:entities/land/fox-pup-arctic.json",
         "dependsOn": [ { "modid": "petai" } ],
         "side": "Server"
+    },
+    {
+        "comment": "XSkills cage catchable client",
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "XSkillsAnimal",
+            "xp": 1.0,
+            "catchable": "true"
+        },
+        "file": "game:entities/land/fox-pup-arctic.json",
+        "dependsOn": [ { "modid": "xskills" } ],
+        "side": "Server"
+    },
+    {
+        "comment": "XSkills cage catchable server",
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "XSkillsAnimal",
+            "xp": 1.0,
+            "catchable": "true"
+        },
+        "file": "game:entities/land/fox-pup-arctic.json",
+        "dependsOn": [ { "modid": "xskills" } ],
+        "side": "Server"
     }
 ]

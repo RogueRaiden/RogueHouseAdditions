@@ -7,7 +7,7 @@
     "variantgroups": [
         {
             "code": "type",
-            "states": [ "short", "long", "thrusting", "curved" ]
+            "states": [ "short", "long", "arming", "claymore", "gladius", "sabre" ]
         },
         {
             "code": "metal",
@@ -15,10 +15,12 @@
         }
     ],
     "skipVariants": [
-        "blade-long-forlorn"
+        "blade-long-forlorn",
+        "blade-short-iron"
     ],
     "allowedVariants": [
-        "blade-long-*"
+        "blade-long-*",
+        "blade-*-iron"
     ],
     "attributes": {
         "handbook": {
@@ -109,7 +111,11 @@
         }
     ],
     "shapeByType": {
-        "*-long-*": { "base": "rhadditions:item/tool/blade/long" }
+        "*-long-*": { "base": "rhadditions:item/tool/blade/long" },
+        "*-arming-*": { "base": "game:item/tool/blade/arming" },
+        "*-claymore-*": { "base": "game:item/tool/blade/claymore" },
+        "*-gladius-*": { "base": "game:item/tool/blade/gladius" },
+        "*-sabre-*": { "base": "game:item/tool/blade/sabre" }
     },
     "heldTpHitAnimationByType": {
         "*-forlorn": "spearhit",
@@ -118,9 +124,14 @@
     },
     "texturesByType": {
         "*-forlorn": {},
-        "blade-long-*": { "metal": { "base": "game:block/metal/ingot/{metal}" } }
+        "blade-long-*": { "metal": { "base": "game:block/metal/ingot/{metal}" } },
+        "*": {}
     },
-    "attackRange": 2.5,
+    "attackRangebytype": {
+        "*-short-*": 2,
+        "*-claymore-*": 3.5,
+        "*": 2.5
+    },
     "tooltierbytype": {
         "*-copper": 2,
         "*-gold": 5,
@@ -131,7 +142,11 @@
         "*-iron": 4,
         "*-meteoriciron": 4,
         "*-steel": 5,
-        "*-forlorn": 4
+
+        "blade-arming-iron": 3,
+        "blade-claymore-iron": 3,
+        "blade-gladius-iron": 3,
+        "blade-sabre-iron": 3
     },
     "miningspeedbytype": {
         "blade-long-copper": {
@@ -169,6 +184,10 @@
         "blade-long-steel": {
             "wood": 3.5,
             "leaves": 4
+        },
+        "*": {
+            "wood": 3,
+            "leaves": 3
         }
     },
     "attackpowerbytype": {
@@ -180,7 +199,12 @@
         "blade-long-meteoriciron": 5.25,
         "blade-long-steel": 5.25,
         "blade-long-gold": 5.25,
-        "blade-long-silver": 5.25
+        "blade-long-silver": 5.25,
+
+        "blade-arming-iron": 5,
+        "blade-claymore-iron": 5,
+        "blade-gladius-iron": 5,
+        "blade-sabre-iron": 5
     },
     "durabilitybytype": {
         "blade-long-copper": 250,
@@ -191,7 +215,12 @@
         "blade-long-meteoriciron": 1100,
         "blade-long-steel": 2125,
         "blade-long-gold": 2125,
-        "blade-long-silver": 2125
+        "blade-long-silver": 2125,
+
+        "blade-arming-iron": 600,
+        "blade-claymore-iron": 600,
+        "blade-gladius-iron": 600,
+        "blade-sabre-iron": 600
     },
     "creativeinventoryByType": {
         "*": {

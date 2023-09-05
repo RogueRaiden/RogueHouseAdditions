@@ -45,6 +45,12 @@
                         "code": "flower-woad-free",
                         "progress": 0.2,
                         "cooldown": 2
+                    },
+                    {
+                        "code": "petcookie-veggie-perfect",
+                        "domain": "petai",
+                        "progress": 0.6,
+                        "cooldown": 3
                     }
                 ]
             },
@@ -82,6 +88,10 @@
                     {
                         "type": "block",
                         "code": "flower-woad-free"
+                    },
+                    {
+                        "type": "item",
+                        "code": "petai:petcookie-veggie-perfect"
                     }
                 ]
             }
@@ -137,6 +147,12 @@
                         "code": "flower-woad-free",
                         "progress": 0.2,
                         "cooldown": 2
+                    },
+                    {
+                        "code": "petcookie-veggie-perfect",
+                        "domain": "petai",
+                        "progress": 0.6,
+                        "cooldown": 3
                     }
                 ]
             },
@@ -174,6 +190,10 @@
                     {
                         "type": "block",
                         "code": "flower-woad-free"
+                    },
+                    {
+                        "type": "item",
+                        "code": "petai:petcookie-veggie-perfect"
                     }
                 ]
             }
@@ -202,7 +222,8 @@
                 "flower-redtopgrass-free",
                 "flower-cowparsley-free",
                 "flower-westerngorse-free",
-                "flower-woad-free"
+                "flower-woad-free",
+                "petai:petcookie-veggie-perfect"
             ],
             "useTime": 1.5,
             "mincooldownHours": 1,

@@ -1,0 +1,57 @@
+[
+	{
+		"op": "replace",
+		"path": "/server/behaviors/6",
+		"value": {
+			"code": "deaddecay",
+			"hoursToDecay": 1440,
+			"decayedBlock": "carcass-small"
+		},
+		"file": "cats:entities/land/cat-kitten.json",
+		"dependsOn": [ { "modid": "cats" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"path": "/server/behaviors/12/aitasks/1/entityCodes",
+		"value": [
+			"wolf-*",
+			"fox-*"
+		],
+		"file": "cats:entities/land/cat-kitten.json",
+		"dependsOn": [ { "modid": "cats" } ],
+		"side": "Server"
+	},
+	{
+		"comment": "XSkills cage catchable client",
+		"op": "add",
+		"path": "/client/behaviors/-",
+		"value": {
+			"code": "XSkillsAnimal",
+			"xp": 0,
+			"catchable": "true"
+		},
+		"file": "cats:entities/land/cat-kitten.json",
+		"dependsOn": [
+			{ "modid": "xskills" },
+			{ "modid": "cats" }
+		],
+		"side": "Server"
+	},
+	{
+		"comment": "XSkills cage catchable server",
+		"op": "add",
+		"path": "/server/behaviors/-",
+		"value": {
+			"code": "XSkillsAnimal",
+			"xp": 0,
+			"catchable": "true"
+		},
+		"file": "cats:entities/land/cat-kitten.json",
+		"dependsOn": [
+			{ "modid": "xskills" },
+			{ "modid": "cats" }
+		],
+		"side": "Server"
+	}
+]
