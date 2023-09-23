@@ -1,0 +1,48 @@
+[
+    {
+        "comment": "Replace Irongear shape",
+        "op": "replace",
+        "path": "/shape",
+        "value": { "base": "game:block/machine/jonas/steamengine/gear12" },
+        "file": "decoclock:itemtypes/irongears",
+        "dependsOn": [ { "modid": "decoclock" } ],
+        "side": "Server"
+    },
+    {
+        "comment": "Replace Irongear texture",
+        "op": "replace",
+        "path": "/textures",
+        "value": {
+            "rusty-iron": { "base": "game:item/resource/plate/iron" }
+        },
+        "file": "decoclock:itemtypes/irongears",
+        "dependsOn": [ { "modid": "decoclock" } ],
+        "side": "Server"
+    },
+    {
+        "comment": "Replace transform",
+        "op": "replace",
+        "path": "/guiTransform",
+        "value": {
+            "translation": {
+                "x": 3.5,
+                "y": 7,
+                "z": 0
+            },
+            "rotation": {
+                "x": -19,
+                "y": 0,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.51,
+                "y": 0.37,
+                "z": 0
+            },
+            "scale": 2.05
+        },
+        "file": "decoclock:itemtypes/irongears",
+        "dependsOn": [ { "modid": "decoclock" } ],
+        "side": "Server"
+    }
+]

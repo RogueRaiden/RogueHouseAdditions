@@ -1,0 +1,38 @@
+[
+    {
+        "comment": "Craft the plain block",
+        "ingredientPattern": "_C_,C_C,_C_",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:leather-plain"
+            }
+
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:leather"
+        }
+    },
+    {
+        "comment": "Turn the plain block into leather",
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {
+                "type": "block",
+                "code": "game:leather"
+            }
+
+        },
+        "width": 1,
+        "height": 1,
+        "shapeless": true,
+        "output": {
+            "type": "item",
+            "code": "game:leather-plain",
+            "quantity": 4
+        }
+    }
+]

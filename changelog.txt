@@ -32,7 +32,7 @@ To Do:
 	-chisel, knife, maybe jug, scrolls, newspaper, 
 
 -Uncraftables recipes:
-	-Leather block, dirt and gravel decor, banners, some normal and rivited metal blocks, 
+	-dirt and gravel decor, banners, some normal and rivited metal blocks, 
 
 -Tameables:
 	-hyenas, hares, chickens, pigs, maybe gorillas, maybe bears, pantherinae, capreolinae, caninae, 
@@ -69,18 +69,31 @@ To Do:
 -Change the Drifter Skin boots and gloves to be attachable models rather than the indivual clothing textures they are. large impact on item Texture Atlas.
 -Adjust forge model so that i can have it use the existing textures and dont need custom, saves on block texture atlas.
 -Seems Wildcraft crops arent necessarily sustainable. Gotta check that.
--Ryuu's boneshild model, implement it.
--Ryuu made a catfish model. Work on that.
 -Primitive Survival Firework recipe check - guess it uses linen and would make more sense with parchment.
 -Wildcraft plants in flower pots and planters.
 -Adjust corpse hitbox to be taller than snow. maybe even also the model. unsure.
 -Wouldn't it be funny if there was a special mob that only spawned out of stuff like the laying around human skeletons in the caves, like ghosts or skeletons. maybe ghost animals sometimes out of carcasses.
 maybe even something special for player corpses.
 *-Skeps only drop cattails when broken. Skeps can be crafted from things other than cattails. its like a conversion recipe. gotta fix.
-*-Remove DecoClock's iron gear recipe and make it forgeable. maybe even a new shape so that it doesnt just look like a rusty gear.
 *-Check More Animals creature sounds, adjust volume, mono/stereo and sound distance
 *-Check Fauna of the Stone Age creature sounds, adjust volume, mono/stereo and sound distance
 *-Possibly add Dyln's cat sounds for the Cats mod cats
+*-Fix Prime Locust texture
+*-Allow Prime Locust corpse to remain
+-Create "prime locust head" or similar to replace Primitive Survival's Living Dead hand, so that i can remove it :)
+-More grub based foods lmao
+-Some more specialized backpacks, like one for Forestry (sticks, logs, firewood, tree seeds), one for Foraging (mushrooms, ),
+-Storage recipe for hides into hide bundles. either basic block or special model, unsure
+-idea: multi step basic crafts for drifter skins with expensive items. such as soaking hides in barrel of "temporal slurry" from temp gear dust and water or something, then cooking or drying
+-Cut some plants into dry grass... or a plant fiber for rope crafting maybe
+-Panning drops overhaul... adding sea shells as one possibility
+-
+
+
+Config todo:
+-Primitive Survival disable gold relic drop
+-CarryOn enable double chest pickupable
+-Meteoric Expansion make meteors land more often
 
 
 crash https://pastebin.com/HcRU8ynt
@@ -90,6 +103,18 @@ crash https://pastebin.com/HcRU8ynt
 
 
 
+
+v3.1.1
+-Features:
+	-Cattails and Papyrus rarely drop roots when harvested.
+	-Craftable Leather block.
+
+-Tweaks:
+	-Updated Caninae's XSkills patches.
+	-Altered DecoClock's Irongear appearance and recipe.
+	-Doubled Snowball stacksize.
+	-Animalcages adjustments.
+	-Linen bundles craftable back into cloth.
 
 v3.1.0
 -Feature: Many small animals made catchable in XSkills cages.

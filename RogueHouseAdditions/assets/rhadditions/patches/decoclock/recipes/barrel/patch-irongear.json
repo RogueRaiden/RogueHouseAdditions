@@ -1,0 +1,19 @@
+[
+    {
+        "comment": "Remove Irongear recipes",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false,
+        "file": "decoclock:recipes/barrel/irongear",
+        "dependsOn": [ { "modid": "decoclock" } ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false,
+        "file": "decoclock:recipes/barrel/irongear",
+        "dependsOn": [ { "modid": "decoclock" } ],
+        "side": "Server"
+    }
+]

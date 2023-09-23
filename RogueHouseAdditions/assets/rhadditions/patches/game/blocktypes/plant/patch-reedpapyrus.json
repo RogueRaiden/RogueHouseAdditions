@@ -1,0 +1,28 @@
+[
+    {
+        "op": "add",
+        "path": "/dropsByType/*coopersreed-*-normal-*/-",
+        "value": {
+            "type": "item",
+            "code": "game:cattailroot",
+            "quantity": {
+                "avg": 0.01
+            }
+        },
+        "file": "game:blocktypes/plant/reedpapyrus",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/dropsByType/*papyrus-*-normal-*/-",
+        "value": {
+            "type": "item",
+            "code": "game:papyrusroot",
+            "quantity": {
+                "avg": 0.01
+            }
+        },
+        "file": "game:blocktypes/plant/reedpapyrus",
+        "side": "Server"
+    }
+]

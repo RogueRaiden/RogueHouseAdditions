@@ -1,0 +1,31 @@
+[
+    {
+        "ingredientPattern": "H,C,P",
+        "enabled": false,
+        "ingredients": {
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true,
+                "toolDurabilityCost": 30
+            },
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "isTool": true,
+                "toolDurabilityCost": 30
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-iron"
+            }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "decoclock:gear-iron",
+            "quantity": 4
+        }
+    }
+]

@@ -69,6 +69,15 @@
     "game:traitname-ability-catcher": "Catcher",
     "game:traitname-ability-blackguard": "Blackguard",
 
+    "animalcages:block-smallanimalcage-opened": "Small pet cage (Empty)",
+    "animalcages:blockdesc-smallanimalcage-opened": "<font color=\"#99c9f9\"><i>Poke a small pet with this cage to collect it.</i></font>",
+    "animalcages:block-smallanimalcage-closed": "Small pet cage (Full)",
+    "animalcages:blockdesc-smallanimalcage-closed": "<font color=\"#99c9f9\"><i>Contains a collected pet. Place then break the cage to release it.</i></font>",
+    "animalcages:block-mediumanimalcage-*-opened-*": "Large pet cage (Empty)",
+    "animalcages:blockdesc-mediumanimalcage-*-opened-*": "<font color=\"#99c9f9\"><i>Poke a large pet with this cage to collect it.</i></font>",
+    "animalcages:block-mediumanimalcage-*-closed-*": "Large pet cage (Full)",
+    "animalcages:blockdesc-mediumanimalcage-*-closed-*": "<font color=\"#99c9f9\"><i>Contains a collected pet. Place then break the cage to release it.</i></font>",
+
 
 
     "_comment3": "TRAITS **********************",

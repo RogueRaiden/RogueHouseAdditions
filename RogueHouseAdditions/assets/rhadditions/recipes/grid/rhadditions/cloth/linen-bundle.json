@@ -1,18 +1,42 @@
-{
-    "ingredientPattern": "_C_,C_C,_C_",
-    "ingredients": {
-        "C": {
-            "type": "item",
-            "code": "game:cloth-*",
-            "allowedVariants": [ "plain", "black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow" ],
-            "name": "color"
-        }
+[
+    {
+        "comment": "Craft the block",
+        "ingredientPattern": "_C_,C_C,_C_",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:cloth-*",
+                "allowedVariants": [ "plain", "black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow" ],
+                "name": "color"
+            }
 
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "rhadditions:linen-bundle-{color}"
+        }
     },
-    "width": 3,
-    "height": 3,
-    "output": {
-        "type": "block",
-        "code": "rhadditions:linen-bundle-{color}"
+    {
+        "comment": "Turn the block into cloth",
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {
+                "type": "block",
+                "code": "rhadditions:linen-bundle-*",
+                "allowedVariants": [ "plain", "black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow" ],
+                "name": "color"
+            }
+
+        },
+        "width": 1,
+        "height": 1,
+        "shapeless": true,
+        "output": {
+            "type": "item",
+            "code": "game:cloth-{color}",
+            "quantity": 4
+        }
     }
-}
+]
