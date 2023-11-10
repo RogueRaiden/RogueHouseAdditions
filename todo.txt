@@ -1,0 +1,107 @@
+To Do:
+-QUEST: Local quest to collect all Tuning Cylinders from each set. Sets being Original Archive, Survival, Creative. Reward could be newer or custom Cylinders.
+-Stray cat NPCs. Named, subdues drifters, wanders around the town.
+-Named but questless NPCs to give some more life to the town.
+
+-Bankers for the Bank
+-NPC merchants buying supplies for the town
+
+
+-Clockmaker exclusive recipies:
+	-nightvision helmet, death point teleporter, home point teleporter, jonus parts for previous stuff, 
+
+-Blacksmith exclusive recipies:
+	-restored ruined weapons,  
+
+-Transforms:
+	-Gorilla GUI, restored weapons GUI, Witch/Wizard hats all, 
+
+-Bookshelf: (will be some clipping in order to get cool stuff in. it'll be on the user to make it look right)
+	-human skull item, spyglass, seashells, jewlery, 
+
+-Ground Storage:
+	-Stone Quarry, spyglass, schilling, 
+
+-Display Case:  (will be some clipping in order to get cool stuff in. it'll be on the user to make it look right)
+	-
+
+-Toolrack:
+	-
+
+-Clay casting molds:
+	-Crude swords, chutes, 
+
+-ACA Bottlerack:
+	-chisel, knife, maybe jug, scrolls, newspaper, 
+
+-Uncraftables recipes:
+	-dirt and gravel decor, banners, some normal and rivited metal blocks, 
+
+-Tameables:
+	-hyenas, hares, chickens, pigs, maybe gorillas, maybe bears, pantherinae, capreolinae, caninae, 
+
+-Map waypoint icons:
+	-Moneybag, 
+
+
+
+
+-Think about xskills "finishing touch" skill exploiting. if i can figure out modding skills, i could just change it.
+-Check to see what is preventing vessels in fireclay
+*-Frame pack - blacksmith exclusive frame, tailor exclusive pack. combine together
+-Fix Prime Locust texture and make sure it uses existing vanilla sawblade textures.
+-Rework the Pet taming guide.
+-Adjust Tuning Cylinder drops to not all be on the bell. a drops overhaul essentially. some in the loot item, some on the bell, some at traders.
+-Create second bell and use one of them for the Archive spawns and use another for normal cave spawns. to prevent loot cheese.
+-Scrap metal armor
+-Possible further scrap metal working
+-Temporally infused scrap... scrap and temp gears. high damage?
+-Redo gorilla spawning. redo aitasks to make Silverbacks more aggressive. Babies follow mothers. Gorillas follow Silverbacks. Silverbacks being single protector of herd.
+*-Adjust Meteoric Expansion config so that meteors land more often
+*-Add the xskills configuration for forestry, buff/debuff pass, and somehow list them in the handbook or character selector
+-Extra grinding recipes. for example, all bone clutter grindable like normal bones
+-Morwen wants Easter Eggs. Idea should utilize the scrap weapon code nicely.
+-Add cauldron recipes for making Pitch in large batches (request from Bwserknight)
+*-Need a guide showing all of the classes with buffs and debuffs for skills
+*-Need a way to get leaf blocks
+*-Make Chromium meltable to make ingots
+*-Check for vanilla wolf and hare breeding
+*-Gotta come up with something for that "crazy animal" thing Cathhy is always getting
+-Hardtack dough for bark flour appears to not be craftable (would be an AncientTools + Expanded Foods compatibility issue)
+-Change the Drifter Skin boots and gloves to be attachable models rather than the indivual clothing textures they are. large impact on item Texture Atlas.
+-Adjust forge model so that i can have it use the existing textures and dont need custom, saves on block texture atlas.
+-Seems Wildcraft crops arent necessarily sustainable. Gotta check that.
+-Primitive Survival Firework recipe check - guess it uses linen and would make more sense with parchment.
+-Wildcraft plants in flower pots and planters.
+-Adjust corpse hitbox to be taller than snow. maybe even also the model. unsure.
+-Wouldn't it be funny if there was a special mob that only spawned out of stuff like the laying around human skeletons in the caves, like ghosts or skeletons. maybe ghost animals sometimes out of carcasses.
+maybe even something special for player corpses.
+*-Skeps only drop cattails when broken. Skeps can be crafted from things other than cattails. its like a conversion recipe. gotta fix.
+*-Check More Animals creature sounds, adjust volume, mono/stereo and sound distance
+*-Check Fauna of the Stone Age creature sounds, adjust volume, mono/stereo and sound distance
+*-Possibly add Dyln's cat sounds for the Cats mod cats
+*-Fix Prime Locust texture
+*-Allow Prime Locust corpse to remain
+-Create "prime locust head" or similar to replace Primitive Survival's Living Dead hand, so that i can remove it :)
+-More grub based foods lmao
+-Some more specialized backpacks, like one for Forestry (sticks, logs, firewood, tree seeds), one for Foraging (mushrooms, ),
+-Storage recipe for hides into hide bundles. either basic block or special model, unsure
+-idea: multi step basic crafts for drifter skins with expensive items. such as soaking hides in barrel of "temporal slurry" from temp gear dust and water or something, then cooking or drying
+	-drifter corpse backpacks, with attached heads
+	-drifter skin leather block
+	-paper craft somehow
+	-
+-Cut some plants into dry grass... or a plant fiber for rope crafting maybe
+-Panning drops overhaul... adding sea shells as one possibility
+
+
+Config todo:
+
+
+crash https://pastebin.com/HcRU8ynt
+	put too many planters in a barrel i guess
+
+
+
+
+

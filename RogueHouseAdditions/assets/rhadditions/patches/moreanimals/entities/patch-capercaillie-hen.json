@@ -30,5 +30,34 @@
 			{ "modid": "moreanimals" }
 		],
 		"side": "Server"
+	},
+
+	{
+		"comment": "Growth adjustments",
+		"op": "replace",
+		"path": "/server/behaviors/10/aitasks/2",
+		"value": {
+			"code": "seekblockandlay",
+			"priority": 1.36,
+			"layTime": 5,
+			"chickCode": "moreanimals:capercaillie-chick",
+			"sitDays": 0.9,
+			"incubationDays": 5,
+			"movespeed": 0.006,
+			"animation": "Walk",
+			"mincooldownHours": 1,
+			"maxcooldownHours": 2,
+			"sitAnimation": "Sit",
+			"requiresNearbyEntityCode": "moreanimals:capercaillie-cock",
+			"requiresNearbyEntityRange": 12,
+			"growthCapEntityCodes": [ "moreanimals:capercaillie-chick", "moreanimals:capercaillie-hen", "moreanimals:capercaillie-cock" ],
+			"failBlockCode": "moreanimals:moreanimals:egg-capercaillie-1",
+			"sound": "moreanimals:capercaillie/capercailliehen1"
+		},
+		"file": "moreanimals:entities/capercaillie-hen.json",
+		"dependsOn": [
+			{ "modid": "moreanimals" }
+		],
+		"side": "Server"
 	}
 ]

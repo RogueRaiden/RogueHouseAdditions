@@ -65,8 +65,8 @@
 		"killedByInfoText": "deadcreature-townguard",
 		"tradeProps": {
 			"money": {
-				"avg": 120,
-				"var": 13
+				"avg": 234,
+				"var": 27
 			},
 			"selling": {
 				"maxItems": 16,
@@ -234,18 +234,6 @@
 				"maxItems": 12,
 				"list": [
 					{
-						"code": "rhadditions:schilling",
-						"type": "item",
-						"stacksize": 12,
-						"stock": {
-							"avg": 261,
-							"var": 22
-						},
-						"price": {
-							"avg": 1
-						}
-					},
-					{
 						"code": "game:firewood",
 						"type": "item",
 						"stacksize": 32,
@@ -290,7 +278,7 @@
 							"var": 4
 						},
 						"price": {
-							"avg": 2
+							"avg": 1
 						}
 					},
 					{
@@ -302,7 +290,7 @@
 							"var": 4
 						},
 						"price": {
-							"avg": 3
+							"avg": 2
 						}
 					},
 					{
@@ -314,7 +302,7 @@
 							"var": 3
 						},
 						"price": {
-							"avg": 4
+							"avg": 3
 						}
 					},
 					{
@@ -439,11 +427,11 @@
 						"movespeed": 0.01,
 						"animation": "Walk",
 						"wanderChance": 0.005,
-						"maxDistanceToSpawn": 8,
+						"maxDistanceToSpawn": 6,
 						"wanderRangeMin": 2,
-						"wanderRangeMax": 6,
+						"wanderRangeMax": 4,
 						"teleportWhenOutOfRange": true,
-						"teleportInGameHours": 3
+						"teleportInGameHours": 1
 					},
 					{
 						"code": "lookaround",

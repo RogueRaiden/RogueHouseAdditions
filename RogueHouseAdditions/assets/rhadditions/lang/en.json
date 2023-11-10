@@ -635,7 +635,10 @@
     "block-toolmold-raw-flatbar": "Raw Flat Bar Mold",
 
     "block-toolmold-burned-flatbar": "Flat Bar Mold",
-    "blockdesc-toolmold-burned-flatbar": "Casts 3 Flat Bars.",
+
+    "block-toolmold-raw-ingot4": "Raw Ingot x4 Mold",
+
+    "block-toolmold-burned-ingot4": "Ingot x4 Mold",
 
 
 
@@ -705,6 +708,11 @@
     "item-dead-creature-npc-thecaretaker": "The Caretaker's Corpse",
     "game:tradingwindow-npc-thecaretaker": "The Caretaker",
     "game:prefixandcreature-thecaretaker": "The Caretaker",
+
+    "item-creature-npc-banker": "Banker",
+    "item-dead-creature-npc-banker": "Banker's Corpse",
+    "game:tradingwindow-npc-banker": "Banker",
+    "game:prefixandcreature-banker": "Banker",
 
     "item-creature-npc-guard": "Guard",
     "item-dead-creature-npc-guard": "Guard's Corpse",

@@ -1,5 +1,5 @@
 {
-	"code": "npc-guard",
+	"code": "npc-banker",
 	"class": "EntityTrader",
 	"canClimb": true,
 	"hitboxSize": {
@@ -12,17 +12,8 @@
 	},
 	"client": {
 		"renderer": "Shape",
-		"shape": { "base": "game:entity/humanoid/trader" },
-		"texture": {
-			"base": "game:entity/humanoid/trader",
-			"alternates": [
-				{ "base": "game:entity/humanoid/traderclothes/set1" },
-				{ "base": "game:entity/humanoid/traderclothes/set2" },
-				{ "base": "game:entity/humanoid/traderclothes/set3" },
-				{ "base": "game:entity/humanoid/traderclothes/set4" },
-				{ "base": "game:entity/humanoid/traderclothes/set5" }
-			]
-		},
+		"shape": { "base": "rhadditions:entity/humanoid/npc/npc-base" },
+		"texture": { "base": "rhadditions:entity/humanoid/npc/npc-base" },
 		"behaviors": [
 			{
 				"code": "nametag",
@@ -33,7 +24,11 @@
 				"code": "controlledphysics",
 				"stepHeight": 1.01
 			},
-			{ "code": "interpolateposition" }
+			{ "code": "interpolateposition" },
+			{
+				"code": "conversable",
+				"dialogue": "config/dialogue/banker"
+			}
 		],
 		"animations": [
 			{
@@ -70,41 +65,39 @@
 		"killedByInfoText": "deadcreature-townguard",
 		"tradeProps": {
 			"money": {
-				"avg": 29,
-				"var": 5
+				"avg": 1876,
+				"var": 147
 			},
 			"selling": {
-				"maxItems": 6,
+				"maxItems": 16,
 				"list": [
 					{
-						"code": "game:legume-peanut",
+						"code": "rhadditions:schilling",
 						"type": "item",
-						"stacksize": 4,
+						"stacksize": 12,
 						"stock": {
-							"avg": 6.51,
-							"var": 2
+							"avg": 461,
+							"var": 32
 						},
 						"price": {
-							"avg": 4.49,
-							"var": 1
+							"avg": 1
 						}
 					}
 				]
 			},
 			"buying": {
-				"maxItems": 6,
+				"maxItems": 16,
 				"list": [
 					{
-						"code": "game:legume-peanut",
+						"code": "rhadditions:schilling",
 						"type": "item",
-						"stacksize": 32,
+						"stacksize": 12,
 						"stock": {
-							"avg": 3.51,
-							"var": 2
+							"avg": 461,
+							"var": 32
 						},
 						"price": {
-							"avg": 2.51,
-							"var": 1
+							"avg": 1
 						}
 					}
 				]
@@ -121,8 +114,8 @@
 		"behaviors": [
 			{
 				"code": "nametag",
-				"showtagonlywhentargeted": false,
-				"selectFromRandomName": [ "Guard" ]
+				"showtagonlywhentargeted": true,
+				"selectFromRandomName": [ "Banker" ]
 			},
 			{ "code": "repulseagents" },
 			{
@@ -131,13 +124,8 @@
 			},
 			{
 				"code": "reviveondeath",
-				"minHours": 12,
-				"maxHours": 26
-			},
-			{
-				"code": "health",
-				"currenthealth": 1000,
-				"maxhealth": 1000
+				"minHours": 1,
+				"maxHours": 2
 			},
 			{
 				"code": "emotionstates",
@@ -148,7 +136,7 @@
 						"chance": 0.2,
 						"slot": 0,
 						"priority": 2,
-						"accumType": "noaccum"
+						"accumType": "max"
 					},
 					{
 						"code": "fleeondamage",
@@ -164,32 +152,6 @@
 				"code": "taskai",
 				"aitasks": [
 					{
-						"code": "meleeattack",
-						"entityCodes": [ "player" ],
-						"priority": 2,
-						"damage": 3,
-						"damageTier": 3,
-						"mincooldown": 3500,
-						"maxcooldown": 6500,
-						"attackDurationMs": 900,
-						"damagePlayerAtMs": 300,
-						"animation": "Attack",
-						"animationSpeed": 2,
-						"whenInEmotionState": "aggressiveondamage"
-					},
-					{
-						"code": "seekentity",
-						"entityCodes": [ "player" ],
-						"priority": 1.5,
-						"mincooldown": 1000,
-						"maxcooldown": 1500,
-						"seekingRange": 20,
-						"movespeed": 0.035,
-						"animation": "Run",
-						"animationSpeed": 1.75,
-						"whenInEmotionState": "aggressiveondamage"
-					},
-					{
 						"code": "fleeentity",
 						"entityCodes": [ "player" ],
 						"priority": 1.5,
@@ -203,7 +165,7 @@
 						"code": "meleeattack",
 						"entityCodes": [ "wolf-male", "wolf-female", "bear-*", "drifter-*", "direwolf-male", "direwolf-female" ],
 						"priority": 2.5,
-						"damage": 10,
+						"damage": 12,
 						"damageTier": 3,
 						"damageType": "SlashingAttack",
 						"mincooldown": 600,
@@ -219,8 +181,8 @@
 						"priority": 2.1,
 						"mincooldown": 1400,
 						"maxcooldown": 2500,
-						"seekingRange": 25,
-						"movespeed": 0.05,
+						"seekingRange": 6,
+						"movespeed": 0.06,
 						"animation": "Run",
 						"animationSpeed": 1.75
 					},
@@ -247,18 +209,22 @@
 						"priority": 1.0,
 						"movespeed": 0.01,
 						"animation": "Walk",
-						"wanderChance": 0.015,
-						"maxDistanceToSpawn": 25,
-						"wanderRangeMin": 5,
-						"wanderRangeMax": 20,
+						"wanderChance": 0.005,
+						"maxDistanceToSpawn": 2,
+						"wanderRangeMin": 1,
+						"wanderRangeMax": 2,
 						"teleportWhenOutOfRange": true,
-						"teleportInGameHours": 5
+						"teleportInGameHours": 1
 					},
 					{
 						"code": "lookaround",
 						"priority": 0.5
 					}
 				]
+			},
+			{
+				"code": "conversable",
+				"dialogue": "config/dialogue/banker"
 			}
 		]
 	},

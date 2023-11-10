@@ -1,0 +1,25 @@
+[
+	{
+		"comment": "Make paths fall like sand",
+		"op": "add",
+		"path": "/behaviors/-",
+		"value": {
+			"name": "UnstableFalling",
+			"properties": {
+				"fallSound": "game:effect/rockslide",
+				"fallSideways": true,
+				"dustIntensity": 0.25
+			}
+		},
+		"file": "game:blocktypes/stone/generic/stonepathstairs.json",
+		"side": "Server"
+	},
+	{
+		"comment": "Allow paths to be placed even though they will fall",
+		"op": "add",
+		"path": "/attributes/allowUnstablePlacement",
+		"value": true,
+		"file": "game:blocktypes/stone/generic/stonepathstairs.json",
+		"side": "Server"
+	}
+]

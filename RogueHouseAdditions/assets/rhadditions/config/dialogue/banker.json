@@ -15,7 +15,7 @@
             "type": "talk",
             "setVariables": { "entity.hasmet": "true" },
             "text": [
-                { "value": "Hello there! Welcome to the Hospitium. :-)" }
+                { "value": "Hello! This is the Bank." }
             ]
         },
         {
@@ -24,7 +24,7 @@
             "type": "talk",
             "text": [
                 {
-                    "value": "Thank you!",
+                    "value": "Hello!",
                     "jumpTo": "main"
                 }
             ]
@@ -34,7 +34,7 @@
             "owner": "trader",
             "type": "talk",
             "text": [
-                { "value": "Good to see you, {playername}." }
+                { "value": "Welcome to the Bank." }
             ]
         },
         {
@@ -45,16 +45,6 @@
                 {
                     "value": "What do you have for trade?",
                     "jumpTo": "opentrade"
-                },
-                {
-                    "value": "Hospitium?",
-                    "conditions": [
-                        {
-                            "variable": "entity.shelter",
-                            "isNotValue": "true"
-                        }
-                    ],
-                    "jumpTo": "shelter"
                 },
                 {
                     "value": "These coins you are selling... Schillings... what are they for?",
@@ -68,52 +58,6 @@
             "trigger": "opentrade"
         },
 
-        {
-            "comment": "Hospitium/Shelter convo",
-            "code": "shelter",
-            "owner": "trader",
-            "type": "talk",
-            "text": [
-                {
-                    "value": "The Public Shelter. A place for lost souls to get a meal and rest."
-                }
-            ]
-        },
-        {
-            "code": "shelterresponse",
-            "owner": "player",
-            "type": "talk",
-            "text": [
-                {
-                    "value": "A meal you say...",
-                    "jumpTo": "shelter2"
-                }
-            ]
-        },
-        {
-            "code": "shelter2",
-            "owner": "trader",
-            "type": "talk",
-            "text": [
-                {
-                    "value": "Yes, a meal. They can be found in the cellar. Although I must warn you, we could be out... I haven't checked lately and the last fellows were quite hungry. Sure could pack it in for how small they were..."
-                }
-            ]
-        },
-        {
-            "code": "shelterresponse2",
-            "owner": "player",
-            "type": "talk",
-            "setVariables": {
-                "entity.shelter": "true"
-            },
-            "text": [
-                {
-                    "value": "I hope its not all gone!",
-                    "jumpTo": "main"
-                }
-            ]
-        },
 
         {
             "comment": "Schilling convo",
@@ -152,7 +96,7 @@
             "type": "talk",
             "text": [
                 {
-                    "value": "12 Schillings are worth 1 Rusty Gear."
+                    "value": "12 Schillings is worth 1 Rusty Gear."
                 }
             ]
         },
@@ -173,7 +117,7 @@
             "type": "talk",
             "text": [
                 {
-                    "value": "The Schillings are minted from a special alloy."
+                    "value": "Schillings are made from a special alloy. The alloy is kept secret. Only I am allowed to distribute these Schillings to the good people of Neuburg."
                 }
             ]
         },

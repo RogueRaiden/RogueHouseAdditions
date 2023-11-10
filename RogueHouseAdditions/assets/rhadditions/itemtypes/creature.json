@@ -17,9 +17,6 @@
                 "direwolf-female",
                 "direwolf-male",
                 "trout-green",
-                "npc-druid-markus",
-                "npc-guard",
-                "npc-thecaretaker",
                 "mermaid-drifter-normal",
                 "mermaid-drifter-deep",
                 "mermaid-drifter-tainted",
@@ -40,9 +37,6 @@
         "*-direwolf-pup": { "base": "rhadditions:entity/land/direwolf-pup" },
         "*-direwolf-*": { "base": "rhadditions:entity/land/direwolf-male" },
         "*-trout-*": { "base": "game:entity/water/salmon" },
-        "*-npc-druid-markus": { "base": "game:entity/humanoid/trader" },
-        "*-npc-guard": { "base": "game:entity/humanoid/trader" },
-        "*-npc-thecaretaker": { "base": "game:entity/humanoid/trader" },
         "*-mermaid-drifter-normal": { "base": "rhadditions:entity/water/mermaiddrifter" },
         "*-mermaid-drifter-deep": { "base": "rhadditions:entity/water/mermaiddrifter" },
         "*-mermaid-drifter-tainted": { "base": "rhadditions:entity/water/mermaiddrifter" },
@@ -106,19 +100,6 @@
     "materialDensity": 600,
     "guiTransformByType": {
         "*-trader-*": {
-            "rotate": true,
-            "rotation": {
-                "x": 0,
-                "y": -90,
-                "z": -178
-            },
-            "origin": {
-                "x": 0.6,
-                "y": 0.78,
-                "z": 0.5
-            }
-        },
-        "*-npc-*": {
             "rotate": true,
             "rotation": {
                 "x": 0,
@@ -329,24 +310,6 @@
             "scale": 0.43
         },
         "*-trader-*": {
-            "translation": {
-                "x": -0.53,
-                "y": -0.88,
-                "z": -0.4
-            },
-            "rotation": {
-                "x": -115,
-                "y": 8,
-                "z": -98
-            },
-            "origin": {
-                "x": 0.5,
-                "y": 1,
-                "z": 0.5
-            },
-            "scale": 0.9
-        },
-        "*-npc-*": {
             "translation": {
                 "x": -0.53,
                 "y": -0.88,

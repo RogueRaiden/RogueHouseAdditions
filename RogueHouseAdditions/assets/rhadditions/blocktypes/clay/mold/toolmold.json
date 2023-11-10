@@ -25,7 +25,7 @@
 		},
 		{
 			"code": "tooltype",
-			"states": [ "flatbar" ]
+			"states": [ "flatbar", "ingot4" ]
 		}
 	],
 	"attributesByType": {
@@ -38,6 +38,15 @@
 				"type": "item",
 				"code": "rhadditions:flatbar-{metal}",
 				"quantity": 3
+			}
+		},
+		"toolmold-burned-ingot4": {
+			"requiredUnits": 400,
+			"fillHeight": 2,
+			"drop": {
+				"type": "item",
+				"code": "game:ingot-{metal}",
+				"quantity": 4
 			}
 		}
 	},

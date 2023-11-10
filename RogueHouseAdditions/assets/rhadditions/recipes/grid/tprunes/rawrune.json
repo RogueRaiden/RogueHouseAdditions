@@ -1,6 +1,6 @@
 {
-	"width": 3,
-	"height": 3,
+	"name": "raw_rune_stone",
+	"enabled": false,
 	"ingredientPattern": "_K_,DCD,PNP",
 	"ingredients": {
 		"N": {
@@ -10,16 +10,18 @@
 		},
 		"C": {
 			"type": "item",
-			"code": "tprunes:rune_stone_raw_core"
+			"code": "game:clay-*",
+			"quantity": "4"
 		},
 		"D": {
 			"type": "item",
 			"code": "em:powdered-metal-temporal",
-			"quantity": "2"
+			"quantity": "3"
 		},
 		"P": {
 			"type": "item",
-			"code": "em:powdered-metal-temporal"
+			"code": "em:powdered-metal-temporal",
+			"quantity": "1"
 		},
 		"K": {
 			"type": "item",
@@ -27,8 +29,8 @@
 			"isTool": true
 		}
 	},
-	"enabled": false,
-	"name": "raw_rune_stone",
+	"width": 3,
+	"height": 3,
 	"output": {
 		"type": "item",
 		"code": "tprunes:raw_rune_stone-{material}"

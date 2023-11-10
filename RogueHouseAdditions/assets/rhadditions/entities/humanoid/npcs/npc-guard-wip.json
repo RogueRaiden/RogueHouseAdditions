@@ -68,7 +68,7 @@
 		]
 	},
 	"attributes": {
-		"killedByInfoText": "deadcreature-blade"
+		"killedByInfoText": "deadcreature-townguard"
 	},
 	"server": {
 		"attributes": {
@@ -92,11 +92,6 @@
 				"code": "reviveondeath",
 				"minHours": 12,
 				"maxHours": 26
-			},
-			{
-				"code": "health",
-				"currenthealth": 1000,
-				"maxhealth": 1000
 			},
 			{
 				"code": "emotionstates",

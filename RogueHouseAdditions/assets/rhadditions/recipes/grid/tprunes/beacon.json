@@ -1,7 +1,7 @@
 [
 	{
-		"width": 3,
-		"height": 3,
+		"name": "rune_beacon",
+		"enabled": false,
 		"ingredientPattern": "HBC,DBD,DPD",
 		"ingredients": {
 			"C": {
@@ -29,19 +29,19 @@
 			"D": {
 				"type": "item",
 				"code": "em:powdered-metal-temporal",
-				"quantity": "3"
+				"quantity": "6"
 			}
 		},
-		"enabled": false,
-		"name": "rune_beacon",
+		"width": 3,
+		"height": 3,
 		"output": {
 			"type": "block",
 			"code": "tprunes:rune_beacon-{stone}-{metal}"
 		}
 	},
 	{
-		"width": 3,
-		"height": 3,
+		"name": "rune_beacon",
+		"enabled": false,
 		"ingredientPattern": "HBC,DBD,DPD",
 		"ingredients": {
 			"C": {
@@ -69,19 +69,19 @@
 			"D": {
 				"type": "item",
 				"code": "em:powdered-metal-temporal",
-				"quantity": "3"
+				"quantity": "6"
 			}
 		},
-		"enabled": false,
-		"name": "rune_beacon",
+		"width": 3,
+		"height": 3,
 		"output": {
 			"type": "block",
 			"code": "tprunes:rune_beacon-{stone}-{metal}"
 		}
 	},
 	{
-		"width": 3,
-		"height": 3,
+		"name": "rune_beacon",
+		"enabled": false,
 		"ingredientPattern": "HBC,DBD,DPD",
 		"ingredients": {
 			"C": {
@@ -109,11 +109,11 @@
 			"D": {
 				"type": "item",
 				"code": "em:powdered-metal-temporal",
-				"quantity": "3"
+				"quantity": "6"
 			}
 		},
-		"enabled": false,
-		"name": "rune_beacon",
+		"width": 3,
+		"height": 3,
 		"output": {
 			"type": "block",
 			"code": "tprunes:rune_beacon-{stone}-{metal}"
@@ -121,8 +121,8 @@
 	},
 
 	{
-		"width": 3,
-		"height": 3,
+		"name": "rune_beacon",
+		"enabled": false,
 		"ingredientPattern": "CBH,DBD,DPD",
 		"ingredients": {
 			"C": {
@@ -150,19 +150,19 @@
 			"D": {
 				"type": "item",
 				"code": "em:powdered-metal-temporal",
-				"quantity": "3"
+				"quantity": "6"
 			}
 		},
-		"enabled": false,
-		"name": "rune_beacon",
+		"width": 3,
+		"height": 3,
 		"output": {
 			"type": "block",
 			"code": "tprunes:rune_beacon-{stone}-{metal}"
 		}
 	},
 	{
-		"width": 3,
-		"height": 3,
+		"name": "rune_beacon",
+		"enabled": false,
 		"ingredientPattern": "CBH,DBD,DPD",
 		"ingredients": {
 			"C": {
@@ -190,19 +190,19 @@
 			"D": {
 				"type": "item",
 				"code": "em:powdered-metal-temporal",
-				"quantity": "3"
+				"quantity": "6"
 			}
 		},
-		"enabled": false,
-		"name": "rune_beacon",
+		"width": 3,
+		"height": 3,
 		"output": {
 			"type": "block",
 			"code": "tprunes:rune_beacon-{stone}-{metal}"
 		}
 	},
 	{
-		"width": 3,
-		"height": 3,
+		"name": "rune_beacon",
+		"enabled": false,
 		"ingredientPattern": "CBH,DBD,DPD",
 		"ingredients": {
 			"C": {
@@ -230,11 +230,11 @@
 			"D": {
 				"type": "item",
 				"code": "em:powdered-metal-temporal",
-				"quantity": "3"
+				"quantity": "6"
 			}
 		},
-		"enabled": false,
-		"name": "rune_beacon",
+		"width": 3,
+		"height": 3,
 		"output": {
 			"type": "block",
 			"code": "tprunes:rune_beacon-{stone}-{metal}"

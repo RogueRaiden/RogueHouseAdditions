@@ -30,5 +30,34 @@
 			{ "modid": "moreanimals" }
 		],
 		"side": "Server"
+	},
+
+	{
+		"comment": "Growth adjustments",
+		"op": "replace",
+		"path": "/server/behaviors/10/aitasks/2",
+		"value": {
+			"code": "seekblockandlay",
+			"priority": 1.36,
+			"layTime": 5,
+			"chickCode": "moreanimals:pheasant-chick",
+			"sitDays": 0.9,
+			"incubationDays": 5,
+			"movespeed": 0.006,
+			"animation": "Walk",
+			"mincooldownHours": 1,
+			"maxcooldownHours": 2,
+			"sitAnimation": "Sit",
+			"requiresNearbyEntityCode": "moreanimals:pheasant-cock",
+			"requiresNearbyEntityRange": 12,
+			"growthCapEntityCodes": [ "moreanimals:pheasant-chick", "moreanimals:pheasant-hen", "moreanimals:pheasant-cock" ],
+			"failBlockCode": "moreanimals:egg-pheasant-1",
+			"sound": "moreanimals:pheasant/pheasanthen1"
+		},
+		"file": "moreanimals:entities/pheasant-hen.json",
+		"dependsOn": [
+			{ "modid": "moreanimals" }
+		],
+		"side": "Server"
 	}
 ]
