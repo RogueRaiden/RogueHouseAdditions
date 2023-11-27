@@ -3,9 +3,13 @@
     "__comment": "This block class removes the bottom snow section from vertically standing slabs when there is no ground below",
     "class": "BlockSlabSnowRemove",
     "variantgroups": [
+		{
+			"code": "style",
+			"states": [ "brick1", "brick2" ]
+		},
         {
             "code": "material",
-            "states": [ "andesite", "basalt", "chalk", "slate" ]
+            "states": [ "andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate" ]
         },
         {
             "code": "rot",
@@ -17,12 +21,19 @@
         }
     ],
     "skipVariants": [ "*-up-snow" ],
+	"allowedVariants": [
+		"*-brick2-*",
+		"*-brick1-andesite-*",
+		"*-brick1-basalt-*",
+		"*-brick1-chalk-*",
+		"*-brick1-slate-*"
+	],
     "shapeByType": {
         "*-snow": { "base": "game:block/basic/slab/snow-slab-{rot}" },
         "*": { "base": "game:block/basic/slab/slab-{rot}" }
     },
     "textures": {
-        "sides": { "base": "rhadditions:block/stone/stonebrick/{material}*" }
+        "sides": { "base": "rhadditions:block/stone/stonebrick/{style}/{material}*" }
     },
     "behaviors": [
         {
