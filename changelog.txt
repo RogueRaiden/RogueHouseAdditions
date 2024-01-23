@@ -8,6 +8,7 @@ v3.1.4
 
 -Tweak: Flipped Tuning Cylinder shelf transformation.
 -Tweak: Adjustments to the MoreAnimals entity spawns and multiplying.
+-Tweak: Moon robe retexture.
 
 
 v3.1.3

@@ -386,6 +386,9 @@
     "item-armor-body-creative-admin": "Admin Body Armor",
     "item-armor-legs-creative-admin": "Admin Leg Armor",
 
+    "item-clothes-neck-luna-amulet": "Amulet of Luna",
+    "itemdesc-clothes-neck-luna-amulet": "<font color=\"#99c9f9\"><i>May Her light guide your path.</i></font>",
+
 
 
     "_comment6": "PARTS **********************",
