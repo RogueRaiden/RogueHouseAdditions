@@ -1,0 +1,22 @@
+[
+    {
+        "comment": "Craft Luna Amulet",
+        "ingredientPattern": "TL",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "rhadditions:crescent-moon"
+            },
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "item",
+            "code": "rhadditions:clothes-neck-luna-amulet"
+        }
+    }
+]

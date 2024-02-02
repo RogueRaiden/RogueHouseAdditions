@@ -1,14 +1,23 @@
 Changelog:
 
 
-
 v3.1.4
--Feature: Stone path, Stone path slabs and Stone path stairs are now unstable and will fall just like sand and gravel.
+-Feature: Stone path tweaks
+		- Stone path, Stone path slabs and Stone path stairs are now unstable and will fall just like sand and gravel.
+		- Snow will now break first on Stone path slabs and stairs.
 -Feature: Ingot x4 Mold - Casts 4 ingots at once.
+-Feature: Luna amulet, model by ATree.
+-Feature: New blocks!
+		- Dirt path blocks, slabs and stairs. Unstable like sand/gravel. Texture by ATree.
+		- Logs with bark on the inside when chiseling.
+		- Bark blocks with inside bark, when Ancient Tools is installed.
+-Feature: Use Mortar in Cobblestone recipe.
 
 -Tweak: Flipped Tuning Cylinder shelf transformation.
 -Tweak: Adjustments to the MoreAnimals entity spawns and multiplying.
--Tweak: Moon robe retexture.
+-Tweak: Moon robe texture tone adjustment, done by ATree.
+-Tweak: Quartz glass retexture, by ATree.
+-Tweak: Witch/Wizard hat internal adjustments.
 
 
 v3.1.3

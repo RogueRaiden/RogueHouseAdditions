@@ -469,6 +469,7 @@
 
     "item-schilling": "Schilling",
     "item-newspaper-roll": "Newspaper",
+    "item-crescent-moon": "Crescent moon",
 
 
 
@@ -489,6 +490,7 @@
     "block-linen-bundle-red": "Linen Bundle (Red)",
     "block-linen-bundle-white": "Linen Bundle (White)",
     "block-linen-bundle-yellow": "Linen Bundle (Yellow)",
+    "blockdesc-linen-bundle-*": "<font color=\"#99c9f9\"><i>Chisel material</i></font>",
 
     "block-soilmix-verylow": "Very low soil mix",
     "blockdesc-soilmix-verylow": "<font color=\"#99c9f9\"><i>Soil mixture to compost into Low Fertility Soil.</i></font>",
@@ -631,6 +633,38 @@
 
     "block-wallpaper-purple_pattern": "Wallpaper (purple pattern)",
 
+    "block-dirtpath-*": "Dirt path",
+    "block-dirtpathslab-*": "Dirt path slab",
+    "block-dirtpathstairs-*": "Dirt path stairs",
+
+    "block-fullbarklog-birch-*": "Birch log (Full bark)",
+    "block-fullbarklog-oak-*": "Oak log (Full bark)",
+    "block-fullbarklog-maple-*": "Maple log (Full bark)",
+    "block-fullbarklog-pine-*": "Pine log (Full bark)",
+    "block-fullbarklog-acacia-*": "Acacia log (Full bark)",
+    "block-fullbarklog-kapok-*": "Kapok log (Full bark)",
+    "block-fullbarklog-baldcypress-*": "Baldcypress log (Full bark)",
+    "block-fullbarklog-larch-*": "Larch log (Full bark)",
+    "block-fullbarklog-redwood-*": "Redwood log (Full bark)",
+    "block-fullbarklog-ebony-*": "Ebony log (Full bark)",
+    "block-fullbarklog-walnut-*": "Walnut log (Full bark)",
+    "block-fullbarklog-purpleheart-*": "Purpleheart log (Full bark)",
+    "blockdesc-fullbarklog-*": "<font color=\"#99c9f9\"><i>Chisel material</i></font>",
+
+    "block-barkblock-birch-*": "Birch bark block",
+    "block-barkblock-oak-*": "Oak bark block",
+    "block-barkblock-maple-*": "Maple bark block",
+    "block-barkblock-pine-*": "Pine bark block",
+    "block-barkblock-acacia-*": "Acacia bark block",
+    "block-barkblock-kapok-*": "Kapok bark block",
+    "block-barkblock-baldcypress-*": "Baldcypress bark block",
+    "block-barkblock-larch-*": "Larch bark block",
+    "block-barkblock-redwood-*": "Redwood bark block",
+    "block-barkblock-ebony-*": "Ebony bark block",
+    "block-barkblock-walnut-*": "Walnut bark block",
+    "block-barkblock-purpleheart-*": "Purpleheart bark block",
+    "blockdesc-barkblock-*": "<font color=\"#99c9f9\"><i>Chisel material</i></font>",
+
 
 
     "_comment9": "MOLDS **********************",
@@ -673,25 +707,25 @@
     "_comment11": "PAINTINGS **********************",
 
     "block-painting-phoenix-*": "Painting (Phoenix)",
-    "blockdesc-painting-phoenix-*": "<font color=\"#99c9f9\"><i>The Phoenix<br>By MorwenAbendstern</i></font>",
+    "blockdesc-painting-phoenix-*": "<font color=\"#99c9f9\"><i>The Phoenix<br>By Miriel</i></font>",
 
     "block-painting-rogueraiden-*": "Painting (Rogue's Symbol)",
     "blockdesc-painting-rogueraiden-*": "<font color=\"#99c9f9\"><i>Rogue's Symbol<br>By RogueRaiden</i></font>",
 
     "block-painting-dragon-*": "Painting (Dragon)",
-    "blockdesc-painting-dragon-*": "<font color=\"#99c9f9\"><i>The Dragon<br>By MorwenAbendstern</i></font>",
+    "blockdesc-painting-dragon-*": "<font color=\"#99c9f9\"><i>The Dragon<br>By Miriel</i></font>",
 
     "block-painting-death-*": "Painting (Death)",
-    "blockdesc-painting-death-*": "<font color=\"#99c9f9\"><i>Death<br>By MorwenAbendstern</i></font>",
+    "blockdesc-painting-death-*": "<font color=\"#99c9f9\"><i>Death<br>By Miriel</i></font>",
 
     "block-painting-skull-*": "Painting (The Skull)",
-    "blockdesc-painting-skull-*": "<font color=\"#99c9f9\"><i>The Skull<br>By MorwenAbendstern</i></font>",
+    "blockdesc-painting-skull-*": "<font color=\"#99c9f9\"><i>The Skull<br>By Miriel</i></font>",
 
     "block-painting-goliath-*": "Painting (Goliath)",
-    "blockdesc-painting-goliath-*": "<font color=\"#99c9f9\"><i>Goliath<br>By MorwenAbendstern</i></font>",
+    "blockdesc-painting-goliath-*": "<font color=\"#99c9f9\"><i>Goliath<br>By Miriel</i></font>",
 
     "block-painting-dark-angel-*": "Painting (Dark Angel)",
-    "blockdesc-painting-dark-angel-*": "<font color=\"#99c9f9\"><i>Angel of Darkness<br>By MorwenAbendstern</i></font>",
+    "blockdesc-painting-dark-angel-*": "<font color=\"#99c9f9\"><i>Angel of Darkness<br>By Miriel</i></font>",
 
 
 

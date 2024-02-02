@@ -1,6 +1,7 @@
 [
     {
         "comment": "Putting a pot on a shelf",
+        "enabled": true,
         "op": "add",
         "path": "/attributesByType/claypot-cooked/shelvable",
         "value": true,
@@ -9,6 +10,7 @@
     },
     {
         "comment": "Putting a pot on a shelf",
+        "enabled": true,
         "op": "add",
         "path": "/attributesByType/claypot-cooked/onDisplayTransform",
         "value": {
@@ -24,6 +26,7 @@
     },
     {
         "comment": "Putting a pot on a shelf",
+        "enabled": true,
         "op": "add",
         "path": "/attributesByType/claypot-burned/shelvable",
         "value": true,
@@ -32,6 +35,7 @@
     },
     {
         "comment": "Putting a pot on a shelf",
+        "enabled": true,
         "op": "add",
         "path": "/attributesByType/claypot-burned/onDisplayTransform",
         "value": {

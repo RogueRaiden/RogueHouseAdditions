@@ -42,7 +42,7 @@
 			"rotate": false,
 			"translation": { "x": 0, "y": 0, "z": 0 },
 			"rotation": { "x": 174, "y": -128, "z": 6 },
-			"origin": { "x": 0.45, "y": 1.43, "z": 0.54 },
+			"origin": { "x": 0.45, "y": 1.37, "z": 0.54 },
 			"scale": 3.5
 		}
 	},
