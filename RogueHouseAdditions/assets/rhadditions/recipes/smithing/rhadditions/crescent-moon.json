@@ -1,0 +1,23 @@
+{
+	"ingredient": {
+		"type": "item",
+		"code": "game:ingot-*",
+		"name": "metal",
+		"allowedVariants": [ "meteoriciron" ]
+	},
+	"pattern": [
+		[
+			"___###____",
+			"__#####___",
+			"_##___##__",
+			"##_____##_",
+			"#_______#_",
+			"#_______#_"
+		]
+	],
+	"name": "Crescent moon",
+	"output": {
+		"type": "item",
+		"code": "rhadditions:crescent-moon"
+	}
+}

@@ -1,6 +1,26 @@
 [
 	{
 		"comment": "Make paths fall like sand",
+		"op": "replace",
+		"path": "/behaviorsByType/*-snow",
+		"value": [
+            {
+                "name": "BreakSnowFirst"
+            },
+			{
+				"name": "UnstableFalling",
+				"properties": {
+					"fallSound": "game:effect/rockslide",
+					"fallSideways": true,
+					"dustIntensity": 0.25
+				}
+			}
+		],
+		"file": "game:blocktypes/stone/generic/stonepath.json",
+		"side": "Server"
+	},
+	{
+		"comment": "Make paths fall like sand",
 		"op": "add",
 		"path": "/behaviorsByType/*",
 		"value": [

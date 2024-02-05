@@ -1,0 +1,45 @@
+[
+    {
+        "comment": "Make cobblestone with mortar",
+        "ingredientPattern": "LLL,LCL,LLL",
+        "ingredients": {
+            "C": {
+                "type": "item",
+                "code": "game:mortar"
+            },
+            "L": {
+                "type": "item",
+                "code": "game:stone-*",
+                "name": "rock",
+                "allowedVariants": [
+                    "andesite",
+                    "chalk",
+                    "chert",
+                    "conglomerate",
+                    "limestone",
+                    "claystone",
+                    "granite",
+                    "sandstone",
+                    "shale",
+                    "basalt",
+                    "peridotite",
+                    "phyllite",
+                    "slate",
+                    "bauxite",
+                    "kimberlite",
+                    "suevite",
+                    "whitemarble",
+                    "redmarble",
+                    "greenmarble"
+                ]
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:cobblestone-{rock}",
+            "quantity": 2
+        }
+    }
+]

@@ -1,0 +1,63 @@
+[
+	{
+		"comment": "XSkills cage catchable client",
+		"op": "add",
+		"path": "/client/behaviors/-",
+		"value": {
+			"code": "XSkillsAnimal",
+			"xp": 0,
+			"catchable": "true"
+		},
+		"file": "moreanimals:entities/wildturkey-hen.json",
+		"dependsOn": [
+			{ "modid": "xskills" },
+			{ "modid": "moreanimals" }
+		],
+		"side": "Server"
+	},
+	{
+		"comment": "XSkills cage catchable server",
+		"op": "add",
+		"path": "/server/behaviors/-",
+		"value": {
+			"code": "XSkillsAnimal",
+			"xp": 0,
+			"catchable": "true"
+		},
+		"file": "moreanimals:entities/wildturkey-hen.json",
+		"dependsOn": [
+			{ "modid": "xskills" },
+			{ "modid": "moreanimals" }
+		],
+		"side": "Server"
+	},
+
+	{
+		"comment": "Growth adjustments",
+		"op": "replace",
+		"path": "/server/behaviors/10/aitasks/2",
+		"value": {
+			"code": "seekblockandlay",
+			"priority": 1.36,
+			"layTime": 5,
+			"chickCode": "moreanimals:wildturkey-chick",
+			"sitDays": 0.9,
+			"incubationDays": 5,
+			"movespeed": 0.006,
+			"animation": "Walk",
+			"mincooldownHours": 1,
+			"maxcooldownHours": 2,
+			"sitAnimation": "Sit",
+			"requiresNearbyEntityCode": "moreanimals:wildturkey-cock",
+			"requiresNearbyEntityRange": 12,
+			"growthCapEntityCodes": [ "moreanimals:wildturkey-chick", "moreanimals:wildturkey-hen", "moreanimals:wildturkey-cock" ],
+			"failBlockCode": "moreanimals:moreanimals:egg-wildturkey-1",
+			"sound": "moreanimals:wildturkey/wildturkeyhen1"
+		},
+		"file": "moreanimals:entities/wildturkey-hen.json",
+		"dependsOn": [
+			{ "modid": "moreanimals" }
+		],
+		"side": "Server"
+	}
+]

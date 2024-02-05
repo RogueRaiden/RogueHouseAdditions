@@ -1,0 +1,77 @@
+[
+    {
+        "comment": "Dirt path block",
+        "ingredientPattern": "SLS",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:stone-*",
+                "name": "rock",
+                "quantity": 4
+            },
+            "S": {
+                "type": "block",
+                "code": "game:soil-*"
+            }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "rhadditions:dirtpath-free",
+            "quantity": 2
+        }
+    },
+    {
+        "comment": "Dirt path slab",
+        "ingredientPattern": "LSL",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:stone-*",
+                "name": "rock",
+                "quantity": 1
+            },
+            "S": {
+                "type": "block",
+                "code": "game:soil-*"
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "output": {
+            "type": "block",
+            "code": "rhadditions:dirtpathslab-free",
+            "quantity": 1
+        }
+    },
+    {
+        "comment": "Dirt path stair",
+        "ingredientPattern": "LM,SS",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:stone-*",
+                "name": "rock",
+                "quantity": 3
+            },
+            "M": {
+                "type": "item",
+                "code": "game:stone-*",
+                "name": "rock",
+                "quantity": 1
+            },
+            "S": {
+                "type": "block",
+                "code": "game:soil-*"
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "rhadditions:dirtpathstairs-up-north-free",
+            "quantity": 1
+        }
+    }
+]

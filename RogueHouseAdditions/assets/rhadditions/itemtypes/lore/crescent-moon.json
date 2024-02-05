@@ -1,0 +1,90 @@
+{
+    "code": "crescent-moon",
+    "shape": {
+        "base": "rhadditions:item/lore/crescent-moon"
+    },
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "rhadditions": [
+            "*"
+        ]
+    },
+    "maxstacksize": 32,
+    "materialDensity": 210,
+    "fpHandTransform": {
+        "translation": {
+            "x": -0.3,
+            "y": 0.3,
+            "z": 0.6
+        },
+        "rotation": {
+            "x": 4,
+            "y": -5,
+            "z": 0
+        },
+        "origin": {
+            "x": 0,
+            "y": 1,
+            "z": 2
+        }
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.3,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+        },
+        "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 1.06
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": -90
+        },
+        "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 5.13
+    },
+    "guiTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": -15,
+            "y": 96,
+            "z": 6
+        },
+        "origin": {
+            "x": 0.09,
+            "y": 0.09,
+            "z": 0.21
+        },
+        "scale": 5.62
+    }
+}
