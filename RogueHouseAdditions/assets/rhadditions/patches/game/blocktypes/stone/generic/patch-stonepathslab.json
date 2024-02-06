@@ -19,7 +19,6 @@
 				"name": "UnstableFalling",
 				"properties": {
 					"fallSound": "game:effect/rockslide",
-					"fallSideways": true,
 					"dustIntensity": 0.25
 				}
 			}

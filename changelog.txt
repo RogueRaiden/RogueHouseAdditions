@@ -1,5 +1,8 @@
 Changelog:
 
+v3.1.7
+-Tweak: Removed sideways instability from Dirt and Stone paths.
+
 v3.1.6
 -Fixed: 4x ingot mold recipe.
 
