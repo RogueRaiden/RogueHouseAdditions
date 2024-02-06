@@ -24,13 +24,13 @@
     },
     {
         "comment": "Dirt path slab",
-        "ingredientPattern": "LSL",
+        "ingredientPattern": "SLS",
         "ingredients": {
             "L": {
                 "type": "item",
                 "code": "game:stone-*",
                 "name": "rock",
-                "quantity": 1
+                "quantity": 2
             },
             "S": {
                 "type": "block",
