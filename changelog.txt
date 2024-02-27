@@ -1,5 +1,15 @@
 Changelog:
 
+v4.0.0-dev.1
+-Tweak: Removed a number of things for 1.19
+	- Removed oven model tweak since 1.19 did it
+	- Removed quartz glass retexture
+	- Removed PrimitiveSurvival patches
+	- Removed Capreolinae patches
+	- Removed Caninae patches
+	- Removed Pantherinae patches
+	- 
+
 v3.1.7
 -Tweak: Removed sideways instability from Dirt and Stone paths.
 
