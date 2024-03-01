@@ -10,7 +10,7 @@
             },
             "S": {
                 "type": "item",
-                "code": "rhadditions:stone-snowball"
+                "code": "game:snowball-snow"
             }
         },
         "width": 3,

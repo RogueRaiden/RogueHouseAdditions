@@ -10,30 +10,5 @@
         },
         "file": "game:blocktypes/clay/crucible.json",
         "side": "Server"
-    },
-    {
-        "comment": "Adjust crucible third person transform to appear to be held with metal tongs",
-        "op": "replace",
-        "path": "/tpHandTransform",
-        "value": {
-            "translation": {
-                "x": -0.52,
-                "y": 0.23,
-                "z": -0.61
-            },
-            "rotation": {
-                "x": 3,
-                "y": 20,
-                "z": -99
-            },
-            "origin": {
-                "x": 1.26,
-                "y": -0.96,
-                "z": 0.12
-            },
-            "scale": 0.76
-        },
-        "file": "game:blocktypes/clay/crucible.json",
-        "side": "Server"
     }
 ]

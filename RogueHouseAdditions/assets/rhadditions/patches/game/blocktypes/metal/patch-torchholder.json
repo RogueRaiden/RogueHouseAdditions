@@ -12,7 +12,7 @@
             "*-filled-*": [
                 {
                     "name": "HeatSource",
-                    "properties": { "heatStrength": 2 }
+                    "properties": { "heatStrength": 1 }
                 }
             ],
             "*": [

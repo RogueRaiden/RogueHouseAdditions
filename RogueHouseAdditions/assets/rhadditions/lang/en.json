@@ -416,10 +416,6 @@
 
     "_comment7": "RESOURCES **********************",
 
-    "item-stone-snowball": "Snowball",
-    "itemdesc-stone-snowball": "<font color=\"#99c9f9\"><i>Lovingly hand crafted by Duchow.</i></font><br>",
-    "game:prefixandcreature-thrownstonesnowball": "a snowball",
-
     "item-drifterskin-surface": "Surface drifter skin",
     "itemdesc-drifterskin-surface": "<font color=\"#99c9f9\"><i></i></font>",
 

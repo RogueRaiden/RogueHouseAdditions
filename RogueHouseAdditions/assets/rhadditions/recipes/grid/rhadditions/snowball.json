@@ -16,7 +16,7 @@
         "height": 2,
         "output": {
             "type": "item",
-            "code": "rhadditions:stone-snowball",
+            "code": "game:snowball-snow",
             "quantity": 2
         }
     },
@@ -37,7 +37,7 @@
         "height": 2,
         "output": {
             "type": "item",
-            "code": "rhadditions:stone-snowball",
+            "code": "game:snowball-snow",
             "quantity": 2
         }
     }

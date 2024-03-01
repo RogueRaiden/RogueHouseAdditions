@@ -1,8 +1,16 @@
 Changelog:
 
 v4.0.0-dev.1
--Tweak: Removed a number of things for 1.19
-	- Removed oven model tweak since 1.19 did it
+-Tweak: Removed a number of things cause it was done in 1.19+
+	- Removed oven model tweak for stacking
+	- Removed large trough patches for animal food
+	- Removed small trough patches for animal food
+	- Removed Turf block
+	- Removed Snowball, changed Snow brick and block recipes to use vanilla snowball
+	- Removed pot on shelf patches
+	- Removed fox fix patches
+
+-Tweak: Other tweaks removed
 	- Removed quartz glass retexture
 	- Removed PrimitiveSurvival patches
 	- Removed Capreolinae patches
