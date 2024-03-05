@@ -15,7 +15,7 @@
                     "var": 1
                 },
                 "postPass": true,
-                "rockTypeRemapGroup": "surfaceruins",
+                "rockTypeRemapGroup": "standard",
                 "placement": "underground"
             },
             {
@@ -25,7 +25,7 @@
                 "name": "big trees",
                 "chance": 0.8,
                 "schematics": [ "rhadditions:rhadditions/bigtree/*" ],
-                "minTemp": "4",
+                "minTemp": 4,
                 "minForest": 1.5,
                 "placement": "surface"
             },
@@ -33,8 +33,8 @@
                 "code": "rh-surfaceruin",
                 "name": "surface ruins",
                 "chance": 0.5,
+                "minTemp": -6,
                 "offsetY": -5,
-                "minTemp": "-6",
                 "schematics": [ "rhadditions:rhadditions/surfaceruin/*" ],
                 "postPass": true,
                 "placement": "surface"

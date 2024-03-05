@@ -2,6 +2,7 @@
     {
         "comment": "Custom soil compost recipe",
         "op": "add",
+        "enabled": false,
         "path": "/enabled",
         "value": false,
         "file": "game:recipes/grid/soil-compost.json",

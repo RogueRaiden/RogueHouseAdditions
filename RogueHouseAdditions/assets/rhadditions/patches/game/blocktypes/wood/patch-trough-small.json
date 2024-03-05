@@ -21,13 +21,6 @@
                     "block/wood/trough/small/grainfill4",
                     "block/wood/trough/small/grainfill4"
                 ],
-                "foodFor": [
-                    "fox-*",
-                    "rhadditions:tamed-fox-*",
-                    "cats:cat-*-european",
-                    "cats:cat-*"
-                ],
-                "foodForDesc": "trough-food-smallcarnivores",
                 "textureCode": "contents-bushmeat"
             },
             {
@@ -48,13 +41,6 @@
                     "block/wood/trough/small/grainfill4",
                     "block/wood/trough/small/grainfill4"
                 ],
-                "foodFor": [
-                    "fox-*",
-                    "rhadditions:tamed-fox-*",
-                    "cats:cat-*-european",
-                    "cats:cat-*"
-                ],
-                "foodForDesc": "trough-food-smallcarnivores",
                 "textureCode": "contents-redmeat"
             },
             {
@@ -75,13 +61,6 @@
                     "block/wood/trough/small/grainfill4",
                     "block/wood/trough/small/grainfill4"
                 ],
-                "foodFor": [
-                    "fox-*",
-                    "rhadditions:tamed-fox-*",
-                    "cats:cat-*-european",
-                    "cats:cat-*"
-                ],
-                "foodForDesc": "trough-food-smallcarnivores",
                 "textureCode": "contents-fishfillet"
             }
         ],
