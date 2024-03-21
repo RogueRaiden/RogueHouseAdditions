@@ -1,0 +1,9 @@
+[
+	{
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "stonequarry:recipes/grid/rubblestorage.json",
+		"side": "Server"
+	}
+]

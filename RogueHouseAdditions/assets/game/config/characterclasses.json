@@ -2,11 +2,11 @@
 	{
 		"code": "rogue",
 		"traits": [
-			"weaponexpert",
-			"fleetfooted",
-			"sneaky",
-			"outlaw",
-			"hasty"
+			"rhfighter",
+			"rhfineeye",
+			"rhfleetfooted",
+			"rhoutlaw",
+			"rhhasty"
 		],
 		"gear": [
 			{
@@ -33,7 +33,14 @@
 	},
 	{
 		"code": "druid",
-		"traits": [ "archer", "forestwalk", "herbalist", "naturalist", "claustrophobic2" ],
+		"traits": [
+			"rhnaturalist",
+			"rhfocused",
+			"rhforestwalk",
+			"rhdruid",
+			"rhnontechnical",
+			"rhclaustrophobic"
+		],
 		"gear": [
 			{
 				"type": "item",
@@ -59,7 +66,14 @@
 	},
 	{
 		"code": "hunter",
-		"traits": [ "focused", "resourceful", "fleetfooted", "bowyer", "farsighted", "claustrophobic" ],
+		"traits": [
+			"rhfocusedii",
+			"rhhunter",
+			"rhfleetfooted",
+			"rhbowyer",
+			"rhclaustrophobic",
+			"rhscrawny"
+		],
 		"gear": [
 			{
 				"type": "item",
@@ -97,7 +111,14 @@
 	},
 	{
 		"code": "malefactor",
-		"traits": [ "forager", "pilferer", "furtive", "improviser", "frail", "nervous" ],
+		"traits": [
+			"rhpilferer",
+			"rhforager",
+			"rhfurtiveii",
+			"rhmalfactor",
+			"rhsqueamish",
+			"rhfrail"
+		],
 		"gear": [
 			{
 				"type": "item",
@@ -121,7 +142,7 @@
 			},
 			{
 				"type": "item",
-				"code": "clothes-emblem-malefactor-pendant"
+				"code": "clothes-neck-malefactor-pendant"
 			},
 			{
 				"type": "item",
@@ -165,7 +186,14 @@
 	},
 	{
 		"code": "tailor",
-		"traits": [ "clothier", "mender", "civil", "weak", "kind" ],
+		"traits": [
+			"rhprecise",
+			"rhlight",
+			"rhlighteater",
+			"rhtailor",
+			"rhsofthands",
+			"rhweak"
+		],
 		"gear": [
 			{
 				"type": "item",
@@ -203,7 +231,14 @@
 	},
 	{
 		"code": "clockmaker",
-		"traits": [ "precise", "technical", "fleetfooted", "frail", "nervous", "tinkerer" ],
+		"traits": [
+			"rhtechnical",
+			"rhgoodeyes",
+			"rhfleetfooted",
+			"rhclockmaker",
+			"rhweak",
+			"rhsqueamish"
+		],
 		"gear": [
 			{
 				"type": "item",
@@ -237,7 +272,15 @@
 	},
 	{
 		"code": "blackguard",
-		"traits": [ "swordsmen", "tank", "blackguard", "ravenous", "barbarian" ],
+		"traits": [
+			"rhsoldier",
+			"rhhardy",
+			"rhcaver",
+			"rhblackguard",
+			"rhravenous",
+			"rhbrute",
+			"rhnearsighted"
+		],
 		"gear": [
 			{
 				"type": "item",
@@ -263,7 +306,15 @@
 	},
 	{
 		"code": "miner",
-		"traits": [ "toned", "miner", "geologist", "hungry", "brute", "heavyfeet" ],
+		"traits": [
+			"rhminingexpert",
+			"rhstout",
+			"rhcaver",
+			"rhminer",
+			"rhravenousii",
+			"rhweakeyes",
+			"rhsqueamish"
+		],
 		"gear": [
 			{
 				"type": "item",
@@ -301,7 +352,15 @@
 	},
 	{
 		"code": "blacksmith",
-		"traits": [ "strong", "blacksmith", "skyforge", "hungry", "thickfingers" ],
+		"traits": [
+			"rhskyforge",
+			"rhstout",
+			"rhheavyswing",
+			"rhblacksmith",
+			"rhravenous",
+			"rhbrute",
+			"rhheavyhanded"
+		],
 		"gear": [
 			{
 				"type": "item",

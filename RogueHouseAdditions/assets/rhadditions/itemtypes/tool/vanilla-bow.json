@@ -1,6 +1,5 @@
 {
 	"code": "vanilla-bow",
-	"enabled": false,
 	"variantgroups": [
 		{
 			"code": "type",

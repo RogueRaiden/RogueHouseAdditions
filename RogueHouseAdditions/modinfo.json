@@ -5,10 +5,10 @@
     "authors": [ "RogueRaiden" ],
     "contributors": [ "Morwen", "Zinth", "Duchow", "Gerste", "Manstra", "ATree" ],
     "description": "Tweaks and content for the Rogue House Community Server.",
-    "version": "4.0.0-dev.1",
+    "version": "4.0.0-rc.1",
     "website": "https://mods.vintagestory.at/rhadditions",
     "dependencies": {
-        "game": "1.19.3"
+        "game": "1.19.4"
     },
     "side": "universal"
 }

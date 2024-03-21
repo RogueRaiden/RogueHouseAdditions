@@ -1,6 +1,5 @@
 {
 	"code": "vanilla-sling",
-	"enabled": false,
 	"class": "ItemSling",
 	"maxstacksize": 1,
 	"durability": 300,

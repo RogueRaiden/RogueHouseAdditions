@@ -1,0 +1,78 @@
+[
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:bow-*",
+                "name": "type",
+                "allowedVariants": [ "simple", "crude", "long", "recurve" ],
+                "quantity": 1
+            }
+        },
+        "width": 1,
+        "height": 1,
+        "shapeless": true,
+        "copyAttributesFrom": "B",
+        "output": {
+            "type": "item",
+            "code": "rhadditions:vanilla-bow-{type}"
+        }
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "rhadditions:vanilla-bow-*",
+                "name": "type",
+                "allowedVariants": [ "simple", "crude", "long", "recurve" ],
+                "quantity": 1
+            }
+        },
+        "width": 1,
+        "height": 1,
+        "shapeless": true,
+        "copyAttributesFrom": "B",
+        "output": {
+            "type": "item",
+            "code": "game:bow-{type}"
+        }
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:sling",
+                "name": "type"
+            }
+        },
+        "width": 1,
+        "height": 1,
+        "shapeless": true,
+        "copyAttributesFrom": "B",
+        "output": {
+            "type": "item",
+            "code": "rhadditions:vanilla-sling"
+        }
+    },
+    {
+        "ingredientPattern": "B",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "rhadditions:vanilla-sling",
+                "name": "type"
+            }
+        },
+        "width": 1,
+        "height": 1,
+        "shapeless": true,
+        "copyAttributesFrom": "B",
+        "output": {
+            "type": "item",
+            "code": "game:sling"
+        }
+    }
+]

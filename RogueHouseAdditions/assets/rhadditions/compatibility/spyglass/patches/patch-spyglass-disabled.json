@@ -1,0 +1,9 @@
+[
+	{
+		"op": "add",
+		"path": "/enabled",
+		"value": false,
+		"file": "spyglass:recipes/grid/spyglass.json",
+		"side": "Server"
+	}
+]

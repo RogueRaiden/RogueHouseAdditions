@@ -1,0 +1,37 @@
+{
+	"name": "raw_rune_stone",
+	"ingredientPattern": "_K_,DCD,PNP",
+	"ingredients": {
+		"N": {
+			"type": "item",
+			"code": "tprunes:rune_stone_nest-*",
+			"name": "material"
+		},
+		"C": {
+			"type": "item",
+			"code": "game:clay-*",
+			"quantity": "4"
+		},
+		"D": {
+			"type": "item",
+			"code": "em:powdered-metal-temporal",
+			"quantity": "3"
+		},
+		"P": {
+			"type": "item",
+			"code": "em:powdered-metal-temporal",
+			"quantity": "1"
+		},
+		"K": {
+			"type": "item",
+			"code": "game:knife-*",
+			"isTool": true
+		}
+	},
+	"width": 3,
+	"height": 3,
+	"output": {
+		"type": "item",
+		"code": "tprunes:raw_rune_stone-{material}"
+	}
+}

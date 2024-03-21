@@ -4,94 +4,37 @@
         "path": "/-",
         "value": [
             {
-                "code": "weaponexpert",
+                "code": "rhfighter",
                 "type": "positive",
                 "attributes": {
                     "meleeWeaponsDamage": 0.15,
                     "rangedWeaponsDamage": 0.15,
-                    "rangedWeaponsAcc": 0.35,
                     "bowDrawingStrength": 0.15
                 }
             },
             {
-                "code": "sneaky",
+                "code": "rhfineeye",
                 "type": "positive",
                 "attributes": {
-                    "animalSeekingRange": -0.2
+                    "rustyGearDropRate": 0.1,
+                    "rangedWeaponsAcc": 0.15
                 }
             },
             {
-                "code": "swordsmen",
+                "code": "rhfleetfooted",
                 "type": "positive",
                 "attributes": {
-                    "meleeWeaponsDamage": 0.3,
-                    "armorWalkSpeedAffectedness": -0.3,
-                    "rangedWeaponsAcc": -0.25
+                    "walkspeed": 0.1
                 }
             },
             {
-                "code": "tank",
-                "type": "positive",
-                "attributes": {
-                    "maxhealthExtraPoints": 6,
-                    "animalSeekingRange": 0.5,
-                    "rangedWeaponsDamage": -0.15
-                }
-            },
-            {
-                "code": "blackguard",
+                "code": "rhrogue",
                 "type": "positive",
                 "attributes": {
                 }
             },
             {
-                "code": "blacksmith",
-                "type": "positive",
-                "attributes": {
-                }
-            },
-            {
-                "code": "skyforge",
-                "type": "positive",
-                "attributes": {
-                    "armorDurabilityLoss": -0.3
-                }
-            },
-            {
-                "code": "miner",
-                "type": "positive",
-                "attributes": {
-                }
-            },
-            {
-                "code": "geologist",
-                "type": "positive",
-                "attributes": {
-                    "oreDropRate": 0.25,
-                    "miningSpeedMul": 0.25
-                }
-            },
-            {
-                "code": "toned",
-                "type": "positive",
-                "attributes": {
-                    "meleeWeaponsDamage": 0.15,
-                    "maxhealthExtraPoints": 3,
-                    "armorWalkSpeedAffectedness": -0.1
-                }
-            },
-            {
-                "code": "strong",
-                "type": "positive",
-                "attributes": {
-                    "meleeWeaponsDamage": 0.15,
-                    "maxhealthExtraPoints": 3,
-                    "bowDrawingStrength": 0.1,
-                    "rangedWeaponsDamage": 0.1
-                }
-            },
-            {
-                "code": "outlaw",
+                "code": "rhoutlaw",
                 "type": "negative",
                 "attributes": {
                     "hungerrate": 0.12,
@@ -99,7 +42,7 @@
                 }
             },
             {
-                "code": "hasty",
+                "code": "rhhasty",
                 "type": "negative",
                 "attributes": {
                     "animalLootDropRate": -0.15,
@@ -107,91 +50,319 @@
                 }
             },
             {
-                "code": "hungry",
+                "code": "rhfocusedii",
+                "type": "positive",
+                "attributes": {
+                    "rangedWeaponsDamage": 0.25,
+                    "rangedWeaponsAcc": 0.35,
+                    "bowDrawingStrength": 0.3
+                }
+            },
+            {
+                "code": "rhhunter",
+                "type": "positive",
+                "attributes": {
+                    "animalLootDropRate": 0.15,
+                    "animalHarvestingTime": -0.25
+                }
+            },
+            {
+                "code": "rhbowyer",
+                "type": "positive",
+                "attributes": {
+                }
+            },
+            {
+                "code": "rhclaustrophobic",
+                "type": "negative",
+                "attributes": {
+                    "oreDropRate": -0.15,
+                    "miningSpeedMul": -0.15
+                }
+            },
+            {
+                "code": "rhscrawny",
+                "type": "negative",
+                "attributes": {
+                    "meleeWeaponsDamage": -0.15,
+                    "armorWalkSpeedAffectedness": 0.15
+                }
+            },
+            {
+                "code": "rhpilferer",
+                "type": "positive",
+                "attributes": {
+                    "vesselContentsDropRate": 0.25,
+                    "wholeVesselLootChance": 0.15,
+                    "rustyGearDropRate": 0.2
+                }
+            },
+            {
+                "code": "rhforager",
+                "type": "positive",
+                "attributes": {
+                    "forageDropRate": 0.15,
+                    "wildCropDropRate": 0.15
+                }
+            },
+            {
+                "code": "rhfurtiveii",
+                "type": "positive",
+                "attributes": {
+                    "animalSeekingRange": -0.40
+                }
+            },
+            {
+                "code": "rhmalfactor",
+                "type": "positive",
+                "attributes": {
+                }
+            },
+            {
+                "code": "rhsqueamish",
+                "type": "negative",
+                "attributes": {
+                    "animalLootDropRate": -0.15,
+                    "animalHarvestingTime": 0.25
+                }
+            },
+            {
+                "code": "rhfrail",
+                "type": "negative",
+                "attributes": {
+                    "meleeWeaponsDamage": -0.15,
+                    "maxhealthExtraPoints": -2.5
+                }
+            },
+            {
+                "code": "rhnaturalist",
+                "type": "positive",
+                "attributes": {
+                    "forageDropRate": 0.25,
+                    "wildCropDropRate": 0.25,
+                    "animalSeekingRange": -0.25
+                }
+            },
+            {
+                "code": "rhfocused",
+                "type": "positive",
+                "attributes": {
+                    "rangedWeaponsDamage": 0.15,
+                    "rangedWeaponsAcc": 0.2
+                }
+            },
+            {
+                "code": "rhforestwalk",
+                "type": "positive",
+                "attributes": {
+                    "walkspeed": 0.12
+                }
+            },
+            {
+                "code": "rhdruid",
+                "type": "positive",
+                "attributes": {
+                }
+            },
+            {
+                "code": "rhnontechnical",
+                "type": "negative",
+                "attributes": {
+                    "temporalGearTLRepairCost": 2,
+                    "mechanicalsDamage": -0.25
+                }
+            },
+            {
+                "code": "rhtechnical",
+                "type": "positive",
+                "attributes": {
+                    "temporalGearTLRepairCost": -1,
+                    "mechanicalsDamage": 0.3,
+                    "mechanicalsDropRate": 0.2
+                }
+            },
+            {
+                "code": "rhgoodeyes",
+                "type": "positive",
+                "attributes": {
+                    "rangedWeaponsAcc": 0.15
+                }
+            },
+            {
+                "code": "rhclockmaker",
+                "type": "positive",
+                "attributes": {
+                }
+            },
+            {
+                "code": "rhweak",
+                "type": "negative",
+                "attributes": {
+                    "miningSpeedMul": -0.15,
+                    "meleeWeaponsDamage": -0.15
+                }
+            },
+            {
+                "code": "rhprecise",
+                "type": "positive",
+                "attributes": {
+                    "armorDurabilityLoss": -0.1,
+                    "rangedWeaponsAcc": 0.15
+                }
+            },
+            {
+                "code": "rhlight",
+                "type": "positive",
+                "attributes": {
+                    "walkspeed": 0.1,
+                    "armorWalkSpeedAffectedness": -0.1
+                }
+            },
+            {
+                "code": "rhlighteater",
+                "type": "positive",
+                "attributes": {
+                    "hungerrate": -0.1
+                }
+            },
+            {
+                "code": "rhtailor",
+                "type": "positive",
+                "attributes": {
+                }
+            },
+            {
+                "code": "rhsofthands",
+                "type": "negative",
+                "attributes": {
+                    "wildCropDropRate": -0.15,
+                    "miningSpeedMul": -0.15
+                }
+            },
+            {
+                "code": "rhweakstomach",
+                "type": "negative",
+                "attributes": {
+                    "animalLootDropRate": -0.15,
+                    "maxhealthExtraPoints": -2
+                }
+            },
+            {
+                "code": "rhsoldier",
+                "type": "positive",
+                "attributes": {
+                    "meleeWeaponsDamage": 0.3,
+                    "armorWalkSpeedAffectedness": -0.3,
+                    "rustyGearDropRate": 0.1
+                }
+            },
+            {
+                "code": "rhhardy",
+                "type": "positive",
+                "attributes": {
+                    "miningSpeedMul": 0.15,
+                    "maxhealthExtraPoints": 6
+                }
+            },
+            {
+                "code": "rhcaver",
+                "type": "positive",
+                "attributes": {
+                    "mechanicalsDamage": 0.15
+                }
+            },
+            {
+                "code": "rhblackguard",
+                "type": "positive",
+                "attributes": {
+                }
+            },
+            {
+                "code": "rhravenous",
                 "type": "negative",
                 "attributes": {
                     "hungerrate": 0.2
                 }
             },
             {
-                "code": "brute",
+                "code": "rhbrute",
                 "type": "negative",
                 "attributes": {
-                    "animalLootDropRate": -0.1,
-                    "vesselContentsDropRate": -0.1
+                    "vesselContentsDropRate": -0.15
                 }
             },
             {
-                "code": "barbarian",
+                "code": "rhnearsighted",
                 "type": "negative",
                 "attributes": {
-                    "animalLootDropRate": -0.2,
-                    "vesselContentsDropRate": -0.2,
-                    "forageDropRate": -0.25,
-                    "wildCropDropRate": -0.25
+                    "rangedWeaponsDamage": -0.15,
+                    "rangedWeaponsAcc": -0.2
                 }
             },
             {
-                "code": "heavyfeet",
+                "code": "rhminingexpert",
+                "type": "positive",
+                "attributes": {
+                    "oreDropRate": 0.2,
+                    "miningSpeedMul": 0.25,
+                    "meleeWeaponsDamage": 0.15
+                }
+            },
+            {
+                "code": "rhstout",
+                "type": "positive",
+                "attributes": {
+                    "armorWalkSpeedAffectedness": -0.15,
+                    "maxhealthExtraPoints": 3
+                }
+            },
+            {
+                "code": "rhminer",
+                "type": "positive",
+                "attributes": {
+                }
+            },
+            {
+                "code": "rhravenousii",
                 "type": "negative",
                 "attributes": {
-                    "animalSeekingRange": 0.35,
-                    "forageDropRate": -0.15,
+                    "hungerrate": 0.25
+                }
+            },
+            {
+                "code": "rhweakeyes",
+                "type": "negative",
+                "attributes": {
+                    "rangedWeaponsAcc": -0.15
+                }
+            },
+            {
+                "code": "rhskyforge",
+                "type": "positive",
+                "attributes": {
+                    "armorDurabilityLoss": -0.3,
+                    "meleeWeaponsDamage": 0.15
+                }
+            },
+            {
+                "code": "rhheavyswing",
+                "type": "positive",
+                "attributes": {
+                    "miningSpeedMul": 0.15
+                }
+            },
+            {
+                "code": "rhblacksmith",
+                "type": "positive",
+                "attributes": {
+                }
+            },
+            {
+                "code": "rhheavyhanded",
+                "type": "negative",
+                "attributes": {
+                    "forageDropRate": -0.2,
                     "wildCropDropRate": -0.2
-                }
-            },
-            {
-                "code": "thickfingers",
-                "type": "negative",
-                "attributes": {
-                    "animalLootDropRate": -0.1,
-                    "forageDropRate": -0.1,
-                    "wildCropDropRate": -0.1
-                }
-            },
-            {
-                "code": "forestwalk",
-                "type": "positive",
-                "attributes": {
-                    "animalSeekingRange": -0.65,
-                    "walkspeed": 0.12
-                }
-            },
-            {
-                "code": "herbalist",
-                "type": "positive",
-                "attributes": {
-                    "forageDropRate": 0.2,
-                    "wildCropDropRate": 0.2,
-                    "healingeffectivness": 0.1
-                }
-            },
-            {
-                "code": "claustrophobic2",
-                "type": "negative",
-                "attributes": {
-                    "meleeWeaponsDamage": -0.15,
-                    "oreDropRate": -0.25,
-                    "miningSpeedMul": -0.12
-                }
-            },
-            {
-                "code": "archer",
-                "type": "positive",
-                "attributes": {
-                    "rangedWeaponsDamage": 0.25,
-                    "rangedWeaponsAcc": 0.3,
-                    "bowDrawingStrength": 0.25,
-                    "rangedWeaponsSpeed": 0.15
-                }
-            },
-            {
-                "code": "naturalist",
-                "type": "negative",
-                "attributes": {
-                    "temporalGearTLRepairCost": 2,
-                    "rustyGearDropRate": -0.15,
-                    "mechanicalsDamage": -0.25
                 }
             }
         ],

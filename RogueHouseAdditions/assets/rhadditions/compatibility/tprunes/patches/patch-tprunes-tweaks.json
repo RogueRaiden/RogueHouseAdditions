@@ -1,0 +1,16 @@
+[
+    {
+        "op": "replace",
+        "path": "/durabilityByType",
+        "value": {
+            "*-copper": 3000,
+            "*-tinbronze": 5000,
+            "*-bismuthbronze": 6000,
+            "*-blackbronze": 7000,
+            "*-iron": 12000,
+            "*-steel": 30000
+        },
+        "file": "tprunes:itemtypes/rune.json",
+        "side": "Server"
+    }
+]

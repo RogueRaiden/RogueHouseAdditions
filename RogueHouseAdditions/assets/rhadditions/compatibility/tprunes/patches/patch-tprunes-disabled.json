@@ -1,0 +1,30 @@
+[
+	{
+		"op": "add",
+		"path": "/enabled",
+		"value": "false",
+		"file": "tprunes:recipes/grid/rawrune.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/0/enabled",
+		"value": "false",
+		"file": "tprunes:recipes/grid/beacon.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/1/enabled",
+		"value": "false",
+		"file": "tprunes:recipes/grid/beacon.json",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/2/enabled",
+		"value": "false",
+		"file": "tprunes:recipes/grid/beacon.json",
+		"side": "Server"
+	}
+]
