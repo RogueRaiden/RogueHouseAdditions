@@ -4,11 +4,11 @@
     "name": "Rogue House Additions",
     "authors": [ "RogueRaiden" ],
     "contributors": [ "Morwen", "Zinth", "Duchow", "Gerste", "Manstra", "ATree" ],
-    "description": "Tweaks and content for the Rogue House Community Server.",
-    "version": "4.0.0-rc.1",
+    "description": "Tweaks and content for the Rogue House servers.",
+    "version": "4.0.0",
     "website": "https://mods.vintagestory.at/rhadditions",
     "dependencies": {
-        "game": "1.19.4"
+        "game": "1.19.5"
     },
     "side": "universal"
 }

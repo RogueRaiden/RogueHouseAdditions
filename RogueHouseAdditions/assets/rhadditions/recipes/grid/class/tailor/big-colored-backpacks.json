@@ -1,0 +1,35 @@
+[
+    {
+        "name": "big leather colors backpack",
+        "ingredientPattern": "_L_,LBL,LML",
+        "requiresTrait": "rhtailor",
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "name": "leather",
+                "code": "game:leather-*",
+                "allowedVariants": [ "black", "blue", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow" ],
+                "quantity": 2
+            },
+            "M": {
+                "type": "item",
+                "name": "metal",
+                "code": "game:metalbit-*",
+                "allowedVariants": [ "tinbronze", "bismuthbronze", "blackbronze" ],
+                "quantity": 6
+            },
+            "B": {
+                "type": "item",
+                "name": "leather",
+                "code": "rhadditions:backpack-*",
+                "allowedVariants": [ "black", "blue", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow" ]
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "rhadditions:backpack-big-{leather}"
+        }
+    }
+]

@@ -67,126 +67,203 @@
 
     "xskills:blockdesc-cage-*": "<font color=\"#99c9f9\"><i>Requires the Catcher perk from the Husbandry skill to craft or use.</i></font>",
     "game:traitname-ability-catcher": "Catcher",
-    "game:traitname-ability-blackguard": "Blackguard",
-
-    "animalcages:block-smallanimalcage-opened": "Small pet cage (Empty)",
-    "animalcages:blockdesc-smallanimalcage-opened": "<font color=\"#99c9f9\"><i>Poke a small pet with this cage to collect it.</i></font>",
-    "animalcages:block-smallanimalcage-closed": "Small pet cage (Full)",
-    "animalcages:blockdesc-smallanimalcage-closed": "<font color=\"#99c9f9\"><i>Contains a collected pet. Place then break the cage to release it.</i></font>",
-    "animalcages:block-mediumanimalcage-*-opened-*": "Large pet cage (Empty)",
-    "animalcages:blockdesc-mediumanimalcage-*-opened-*": "<font color=\"#99c9f9\"><i>Poke a large pet with this cage to collect it.</i></font>",
-    "animalcages:block-mediumanimalcage-*-closed-*": "Large pet cage (Full)",
-    "animalcages:blockdesc-mediumanimalcage-*-closed-*": "<font color=\"#99c9f9\"><i>Contains a collected pet. Place then break the cage to release it.</i></font>",
 
 
 
-    "_comment3": "TRAITS **********************",
-
-    "game:trait-weaponexpert": "<font color=\"#84ff84\">• Weapon Expert</font>",
-    "game:charattribute-meleeWeaponsDamage-0.15": "+15% melee damage",
-    "game:charattribute-rangedWeaponsDamage-0.15": "+15% ranged damage",
-    "game:charattribute-rangedWeaponsAcc-0.35": "+35% ranged accuracy",
-    "game:charattribute-bowDrawingStrength-0.15": "+15% ranged distance",
-
-    "game:trait-sneaky": "<font color=\"#84ff84\">• Sneaky</font>",
-    "game:charattribute-animalSeekingRange--0.2": "-20% animal seeking range",
-
-    "game:trait-outlaw": "<font color=\"#ff8484\">• Outlaw</font>",
-    "game:charattribute-hungerrate-0.12": "+12% hunger rate",
-    "game:charattribute-maxhealthExtraPoints--3": "-3 health points",
-
-    "game:trait-hasty": "<font color=\"#ff8484\">• Hasty</font>",
-    "game:charattribute-animalLootDropRate--0.15": "-15% animal loot",
-    "game:charattribute-oreDropRate--15": "-15% ore drop rate",
-
-    "game:trait-blacksmith": "<font color=\"#84ff84\">• Blacksmith</font>",
-    "game:traitname-blacksmith": "Blacksmith",
-    "game:traitdesc-blacksmith": "Exclusive craftables <a href=\"handbooksearch:// \">blacksmith stuff (wip)</a>",
-
-    "game:trait-skyforge": "<font color=\"#84ff84\">• Skyforge</font>",
-    "game:charattribute-armorDurabilityLoss--0.3": "+30% armor durability",
-
-    "game:trait-strong": "<font color=\"#84ff84\">• Strong</font>",
-    "game:charattribute-maxhealthExtraPoints-3": "+3 health points",
-    "game:charattribute-bowDrawingStrength-0.1": "+10% ranged distance",
-    "game:charattribute-rangedWeaponsDamage-0.1": "+10% ranged damage",
-
-    "game:trait-hungry": "<font color=\"#ff8484\">• Hungry</font>",
-    "game:charattribute-hungerrate-0.2": "+20% hunger rate",
-
-    "game:trait-brute": "<font color=\"#ff8484\">• Brute</font>",
-
-    "game:trait-heavyfeet": "<font color=\"#ff8484\">• Heavy feet</font>",
-    "game:charattribute-animalSeekingRange-0.35": "+35% animal seeking range",
-
-    "game:trait-thickfingers": "<font color=\"#ff8484\">• Thick fingers</font>",
-    "game:charattribute-wildCropDropRate--0.1": "-10% wild crop drop rate",
-
-    "game:trait-toned": "<font color=\"#84ff84\">• Toned</font>",
-    "game:charattribute-armorWalkSpeedAffectedness--0.1": "+10% ranged distance",
-
-    "game:trait-geologist": "<font color=\"#84ff84\">• Geologist</font>",
-    "game:charattribute-oreDropRate-0.25": "+25% ore drop rate",
-    "game:charattribute-miningSpeedMul-0.25": "+25% mining speed",
-
-    "game:trait-miner": "<font color=\"#84ff84\">• Miner</font>",
-    "game:traitdesc-miner": "Exclusive craftables <a href=\"handbooksearch://mining bag \">mining gear</a>",
-
-    "game:trait-archer": "<font color=\"#84ff84\">• Archer</font>",
-    "game:charattribute-rangedWeaponsDamage-0.25": "+25% ranged damage",
-    "game:charattribute-rangedWeaponsAcc-0.3": "+30% ranged accuracy",
-    "game:charattribute-bowDrawingStrength-0.25": "+25% ranged distance",
-    "game:charattribute-rangedWeaponsSpeed-0.15": "+15% bow draw speed",
-
-    "game:trait-forestwalk": "<font color=\"#84ff84\">• Forest walk</font>",
-    "game:charattribute-animalSeekingRange--0.65": "-65% animal seeking range",
-    "game:charattribute-walkspeed-0.12": "+12% walk speed",
-
-    "game:trait-herbalist": "<font color=\"#84ff84\">• Herbalist</font>",
-    "game:charattribute-forageDropRate-0.2": "+20% loot from foraging",
-    "game:charattribute-healingeffectivness-0.1": "+10% healing effectivness",
-
-    "game:trait-naturalist": "<font color=\"#ff8484\">• Naturalist</font>",
-    "game:charattribute-temporalGearTLRepairCost-2": "+2 temporal gear cost to repair translocators",
-    "game:charattribute-rustyGearDropRate--0.15": "-15% rusty gear drop rate",
-    "game:charattribute-mechanicalsDamage--0.25": "-25% damage against mechanicals",
-
-    "game:trait-claustrophobic2": "<font color=\"#ff8484\">• Claustrophobic II</font>",
-    "game:charattribute-oreDropRate--0.25": "-25% ore drop rate",
-    "game:charattribute-miningSpeedMul--0.12": "-12% mining speed",
-
-    "game:trait-swordsmen": "<font color=\"#84ff84\">• Swordsmen</font>",
-    "game:charattribute-armorWalkSpeedAffectedness--0.3": "+30% armor walk speed",
-    "game:charattribute-rangedWeaponsAcc--0.25": "-25% ranged accuracy",
-
-    "game:trait-tank": "<font color=\"#84ff84\">• Tank</font>",
-    "game:charattribute-maxhealthExtraPoints-6": "+6 health points",
-    "game:charattribute-animalSeekingRange-0.5": "+50% animal seeking range",
-
-    "game:trait-blackguard": "<font color=\"#84ff84\">• Blackguard</font>",
-    "game:traitdesc-blackguard": "Exclusive craftables <a href=\"handbooksearch://blackguard shield or blackguard shortsword \">Blackguard shield, sword</a>",
-
-    "game:trait-barbarian": "<font color=\"#ff8484\">• Barbarian</font>",
-    "game:charattribute-animalLootDropRate--0.2": "-20% animal loot",
-    "game:charattribute-vesselContentsDropRate--0.2": "-20% vessel loot",
-    "game:charattribute-forageDropRate--0.25": "-25% forage drop rate",
-    "game:charattribute-wildCropDropRate--0.25": "-25% wild crop drop rate",
-
-
-
-    "_comment4": "CLASSES **********************",
+    "_commentClasses": "CLASSES **********************",
 
     "game:characterclass-rogue": "Rogue",
     "game:characterdesc-rogue": "<font color=\"#99c9f9\"><i>Slipping through the shadows, avoiding the Beasts that roam the lands.Far from the life you once had, but the only one you know of now.</i></font><br><br>The Beasts have taught many lessons in stealth, ranged and melee combat. Constant movement keeps your weight down, keeping you light on your feet but less hardy.",
 
+    "game:trait-rhfighter": "<font color=\"#84ff84\">• Fighter </font>",
+    "game:charattribute-meleeWeaponsDamage-0.15": "+15% Melee damage",
+    "game:charattribute-rangedWeaponsDamage-0.15": "+15% Ranged damage",
+    "game:charattribute-bowDrawingStrength-0.15": "+15% Ranged distance",
+
+    "game:trait-rhfineeye": "<font color=\"#84ff84\">• Fine Eye </font>",
+    "game:charattribute-rustyGearDropRate-0.15": "+15% Rusty gear drop rate",
+    "game:charattribute-rangedWeaponsAcc-0.15": "+15% Ranged accuracy",
+
+    "game:trait-rhfleetfooted": "<font color=\"#84ff84\">• Fleetfooted </font>",
+
+    "game:trait-rhrogue": "<font color=\"#84ff84\">• Rogue </font>",
+    "game:traitdesc-rhrogue": "Exclusive craftables <a href=\"handbooksearch://stuff \">stuff</a>",
+
+    "game:trait-rhoutlaw": "<font color=\"#ff8484\">• Outlaw </font>",
+    "game:charattribute-hungerrate-0.12": "+12% Hunger rate",
+    "game:charattribute-maxhealthExtraPoints--3": "-3 Health points",
+
+    "game:trait-rhhasty": "<font color=\"#ff8484\">• Hasty </font>",
+    "game:charattribute-animalLootDropRate--0.15": "-15% Animal loot",
+    "game:charattribute-oreDropRate--15": "-15% Ore drop rate",
+
+
+
     "game:characterclass-druid": "Druid",
     "game:characterdesc-druid": "<font color=\"#99c9f9\"><i>None shall taint our forests for as long as We remain.</i></font><br><br>Druids are protectors of the forests, masters of nature. They fill excellent support roles with their natural archery abilities and knowledge of plants. They despise the caves and the unnatural things within...",
 
+    "game:trait-rhnaturalist": "<font color=\"#84ff84\">• Naturalist </font>",
+    "game:charattribute-forageDropRate-0.25": "+25% Foraging loot",
+    "game:charattribute-wildCropDropRate-0.25": "+25% Wild crop loot",
+    "game:charattribute-animalSeekingRange--0.25": "-25% Animal seeking range",
+
+    "game:trait-rhfocused": "<font color=\"#84ff84\">• Focused </font>",
+    "game:charattribute-rangedWeaponsAcc-0.2": "+20% Ranged accuracy",
+
+    "game:trait-rhforestwalk": "<font color=\"#84ff84\">• Forest Walk </font>",
+    "game:charattribute-walkspeed-0.12": "+12% Walk speed",
+
+    "game:trait-rhdruid": "<font color=\"#84ff84\">• Druid </font>",
+    "game:traitdesc-rhdruid": "Exclusive craftables <a href=\"handbooksearch://stuff \">stuff</a>",
+
+    "game:trait-rhnontechnical": "<font color=\"#ff8484\">• Non-Technical </font>",
+    "game:charattribute-temporalGearTLRepairCost-2": "+2 Temporal gear cost to repair translocators",
+    "game:charattribute-mechanicalsDamage--0.25": "-25% Damage against mechanicals",
+
+    "game:trait-rhclaustrophobic": "<font color=\"#ff8484\">• Claustrophobic </font>",
+    "game:charattribute-oreDropRate--0.15": "-15% Ore drop rate",
+    "game:charattribute-miningSpeedMul--0.15": "-15% Mining speed",
+
+
+
+    "_commentHunter": "Hunter",
+
+    "game:trait-rhfocusedii": "<font color=\"#84ff84\">• Focused II </font>",
+    "game:charattribute-rangedWeaponsDamage-0.25": "+25% Ranged damage",
+    "game:charattribute-rangedWeaponsAcc-0.35": "+35% Ranged accuracy",
+    "game:charattribute-bowDrawingStrength-0.3": "+30% Bow draw strength",
+
+    "game:trait-rhhunter": "<font color=\"#84ff84\">• Hunter </font>",
+    "game:charattribute-animalLootDropRate-0.15": "+15% Animal loot",
+
+    "game:trait-rhbowyer": "<font color=\"#84ff84\">• Bowyer </font>",
+    "game:traitdesc-rhbowyer": "Exclusive craftables <a href=\"handbooksearch://stuff \">stuff</a>",
+
+    "game:trait-rhscrawny": "<font color=\"#ff8484\">• Scrawny </font>",
+    "game:charattribute-armorWalkSpeedAffectedness-0.15": "-15% Armor walk speed",
+
+
+
+    "_commentMalefactor": "Malefactor",
+
+    "game:trait-rhpilferer": "<font color=\"#84ff84\">• Pilferer </font>",
+    "game:charattribute-vesselContentsDropRate-0.25": "+25% Cracked vessel loot",
+    "game:charattribute-wholeVesselLootChance-0.15": "+15% Cracked vessel drop chance",
+    "game:charattribute-rustyGearDropRate-0.2": "+20% Rusty gear drop rate",
+
+    "game:trait-rhforager": "<font color=\"#84ff84\">• Forager </font>",
+    "game:charattribute-forageDropRate-0.15": "+15% Forage loot",
+    "game:charattribute-wildCropDropRate-0.15": "+15% Wild crop loot",
+
+    "game:trait-rhfurtive": "<font color=\"#84ff84\">• Furtive </font>",
+    "game:charattribute-animalSeekingRange--0.4": "-40% Animal seeking range",
+
+    "game:trait-rhmalefactor": "<font color=\"#84ff84\">• Malefactor </font>",
+    "game:traitdesc-rhmalefactor": "Exclusive craftables <a href=\"handbooksearch://stuff \">stuff</a>",
+
+    "game:trait-rhsqueamish": "<font color=\"#ff8484\">• Squeamish </font>",
+
+    "game:trait-rhfrail": "<font color=\"#ff8484\">• Frail </font>",
+
+
+
+    "_commentTailor": "Tailor",
+
+    "game:trait-rhprecise": "<font color=\"#84ff84\">• Precise </font>",
+
+    "game:trait-rhlight": "<font color=\"#84ff84\">• Light </font>",
+    "game:charattribute-armorWalkSpeedAffectedness--0.1": "+10% Armor walk speed",
+
+    "game:trait-rhlighteater": "<font color=\"#84ff84\">• Light eater </font>",
+    "game:charattribute-hungerrate--0.1": "-10% Hunger rate",
+
+    "game:trait-rhtailor": "<font color=\"#84ff84\">• Tailor </font>",
+    "game:traitdesc-rhtailor": "Exclusive craftables <a href=\"handbooksearch://stuff \">stuff</a>",
+
+    "game:trait-rhsofthands": "<font color=\"#ff8484\">• Soft hands </font>",
+    "game:charattribute-wildCropDropRate--0.15": "-15% Wild crop loot",
+
+    "game:trait-rhweakstomach": "<font color=\"#ff8484\">• Weak stomach </font>",
+    "game:charattribute-maxhealthExtraPoints--2": "-2 Health points",
+
+
+
+    "_commentClockmaker": "Clockmaker",
+
+    "game:trait-rhtechnical": "<font color=\"#84ff84\">• Technical </font>",
+    "game:charattribute-mechanicalsDamage-0.3": "+30% Damage against mechanicals",
+    "game:charattribute-mechanicalsDropRate-0.2": "+20% Mechanicals loot",
+
+    "game:trait-rhgoodeyes": "<font color=\"#84ff84\">• Good eyes </font>",
+
+    "game:trait-rhclockmaker": "<font color=\"#84ff84\">• Clockmaker </font>",
+    "game:traitdesc-rhclockmaker": "Exclusive craftables <a href=\"handbooksearch://stuff \">stuff</a>",
+
+    "game:trait-rhweak": "<font color=\"#ff8484\">• Weak </font>",
+
+
+
+    "_commentBlackguard": "Blackguard",
+
+    "game:trait-rhsoldier": "<font color=\"#84ff84\">• Soldier </font>",
+    "game:charattribute-armorWalkSpeedAffectedness--0.3": "+30% Armor walk speed",
+
+    "game:trait-rhhardy": "<font color=\"#84ff84\">• Hardy </font>",
+    "game:charattribute-miningSpeedMul-0.15": "+15% Mining speed",
+    "game:charattribute-maxhealthExtraPoints-6": "+6 Health points",
+
+    "game:trait-rhcaver": "<font color=\"#84ff84\">• Caver </font>",
+    "game:charattribute-mechanicalsDamage-0.15": "+15% Damage against mechanicals",
+
+    "game:trait-rhblackguard": "<font color=\"#84ff84\">• Blackguard </font>",
+    "game:traitdesc-rhblackguard": "Exclusive craftables <a href=\"handbooksearch://stuff \">stuff</a>",
+
+    "game:trait-rhravenous": "<font color=\"#ff8484\">• Ravenous </font>",
+    "game:charattribute-hungerrate-0.2": "+20% Hunger rate",
+
+    "game:trait-rhbrute": "<font color=\"#ff8484\">• Brute </font>",
+    "game:charattribute-vesselContentsDropRate--0.15": "-15% Cracked vessel loot",
+
+    "game:trait-rhnearsighted": "<font color=\"#ff8484\">• Nearsighted </font>",
+    "game:charattribute-rangedWeaponsAcc--0.2": "-20% Ranged accuracy",
+
+
+
     "game:characterclass-blacksmith": "Blacksmith",
     "game:characterdesc-blacksmith": "<font color=\"#99c9f9\"><i>Blacksmith description top.</i></font><br><br>Blacksmith description bottom.",
+    
+    "game:trait-rhskyforge": "<font color=\"#84ff84\">• Skyforge </font>",
+    "game:charattribute-armorDurabilityLoss--0.3": "+30% Armor durability",
+
+    "game:trait-rhstout": "<font color=\"#84ff84\">• Stout </font>",
+    "game:charattribute-armorWalkSpeedAffectedness--0.15": "+15% Armor walk speed",
+    "game:charattribute-maxhealthExtraPoints-3": "+3 Health points",
+
+    "game:trait-rhheavyswing": "<font color=\"#84ff84\">• Heavy Swing </font>",
+
+    "game:trait-rhblacksmith": "<font color=\"#84ff84\">• Blacksmith </font>",
+    "game:traitdesc-rhblacksmith": "Exclusive craftables <a href=\"handbooksearch://stuff \">stuff</a>",
+
+    "game:trait-rhheavyhanded": "<font color=\"#ff8484\">• Heavy Handed </font>",
+    "game:charattribute-forageDropRate--0.2": "-20% Forage harvesting",
+
+
 
     "game:characterclass-miner": "Miner",
-    "game:characterdesc-miner": "<font color=\"#99c9f9\"><i>Miner description top.</i></font><br><br>Born for digging, Miners excel at stone carving and sniffing out precious minerals. However, time underground has detached them from nature.",
+    "game:characterdesc-miner": "<font color=\"#99c9f9\"><i>Miner description top.</i></font><br><br>Born for digging, Miners are experts at stone carving and sniffing out precious minerals. However, time underground has detached them from nature.",
+
+    "game:trait-rhminingexpert": "<font color=\"#84ff84\">• Mining Expert </font>",
+    "game:charattribute-oreDropRate-0.2": "+20% Ore drop rate",
+    "game:charattribute-miningSpeedMul-0.25": "+25% mining speed",
+
+    "game:trait-rhminer": "<font color=\"#84ff84\">• Miner </font>",
+    "game:traitdesc-rhminer": "Exclusive craftables <a href=\"handbooksearch://stuff \">stuff</a>",
+
+    "game:trait-rhravenousii": "<font color=\"#ff8484\">• Ravenous II </font>",
+    "game:charattribute-hungerrate-0.25": "+25% Hunger rate",
+
+    "game:trait-rhweakeyes": "<font color=\"#ff8484\">• Weak Eyes </font>",
+    "game:charattribute-rangedWeaponsAcc--0.15": "-15% Ranged accuracy",
 
 
 

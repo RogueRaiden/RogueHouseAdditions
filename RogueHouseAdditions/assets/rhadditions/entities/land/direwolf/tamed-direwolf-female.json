@@ -14,6 +14,15 @@
     "knockbackresistance": 1,
     "drops": [],
     "attributes": {
+		"basketCatchable": true,
+		"trapChance": 0.0,
+		"trapDestroyChance": 0.7,
+		"creatureDiet": {
+			"foodTags": ["meat"]
+		},
+		"handbook": {
+			"groupcode": "creaturegroup-direwolf"
+		},
         "killedByInfoText": "deadcreature-eaten-large",
         "riderIdleAnimation": "rideidle",
         "mountHeight": 0.85,
@@ -720,13 +729,11 @@
                         "code": "seekfoodandeat",
                         "movespeed": 0.006,
                         "priority": 1.6,
-                        "eatSound": "game:player/eat",
-                        "eatTime": 1.5,
-                        "eatLooseItems": true,
                         "eatItemCategories": [ "Protein" ],
-                        "animationSpeed": 1.4,
+                        "eatSound": "game:creature/animal-eat1",
+                        "eatLooseItems": true,
+                        "eatTime": 1.5,
                         "animation": "Walk",
-                        "eatAnimation": "Eat",
                         "mincooldownHours": 1,
                         "maxcooldownHours": 4
                     },

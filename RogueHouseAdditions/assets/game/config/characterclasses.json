@@ -5,6 +5,7 @@
 			"rhfighter",
 			"rhfineeye",
 			"rhfleetfooted",
+			"rhrogue",
 			"rhoutlaw",
 			"rhhasty"
 		],
@@ -114,8 +115,8 @@
 		"traits": [
 			"rhpilferer",
 			"rhforager",
-			"rhfurtiveii",
-			"rhmalfactor",
+			"rhfurtive",
+			"rhmalefactor",
 			"rhsqueamish",
 			"rhfrail"
 		],
@@ -192,7 +193,7 @@
 			"rhlighteater",
 			"rhtailor",
 			"rhsofthands",
-			"rhweak"
+			"rhweakstomach"
 		],
 		"gear": [
 			{

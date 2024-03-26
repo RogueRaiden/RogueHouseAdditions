@@ -157,36 +157,6 @@
         }
     },
     {
-        "name": "leather colors backpack",
-        "ingredientPattern": "_T_,L_L,FLF",
-        "requiresTrait": "clothier",
-        "ingredients": {
-            "T": {
-                "type": "item",
-                "code": "game:flaxtwine",
-                "quantity": 2
-            },
-            "F": {
-                "type": "item",
-                "code": "game:flaxfibers",
-                "quantity": 2
-            },
-            "L": {
-                "type": "item",
-                "code": "game:leather-*",
-                "name": "color",
-                "allowedVariants": [ "black", "blue", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow" ],
-                "quantity": 2
-            }
-        },
-        "width": 3,
-        "height": 3,
-        "output": {
-            "type": "item",
-            "code": "rhadditions:backpack-{color}"
-        }
-    },
-    {
         "name": "big leather plain backpack",
         "ingredientPattern": "_L_,LBL,LML",
         "ingredients": {
@@ -212,39 +182,6 @@
         "output": {
             "type": "item",
             "code": "rhadditions:backpack-big-plain"
-        }
-    },
-    {
-        "name": "big leather colors backpack",
-        "ingredientPattern": "_L_,LBL,LML",
-        "requiresTrait": "clothier",
-        "ingredients": {
-            "L": {
-                "type": "item",
-                "name": "leather",
-                "code": "game:leather-*",
-                "allowedVariants": [ "black", "blue", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow" ],
-                "quantity": 2
-            },
-            "M": {
-                "type": "item",
-                "name": "metal",
-                "code": "game:metalbit-*",
-                "allowedVariants": [ "tinbronze", "bismuthbronze", "blackbronze" ],
-                "quantity": 6
-            },
-            "B": {
-                "type": "item",
-                "name": "leather",
-                "code": "rhadditions:backpack-*",
-                "allowedVariants": [ "black", "blue", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow" ]
-            }
-        },
-        "width": 3,
-        "height": 3,
-        "output": {
-            "type": "item",
-            "code": "rhadditions:backpack-big-{leather}"
         }
     }
 ]

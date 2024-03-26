@@ -1,6 +1,6 @@
 Changelog:
 
-v4.0.0-rc.1
+v4.0.0
 -Feature: Total Class Overhaul. All class traits rebalanced.
 
 -Tweaks: Removed a number of things cause it was done in 1.19+:

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "leather colors backpack",
+        "ingredientPattern": "_T_,L_L,FLF",
+        "requiresTrait": "rhtailor",
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine",
+                "quantity": 2
+            },
+            "F": {
+                "type": "item",
+                "code": "game:flaxfibers",
+                "quantity": 2
+            },
+            "L": {
+                "type": "item",
+                "code": "game:leather-*",
+                "name": "color",
+                "allowedVariants": [ "black", "blue", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow" ],
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "item",
+            "code": "rhadditions:backpack-{color}"
+        }
+    }
+]

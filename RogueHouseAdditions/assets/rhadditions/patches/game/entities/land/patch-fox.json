@@ -1,11 +1,45 @@
 [
     {
+        "op": "add",
+        "path": "/attributes/creatureDiet",
+        "value": {
+            "foodTags": ["meat"]
+        },
+        "file": "game:entities/land/fox",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/11/aitasks/-",
+        "value": {
+            "code": "seekfoodandeat",
+            "movespeed": 0.006,
+            "priority": 1.6,
+            "eatSound": "game:creature/animal-eat-small",
+            "eatTime": 1.5,
+            "eatLooseItems": true,
+            "eatItemCategories": [ "Protein", "Fruit" ],
+            "animation": "Walk",
+            "mincooldownHours": 1,
+            "maxcooldownHours": 4
+        },
+        "file": "game:entities/land/fox",
+        "side": "Server"
+    },
+    {
         "op": "addeach",
         "path": "/server/behaviors/-",
         "value": [
             {
                 "code": "tameable",
-                "tameEntityCode": "rhadditions:tamed-fox-pup-forest",
+				"enabledByType": {
+					"fox-pup-*": true,
+					"*": false
+				},
+                "tameEntityCodeByType": {
+                    "fox-pup-red": "rhadditions:tamed-fox-pup-forest",
+                    "fox-pup-arctic": "rhadditions:tamed-fox-pup-arctic"
+                },
                 "treat": [
                     {
                         "code": "fruit-blueberry",
@@ -67,6 +101,10 @@
             },
             {
                 "code": "mouthinventory",
+				"enabledByType": {
+					"fox-pup-*": true,
+					"*": false
+				},
                 "acceptStacks": [
                     {
                         "type": "item",
@@ -115,7 +153,7 @@
                 ]
             }
         ],
-        "file": "game:entities/land/fox-pup.json",
+        "file": "game:entities/land/fox",
         "dependsOn": [ { "modid": "petai" } ],
         "side": "Server"
     },
@@ -125,6 +163,10 @@
         "value": [
             {
                 "code": "tameable",
+				"enabledByType": {
+					"fox-pup-*": true,
+					"*": false
+				},
                 "treat": [
                     {
                         "code": "fruit-blueberry",
@@ -186,6 +228,10 @@
             },
             {
                 "code": "mouthinventory",
+				"enabledByType": {
+					"fox-pup-*": true,
+					"*": false
+				},
                 "acceptStacks": [
                     {
                         "type": "item",
@@ -234,13 +280,13 @@
                 ]
             }
         ],
-        "file": "game:entities/land/fox-pup.json",
+        "file": "game:entities/land/fox",
         "dependsOn": [ { "modid": "petai" } ],
         "side": "Server"
     },
     {
         "op": "add",
-        "path": "/server/behaviors/9/aitasks/-",
+        "path": "/server/behaviors/11/aitasks/-",
         "value": {
             "code": "useinventory",
             "animation": "eat",
@@ -268,7 +314,7 @@
             "mincooldownHours": 1,
             "maxcooldownHours": 1.5
         },
-        "file": "game:entities/land/fox-pup.json",
+        "file": "game:entities/land/fox",
         "dependsOn": [ { "modid": "petai" } ],
         "side": "Server"
     }
