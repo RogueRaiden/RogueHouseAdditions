@@ -66,6 +66,47 @@
 		]
 	},
 	{
+		"code": "clockmaker",
+		"traits": [
+			"rhtechnical",
+			"rhgoodeyes",
+			"rhfleetfooted",
+			"rhclockmaker",
+			"rhweak",
+			"rhsqueamish"
+		],
+		"gear": [
+			{
+				"type": "item",
+				"code": "clothes-shoulder-clockmaker-apron"
+			},
+			{
+				"type": "item",
+				"code": "clothes-upperbody-clockmaker-shirt"
+			},
+			{
+				"type": "item",
+				"code": "clothes-upperbodyover-clockmaker-tunic"
+			},
+			{
+				"type": "item",
+				"code": "clothes-lowerbody-clockmaker-pants"
+			},
+			{
+				"type": "item",
+				"code": "clothes-foot-clockmaker-shoes"
+			},
+			{
+				"type": "item",
+				"code": "clothes-hand-clockmaker-wristguard"
+			},
+			{
+				"type": "item",
+				"code": "clothes-waist-clockmaker-belt"
+			}
+		]
+	},
+	{
 		"code": "hunter",
 		"traits": [
 			"rhfocusedii",
@@ -160,32 +201,6 @@
 		]
 	},
 	{
-		"code": "commoner",
-		"traits": [],
-		"gear": [
-			{
-				"type": "item",
-				"code": "clothes-upperbody-commoner-shirt"
-			},
-			{
-				"type": "item",
-				"code": "clothes-upperbodyover-commoner-coat"
-			},
-			{
-				"type": "item",
-				"code": "clothes-lowerbody-commoner-trousers"
-			},
-			{
-				"type": "item",
-				"code": "clothes-foot-commoner-boots"
-			},
-			{
-				"type": "item",
-				"code": "clothes-hand-commoner-gloves"
-			}
-		]
-	},
-	{
 		"code": "tailor",
 		"traits": [
 			"rhprecise",
@@ -227,47 +242,6 @@
 			{
 				"type": "item",
 				"code": "clothes-arm-tailor-needlepuff"
-			}
-		]
-	},
-	{
-		"code": "clockmaker",
-		"traits": [
-			"rhtechnical",
-			"rhgoodeyes",
-			"rhfleetfooted",
-			"rhclockmaker",
-			"rhweak",
-			"rhsqueamish"
-		],
-		"gear": [
-			{
-				"type": "item",
-				"code": "clothes-shoulder-clockmaker-apron"
-			},
-			{
-				"type": "item",
-				"code": "clothes-upperbody-clockmaker-shirt"
-			},
-			{
-				"type": "item",
-				"code": "clothes-upperbodyover-clockmaker-tunic"
-			},
-			{
-				"type": "item",
-				"code": "clothes-lowerbody-clockmaker-pants"
-			},
-			{
-				"type": "item",
-				"code": "clothes-foot-clockmaker-shoes"
-			},
-			{
-				"type": "item",
-				"code": "clothes-hand-clockmaker-wristguard"
-			},
-			{
-				"type": "item",
-				"code": "clothes-waist-clockmaker-belt"
 			}
 		]
 	},
@@ -386,6 +360,32 @@
 			{
 				"type": "item",
 				"code": "clothes-foot-worn-leather-boots"
+			}
+		]
+	},
+	{
+		"code": "commoner",
+		"traits": [],
+		"gear": [
+			{
+				"type": "item",
+				"code": "clothes-upperbody-commoner-shirt"
+			},
+			{
+				"type": "item",
+				"code": "clothes-upperbodyover-commoner-coat"
+			},
+			{
+				"type": "item",
+				"code": "clothes-lowerbody-commoner-trousers"
+			},
+			{
+				"type": "item",
+				"code": "clothes-foot-commoner-boots"
+			},
+			{
+				"type": "item",
+				"code": "clothes-hand-commoner-gloves"
 			}
 		]
 	}

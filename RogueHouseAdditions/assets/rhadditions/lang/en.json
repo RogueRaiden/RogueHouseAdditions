@@ -230,7 +230,7 @@
 
 
     "game:characterclass-blacksmith": "Blacksmith",
-    "game:characterdesc-blacksmith": "<font color=\"#99c9f9\"><i>Blacksmith description top.</i></font><br><br>Blacksmith description bottom.",
+    "game:characterdesc-blacksmith": "<font color=\"#99c9f9\"><i>*Clang*  .  .  .   *Clang*  .  .  .   *Clang*  .  .  .   *Clang*  .  .  .   *Clang*  .  .  .   </i></font><br><br>Blacksmiths have a natural ability for crafting and metal work. With their special training, they can craft things no one else can. This hard work has made them rather stout, making decent warriors.",
     
     "game:trait-rhskyforge": "<font color=\"#84ff84\">• Skyforge </font>",
     "game:charattribute-armorDurabilityLoss--0.3": "+30% Armor durability",
@@ -250,7 +250,7 @@
 
 
     "game:characterclass-miner": "Miner",
-    "game:characterdesc-miner": "<font color=\"#99c9f9\"><i>Miner description top.</i></font><br><br>Born for digging, Miners are experts at stone carving and sniffing out precious minerals. However, time underground has detached them from nature.",
+    "game:characterdesc-miner": "<font color=\"#99c9f9\"><i>Chipping away, day by day. Carving through the stone, all on my own. Chip, chip. These veins of ore, cannot carry anymore. What was that, a sound? They're all around...</i></font><br><br>Born for digging, Miners are experts at stone carving and sniffing out precious minerals. Extended time underground in the mines has degraded their eyesight.",
 
     "game:trait-rhminingexpert": "<font color=\"#84ff84\">• Mining Expert </font>",
     "game:charattribute-oreDropRate-0.2": "+20% Ore drop rate",
