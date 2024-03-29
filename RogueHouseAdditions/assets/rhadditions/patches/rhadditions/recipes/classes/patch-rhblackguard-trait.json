@@ -1,0 +1,17 @@
+[
+    {
+        "comment": "Blackguard",
+        "op": "replace",
+        "path": "/1/requiresTrait",
+        "value": "rhblackguard",
+        "file": "game:recipes/grid/tool/blade",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/31/requiresTrait",
+        "value": "rhblackguard",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    }
+]

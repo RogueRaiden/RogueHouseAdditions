@@ -1,0 +1,24 @@
+[
+    {
+        "comment": "Hunter",
+        "op": "replace",
+        "path": "/1/requiresTrait",
+        "value": "rhbowyer",
+        "file": "game:recipes/grid/tool/bow",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/8/requiresTrait",
+        "value": "rhbowyer",
+        "file": "game:recipes/grid/tool/bow",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/1/requiresTrait",
+        "value": "rhbowyer",
+        "file": "game:recipes/grid/tool/arrow",
+        "side": "Server"
+    }
+]

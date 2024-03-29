@@ -1,0 +1,173 @@
+[
+    {
+        "comment": "Blacksmith",
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "blacksmithenhancements:recipes/grid/bellow",
+		"dependsOn": [ { "modid": "blacksmithenhancements" } ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "blacksmithenhancements:recipes/grid/blacksmith-gloves",
+		"dependsOn": [ { "modid": "blacksmithenhancements" } ],
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/7/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/8/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/9/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/10/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/11/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/12/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/13/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/14/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/15/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/16/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/17/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/20/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/21/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/22/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/23/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/24/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/25/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/26/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/27/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/28/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/29/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/30/requiresTrait",
+        "value": "rhblacksmith",
+        "file": "game:recipes/grid/tool/shield",
+        "side": "Server"
+    }
+]

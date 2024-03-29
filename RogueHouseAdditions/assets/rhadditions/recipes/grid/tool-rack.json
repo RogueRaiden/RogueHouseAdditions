@@ -45,22 +45,5 @@
             "type": "block",
             "code": "game:toolrack-north"
         }
-    },
-    {
-        "ingredientPattern": "BBB,___,BBB",
-        "ingredients": {
-            "B": {
-                "type": "item",
-                "name": "metaltype",
-                "code": "rhadditions:flatbar-*",
-                "allowedVariants": [ "bismuth", "bismuthbronze", "blackbronze", "brass", "chromium", "copper", "gold", "iron", "lead", "meteoriciron", "molybdochalkos", "silver", "steel", "tin", "tinbronze", "zinc" ]
-            }
-        },
-        "width": 3,
-        "height": 3,
-        "output": {
-            "type": "block",
-            "code": "rhadditions:toolrack-{metaltype}-north"
-        }
     }
 ]

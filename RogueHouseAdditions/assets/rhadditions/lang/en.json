@@ -87,6 +87,7 @@
     "game:trait-rhfleetfooted": "<font color=\"#84ff84\">• Fleetfooted </font>",
 
     "game:trait-rhrogue": "<font color=\"#84ff84\">• Rogue </font>",
+    "game:traitname-rhrogue": "Rogue",
     "game:traitdesc-rhrogue": "Exclusive craftables <a href=\"handbooksearch://stuff \">stuff</a>",
 
     "game:trait-rhoutlaw": "<font color=\"#ff8484\">• Outlaw </font>",
@@ -114,6 +115,7 @@
     "game:charattribute-walkspeed-0.12": "+12% Walk speed",
 
     "game:trait-rhdruid": "<font color=\"#84ff84\">• Druid </font>",
+    "game:traitname-rhdruid": "Druid",
     "game:traitdesc-rhdruid": "Exclusive craftables <a href=\"handbooksearch://stuff \">stuff</a>",
 
     "game:trait-rhnontechnical": "<font color=\"#ff8484\">• Non-Technical </font>",
@@ -137,7 +139,8 @@
     "game:charattribute-animalLootDropRate-0.15": "+15% Animal loot",
 
     "game:trait-rhbowyer": "<font color=\"#84ff84\">• Bowyer </font>",
-    "game:traitdesc-rhbowyer": "Exclusive craftables <a href=\"handbooksearch://stuff \">stuff</a>",
+    "game:traitname-rhbowyer": "Bowyer",
+    "game:traitdesc-rhbowyer": "Exclusive craftables: <a href=\"handbooksearch://crude bow or crude arrow or recurve bow or quiver \">bows, arrows and quiver</a>",
 
     "game:trait-rhscrawny": "<font color=\"#ff8484\">• Scrawny </font>",
     "game:charattribute-armorWalkSpeedAffectedness-0.15": "-15% Armor walk speed",
@@ -159,7 +162,8 @@
     "game:charattribute-animalSeekingRange--0.4": "-40% Animal seeking range",
 
     "game:trait-rhmalefactor": "<font color=\"#84ff84\">• Malefactor </font>",
-    "game:traitdesc-rhmalefactor": "Exclusive craftables <a href=\"handbooksearch://stuff \">stuff</a>",
+    "game:traitname-rhmalefactor": "Malefactor",
+    "game:traitdesc-rhmalefactor": "Exclusive craftables: <a href=\"handbooksearch://sling\">sling</a>",
 
     "game:trait-rhsqueamish": "<font color=\"#ff8484\">• Squeamish </font>",
 
@@ -170,6 +174,7 @@
     "_commentTailor": "Tailor",
 
     "game:trait-rhprecise": "<font color=\"#84ff84\">• Precise </font>",
+    "game:charattribute-armorDurabilityLoss--0.1": "-10% Armor durability loss",
 
     "game:trait-rhlight": "<font color=\"#84ff84\">• Light </font>",
     "game:charattribute-armorWalkSpeedAffectedness--0.1": "+10% Armor walk speed",
@@ -178,7 +183,8 @@
     "game:charattribute-hungerrate--0.1": "-10% Hunger rate",
 
     "game:trait-rhtailor": "<font color=\"#84ff84\">• Tailor </font>",
-    "game:traitdesc-rhtailor": "Exclusive craftables <a href=\"handbooksearch://stuff \">stuff</a>",
+    "game:traitname-rhtailor": "Tailor",
+    "game:traitdesc-rhtailor": "Exclusive craftables: <a href=\"handbooksearch://sewing kit\">Sewing kit</a>, <a href=\"handbooksearch://chateau or pastoral or reindeer or moon or minstrel or fortune or nomad or spice or cobalt or azure or thigh-high or fine trousers or high leather\">clothes</a>, <a href=\"handbooksearch://tailored gambeson\">Tailored gambeson armor</a>, <a href=\"handbooksearch://backpack\">colored Backpacks</a>, ",
 
     "game:trait-rhsofthands": "<font color=\"#ff8484\">• Soft hands </font>",
     "game:charattribute-wildCropDropRate--0.15": "-15% Wild crop loot",
@@ -197,7 +203,8 @@
     "game:trait-rhgoodeyes": "<font color=\"#84ff84\">• Good eyes </font>",
 
     "game:trait-rhclockmaker": "<font color=\"#84ff84\">• Clockmaker </font>",
-    "game:traitdesc-rhclockmaker": "Exclusive craftables <a href=\"handbooksearch://stuff \">stuff</a>",
+    "game:traitname-rhclockmaker": "Clockmaker",
+    "game:traitdesc-rhclockmaker": "Exclusive craftables: <a href=\"handbooksearch://tuning spear\">device</a> to tame locusts, <a href=\"handbooksearch://clockwork\">Clockworks</a> for clocks, <a href=\"handbooksearch://spyglass\">spyglasses</a>, <a href=\"handbooksearch://rift ward or base return teleporter or terminus teleporter or night vision mask\">Jonas devices</a>, <a href=\"handbooksearch://arquebus or carbine or musket or pistol\">Firearms</a> and <a href=\"handbooksearch://simple crossbow or stirrup crossbow or goat's foot crossbow or windlass crossbow \">Crossbows</a>. ",
 
     "game:trait-rhweak": "<font color=\"#ff8484\">• Weak </font>",
 
@@ -216,7 +223,8 @@
     "game:charattribute-mechanicalsDamage-0.15": "+15% Damage against mechanicals",
 
     "game:trait-rhblackguard": "<font color=\"#84ff84\">• Blackguard </font>",
-    "game:traitdesc-rhblackguard": "Exclusive craftables <a href=\"handbooksearch://stuff \">stuff</a>",
+    "game:traitname-rhblackguard": "Blackguard",
+    "game:traitdesc-rhblackguard": "Exclusive craftables: <a href=\"handbooksearch://blackguard shortsword\">shortsword</a> and <a href=\"handbooksearch://blackguard shield\">shield</a>",
 
     "game:trait-rhravenous": "<font color=\"#ff8484\">• Ravenous </font>",
     "game:charattribute-hungerrate-0.2": "+20% Hunger rate",
@@ -233,7 +241,7 @@
     "game:characterdesc-blacksmith": "<font color=\"#99c9f9\"><i>*Clang*  .  .  .   *Clang*  .  .  .   *Clang*  .  .  .   *Clang*  .  .  .   *Clang*  .  .  .   </i></font><br><br>Blacksmiths have a natural ability for crafting and metal work. With their special training, they can craft things no one else can. This hard work has made them rather stout, making decent warriors.",
     
     "game:trait-rhskyforge": "<font color=\"#84ff84\">• Skyforge </font>",
-    "game:charattribute-armorDurabilityLoss--0.3": "+30% Armor durability",
+    "game:charattribute-armorDurabilityLoss--0.3": "-30% Armor durability loss",
 
     "game:trait-rhstout": "<font color=\"#84ff84\">• Stout </font>",
     "game:charattribute-armorWalkSpeedAffectedness--0.15": "+15% Armor walk speed",
@@ -242,7 +250,8 @@
     "game:trait-rhheavyswing": "<font color=\"#84ff84\">• Heavy Swing </font>",
 
     "game:trait-rhblacksmith": "<font color=\"#84ff84\">• Blacksmith </font>",
-    "game:traitdesc-rhblacksmith": "Exclusive craftables <a href=\"handbooksearch://stuff \">stuff</a>",
+    "game:traitname-rhblacksmith": "Blacksmith",
+    "game:traitdesc-rhblacksmith": "Exclusive craftables: <a href=\"handbooksearch://bellow or blacksmith gloves or metal tongs \">Blacksmith equipment</a>, <a href=\"handbooksearch://torch holder or metal tool rack or metal vertical rack \">Metal furniture</a>, <a href=\"handbooksearch://ornate \">ornate shields</a>, ",
 
     "game:trait-rhheavyhanded": "<font color=\"#ff8484\">• Heavy Handed </font>",
     "game:charattribute-forageDropRate--0.2": "-20% Forage harvesting",
@@ -257,7 +266,8 @@
     "game:charattribute-miningSpeedMul-0.25": "+25% mining speed",
 
     "game:trait-rhminer": "<font color=\"#84ff84\">• Miner </font>",
-    "game:traitdesc-rhminer": "Exclusive craftables <a href=\"handbooksearch://stuff \">stuff</a>",
+    "game:traitname-rhminer": "Miner",
+    "game:traitdesc-rhminer": "Exclusive craftables: <a href=\"handbooksearch://mining bag \">Mining equipment</a>",
 
     "game:trait-rhravenousii": "<font color=\"#ff8484\">• Ravenous II </font>",
     "game:charattribute-hungerrate-0.25": "+25% Hunger rate",
@@ -587,22 +597,22 @@
     "block-moldrack-redwood-*": "Vertical Rack (Redwood)",
     "block-moldrack-walnut-*": "Vertical Rack (Walnut)",
 
-    "block-verticalrack-bismuth-*": "Vertical Rack (Bismuth)",
-    "block-verticalrack-bismuthbronze-*": "Vertical Rack (Bismuth Bronze)",
-    "block-verticalrack-blackbronze-*": "Vertical Rack (Black Bronze)",
-    "block-verticalrack-brass-*": "Vertical Rack (Brass)",
-    "block-verticalrack-chromium-*": "Vertical Rack (Chromium)",
-    "block-verticalrack-copper-*": "Vertical Rack (Copper)",
-    "block-verticalrack-gold-*": "Vertical Rack (Gold)",
-    "block-verticalrack-iron-*": "Vertical Rack (Iron)",
-    "block-verticalrack-lead-*": "Vertical Rack (Lead)",
-    "block-verticalrack-meteoriciron-*": "Vertical Rack (Meteoric Iron)",
-    "block-verticalrack-molybdochalkos-*": "Vertical Rack (Molybdochalkos)",
-    "block-verticalrack-silver-*": "Vertical Rack (Silver)",
-    "block-verticalrack-steel-*": "Vertical Rack (Steel)",
-    "block-verticalrack-tin-*": "Vertical Rack (Tin)",
-    "block-verticalrack-tinbronze-*": "Vertical Rack (Tin Bronze)",
-    "block-verticalrack-zinc-*": "Vertical Rack (Zinc)",
+    "block-verticalrack-bismuth-*": "Metal Vertical Rack (Bismuth)",
+    "block-verticalrack-bismuthbronze-*": "Metal Vertical Rack (Bismuth Bronze)",
+    "block-verticalrack-blackbronze-*": "Metal Vertical Rack (Black Bronze)",
+    "block-verticalrack-brass-*": "Metal Vertical Rack (Brass)",
+    "block-verticalrack-chromium-*": "Metal Vertical Rack (Chromium)",
+    "block-verticalrack-copper-*": "Metal Vertical Rack (Copper)",
+    "block-verticalrack-gold-*": "Metal Vertical Rack (Gold)",
+    "block-verticalrack-iron-*": "Metal Vertical Rack (Iron)",
+    "block-verticalrack-lead-*": "Metal Vertical Rack (Lead)",
+    "block-verticalrack-meteoriciron-*": "Metal Vertical Rack (Meteoric Iron)",
+    "block-verticalrack-molybdochalkos-*": "Metal Vertical Rack (Molybdochalkos)",
+    "block-verticalrack-silver-*": "Metal Vertical Rack (Silver)",
+    "block-verticalrack-steel-*": "Metal Vertical Rack (Steel)",
+    "block-verticalrack-tin-*": "Metal Vertical Rack (Tin)",
+    "block-verticalrack-tinbronze-*": "Metal Vertical Rack (Tin Bronze)",
+    "block-verticalrack-zinc-*": "Metal Vertical Rack (Zinc)",
 
     "block-toolrack-stick-*": "Tool Rack (Stick)",
     "block-toolrack-aged-*": "Tool Rack (Aged)",
@@ -618,22 +628,22 @@
     "block-toolrack-redwood-*": "Tool Rack (Redwood)",
     "block-toolrack-walnut-*": "Tool Rack (Walnut)",
 
-    "block-toolrack-bismuth-*": "Tool Rack (Bismuth)",
-    "block-toolrack-bismuthbronze-*": "Tool Rack (Bismuth Bronze)",
-    "block-toolrack-blackbronze-*": "Tool Rack (Black Bronze)",
-    "block-toolrack-brass-*": "Tool Rack (Brass)",
-    "block-toolrack-chromium-*": "Tool Rack (Chromium)",
-    "block-toolrack-copper-*": "Tool Rack (Copper)",
-    "block-toolrack-gold-*": "Tool Rack (Gold)",
-    "block-toolrack-iron-*": "Tool Rack (Iron)",
-    "block-toolrack-lead-*": "Tool Rack (Lead)",
-    "block-toolrack-meteoriciron-*": "Tool Rack (Meteoric Iron)",
-    "block-toolrack-molybdochalkos-*": "Tool Rack (Molybdochalkos)",
-    "block-toolrack-silver-*": "Tool Rack (Silver)",
-    "block-toolrack-steel-*": "Tool Rack (Steel)",
-    "block-toolrack-tin-*": "Tool Rack (Tin)",
-    "block-toolrack-tinbronze-*": "Tool Rack (Tin Bronze)",
-    "block-toolrack-zinc-*": "Tool Rack (Zinc)",
+    "block-toolrack-bismuth-*": "Metal Tool Rack (Bismuth)",
+    "block-toolrack-bismuthbronze-*": "Metal Tool Rack (Bismuth Bronze)",
+    "block-toolrack-blackbronze-*": "Metal Tool Rack (Black Bronze)",
+    "block-toolrack-brass-*": "Metal Tool Rack (Brass)",
+    "block-toolrack-chromium-*": "Metal Tool Rack (Chromium)",
+    "block-toolrack-copper-*": "Metal Tool Rack (Copper)",
+    "block-toolrack-gold-*": "Metal Tool Rack (Gold)",
+    "block-toolrack-iron-*": "Metal Tool Rack (Iron)",
+    "block-toolrack-lead-*": "Metal Tool Rack (Lead)",
+    "block-toolrack-meteoriciron-*": "Metal Tool Rack (Meteoric Iron)",
+    "block-toolrack-molybdochalkos-*": "Metal ToolR ack (Molybdochalkos)",
+    "block-toolrack-silver-*": "Metal Tool Rack (Silver)",
+    "block-toolrack-steel-*": "Metal Tool Rack (Steel)",
+    "block-toolrack-tin-*": "Metal Tool Rack (Tin)",
+    "block-toolrack-tinbronze-*": "Metal Tool Rack (Tin Bronze)",
+    "block-toolrack-zinc-*": "Metal Tool Rack (Zinc)",
 
     "block-torchholder-bismuth-*": "Torch Holder (Bismuth)",
     "block-torchholder-bismuthbronze-*": "Torch Holder (Bismuth Bronze)",

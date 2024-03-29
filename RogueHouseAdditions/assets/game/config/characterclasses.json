@@ -5,7 +5,7 @@
 			"rhfighter",
 			"rhfineeye",
 			"rhfleetfooted",
-			"rhrogue",
+			//"rhrogue",
 			"rhoutlaw",
 			"rhhasty"
 		],
@@ -38,7 +38,7 @@
 			"rhnaturalist",
 			"rhfocused",
 			"rhforestwalk",
-			"rhdruid",
+			//"rhdruid",
 			"rhnontechnical",
 			"rhclaustrophobic"
 		],

@@ -1,0 +1,165 @@
+[
+    {
+        "comment": "Clockmaker",
+        "op": "replace",
+        "path": "/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "game:recipes/grid/tool/hackingspear",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "game:recipes/grid/jonas/riftward",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "game:recipes/grid/jonas/returnbaserecipes",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "game:recipes/grid/jonas/returndeath",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "game:recipes/grid/jonas/nightvisiondevice",
+        "side": "Server"
+    },
+    
+    {
+        "op": "add",
+        "path": "/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "spyglass:recipes/grid/spyglass",
+		"dependsOn": [ { "modid": "spyglass" } ],
+        "side": "Server"
+    },
+
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "decoclock:recipes/grid/clockwork",
+		"dependsOn": [ { "modid": "decoclock" } ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false,
+        "file": "decoclock:recipes/grid/clockwork",
+		"dependsOn": [ { "modid": "decoclock" } ],
+        "side": "Server"
+    },
+
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "maltiezfirearms:recipes/grid/firearms/arquebus",
+		"dependsOn": [ { "modid": "maltiezfirearms" } ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "maltiezfirearms:recipes/grid/firearms/arquebus",
+		"dependsOn": [ { "modid": "maltiezfirearms" } ],
+        "side": "Server"
+    },
+
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "maltiezfirearms:recipes/grid/firearms/carbine",
+		"dependsOn": [ { "modid": "maltiezfirearms" } ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "maltiezfirearms:recipes/grid/firearms/carbine",
+		"dependsOn": [ { "modid": "maltiezfirearms" } ],
+        "side": "Server"
+    },
+
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "maltiezfirearms:recipes/grid/firearms/musket",
+		"dependsOn": [ { "modid": "maltiezfirearms" } ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "maltiezfirearms:recipes/grid/firearms/musket",
+		"dependsOn": [ { "modid": "maltiezfirearms" } ],
+        "side": "Server"
+    },
+
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "maltiezfirearms:recipes/grid/firearms/pistol",
+		"dependsOn": [ { "modid": "maltiezfirearms" } ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "maltiezfirearms:recipes/grid/firearms/pistol",
+		"dependsOn": [ { "modid": "maltiezfirearms" } ],
+        "side": "Server"
+    },
+
+    {
+        "op": "add",
+        "path": "/0/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "maltiezcrossbows:recipes/grid/crossbow",
+		"dependsOn": [ { "modid": "maltiezcrossbows" } ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/1/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "maltiezcrossbows:recipes/grid/crossbow",
+		"dependsOn": [ { "modid": "maltiezcrossbows" } ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/2/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "maltiezcrossbows:recipes/grid/crossbow",
+		"dependsOn": [ { "modid": "maltiezcrossbows" } ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/3/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "maltiezcrossbows:recipes/grid/crossbow",
+		"dependsOn": [ { "modid": "maltiezcrossbows" } ],
+        "side": "Server"
+    }
+]

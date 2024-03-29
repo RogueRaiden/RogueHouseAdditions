@@ -1,0 +1,24 @@
+[
+    {
+        "comment": "Malefactor",
+        "op": "replace",
+        "path": "/0/requiresTrait",
+        "value": "rhmalefactor",
+        "file": "game:recipes/grid/tool/sling",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/1/requiresTrait",
+        "value": "rhmalefactor",
+        "file": "game:recipes/grid/tool/sling",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/2/requiresTrait",
+        "value": "rhmalefactor",
+        "file": "game:recipes/grid/tool/sling",
+        "side": "Server"
+    }
+]

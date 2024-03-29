@@ -1,0 +1,279 @@
+[
+    {
+        "comment": "Tailor",
+        "op": "replace",
+        "path": "/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/sewingkit",
+        "side": "Server"
+    },
+
+    {
+        "op": "replace",
+        "path": "/0/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/armor/tailoredgambeson",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/1/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/armor/tailoredgambeson",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/2/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/armor/tailoredgambeson",
+        "side": "Server"
+    },
+
+    {
+        "op": "replace",
+        "path": "/0/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/armorrepair/tailoredgambeson",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/1/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/armorrepair/tailoredgambeson",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/2/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/armorrepair/tailoredgambeson",
+        "side": "Server"
+    },
+
+    {
+        "op": "replace",
+        "path": "/0/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/1/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/black",
+        "side": "Server"
+    },
+
+    {
+        "op": "replace",
+        "path": "/3/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/blue",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/4/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/blue",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/5/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/blue",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/6/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/blue",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/7/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/blue",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/8/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/blue",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/9/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/blue",
+        "side": "Server"
+    },
+
+    {
+        "op": "replace",
+        "path": "/1/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/green",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/2/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/green",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/3/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/green",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/4/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/green",
+        "side": "Server"
+    },
+
+    {
+        "op": "replace",
+        "path": "/3/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/hat",
+        "side": "Server"
+    },
+
+    {
+        "op": "replace",
+        "path": "/1/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/pink",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/2/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/pink",
+        "side": "Server"
+    },
+
+    {
+        "op": "replace",
+        "path": "/3/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/plain",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/4/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/plain",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/5/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/plain",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/6/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/plain",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/7/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/plain",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/8/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/plain",
+        "side": "Server"
+    },
+
+    {
+        "op": "replace",
+        "path": "/0/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/purple",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/1/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/purple",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/2/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/purple",
+        "side": "Server"
+    },
+
+    {
+        "op": "replace",
+        "path": "/1/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/red",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/2/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/red",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/3/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/red",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/4/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/red",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/5/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/red",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/6/requiresTrait",
+        "value": "rhtailor",
+        "file": "game:recipes/grid/clothes/red",
+        "side": "Server"
+    }
+]
