@@ -645,31 +645,6 @@
 						"maxcooldownHours": 4
 					},
 					{
-						"code": "useinventory",
-						"animation": "eat",
-						"animationSpeed": 0.75,
-						"priority": 1.6,
-						"priorityForCancel": 1.7,
-						"eatItemCategories": [
-							"Vegetable",
-							"Grain"
-						],
-						"eatItemCodes": [
-							"salt",
-							"drygrass",
-							"flower-heather-free",
-							"flower-orangemallow-free",
-							"flower-redtopgrass-free",
-							"flower-cowparsley-free",
-							"flower-westerngorse-free",
-							"flower-woad-free",
-							"petai:petcookie-veggie-perfect"
-						],
-						"useTime": 1.5,
-						"mincooldownHours": 1,
-						"maxcooldownHours": 1.5
-					},
-					{
 						"code": "idle",
 						"priority": 1.35,
 						"priorityForCancel": 1.35,

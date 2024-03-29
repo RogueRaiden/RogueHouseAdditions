@@ -547,33 +547,6 @@
 						"maxcooldownHours": 4
 					},
 					{
-						"code": "useinventory",
-						"animation": "eat",
-						"animationSpeed": 0.75,
-						"priority": 1.4,
-						"priorityForCancel": 1.7,
-						"eatItemCategories": [
-							"Protein",
-							"Fruit"
-						],
-						"eatItemCodes": [
-							"fruit-blueberry",
-							"fruit-cranberry",
-							"fruit-redcurrant",
-							"fruit-whitecurrant",
-							"fruit-blackcurrant",
-							"bushmeat-raw",
-							"egg-chicken-raw",
-							"poultry-raw",
-							"redmeat-raw",
-							"fish-raw",
-							"petai:petcookie-meat-perfect"
-						],
-						"useTime": 1.5,
-						"mincooldownHours": 1,
-						"maxcooldownHours": 1.5
-					},
-					{
 						"code": "fleeentity",
 						"entityCodes": [
 							"drifter-*",

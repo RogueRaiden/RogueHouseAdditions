@@ -503,31 +503,6 @@
 						"animation": "Walk"
 					},
 					{
-						"code": "useinventory",
-						"animation": "eat",
-						"animationSpeed": 0.75,
-						"priority": 1.4,
-						"priorityForCancel": 1.7,
-						"eatItemCategories": [
-							"Fruit",
-							"Protein"
-						],
-						"eatItemCodes": [
-							"insect-grub",
-							"insect-termite",
-							"fruit-blueberry",
-							"fruit-cranberry",
-							"fruit-redcurrant",
-							"fruit-whitecurrant",
-							"fruit-blackcurrant",
-							"egg-chicken-raw",
-							"honeycomb"
-						],
-						"useTime": 1.5,
-						"mincooldownHours": 1,
-						"maxcooldownHours": 1.5
-					},
-					{
 						"code": "getoutofwater",
 						"priority": 1.4,
 						"movespeed": 0.015,
