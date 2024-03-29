@@ -199,37 +199,5 @@
         "file": "game:entities/land/raccoon-pup.json",
         "dependsOn": [ { "modid": "petai" } ],
         "side": "Server"
-    },
-    {
-        "op": "add",
-        "path": "/server/behaviors/9/aitasks/-",
-        "value": {
-            "code": "useinventory",
-            "animation": "eat",
-            "animationSpeed": 0.75,
-            "priority": 2.1,
-            "priorityForCancel": 2.2,
-            "eatItemCategories": [
-                "Fruit",
-                "Protein"
-            ],
-            "eatItemCodes": [
-                "insect-grub",
-                "insect-termite",
-                "fruit-blueberry",
-                "fruit-cranberry",
-                "fruit-redcurrant",
-                "fruit-whitecurrant",
-                "fruit-blackcurrant",
-                "egg-chicken-raw",
-                "honeycomb"
-            ],
-            "useTime": 1.5,
-            "mincooldownHours": 1,
-            "maxcooldownHours": 1.5
-        },
-        "file": "game:entities/land/raccoon-pup.json",
-        "dependsOn": [ { "modid": "petai" } ],
-        "side": "Server"
     }
 ]

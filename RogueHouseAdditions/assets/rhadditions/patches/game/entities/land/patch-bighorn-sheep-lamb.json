@@ -201,36 +201,5 @@
         "file": "game:entities/land/sheep-bighorn-lamb.json",
         "dependsOn": [ { "modid": "petai" } ],
         "side": "Server"
-    },
-    {
-        "op": "add",
-        "path": "/server/behaviors/10/aitasks/-",
-        "value": {
-            "code": "useinventory",
-            "animation": "eat",
-            "animationSpeed": 0.75,
-            "priority": 2.1,
-            "priorityForCancel": 2.2,
-            "eatItemCategories": [
-                "Grain"
-            ],
-            "eatItemCodes": [
-                "salt",
-                "drygrass",
-                "flower-heather-free",
-                "flower-orangemallow-free",
-                "flower-redtopgrass-free",
-                "flower-cowparsley-free",
-                "flower-westerngorse-free",
-                "flower-woad-free",
-                "petai:petcookie-veggie-perfect"
-            ],
-            "useTime": 1.5,
-            "mincooldownHours": 1,
-            "maxcooldownHours": 1.5
-        },
-        "file": "game:entities/land/sheep-bighorn-lamb.json",
-        "dependsOn": [ { "modid": "petai" } ],
-        "side": "Server"
     }
 ]
