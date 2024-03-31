@@ -3,6 +3,10 @@
         "op": "replace",
         "path": "/nutritionPropsByType",
         "value": {
+            "*-raw": {
+                "satiety": 60,
+                "foodcategory": "Protein"
+            },
             "*-cooked": {
                 "satiety": 110,
                 "foodcategory": "Protein"

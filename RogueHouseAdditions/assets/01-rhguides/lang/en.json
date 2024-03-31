@@ -50,49 +50,31 @@ Miriel: Server Admin & Builder
 
 <font color=\"Orange\"><strong>01. </strong></font><a href=\"https://mods.vintagestory.at/accessibilitytweaks\">Accessibility Tweaks</a><strong> - </strong>Allows adjusting of nearly every sound and visual effect and more to help in all kinds of ways. Pickaxe sound on rock too loud? Piercing wolf howls? Turn them down! Open the menu with default F8.
 
-<font color=\"Orange\"><strong>02. </strong></font><a href=\"https://mods.vintagestory.at/autoloot\">Auto Loot</a><strong> - </strong>After harvesting a corpse, the items move directly into your inventory and closes the menu.
+<font color=\"Orange\"><strong>02. </strong></font><a href=\"https://mods.vintagestory.at/autowalk\">Auto Walk</a><strong> - </strong>Adds a keybind for auto walking.
 
-<font color=\"Orange\"><strong>03. </strong></font><a href=\"https://mods.vintagestory.at/autowalk\">Auto Walk</a><strong> - </strong>Adds a keybind for auto walking.
+<font color=\"Orange\"><strong>03. </strong></font><a href=\"https://mods.vintagestory.at/butcheringfix\">Butchering Fix</a><strong> - </strong>Press hotkey (default: Shift + B) to disable block's hitboxes where harvestable creature is in.
 
-<font color=\"Orange\"><strong>04. </strong></font><a href=\"https://mods.vintagestory.at/betterstepping\">Better Stepping</a><strong> - </strong>Fixes stepping onto slabs/stairs/snow and other steppable blocks while not exactly aligned.
+<font color=\"Orange\"><strong>04. </strong></font><a href=\"https://mods.vintagestory.at/chattranslator\">Chat Translator</a><strong> - </strong>Translate incoming or outgoing messages into other languages.
 
-<font color=\"Orange\"><strong>05. </strong></font><a href=\"https://mods.vintagestory.at/butcheringfix\">Butchering Fix</a><strong> - </strong>Press hotkey (default: Shift + B) to disable block's hitboxes where harvestable creature is in.
+<font color=\"Orange\"><strong>05. </strong></font><a href=\"https://mods.vintagestory.at/claimsradar\">Claim Radar</a><strong> - </strong>Show claims with colored boxes.
 
-<font color=\"Orange\"><strong>06. </strong></font><a href=\"https://mods.vintagestory.at/chattranslator\">Chat Translator</a><strong> - </strong>Translate incoming or outgoing messages into other languages.
+<font color=\"Orange\"><strong>06. </strong></font><a href=\"https://mods.vintagestory.at/extrainfo\">Extra Info</a><strong> - </strong>Useful information for handbook, blocks, items and entities.
 
-<font color=\"Orange\"><strong>07. </strong></font><a href=\"https://mods.vintagestory.at/easylightlevels\">Easy Light Levels</a><strong> - </strong>Small mod that allows you to quickly and easily view the light levels of the surrounding blocks.
+<font color=\"Orange\"><strong>07. </strong></font><a href=\"https://mods.vintagestory.at/simpleemotemenu\">Simple Emote Menu</a><strong> - </strong>Adds simple menu where you can select emotes.
 
-<font color=\"Orange\"><strong>08. </strong></font><a href=\"https://mods.vintagestory.at/show/mod/1599\">Emote Menu</a><strong> - </strong>Press the default key 'K' to open a radial menu with all of the game emotes available!
+<font color=\"Orange\"><strong>08. </strong></font><a href=\"https://mods.vintagestory.at/show/mod/282\">Simple Hud Clock</a><strong> - </strong>Adds a clock to the hud with helpful information.
 
-<font color=\"Orange\"><strong>09. </strong></font><a href=\"https://mods.vintagestory.at/extrainfo\">Extra Info</a><strong> - </strong>Useful information for handbook, blocks, items and entities.
+<font color=\"Orange\"><strong>09. </strong></font><a href=\"https://mods.vintagestory.at/show/mod/9817\">Status HUD Continued</a><strong> - </strong>This is a not-so-simple mod with the objective of relaying information to the player. If your character can feel it, then you should see it.
 
-<font color=\"Orange\"><strong>10. </strong></font><a href=\"https://mods.vintagestory.at/interfacesandrainbows\">Interfaces And Rainbows</a><strong> - </strong>Allows customizing the colors of your inventory screens.
+<font color=\"Orange\"><strong>10. </strong></font><a href=\"https://mods.vintagestory.at/targetdot\">Target Dot</a><strong> - </strong>This retextures the very large 'plus' crosshair with a much smaller 'dot' crosshair. (Both Small and Medium are allowed)
 
-<font color=\"Orange\"><strong>11. </strong></font><a href=\"https://mods.vintagestory.at/naturalnight\">Natural Night</a><strong> - </strong>Adjusts the ambient color of dawn, dusk and night time from the crazy red to a more realistic blue.
+<font color=\"Orange\"><strong>11. </strong></font><a href=\"https://mods.vintagestory.at/temperaturescales\">Temperature Scales</a><strong> - </strong>Allows displaying temperatures in Celsius, Fahrenheit and Kelvin.
 
-<font color=\"Orange\"><strong>12. </strong></font><a href=\"https://mods.vintagestory.at/nohands\">NoHands</a><strong> - </strong>Press a hotkey (R by default) in order to move your currently held item stack into a backpack slot. Need both of your hands free? There's a hotkey (Shift + R by default) for that too.
+<font color=\"Orange\"><strong>12. </strong></font><a href=\"https://mods.vintagestory.at/temporalstormgear\">Temporal Storm Gear</a><strong> - </strong>The Temporal Gear in the middle of your screen will turn rusty when a storm is near.
 
-<font color=\"Orange\"><strong>13. </strong></font><a href=\"https://mods.vintagestory.at/pixelwaypoints\">Pixel Waypoints</a><strong> - </strong>Replaced the vanilla waypoint icons with more visible, pixelated ones.
+<font color=\"Orange\"><strong>13. </strong></font><a href=\"https://mods.vintagestory.at/tupaschatmod\">Tupa's Chat Mod</a><strong> - </strong>HTTP/HTTPS link handling, Handbook linking, moving beweet chat groups and locking your chat tab.
 
-<font color=\"Orange\"><strong>14. </strong></font><a href=\"https://mods.vintagestory.at/playerlist\">PlayerList</a><strong> - </strong>Shows a player list when you hold down tab.
-
-<font color=\"Orange\"><strong>15. </strong></font><a href=\"https://mods.vintagestory.at/qpt\">QP's Client Side Tools</a><strong> - </strong>Command for sharing location and held item in chat.
-
-<font color=\"Orange\"><strong>16. </strong></font><a href=\"https://mods.vintagestory.at/roomindicator\">Room Indicator</a><strong> - </strong>HUD element that shows what type of room you are in.
-
-<font color=\"Orange\"><strong>17. </strong></font><a href=\"https://mods.vintagestory.at/simpleemotemenu\">Simple Emote Menu</a><strong> - </strong>Adds simple menu where you can select emotes.
-
-<font color=\"Orange\"><strong>18. </strong></font><a href=\"https://mods.vintagestory.at/show/mod/282\">Simple Hud Clock</a><strong> - </strong>Adds a clock to the hud with helpful information.
-
-<font color=\"Orange\"><strong>19. </strong></font><a href=\"https://mods.vintagestory.at/statushud\">Status HUD</a><strong> - </strong>This is a not-so-simple mod with the objective of relaying information to the player. If your character can feel it, then you should see it.
-
-<font color=\"Orange\"><strong>20. </strong></font><a href=\"https://mods.vintagestory.at/targetdot\">Target Dot</a><strong> - </strong>This retextures the very large 'plus' crosshair with a much smaller 'dot' crosshair. (Both Small and Medium are allowed)
-
-<font color=\"Orange\"><strong>21. </strong></font><a href=\"https://mods.vintagestory.at/temperaturescales\">Temperature Scales</a><strong> - </strong>Allows displaying temperatures in Celsius, Fahrenheit and Kelvin.
-
-<font color=\"Orange\"><strong>22. </strong></font><a href=\"https://mods.vintagestory.at/temporalstormgear\">Temporal Storm Gear</a><strong> - </strong>The 'Sanity Gear' meter in the middle will turn rusty when a storm is near.
-
-<font color=\"Orange\"><strong>23. </strong></font><a href=\"https://mods.vintagestory.at/show/mod/367\">Xandus Inventory Tweaks</a><strong> - </strong>A collection of small tweaks to improve the inventory handling.
+<font color=\"Orange\"><strong>14. </strong></font><a href=\"https://mods.vintagestory.at/show/mod/367\">Xandus Inventory Tweaks</a><strong> - </strong>A collection of small tweaks to improve the inventory handling.
 ",
 
 

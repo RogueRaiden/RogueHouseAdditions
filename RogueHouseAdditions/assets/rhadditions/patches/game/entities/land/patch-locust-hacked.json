@@ -1,0 +1,21 @@
+[
+    {
+        "op": "replace",
+        "path": "/server/behaviors/2",
+        "value": {
+            "code": "health",
+            "currenthealthByType": {
+                "*-bronze-*": 28,
+                "*-corrupt-*": 47,
+                "*-corrupt-sawblade-*": 140
+            },
+            "maxhealthByType": {
+                "*-bronze-*": 28,
+                "*-corrupt-*": 47,
+                "*-corrupt-sawblade-*": 140
+            }
+        },
+        "file": "game:entities/land/locust-hacked",
+        "side": "Server"
+    }
+]

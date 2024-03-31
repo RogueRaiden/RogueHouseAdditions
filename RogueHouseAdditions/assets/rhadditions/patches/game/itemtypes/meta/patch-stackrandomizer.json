@@ -11,7 +11,7 @@
 					"avg": 1,
 					"var": 0
 				},
-				"chance": 1
+				"chance": 0.5
 			},
 			{
 				"type": "item",
@@ -20,7 +20,7 @@
 					"avg": 1,
 					"var": 0
 				},
-				"chance": 1
+				"chance": 0.5
 			},
 			{
 				"type": "item",
@@ -29,7 +29,7 @@
 					"avg": 1,
 					"var": 0
 				},
-				"chance": 1
+				"chance": 0.5
 			},
 			{
 				"type": "item",
@@ -38,7 +38,7 @@
 					"avg": 1,
 					"var": 0
 				},
-				"chance": 1
+				"chance": 0.5
 			},
 			{
 				"type": "item",
@@ -47,7 +47,7 @@
 					"avg": 1,
 					"var": 0
 				},
-				"chance": 1
+				"chance": 0.5
 			},
 			{
 				"type": "item",
@@ -56,7 +56,7 @@
 					"avg": 1,
 					"var": 0
 				},
-				"chance": 1
+				"chance": 0.5
 			},
 			{
 				"type": "item",
@@ -65,7 +65,7 @@
 					"avg": 1,
 					"var": 0
 				},
-				"chance": 1
+				"chance": 0.5
 			},
 			{
 				"type": "item",
@@ -74,7 +74,7 @@
 					"avg": 1,
 					"var": 0
 				},
-				"chance": 1
+				"chance": 0.5
 			},
 			{
 				"type": "item",
@@ -83,7 +83,7 @@
 					"avg": 1,
 					"var": 0
 				},
-				"chance": 1
+				"chance": 0.5
 			},
 			{
 				"type": "item",
@@ -92,7 +92,7 @@
 					"avg": 1,
 					"var": 0
 				},
-				"chance": 1
+				"chance": 0.5
 			},
 			{
 				"type": "item",
@@ -101,7 +101,7 @@
 					"avg": 1,
 					"var": 0
 				},
-				"chance": 1
+				"chance": 0.5
 			},
 			{
 				"type": "item",
@@ -110,7 +110,7 @@
 					"avg": 1,
 					"var": 0
 				},
-				"chance": 1
+				"chance": 0.5
 			},
 			{
 				"type": "item",
@@ -119,7 +119,7 @@
 					"avg": 1,
 					"var": 0
 				},
-				"chance": 1
+				"chance": 0.5
 			},
 			{
 				"type": "item",
@@ -128,7 +128,7 @@
 					"avg": 1,
 					"var": 0
 				},
-				"chance": 1
+				"chance": 0.5
 			},
 			{
 				"type": "item",
@@ -137,7 +137,7 @@
 					"avg": 1,
 					"var": 0
 				},
-				"chance": 1
+				"chance": 0.5
 			},
 			{
 				"type": "item",
@@ -146,10 +146,10 @@
 					"avg": 1,
 					"var": 0
 				},
-				"chance": 1
+				"chance": 0.5
 			}
 		],
-		"file": "game:itemtypes/meta/stackrandomizer.json",
+		"file": "game:itemtypes/meta/stackrandomizer",
 		"side": "Server"
 	}
 ]
