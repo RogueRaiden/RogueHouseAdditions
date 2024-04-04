@@ -7,7 +7,7 @@
 			"code": "type",
 			"states": [
 				"arctic",
-				"forest"
+				"red"
 			]
 		}
 	],
@@ -22,7 +22,16 @@
 	"eyeHeight": 0.7,
 	"drops": [],
 	"attributes": {
-		"killedByInfoText": "deadcreature-eaten"
+		"basketCatchable": true,
+		"trapChance": 0.0,
+		"trapDestroyChance": 0.9,
+		"creatureDiet": {
+			"foodCategories": [ "Protein" ]
+		},
+		"killedByInfoText": "deadcreature-eaten",
+		"handbook": {
+			"groupcode": "creaturegroup-tamedfox"
+		}
 	},
 	"client": {
 		"renderer": "Shape",
@@ -31,8 +40,8 @@
 			"*-arctic": {
 				"base": "game:entity/fox/arctic-female"
 			},
-			"*-forest": {
-				"base": "game:entity/fox/forest-female"
+			"*-red": {
+				"base": "game:entity/fox/red-female"
 			}
 		},
 		"behaviors": [
@@ -437,11 +446,11 @@
 				"code": "multiply",
 				"spawnEntityCodeByType": {
 					"*-arctic": "rhadditions:tamed-fox-pup-arctic",
-					"*-forest": "rhadditions:tamed-fox-pup-forest"
+					"*-red": "rhadditions:tamed-fox-pup-red"
 				},
 				"requiresNearbyEntityCodeByType": {
 					"*-arctic": "rhadditions:tamed-fox-male-arctic",
-					"*-forest": "rhadditions:tamed-fox-male-forest"
+					"*-red": "rhadditions:tamed-fox-male-red"
 				},
 				"requiresNearbyEntityRange": 4,
 				"spawnQuantityMin": 1,
@@ -670,6 +679,26 @@
 						"animation": "Walk",
 						"preferredLightLevel": 20
 					},
+                    {
+                        "code": "useinventory",
+                        "animation": "eat",
+                        "animationSpeed": 0.75,
+                        "priority": 1.6,
+                        "priorityForCancel": 1.7,
+                        "eatItemCategories": [
+                            "Protein"
+                        ],
+                        "eatItemCodes": [
+                            "bushmeat-raw",
+                            "redmeat-raw",
+                            "poultry-raw",
+                            "fish-raw",
+                            "petai:petcookie-meat-perfect"
+                        ],
+                        "useTime": 1.5,
+                        "mincooldownHours": 1,
+                        "maxcooldownHours": 1.5
+                    },
 					{
 						"code": "idle",
 						"priority": 0.9,

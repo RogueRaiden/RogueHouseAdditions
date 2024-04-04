@@ -1,0 +1,52 @@
+[
+    {
+        "op": "add",
+        "enabled": false,
+        "path": "/attributes/skinnableParts/5",
+        "value": { 
+            "code": "extrarighe",
+            "type": "shape", 
+            "shapeTemplate": { "base": "game:entity/humanoid/seraphskinparts/hair-face/{code}" },
+            "variants": [
+                { "code": "none" },
+                { "code": "mst-line01-pencil" },
+                { "code": "mst-line05-seargent" },
+                { "code": "mst-line10-sheriff" },
+                { "code": "mst-line15-eccentric" },
+                { "code": "mst-line20-seagull" },
+                { "code": "mst-u01-horseshoe" },
+                { "code": "mst-u05-stirrups" },
+                { "code": "mst-walrus05-neat" },
+                { "code": "mst-walrus30-fat" },
+                { "code": "mst-whiskbroom" }
+            ]
+        },
+        "file": "game:entities/humanoid/player",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "enabled": false,
+        "path": "/attributes/skinnableParts/2",
+        "value": { 
+            "code": "extraleft",
+            "type": "shape", 
+            "shapeTemplate": { "base": "game:entity/humanoid/seraphskinparts/hair-face/{code}" },
+            "variants": [
+                { "code": "none" },
+                { "code": "mst-line01-pencil" },
+                { "code": "mst-line05-seargent" },
+                { "code": "mst-line10-sheriff" },
+                { "code": "mst-line15-eccentric" },
+                { "code": "mst-line20-seagull" },
+                { "code": "mst-u01-horseshoe" },
+                { "code": "mst-u05-stirrups" },
+                { "code": "mst-walrus05-neat" },
+                { "code": "mst-walrus30-fat" },
+                { "code": "mst-whiskbroom" }
+            ]
+        },
+        "file": "game:entities/humanoid/player",
+        "side": "Server"
+    }
+]

@@ -6,7 +6,7 @@
     "variantgroups": [
         {
             "code": "type",
-            "states": [ "tamed-direwolf-pup", "tamed-direwolf-female", "tamed-direwolf-male", "tamed-fox-pup-arctic", "tamed-fox-female-arctic", "tamed-fox-male-arctic", "tamed-fox-pup-forest", "tamed-fox-female-forest", "tamed-fox-male-forest", "tamed-raccoon-pup", "tamed-raccoon-female", "tamed-raccoon-male", "tamed-sheep-bighorn-lamb", "tamed-sheep-bighorn-female", "tamed-sheep-bighorn-male" ]
+            "states": [ "tamed-direwolf-pup", "tamed-direwolf-female", "tamed-direwolf-male", "tamed-fox-pup-arctic", "tamed-fox-female-arctic", "tamed-fox-male-arctic", "tamed-fox-pup-red", "tamed-fox-female-red", "tamed-fox-male-red", "tamed-raccoon-pup", "tamed-raccoon-female", "tamed-raccoon-male", "tamed-sheep-bighorn-lamb", "tamed-sheep-bighorn-female", "tamed-sheep-bighorn-male" ]
         }
     ],
     "shapeByType": {
@@ -38,14 +38,14 @@
         "*-fox-male-arctic": {
             "skin": { "base": "game:entity/fox/arctic-male" }
         },
-        "*-fox-pup-forest": {
-            "skin": { "base": "game:entity/fox/forest-pup" }
+        "*-fox-pup-red": {
+            "skin": { "base": "game:entity/fox/red-pup" }
         },
-        "*-fox-female-forest": {
-            "skin": { "base": "game:entity/fox/forest-female" }
+        "*-fox-female-red": {
+            "skin": { "base": "game:entity/fox/red-female" }
         },
-        "*-fox-male-forest": {
-            "skin": { "base": "game:entity/fox/forest-male" }
+        "*-fox-male-red": {
+            "skin": { "base": "game:entity/fox/red-male" }
         },
         "*-raccoon-pup": {
             "skin": { "base": "game:entity/raccoon/raccoon-pup1" }

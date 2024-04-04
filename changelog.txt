@@ -1,5 +1,12 @@
 Changelog:
 
+v4.0.2
+-Fixed: Actually fixed raw fish handbook crash
+-Fixed: Tamed red fox missing texture
+-Fixed: 
+
+-Tweak: Guide adjustments
+
 v4.0.1
 -Fixed: Raw fish fillet handbook crash.
 

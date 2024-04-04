@@ -15,7 +15,8 @@
     "width": 1,
     "height": 2,
     "shapeless": true,
-    "copyAttributesFrom": "F",
+    //below was causing crash
+    //"copyAttributesFrom": "F",
     "name": "fish fillet",
     "output": {
         "type": "item",

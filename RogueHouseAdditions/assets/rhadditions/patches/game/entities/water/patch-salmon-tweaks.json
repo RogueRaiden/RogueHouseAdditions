@@ -18,7 +18,7 @@
         "side": "Server"
     },
     {
-        "op": "replace",
+        "op": "addmerge",
         "path": "/drops",
         "value": [
             {

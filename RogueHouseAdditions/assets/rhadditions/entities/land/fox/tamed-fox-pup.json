@@ -7,7 +7,7 @@
 			"code": "type",
 			"states": [
 				"arctic",
-				"forest"
+				"red"
 			]
 		}
 	],
@@ -17,6 +17,18 @@
 	},
 	"eyeHeight": 0.4,
 	"drops": [],
+	"attributes": {
+		"basketCatchable": true,
+		"trapChance": 0.0,
+		"trapDestroyChance": 0.9,
+		"creatureDiet": {
+			"foodCategories": [ "Protein" ]
+		},
+		"killedByInfoText": "deadcreature-eaten",
+		"handbook": {
+			"groupcode": "creaturegroup-tamedfox"
+		}
+	},
 	"client": {
 		"renderer": "Shape",
 		"shape": { "base": "game:entity/land/fox-pup" },
@@ -24,8 +36,8 @@
 			"*-arctic": {
 				"base": "game:entity/fox/arctic-pup"
 			},
-			"*-forest": {
-				"base": "game:entity/fox/forest-pup"
+			"*-red": {
+				"base": "game:entity/fox/red-pup"
 			}
 		},
 		"size": 0.9,
@@ -410,9 +422,9 @@
 						"rhadditions:tamed-fox-male-arctic",
 						"rhadditions:tamed-fox-female-arctic"
 					],
-					"*-forest": [
-						"rhadditions:tamed-fox-male-forest",
-						"rhadditions:tamed-fox-female-forest"
+					"*-red": [
+						"rhadditions:tamed-fox-male-red",
+						"rhadditions:tamed-fox-female-red"
 					]
 				},
 				"keepTexture": true
@@ -577,6 +589,26 @@
 						"animation": "Walk",
 						"preferredLightLevel": 24
 					},
+                    {
+                        "code": "useinventory",
+                        "animation": "eat",
+                        "animationSpeed": 0.75,
+                        "priority": 1.6,
+                        "priorityForCancel": 1.7,
+                        "eatItemCategories": [
+                            "Protein"
+                        ],
+                        "eatItemCodes": [
+                            "bushmeat-raw",
+                            "redmeat-raw",
+                            "poultry-raw",
+                            "fish-raw",
+                            "petai:petcookie-meat-perfect"
+                        ],
+                        "useTime": 1.5,
+                        "mincooldownHours": 1,
+                        "maxcooldownHours": 1.5
+                    },
 					{
 						"code": "idle",
 						"priority": 0.9,

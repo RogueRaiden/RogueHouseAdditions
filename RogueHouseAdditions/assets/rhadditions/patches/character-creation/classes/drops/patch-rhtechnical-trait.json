@@ -1,0 +1,60 @@
+[
+    {
+        "op": "add",
+        "path": "/dropsByType/locust-corrupt-sawblade/1/dropModbyStat",
+        "value": "mechanicalsDropRate",
+        "file": "game:entities/land/locust",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/dropsByType/locust-corrupt-sawblade/2/dropModbyStat",
+        "value": "mechanicalsDropRate",
+        "file": "game:entities/land/locust",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/dropsByType/locust-corrupt-sawblade/3/dropModbyStat",
+        "value": "mechanicalsDropRate",
+        "file": "game:entities/land/locust",
+        "side": "Server"
+    },
+
+    {
+        "op": "add",
+        "path": "/drops/1/dropModbyStat",
+        "value": "mechanicalsDropRate",
+        "file": "game:entities/land/bell",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/drops/2/dropModbyStat",
+        "value": "mechanicalsDropRate",
+        "file": "game:entities/land/bell",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/drops/4/dropModbyStat",
+        "value": "mechanicalsDropRate",
+        "file": "game:entities/land/bell",
+        "side": "Server"
+    },
+
+    {
+        "op": "add",
+        "path": "/drops/2/dropModbyStat",
+        "value": "mechanicalsDropRate",
+        "file": "game:entities/land/eidolon-immobilized",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/drops/3/dropModbyStat",
+        "value": "mechanicalsDropRate",
+        "file": "game:entities/land/eidolon-immobilized",
+        "side": "Server"
+    }
+]
