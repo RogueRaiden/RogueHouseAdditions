@@ -70,10 +70,44 @@
 
 
 
-    "_commentClasses": "CLASSES **********************",
+    "_commentClasses": "CLASSES & CHARACTER MENU **********************",
+
+    "game:Confirm Skin": ">",
+    "game:Confirm Class": "Finish",
+    "game:skinpart-haircolor": "Hair color (yes they clip)",
+
+    "game:color-rh-darkpurple": "Dark purple",
+    "game:color-rh-palatinatepurple": "Palatinate purple",
+    "game:color-rh-heliotropegray": "Heliotrope gray",
+    "game:color-rh-indigodye": "Indigo dye",
+    "game:color-rh-queenblue": "Queen blue",
+    "game:color-rh-steelblue": "Steel blue",
+    "game:color-rh-wintergreendream": "Wintergreen dream",
+    "game:color-rh-seagreen": "Sea green",
+    "game:color-rh-mossgreen": "Moss green",
+
+    "game:skinpart-faceears": "Ears",
+
+    "game:skinpart-faceears-none": "None",
+    "game:skinpart-faceears-face-ears-1": "Ears 1",
+    "game:skinpart-faceears-face-ears-2": "Ears 2",
+    "game:skinpart-faceears-face-ears-3": "Ears 3",
+    "game:skinpart-faceears-face-ears-4": "Ears 4",
+
+    "game:skinpart-facenose": "Nose",
+
+    "game:skinpart-facenose-none": "None",
+    "game:skinpart-facenose-face-nose-1": "Nose 1",
+    "game:skinpart-facenose-face-nose-2": "Nose 2",
+    "game:skinpart-facenose-face-nose-3": "Nose 3",
+    "game:skinpart-facenose-face-nose-4": "Nose 4",
+    "game:skinpart-facenose-face-nose-5": "Nose 5",
+    "game:skinpart-facenose-face-nose-6": "Nose 6",
+
+
 
     "game:characterclass-rogue": "Rogue",
-    "game:characterdesc-rogue": "<font color=\"#99c9f9\"><i>Slipping through the shadows, avoiding the Beasts that roam the lands.Far from the life you once had, but the only one you know of now.</i></font><br><br>The Beasts have taught many lessons in stealth, ranged and melee combat. Constant movement keeps your weight down, keeping you light on your feet but less hardy.",
+    "game:characterdesc-rogue": "<font size=\"14\" color=\"#99c9f9\"><i>Slipping through the shadows, avoiding the Beasts that roam the lands.Far from the life you once had, but the only one you know of now.</i></font><br><br><font size=\"14\">The Beasts have taught many lessons in stealth, ranged and melee combat. Constant movement keeps your weight down, keeping you light on your feet but less hardy.</font><br><br><font size=\"12\">Skill Experience: <font color=\"#84ff84\">Survival(+15%), Combat(+10%), Temp. Adaptation(+10%), Cooking(+5%), Pottery(+5%), </font>Farming, Husbandry, <font color=\"#ff8484\">Digging(-5%), Forestry(-5%), Metalworking(-5%), Mining(-10%)</font></font><font size=\"13\">",
 
     "game:trait-rhfighter": "<font color=\"#84ff84\">• Fighter </font>",
     "game:charattribute-meleeWeaponsDamage-0.15": "+15% Melee damage",
@@ -101,7 +135,7 @@
 
 
     "game:characterclass-druid": "Druid",
-    "game:characterdesc-druid": "<font color=\"#99c9f9\"><i>None shall taint our forests for as long as We remain.</i></font><br><br>Druids are protectors of the forests, masters of nature. They fill excellent support roles with their natural archery abilities and knowledge of plants. They despise the caves and the unnatural things within...",
+    "game:characterdesc-druid": "<font size=\"14\" color=\"#99c9f9\"><i>None shall taint our forests for as long as We remain.</i></font><br><br><font size=\"14\">Druids are protectors of the forests, masters of nature. They fill excellent support roles with their natural archery abilities and knowledge of plants. They despise the caves and the unnatural things within...</font><br><br><font size=\"12\">Skill Experience: <font color=\"#84ff84\">Farming(+15%), Cooking(+10%), Husbandry(+10%), Pottery(+5%), Survival(+5%), </font>Combat, Digging, Forestry, <font color=\"#ff8484\">Metalworking(-5%), Mining(-10%), Temp. Adaptation(-10%)</font></font><font size=\"13\">",
 
     "game:trait-rhnaturalist": "<font color=\"#84ff84\">• Naturalist </font>",
     "game:charattribute-forageDropRate-0.25": "+25% Foraging loot",
@@ -130,13 +164,15 @@
 
     "_commentHunter": "Hunter",
 
+    "game:characterdesc-hunter": "<font size=\"14\" color=\"#99c9f9\"><i>Loose the arrow, kill the beast. Take it home to your dying child. Eventually your child will die and you’ll find yourself providing for someone else’s dying child.</i></font><br><br><font size=\"14\">Hunters are ranged specialists that excel in the wild forests, plains, and mountains. They struggle in the confined tunnels of the underground.</font><br><br><font size=\"12\">Skill Experience: <font color=\"#84ff84\">Husbandry(+15%), Combat(+10%), Survival(+10%), Cooking(+5%), Farming(+5%), </font>Digging, Forestry, Pottery, Temp. Adaptation, <font color=\"#ff8484\">Metalworking(-5%), Mining(-10%)</font></font><font size=\"13\">",
+
     "game:trait-rhfocusedii": "<font color=\"#84ff84\">• Focused II </font>",
     "game:charattribute-rangedWeaponsDamage-0.25": "+25% Ranged damage",
     "game:charattribute-rangedWeaponsAcc-0.35": "+35% Ranged accuracy",
     "game:charattribute-bowDrawingStrength-0.3": "+30% Bow draw strength",
 
     "game:trait-rhhunter": "<font color=\"#84ff84\">• Hunter </font>",
-    "game:charattribute-animalLootDropRate-0.15": "+15% Animal loot",
+    "game:charattribute-animalLootDropRate-0.15": "+15% Animal harvest loot",
 
     "game:trait-rhbowyer": "<font color=\"#84ff84\">• Bowyer </font>",
     "game:traitname-rhbowyer": "Bowyer",
@@ -149,9 +185,11 @@
 
     "_commentMalefactor": "Malefactor",
 
+    "game:characterdesc-malefactor": "<font size=\"14\" color=\"#99c9f9\"><i>Terrible things are done in the heart of despair.<br>She is gone, but you remain.</i></font><br><br><font size=\"14\">Malefactors are tenacious survivors who can avoid unwanted attention and find loot that others might have missed. A heavy conscience leads to weakness in combat, however.</font><br><br><font size=\"12\">Skill Experience: <font color=\"#84ff84\">Survival(+15%), Cooking(+10%), Temp. Adaptation(+10%), Digging(+5%), Husbandry(+5%), Pottery(+5%), </font>Farming, Forestry, Metalworking, <font color=\"#ff8484\">Mining(-5%), Combat(-10%)</font></font><font size=\"13\">",
+
     "game:trait-rhpilferer": "<font color=\"#84ff84\">• Pilferer </font>",
-    "game:charattribute-vesselContentsDropRate-0.25": "+25% Cracked vessel loot",
-    "game:charattribute-wholeVesselLootChance-0.15": "+15% Cracked vessel drop chance",
+    "game:charattribute-vesselContentsDropRate-0.3": "+30% Cracked vessel loot",
+    "game:charattribute-wholeVesselLootChance-0.2": "+20% Cracked vessel drop chance",
     "game:charattribute-rustyGearDropRate-0.2": "+20% Rusty gear drop rate",
 
     "game:trait-rhforager": "<font color=\"#84ff84\">• Forager </font>",
@@ -173,13 +211,15 @@
 
     "_commentTailor": "Tailor",
 
-    "game:trait-rhprecise": "<font color=\"#84ff84\">• Precise </font>",
-    "game:charattribute-armorDurabilityLoss--0.1": "-10% Armor durability loss",
+    "game:characterdesc-tailor": "<font size=\"14\" color=\"#99c9f9\"><i>Make a fitting garb, so we may walk with grace once more.</i></font><br><br><font size=\"14\">Tailors provide stylish clothes and clothing repairs to stay warm during the winter months. A lifetime spent in the city leaves them ill-prepared for some hardships of nature.</font><br><br><font size=\"12\">Skill Experience: <font color=\"#84ff84\">Cooking(+15%), Pottery(+15%), Digging(+5%), </font>Forestry, Metalworking, Temp. Adaptation, <font color=\"#ff8484\">Combat(-5%), Farming(-5%), Survival(-5%), Husbandry(-10%), Mining(-10%)</font></font><font size=\"13\">",
 
-    "game:trait-rhlight": "<font color=\"#84ff84\">• Light </font>",
-    "game:charattribute-armorWalkSpeedAffectedness--0.1": "+10% Armor walk speed",
+    "game:trait-rhmender": "<font color=\"#84ff84\">• Mender </font>",
+    "game:charattribute-armorDurabilityLoss--0.15": "-15% Worn Armor durability loss",
+    "game:charattribute-armorWalkSpeedAffectedness--0.15": "-15% Armor walk speed penalty",
 
-    "game:trait-rhlighteater": "<font color=\"#84ff84\">• Light eater </font>",
+    "game:trait-rhquick": "<font color=\"#84ff84\">• Quick </font>",
+
+    "game:trait-rhfasting": "<font color=\"#84ff84\">• Fasting </font>",
     "game:charattribute-hungerrate--0.1": "-10% Hunger rate",
 
     "game:trait-rhtailor": "<font color=\"#84ff84\">• Tailor </font>",
@@ -188,17 +228,19 @@
 
     "game:trait-rhsofthands": "<font color=\"#ff8484\">• Soft hands </font>",
     "game:charattribute-wildCropDropRate--0.15": "-15% Wild crop loot",
+    "game:charattribute-forageDropRate--0.15": "-15% Forage loot",
 
-    "game:trait-rhweakstomach": "<font color=\"#ff8484\">• Weak stomach </font>",
-    "game:charattribute-maxhealthExtraPoints--2": "-2 Health points",
+    "game:trait-rhcivil": "<font color=\"#ff8484\">• Civil </font>",
 
 
 
     "_commentClockmaker": "Clockmaker",
 
+    "game:characterdesc-clockmaker": "<font size=\"14\" color=\"#99c9f9\"><i>The machines never stop ticking down there. You’ve seen to that.<br>You can hear them in your sleep.</i></font><br><br><font size=\"14\">Clockmakers are masters of precision and systems. They can easily dismantle or repair machinery, but they have no stomach for violence.</font><br><br><font size=\"12\">Skill Experience: <font color=\"#84ff84\">Temp. Adaptation(+15%), Cooking(+10%), Metalworking(+10%), Pottery(+10%), Combat(+5%), Survival(+5%), </font>Digging, Farming, Mining, <font color=\"#ff8484\">Forestry(-10%), Husbandry(-10%)</font></font><font size=\"13\">",
+
     "game:trait-rhtechnical": "<font color=\"#84ff84\">• Technical </font>",
     "game:charattribute-mechanicalsDamage-0.3": "+30% Damage against mechanicals",
-    "game:charattribute-mechanicalsDropRate-0.2": "+20% Mechanicals loot",
+    "game:charattribute-armorDurabilityLoss--0.1": "-10% Worn Armor durability loss",
 
     "game:trait-rhgoodeyes": "<font color=\"#84ff84\">• Good eyes </font>",
 
@@ -212,15 +254,17 @@
 
     "_commentBlackguard": "Blackguard",
 
+    "game:characterdesc-blackguard": "<font size=\"14\" color=\"#99c9f9\"><i>Fight if you must. Kill if you must. Don’t look away.<br>A hard gaze on life will see you through.</i></font><br><br><font size=\"14\">Blackguards are fierce soldiers that thrive in a close-ranged skirmish, but a life of conflict has its downsides: They have no talent for delicate work and need more food to maintain their strength.</font><br><br><font size=\"12\">Skill Experience: <font color=\"#84ff84\">Combat(+15%), Survival(+10%), Temp. Adaptation(+10%), Digging(+5%), Forestry(+5%), Mining(+5%), </font>Cooking, Metalworking, <font color=\"#ff8484\">Husbandry(-5%), Farming(-10%), Pottery(-10%)</font></font><font size=\"13\">",
+
     "game:trait-rhsoldier": "<font color=\"#84ff84\">• Soldier </font>",
-    "game:charattribute-armorWalkSpeedAffectedness--0.3": "+30% Armor walk speed",
+    "game:charattribute-armorWalkSpeedAffectedness--0.3": "-30% Armor walk speed penalty",
 
     "game:trait-rhhardy": "<font color=\"#84ff84\">• Hardy </font>",
     "game:charattribute-miningSpeedMul-0.15": "+15% Mining speed",
     "game:charattribute-maxhealthExtraPoints-6": "+6 Health points",
 
-    "game:trait-rhcaver": "<font color=\"#84ff84\">• Caver </font>",
-    "game:charattribute-mechanicalsDamage-0.15": "+15% Damage against mechanicals",
+    "game:trait-rhlooter": "<font color=\"#84ff84\">• Looter </font>",
+    "game:charattribute-vesselContentsDropRate-0.1": "+10% Cracked vessel loot",
 
     "game:trait-rhblackguard": "<font color=\"#84ff84\">• Blackguard </font>",
     "game:traitname-rhblackguard": "Blackguard",
@@ -229,22 +273,22 @@
     "game:trait-rhravenous": "<font color=\"#ff8484\">• Ravenous </font>",
     "game:charattribute-hungerrate-0.2": "+20% Hunger rate",
 
-    "game:trait-rhbrute": "<font color=\"#ff8484\">• Brute </font>",
-    "game:charattribute-vesselContentsDropRate--0.15": "-15% Cracked vessel loot",
-
     "game:trait-rhnearsighted": "<font color=\"#ff8484\">• Nearsighted </font>",
-    "game:charattribute-rangedWeaponsAcc--0.2": "-20% Ranged accuracy",
+    "game:charattribute-rangedWeaponsDamage--0.2": "-20% Ranged damage",
+
+    "game:trait-rhbrute": "<font color=\"#ff8484\">• Brute </font>",
+    "game:charattribute-animalLootDropRate--0.2": "-20% Animal harvest loot",
 
 
 
     "game:characterclass-blacksmith": "Blacksmith",
-    "game:characterdesc-blacksmith": "<font color=\"#99c9f9\"><i>*Clang*  .  .  .   *Clang*  .  .  .   *Clang*  .  .  .   *Clang*  .  .  .   *Clang*  .  .  .   </i></font><br><br>Blacksmiths have a natural ability for crafting and metal work. With their special training, they can craft things no one else can. This hard work has made them rather stout, making decent warriors.",
+    "game:characterdesc-blacksmith": "<font size=\"14\" color=\"#99c9f9\"><i>*Clang*  .  .  .   *Clang*  .  .  .   *Clang*  .  .  .   *Clang*  .  .  .   *Clang*  .  .  .   </i></font><br><br><font size=\"14\">Blacksmiths have a natural ability for crafting and metal work. With their special training, they can craft things no one else can. This hard work has made them rather stout, making decent warriors.</font><br><br><font size=\"12\">Skill Experience: <font color=\"#84ff84\">Metalworking(+15%), Forestry(+10%), Mining(+10%), Temp. Adaptation(+5%), </font>Combat, Cooking, Pottery, Survival, <font color=\"#ff8484\">Husbandry(-5%), Farming(-10%)</font></font><font size=\"13\">",
     
-    "game:trait-rhskyforge": "<font color=\"#84ff84\">• Skyforge </font>",
-    "game:charattribute-armorDurabilityLoss--0.3": "-30% Armor durability loss",
+    "game:trait-rhperfectfit": "<font color=\"#84ff84\">• Perfect Fit </font>",
+    "game:charattribute-armorDurabilityLoss--0.25": "-25% Worn Armor durability loss",
+    "game:charattribute-armorWalkSpeedAffectedness--0.2": "-20% Armor walk speed penalty",
 
-    "game:trait-rhstout": "<font color=\"#84ff84\">• Stout </font>",
-    "game:charattribute-armorWalkSpeedAffectedness--0.15": "+15% Armor walk speed",
+    "game:trait-rhstrong": "<font color=\"#84ff84\">• Strong </font>",
     "game:charattribute-maxhealthExtraPoints-3": "+3 Health points",
 
     "game:trait-rhheavyswing": "<font color=\"#84ff84\">• Heavy Swing </font>",
@@ -253,17 +297,25 @@
     "game:traitname-rhblacksmith": "Blacksmith",
     "game:traitdesc-rhblacksmith": "Exclusive craftables: <a href=\"handbooksearch://bellow or blacksmith gloves or metal tongs \">Blacksmith equipment</a>, <a href=\"handbooksearch://torch holder or metal tool rack or metal vertical rack \">Metal furniture</a>, <a href=\"handbooksearch://ornate \">ornate shields</a>, ",
 
+    "game:trait-rhpotsmasher": "<font color=\"#ff8484\">• Pot Smasher </font>",
+    "game:charattribute-vesselContentsDropRate--0.15": "-15% Cracked vessel loot",
+
     "game:trait-rhheavyhanded": "<font color=\"#ff8484\">• Heavy Handed </font>",
     "game:charattribute-forageDropRate--0.2": "-20% Forage harvesting",
 
 
 
     "game:characterclass-miner": "Miner",
-    "game:characterdesc-miner": "<font color=\"#99c9f9\"><i>Chipping away, day by day. Carving through the stone, all on my own. Chip, chip. These veins of ore, cannot carry anymore. What was that, a sound? They're all around...</i></font><br><br>Born for digging, Miners are experts at stone carving and sniffing out precious minerals. Extended time underground in the mines has degraded their eyesight.",
+    "game:characterdesc-miner": "<font size=\"14\" color=\"#99c9f9\"><i>Chipping away, day by day. Carving through the stone, all on my own. Chip, chip. These veins of ore, cannot carry anymore. What was that, a sound? They're all around...</i></font><br><br><font size=\"14\">Born for digging, Miners are experts at stone carving and sniffing out precious minerals. Extended time underground in the mines has degraded their eyesight.</font><br><br><font size=\"12\">Skill Experience: <font color=\"#84ff84\">Mining(+15%), Temp. Adaptation(+15%), Digging(+10%), Forestry(+10%), Metalworking(+5%), Survival(+5%), </font>Combat, Cooking, Husbandry, <font color=\"#ff8484\">Farming(-5%), Pottery(-10%)</font></font><font size=\"13\">",
 
     "game:trait-rhminingexpert": "<font color=\"#84ff84\">• Mining Expert </font>",
     "game:charattribute-oreDropRate-0.2": "+20% Ore drop rate",
-    "game:charattribute-miningSpeedMul-0.25": "+25% mining speed",
+    "game:charattribute-miningSpeedMul-0.25": "+25% Mining speed",
+
+    "game:trait-rhstout": "<font color=\"#84ff84\">• Stout </font>",
+
+    "game:trait-rhcaver": "<font color=\"#84ff84\">• Caver </font>",
+    "game:charattribute-mechanicalsDamage-0.15": "+15% Damage against mechanicals",
 
     "game:trait-rhminer": "<font color=\"#84ff84\">• Miner </font>",
     "game:traitname-rhminer": "Miner",
@@ -714,7 +766,8 @@
     "game:block-wood-gold-crate": "Gold crate ({0})",
     "game:block-wood-steel-crate": "Steel crate ({0})",
 
-    "block-wallpaper-purple_pattern": "Wallpaper (purple pattern)",
+    "block-wallpaper-purple_pattern": "Wallpaper (Purple pattern)",
+    "block-wallpaper-barock1": "Wallpaper ()",
 
     "block-dirtpath-*": "Dirt path",
     "block-dirtpathslab-*": "Dirt path slab",

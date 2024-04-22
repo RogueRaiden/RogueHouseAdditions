@@ -1,49 +1,57 @@
 [
     {
+        //Additional hair colors
+        "op": "addeach",
+        "path": "/attributes/skinnableParts/10/variants/-",
+        "value": [
+            { "code": "rh-darkpurple" },
+            { "code": "rh-palatinatepurple" },
+            { "code": "rh-heliotropegray" },
+            { "code": "rh-indigodye" },
+            { "code": "rh-queenblue" },
+            { "code": "rh-steelblue" },
+            { "code": "rh-wintergreendream" },
+            { "code": "rh-seagreen" },
+            { "code": "rh-mossgreen" }
+        ],
+        "file": "game:entities/humanoid/player",
+        "side": "Server"
+    },
+    {
+        //Second character menu entry (right side) must load first to be second
         "op": "add",
-        "enabled": false,
         "path": "/attributes/skinnableParts/5",
         "value": { 
-            "code": "extrarighe",
+            "code": "facenose",
             "type": "shape", 
-            "shapeTemplate": { "base": "game:entity/humanoid/seraphskinparts/hair-face/{code}" },
+            "shapeTemplate": { "base": "rhadditions:entity/humanoid/seraphskinparts/face-nose/{code}" },
             "variants": [
                 { "code": "none" },
-                { "code": "mst-line01-pencil" },
-                { "code": "mst-line05-seargent" },
-                { "code": "mst-line10-sheriff" },
-                { "code": "mst-line15-eccentric" },
-                { "code": "mst-line20-seagull" },
-                { "code": "mst-u01-horseshoe" },
-                { "code": "mst-u05-stirrups" },
-                { "code": "mst-walrus05-neat" },
-                { "code": "mst-walrus30-fat" },
-                { "code": "mst-whiskbroom" }
+                { "code": "face-nose-1" },
+                { "code": "face-nose-2" },
+                { "code": "face-nose-3" },
+                { "code": "face-nose-4" },
+                { "code": "face-nose-5" },
+                { "code": "face-nose-6" }
             ]
         },
         "file": "game:entities/humanoid/player",
         "side": "Server"
     },
     {
+        //First character menu entry (left side) must load second to be first
         "op": "add",
-        "enabled": false,
         "path": "/attributes/skinnableParts/2",
         "value": { 
-            "code": "extraleft",
+            "code": "faceears",
             "type": "shape", 
-            "shapeTemplate": { "base": "game:entity/humanoid/seraphskinparts/hair-face/{code}" },
+            "shapeTemplate": { "base": "rhadditions:entity/humanoid/seraphskinparts/face-ears/{code}" },
             "variants": [
                 { "code": "none" },
-                { "code": "mst-line01-pencil" },
-                { "code": "mst-line05-seargent" },
-                { "code": "mst-line10-sheriff" },
-                { "code": "mst-line15-eccentric" },
-                { "code": "mst-line20-seagull" },
-                { "code": "mst-u01-horseshoe" },
-                { "code": "mst-u05-stirrups" },
-                { "code": "mst-walrus05-neat" },
-                { "code": "mst-walrus30-fat" },
-                { "code": "mst-whiskbroom" }
+                { "code": "face-ears-1" },
+                { "code": "face-ears-2" },
+                { "code": "face-ears-3" },
+                { "code": "face-ears-4" }
             ]
         },
         "file": "game:entities/humanoid/player",

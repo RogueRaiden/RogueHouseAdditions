@@ -92,8 +92,8 @@
                 "code": "rhpilferer",
                 "type": "positive",
                 "attributes": {
-                    "vesselContentsDropRate": 0.25,
-                    "wholeVesselLootChance": 0.15,
+                    "vesselContentsDropRate": 0.3,
+                    "wholeVesselLootChance": 0.2,
                     "rustyGearDropRate": 0.2
                 }
             },
@@ -178,7 +178,7 @@
                 "attributes": {
                     "temporalGearTLRepairCost": -1,
                     "mechanicalsDamage": 0.3,
-                    "mechanicalsDropRate": 0.2
+                    "armorDurabilityLoss": -0.1
                 }
             },
             {
@@ -203,23 +203,23 @@
                 }
             },
             {
-                "code": "rhprecise",
+                "code": "rhmender",
                 "type": "positive",
                 "attributes": {
-                    "armorDurabilityLoss": -0.1,
+                    "armorDurabilityLoss": -0.15,
+                    "armorWalkSpeedAffectedness": -0.15
+                }
+            },
+            {
+                "code": "rhquick",
+                "type": "positive",
+                "attributes": {
+                    "walkspeed": 0.1,
                     "rangedWeaponsAcc": 0.15
                 }
             },
             {
-                "code": "rhlight",
-                "type": "positive",
-                "attributes": {
-                    "walkspeed": 0.1,
-                    "armorWalkSpeedAffectedness": -0.1
-                }
-            },
-            {
-                "code": "rhlighteater",
+                "code": "rhfasting",
                 "type": "positive",
                 "attributes": {
                     "hungerrate": -0.1
@@ -236,15 +236,15 @@
                 "type": "negative",
                 "attributes": {
                     "wildCropDropRate": -0.15,
-                    "miningSpeedMul": -0.15
+                    "forageDropRate": -0.15
                 }
             },
             {
-                "code": "rhweakstomach",
+                "code": "rhcivil",
                 "type": "negative",
                 "attributes": {
                     "animalLootDropRate": -0.15,
-                    "maxhealthExtraPoints": -2
+                    "miningSpeedMul": -0.15
                 }
             },
             {
@@ -253,7 +253,7 @@
                 "attributes": {
                     "meleeWeaponsDamage": 0.3,
                     "armorWalkSpeedAffectedness": -0.3,
-                    "rustyGearDropRate": 0.1
+                    "armorDurabilityLoss": -0.15
                 }
             },
             {
@@ -265,10 +265,10 @@
                 }
             },
             {
-                "code": "rhcaver",
+                "code": "rhlooter",
                 "type": "positive",
                 "attributes": {
-                    "mechanicalsDamage": 0.15
+                    "vesselContentsDropRate": 0.1
                 }
             },
             {
@@ -285,18 +285,18 @@
                 }
             },
             {
-                "code": "rhbrute",
-                "type": "negative",
-                "attributes": {
-                    "vesselContentsDropRate": -0.15
-                }
-            },
-            {
                 "code": "rhnearsighted",
                 "type": "negative",
                 "attributes": {
-                    "rangedWeaponsDamage": -0.15,
-                    "rangedWeaponsAcc": -0.2
+                    "rangedWeaponsDamage": -0.2
+                }
+            },
+            {
+                "code": "rhbrute",
+                "type": "negative",
+                "attributes": {
+                    "animalLootDropRate": -0.2,
+                    "forageDropRate": -0.2
                 }
             },
             {
@@ -314,6 +314,13 @@
                 "attributes": {
                     "armorWalkSpeedAffectedness": -0.15,
                     "maxhealthExtraPoints": 3
+                }
+            },
+            {
+                "code": "rhcaver",
+                "type": "positive",
+                "attributes": {
+                    "mechanicalsDamage": 0.15
                 }
             },
             {
@@ -337,11 +344,19 @@
                 }
             },
             {
-                "code": "rhskyforge",
+                "code": "rhperfectfit",
                 "type": "positive",
                 "attributes": {
-                    "armorDurabilityLoss": -0.3,
-                    "meleeWeaponsDamage": 0.15
+                    "armorDurabilityLoss": -0.25,
+                    "armorWalkSpeedAffectedness": -0.20
+                }
+            },
+            {
+                "code": "rhstrong",
+                "type": "positive",
+                "attributes": {
+                    "meleeWeaponsDamage": 0.15,
+                    "maxhealthExtraPoints": 3
                 }
             },
             {
@@ -355,6 +370,13 @@
                 "code": "rhblacksmith",
                 "type": "positive",
                 "attributes": {
+                }
+            },
+            {
+                "code": "rhpotsmasher",
+                "type": "negative",
+                "attributes": {
+                    "vesselContentsDropRate": -0.15
                 }
             },
             {

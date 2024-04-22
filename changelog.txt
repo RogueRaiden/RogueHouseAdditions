@@ -1,11 +1,17 @@
 Changelog:
 
 v4.0.2
--Fixed: Actually fixed raw fish handbook crash
--Fixed: Tamed red fox missing texture
--Fixed: 
+-Feature: New Character Creation options and added old "unnatural" hair colors (yes the color selection clips slightly in the menu).
+		- If adding to an existing world, the face will bug out if appearance change is attempted. Player data must be deleted to fix it. "/player playerName wipedata"
 
--Tweak: Guide adjustments
+-Fixed: Actually fixed raw fish handbook crash.
+-Fixed: Tamed red fox missing texture.
+-Fixed: Double headed drifter drops.
+
+-Tweak: Guide adjustments.
+-Tweak: Hacked locust health buff.
+-Tweak: Drifters drop double the rusty gears than vanilla.
+-Tweak: Some rebalancing to several classes.
 
 v4.0.1
 -Fixed: Raw fish fillet handbook crash.

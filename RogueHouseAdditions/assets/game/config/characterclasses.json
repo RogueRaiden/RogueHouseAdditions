@@ -203,12 +203,12 @@
 	{
 		"code": "tailor",
 		"traits": [
-			"rhprecise",
-			"rhlight",
-			"rhlighteater",
+			"rhmender",
+			"rhquick",
+			"rhfasting",
 			"rhtailor",
 			"rhsofthands",
-			"rhweakstomach"
+			"rhcivil"
 		],
 		"gear": [
 			{
@@ -250,11 +250,11 @@
 		"traits": [
 			"rhsoldier",
 			"rhhardy",
-			"rhcaver",
+			"rhlooter",
 			"rhblackguard",
 			"rhravenous",
-			"rhbrute",
-			"rhnearsighted"
+			"rhnearsighted",
+			"rhbrute"
 		],
 		"gear": [
 			{
@@ -328,12 +328,12 @@
 	{
 		"code": "blacksmith",
 		"traits": [
-			"rhskyforge",
-			"rhstout",
+			"rhperfectfit",
+			"rhstrong",
 			"rhheavyswing",
 			"rhblacksmith",
 			"rhravenous",
-			"rhbrute",
+			"rhpotsmasher",
 			"rhheavyhanded"
 		],
 		"gear": [

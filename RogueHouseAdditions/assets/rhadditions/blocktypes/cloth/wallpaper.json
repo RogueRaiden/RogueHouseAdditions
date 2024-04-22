@@ -17,7 +17,7 @@
     "variantgroups": [
         {
             "code": "type",
-            "states": [ "purple_pattern" ]
+            "states": [ "purple_pattern", "barock1" ]
         }
     ],
     "drawtype": "surfacelayer",

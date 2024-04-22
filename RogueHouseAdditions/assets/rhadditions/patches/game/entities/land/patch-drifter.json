@@ -191,6 +191,14 @@
                 },
                 {
                     "type": "item",
+                    "code": "gear-temporal",
+                    "quantity": {
+                        "avg": 0.02666,
+                        "var": 0
+                    }
+                },
+                {
+                    "type": "item",
                     "code": "flaxfibers",
                     "quantity": {
                         "avg": 0.4,
@@ -202,15 +210,7 @@
                     "code": "gear-rusty",
                     "dropModbyStat": "rustyGearDropRate",
                     "quantity": {
-                        "avg": 0.01,
-                        "var": 0
-                    }
-                },
-                {
-                    "type": "item",
-                    "code": "gear-temporal",
-                    "quantity": {
-                        "avg": 0.02666,
+                        "avg": 0.01, //vanilla 0.02
                         "var": 0
                     }
                 }
@@ -226,9 +226,9 @@
                 },
                 {
                     "type": "item",
-                    "code": "flaxfibers",
+                    "code": "gear-temporal",
                     "quantity": {
-                        "avg": 0.6,
+                        "avg": 0.033325,
                         "var": 0
                     }
                 },
@@ -237,15 +237,15 @@
                     "code": "gear-rusty",
                     "dropModbyStat": "rustyGearDropRate",
                     "quantity": {
-                        "avg": 0.03,
+                        "avg": 0.03, //vanilla 0.06
                         "var": 0
                     }
                 },
                 {
                     "type": "item",
-                    "code": "gear-temporal",
+                    "code": "flaxfibers",
                     "quantity": {
-                        "avg": 0.033325,
+                        "avg": 0.6,
                         "var": 0
                     }
                 }
@@ -260,10 +260,10 @@
                     }
                 },
                 {
-                    "type": "block",
-                    "code": "metal-scraps",
+                    "type": "item",
+                    "code": "gear-temporal",
                     "quantity": {
-                        "avg": 0.3,
+                        "avg": 0.03999,
                         "var": 0
                     }
                 },
@@ -272,15 +272,15 @@
                     "code": "gear-rusty",
                     "dropModbyStat": "rustyGearDropRate",
                     "quantity": {
-                        "avg": 0.07,
+                        "avg": 0.07, //vanilla 0.14
                         "var": 0
                     }
                 },
                 {
-                    "type": "item",
-                    "code": "gear-temporal",
+                    "type": "block",
+                    "code": "metal-scraps",
                     "quantity": {
-                        "avg": 0.03999,
+                        "avg": 0.3,
                         "var": 0
                     }
                 }
@@ -295,10 +295,10 @@
                     }
                 },
                 {
-                    "type": "block",
-                    "code": "metal-scraps",
+                    "type": "item",
+                    "code": "gear-temporal",
                     "quantity": {
-                        "avg": 0.25,
+                        "avg": 0.046655,
                         "var": 0
                     }
                 },
@@ -307,15 +307,15 @@
                     "code": "gear-rusty",
                     "dropModbyStat": "rustyGearDropRate",
                     "quantity": {
-                        "avg": 0.1,
+                        "avg": 0.1, //vanilla 0.2
                         "var": 0
                     }
                 },
                 {
-                    "type": "item",
-                    "code": "gear-temporal",
+                    "type": "block",
+                    "code": "metal-scraps",
                     "quantity": {
-                        "avg": 0.046655,
+                        "avg": 0.25,
                         "var": 0
                     }
                 }
@@ -330,10 +330,10 @@
                     }
                 },
                 {
-                    "type": "block",
-                    "code": "metal-scraps",
+                    "type": "item",
+                    "code": "gear-temporal",
                     "quantity": {
-                        "avg": 0.25,
+                        "avg": 0.05332,
                         "var": 0
                     }
                 },
@@ -342,15 +342,15 @@
                     "code": "gear-rusty",
                     "dropModbyStat": "rustyGearDropRate",
                     "quantity": {
-                        "avg": 0.2,
+                        "avg": 0.2, //vanilla 0.4
                         "var": 0
                     }
                 },
                 {
-                    "type": "item",
-                    "code": "gear-temporal",
+                    "type": "block",
+                    "code": "metal-scraps",
                     "quantity": {
-                        "avg": 0.05332,
+                        "avg": 0.25,
                         "var": 0
                     }
                 }
@@ -366,10 +366,10 @@
                 },
                 {
                     "type": "item",
-                    "code": "stone-meteorite-iron",
+                    "code": "gear-temporal",
                     "quantity": {
-                        "avg": 0.07,
-                        "var": 0
+                        "avg": 1,
+                        "var": 0.4
                     }
                 },
                 {
@@ -377,17 +377,14 @@
                     "code": "gear-rusty",
                     "dropModbyStat": "rustyGearDropRate",
                     "quantity": {
-                        "avg": 5,
-                        "var": 2.5
+                        "avg": 5,  //vanilla 10
+                        "var": 2.5 //vanilla 5
                     }
                 },
                 {
                     "type": "item",
-                    "code": "gear-temporal",
-                    "quantity": {
-                        "avg": 1,
-                        "var": 0.4
-                    }
+                    "code": "stackrandomizer-alljonas",
+                    "quantity": { "avg": 0.4, "var": 0 }
                 }
             ]
         },

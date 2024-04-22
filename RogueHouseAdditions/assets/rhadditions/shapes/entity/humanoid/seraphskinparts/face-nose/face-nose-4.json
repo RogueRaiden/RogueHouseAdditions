@@ -1,0 +1,82 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"seraph": [48,48]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "hidenose",
+			"stepParentName": "Head",
+			"from": [ 2.05, 1.3, 2.0 ],
+			"to": [ 3.05, 2.3, 3.0 ],
+			"uv": [ 23.0, 2.5 ],
+			"rotationOrigin": [ 2.2, 1.7, 4.6 ],
+			"faces": {
+				"north": { "texture": "#seraph", "uv": [ 23.0, 3.5, 24.0, 4.5 ] },
+				"east": { "texture": "#seraph", "uv": [ 24.9, 2.5, 26.5, 3.5 ], "autoUv": false },
+				"south": { "texture": "#seraph", "uv": [ 24.0, 3.5, 25.0, 4.5 ] },
+				"west": { "texture": "#seraph", "uv": [ 25.0, 3.5, 26.0, 4.5 ] },
+				"up": { "texture": "#seraph", "uv": [ 23.0, 2.5, 24.0, 3.5 ], "rotation": 180 },
+				"down": { "texture": "#seraph", "uv": [ 24.0, 2.5, 25.0, 3.5 ] }
+			},
+			"children": [
+				{
+					"name": "NoseBase",
+					"from": [ -2.6, 0.13, 0.13 ],
+					"to": [ -2.0, 0.63, 0.87 ],
+					"unwrapMode": 3,
+					"uv": [ 9.0, 4.5 ],
+					"rotationOrigin": [ -2.3, 0.1, 0.11 ],
+					"faces": {
+						"north": { "texture": "#seraph", "uv": [ 11.0, 5.0, 11.5, 5.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"east": { "texture": "#seraph", "uv": [ 10.0, 5.0, 9.0, 7.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#seraph", "uv": [ 9.5, 5.0, 10.0, 5.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#seraph", "uv": [ 9.0, 5.0, 9.5, 5.5 ] },
+						"up": { "texture": "#seraph", "uv": [ 9.5, 4.5, 10.0, 5.0 ] },
+						"down": { "texture": "#seraph", "uv": [ 9.5, 7.0, 10.0, 7.5 ], "rotation": 180 }
+					}
+				},
+				{
+					"name": "NoseBase3",
+					"from": [ -2.57, 0.55, 0.27 ],
+					"to": [ -2.17, 1.5, 0.73 ],
+					"unwrapMode": 3,
+					"uv": [ 9.0, 4.5 ],
+					"rotationOrigin": [ -2.4, 0.5, 0.21 ],
+					"rotationZ": -30.0,
+					"faces": {
+						"north": { "texture": "#seraph", "uv": [ 11.0, 5.0, 11.5, 5.5 ] },
+						"east": { "texture": "#seraph", "uv": [ 10.0, 5.0, 9.0, 7.0 ], "autoUv": false },
+						"south": { "texture": "#seraph", "uv": [ 9.5, 5.0, 10.0, 5.5 ] },
+						"west": { "texture": "#seraph", "uv": [ 9.0, 5.0, 9.5, 5.5 ] },
+						"up": { "texture": "#seraph", "uv": [ 9.5, 4.5, 10.0, 5.0 ] },
+						"down": { "texture": "#seraph", "uv": [ 9.5, 7.0, 10.0, 7.5 ], "rotation": 180 }
+					}
+				},
+				{
+					"name": "NoseBase2",
+					"from": [ -2.44, 0.13, -0.09 ],
+					"to": [ -2.04, 0.47, 1.09 ],
+					"unwrapMode": 3,
+					"uv": [ 9.0, 4.5 ],
+					"rotationOrigin": [ -2.2004, 0.0913, -0.19 ],
+					"faces": {
+						"north": { "texture": "#seraph", "uv": [ 12.0, 5.5, 12.5, 6.0 ] },
+						"east": { "texture": "#seraph", "uv": [ 10.5, 5.5, 9.0, 7.0 ], "autoUv": false },
+						"south": { "texture": "#seraph", "uv": [ 10.0, 5.5, 10.5, 6.0 ] },
+						"west": { "texture": "#seraph", "uv": [ 9.0, 5.5, 10.0, 6.0 ] },
+						"up": { "texture": "#seraph", "uv": [ 10.0, 4.5, 10.5, 5.5 ] },
+						"down": { "texture": "#seraph", "uv": [ 10.0, 7.0, 10.5, 8.0 ], "rotation": 180 }
+					}
+				}
+			]
+		}
+	]}
