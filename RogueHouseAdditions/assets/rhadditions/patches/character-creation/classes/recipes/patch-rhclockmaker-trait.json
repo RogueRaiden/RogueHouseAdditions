@@ -129,6 +129,22 @@
 		"dependsOn": [ { "modid": "maltiezfirearms" } ],
         "side": "Server"
     },
+    {
+        "op": "replace",
+        "path": "/0/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "maltiezfirearms:recipes/grid/firearms/locks",
+		"dependsOn": [ { "modid": "maltiezfirearms" } ],
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/3/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "maltiezfirearms:recipes/grid/firearms/locks",
+		"dependsOn": [ { "modid": "maltiezfirearms" } ],
+        "side": "Server"
+    },
 
     {
         "op": "add",

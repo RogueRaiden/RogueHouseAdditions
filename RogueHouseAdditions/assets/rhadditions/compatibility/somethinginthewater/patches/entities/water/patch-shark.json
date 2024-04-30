@@ -9,11 +9,11 @@
 				"tryOnlySurface": false,
 				"minLightLevel": 0,
 				"minY": 0.4,
-				"maxY": 0.9,
-				"groupSize": { "dist": "verynarrowgaussian", "avg": 1, "var": 1 },
+				"maxY": 1.0,
+				"groupSize": { "dist": "invexp", "avg": 1, "var": 1 },
 				"insideBlockCodes": ["game:saltwater-*"],
 				"minTemp": -20,
-				"maxTemp": 30
+				"maxTemp": 40
 			}
 		},
 		"file": "somethinginthewater:entities/water/shark",

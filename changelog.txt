@@ -1,5 +1,8 @@
 Changelog:
 
+v4.0.4
+-Tweak: Couple tweaks and fixes.
+
 v4.0.3
 -Fixed: Several creatures fixes.
 

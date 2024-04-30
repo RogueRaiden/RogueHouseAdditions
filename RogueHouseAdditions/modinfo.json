@@ -5,7 +5,7 @@
     "authors": [ "RogueRaiden" ],
     "contributors": [ "Morwen", "Zinth", "Duchow", "Gerste", "Manstra", "ATree" ],
     "description": "Tweaks and content for the Rogue House servers.",
-    "version": "4.0.3",
+    "version": "4.0.4",
     "website": "https://mods.vintagestory.at/rhadditions",
     "dependencies": {
         "game": "1.19.7"
