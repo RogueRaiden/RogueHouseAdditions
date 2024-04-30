@@ -1,0 +1,22 @@
+[
+	{
+		"op": "replace",
+		"path": "/server/spawnconditions",
+		"value": {
+			"runtime": {
+				"group": "passive",
+				"chance": 0.001,
+				"tryOnlySurface": false,
+				"minLightLevel": 0,
+				"minY": 0.7,
+				"maxY": 1.1,
+				"groupSize": { "dist": "verynarrowgaussian", "avg": 6, "var": 3 },
+				"insideBlockCodes": ["game:saltwater-*"],
+				"minTemp": -20,
+				"maxTemp": 30
+			}
+		},
+		"file": "somethinginthewater:entities/water/moonjelly",
+		"side": "Server"
+	}
+]

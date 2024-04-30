@@ -5,13 +5,12 @@
 		"path": "/client/behaviors/-",
 		"value": {
 			"code": "XSkillsAnimal",
-			"xp": 0,
+			"xp": 1.25,
 			"catchable": "true"
 		},
-		"file": "moreanimals:entities/goldenpheasant-cock.json",
+		"file": "moreanimals:entities/goldenpheasant-cock",
 		"dependsOn": [
-			{ "modid": "xskills" },
-			{ "modid": "moreanimals" }
+			{ "modid": "xskills" }
 		],
 		"side": "Server"
 	},
@@ -21,13 +20,12 @@
 		"path": "/server/behaviors/-",
 		"value": {
 			"code": "XSkillsAnimal",
-			"xp": 0,
+			"xp": 1.25,
 			"catchable": "true"
 		},
-		"file": "moreanimals:entities/goldenpheasant-cock.json",
+		"file": "moreanimals:entities/goldenpheasant-cock",
 		"dependsOn": [
-			{ "modid": "xskills" },
-			{ "modid": "moreanimals" }
+			{ "modid": "xskills" }
 		],
 		"side": "Server"
 	},
@@ -37,29 +35,11 @@
 		"op": "replace",
 		"path": "/server/spawnconditions",
 		"value": {
-			"worldgen": {
-				"TriesPerChunk": {
-					"avg": 0.1,
-					"var": 0
-				},
-				"tryOnlySurface": true,
-				"minLightLevel": 12,
-				"groupSize": {
-					"dist": "verynarrowgaussian",
-					"avg": 4,
-					"var": 5
-				},
-				"insideBlockCodes": [ "game:air", "game:tallgrass-*" ],
-				"minTemp": 24,
-				"minRain": 0.32,
-				"minForestOrShrubs": 0.4,
-				"companions": [ "goldenpheasant-hen", "goldenpheasant-chick" ]
-			},
 			"runtime": {
 				"group": "neutral",
 				"tryOnlySurface": true,
 				"chance": 0.001,
-				"maxQuantity": 4,
+				"maxQuantity": 2,
 				"minLightLevel": 12,
 				"groupSize": {
 					"dist": "verynarrowgaussian",
@@ -73,10 +53,7 @@
 				"companions": [ "goldenpheasant-hen", "goldenpheasant-chick" ]
 			}
 		},
-		"file": "moreanimals:entities/goldenpheasant-cock.json",
-		"dependsOn": [
-			{ "modid": "moreanimals" }
-		],
+		"file": "moreanimals:entities/goldenpheasant-cock",
 		"side": "Server"
 	}
 ]

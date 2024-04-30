@@ -16,6 +16,12 @@
 	"knockbackresistance": 5,
 	"drops": [],
 	"attributes": {
+		"basketCatchable": true,
+		"trapChance": 0.0,
+		"trapDestroyChance": 0.7,
+		"creatureDiet": {
+			"foodCategories": [ "Vegetable", "Fruit" ]
+		},
 		"killedByInfoText": "deadcreature-killed"
 	},
 	"client": {
@@ -260,42 +266,6 @@
 						"soundRange": 30
 					},
 					{
-						"code": "throwatentity",
-						"entityCodes": [
-							"player",
-							"drifter-*",
-							"wolf-male",
-							"wolf-female",
-							"hyena-*",
-							"bear-*",
-							"locust-*",
-							"direwolf-male",
-							"direwolf-female"
-						],
-						"priority": 1.5,
-						"priorityForCancel": 9,
-						"mincooldown": 1000,
-						"maxcooldown": 10000,
-						"durationMs": 1200,
-						"releaseAtMs": 700,
-						"seekingRange": 10,
-						"animationSpeed": 1.5,
-						"animation": "Throw",
-						"stopOnNearbyEntityCodes": [
-							"player",
-							"drifter-*",
-							"wolf-male",
-							"wolf-female",
-							"hyena-*",
-							"bear-*",
-							"locust-*",
-							"direwolf-male",
-							"direwolf-female"
-						],
-						"stopRange": 2,
-						"whenInEmotionState": "aggressiveondamage"
-					},
-					{
 						"code": "fleeentity",
 						"entityCodes": [
 							"player",
@@ -348,18 +318,16 @@
 					{
 						"code": "seekfoodandeat",
 						"movespeed": 0.0135,
-						"seekingRange": 15,
 						"priority": 1.35,
 						"animationSpeed": 1.4,
 						"animation": "Walk",
 						"eatTime": 2.3,
 						"eatLooseItems": true,
-						"eatItemCategories": [ "Vegetable", "Grain", "Fruit" ],
-						"eatItemCodes": [ "game:vegetable-*", "game:grain-*", "game:fruit-*" ],
+						"eatItemCategories": [ "Vegetable", "Fruit" ],
 						"eatAnimation": "Eat",
 						"eatSound": "game:player/eat",
-						"mincooldownHours": 6,
-						"maxcooldownHours": 12
+						"mincooldownHours": 2,
+						"maxcooldownHours": 4
 					},
 					{
 						"code": "idle",

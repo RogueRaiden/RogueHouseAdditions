@@ -1,0 +1,123 @@
+[
+	{
+		"op": "replace",
+		"path": "/server/spawnconditions",
+		"value": {
+			"runtime": {
+				"group": "neutral",
+				"chance": 0.005,
+				"tryOnlySurface": false,
+				"minLightLevel": 0,
+				"minY": 0.4,
+				"maxY": 0.9,
+				"groupSize": { "dist": "verynarrowgaussian", "avg": 1, "var": 1 },
+				"insideBlockCodes": ["game:saltwater-*"],
+				"minTemp": -20,
+				"maxTemp": 30
+			}
+		},
+		"file": "somethinginthewater:entities/water/shark",
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"path": "/server/behaviors/8",
+		"value": { 
+			"code": "taskai",
+			"aitasks": [
+				{
+					"code": "fishoutofwater", 
+					"priority": 2.5,
+					"movespeed": 0.03,
+					"animation": "flop",
+					"animationSpeed": 2
+				},					
+				{
+					"code": "meleeattack",
+					"entityCodes": ["player", "salmon", "wolf-*", "hyena-*", "chicken-rooster", "chicken-hen", "chicken-baby", "hare-*", "deer-*-baby", "deer-pudu-*-adult", "deer-water-*-adult", "deer-pampas-*-adult", "deer-redbrocket-*-adult"],
+					"priority": 2.3,
+					"damage": 9,
+					"damageTier": 2,
+					"minDist": 3,
+					"minVerDist": 2.5,
+					"damageType": "SlashingAttack",
+					"attackRange": 6,
+					"attackAngleRangeDeg": 45,
+					"slot": 1,
+					"mincooldown": 800, 
+					"maxcooldown": 1000, 
+					"attackDurationMs": 800,
+					"damagePlayerAtMs": 500,
+					"animation": "attack",
+					"animationSpeed": 2,
+					"sound": "somethinginthewater:creature/shark/attack"
+				},
+				{
+					"code": "fleeentity",
+					"entityCodes": ["player"],
+					"priority": 1.6,
+					"movespeed": 0.4,
+					"seekingRange": 9,
+					"animation": "swim",
+					"animationSpeed": 1.2,
+					"whenInEmotionState": "fleeondamage"
+				},
+				{
+					"code": "seekentity",
+					"entityCodes": ["player", "salmon", "wolf-*", "hyena-*", "chicken-rooster", "chicken-hen", "chicken-baby", "hare-*", "deer-*-baby", "deer-pudu-*-adult", "deer-water-*-adult", "deer-pampas-*-adult", "deer-redbrocket-*-adult"],
+					"priority": 1.5,
+					"priorityForCancel": 2.3,
+					"movespeed": 0.09,
+					"seekingRange": 50,
+					"animation": "swimfast",			
+					"leapAtTarget": true,
+					"leapAnimation": "attack",
+					"leapChance": 0.01,
+					"whenNotInEmotionState": "saturated"
+				},				
+				{
+					"code": "seekentity",
+					"entityCodes": ["player"],
+					"priority": 1.49,
+					"movespeed": 0.09,
+					"seekingRange": 25,
+					"animation": "swimfast",
+					"leapAtTarget": true,
+					"leapAnimation": "attack",
+					"animationSpeed": 2,
+					"leapChance": 0.01,
+					"whenInEmotionState": "aggressiveondamage"
+				},					
+				{
+					"code": "wander", 
+					"priority": 1.2, 
+					"priorityForCancel": 1.49,
+					"movespeed": 0.03,
+					"animationSpeed": 0.9,
+					"animation": "swim"
+				},
+				{
+					"code": "fishmovefast", 
+					"priority": 1.0, 
+					"priorityForCancel": 1.2,
+					"movespeed": 0.06,
+					"animation": "swimfast",
+					"animationSpeed": 1.2
+				},			
+				{
+					"code": "idle",
+					"priority": 0.9,
+					"minduration": 500,
+					"maxduration": 1000,
+					"mincooldown": 2000,
+					"maxcooldown": 30000,
+					"animation": "idle",
+					"whenNotInEmotionState": "aggressiveondamage"
+				}
+				
+			]
+		},
+		"file": "somethinginthewater:entities/water/shark",
+		"side": "Server"
+	}
+]

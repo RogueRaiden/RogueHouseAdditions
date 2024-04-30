@@ -15,6 +15,15 @@
 	"climbTouchDistance": 0.5,
 	"knockbackresistance": 1,
 	"drops": [],
+	"attributes": {
+		"basketCatchable": true,
+		"trapChance": 0.1,
+		"trapDestroyChance": 0.4,
+		"creatureDiet": {
+			"foodCategories": [ "Vegetable", "Fruit" ]
+		},
+		"killedByInfoText": "deadcreature-killed"
+	},
 	"client": {
 		"renderer": "Shape",
 		"shape": { "base": "rhadditions:entity/land/gorilla-baby" },
@@ -248,18 +257,16 @@
 					{
 						"code": "seekfoodandeat",
 						"movespeed": 0.0135,
-						"seekingRange": 15,
 						"priority": 1.35,
 						"animationSpeed": 1.4,
 						"animation": "Walk",
 						"eatTime": 2.3,
 						"eatLooseItems": true,
-						"eatItemCategories": [ "Vegetable", "Grain", "Fruit" ],
-						"eatItemCodes": [ "game:vegetable-*", "game:grain-*", "game:fruit-*" ],
+						"eatItemCategories": [ "Vegetable", "Fruit" ],
 						"eatAnimation": "Eat",
 						"eatSound": "game:player/eat",
-						"mincooldownHours": 6,
-						"maxcooldownHours": 12
+						"mincooldownHours": 2,
+						"maxcooldownHours": 4
 					},
 					{
 						"code": "idle",

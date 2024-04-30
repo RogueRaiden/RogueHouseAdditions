@@ -161,5 +161,21 @@
         "file": "maltiezcrossbows:recipes/grid/crossbow",
 		"dependsOn": [ { "modid": "maltiezcrossbows" } ],
         "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/4/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "maltiezcrossbows:recipes/grid/crossbow",
+		"dependsOn": [ { "modid": "maltiezcrossbows" } ],
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/5/requiresTrait",
+        "value": "rhclockmaker",
+        "file": "maltiezcrossbows:recipes/grid/crossbow",
+		"dependsOn": [ { "modid": "maltiezcrossbows" } ],
+        "side": "Server"
     }
 ]

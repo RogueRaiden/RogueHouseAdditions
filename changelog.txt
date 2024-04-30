@@ -1,5 +1,11 @@
 Changelog:
 
+v4.0.3
+-Fixed: Several creatures fixes.
+
+-Tweak: Missing recipe changes in Crossbows.
+-Tweak: Several creature spawn condition and stat changes.
+
 v4.0.2
 -Feature: New Character Creation options and added old "unnatural" hair colors (yes the color selection clips slightly in the menu).
 		- If adding to an existing world, the face will bug out if appearance change is attempted. Player data must be deleted to fix it. "/player playerName wipedata"

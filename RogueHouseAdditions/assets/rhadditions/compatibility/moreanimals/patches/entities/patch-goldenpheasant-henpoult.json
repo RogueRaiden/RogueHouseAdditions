@@ -5,13 +5,12 @@
 		"path": "/client/behaviors/-",
 		"value": {
 			"code": "XSkillsAnimal",
-			"xp": 0,
+			"xp": 1.0,
 			"catchable": "true"
 		},
-		"file": "moreanimals:entities/goldenpheasant-henpoult.json",
+		"file": "moreanimals:entities/goldenpheasant-henpoult",
 		"dependsOn": [
-			{ "modid": "xskills" },
-			{ "modid": "moreanimals" }
+			{ "modid": "xskills" }
 		],
 		"side": "Server"
 	},
@@ -21,13 +20,12 @@
 		"path": "/server/behaviors/-",
 		"value": {
 			"code": "XSkillsAnimal",
-			"xp": 0,
+			"xp": 1.0,
 			"catchable": "true"
 		},
-		"file": "moreanimals:entities/goldenpheasant-henpoult.json",
+		"file": "moreanimals:entities/goldenpheasant-henpoult",
 		"dependsOn": [
-			{ "modid": "xskills" },
-			{ "modid": "moreanimals" }
+			{ "modid": "xskills" }
 		],
 		"side": "Server"
 	}

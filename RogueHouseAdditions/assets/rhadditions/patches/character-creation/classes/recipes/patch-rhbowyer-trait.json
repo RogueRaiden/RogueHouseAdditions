@@ -20,5 +20,14 @@
         "value": "rhbowyer",
         "file": "game:recipes/grid/tool/arrow",
         "side": "Server"
+    },
+
+    {
+        "op": "replace",
+        "path": "/0/requiresTrait",
+        "value": "rhbowyer",
+        "file": "maltiezcrossbows:recipes/grid/bow",
+		"dependsOn": [ { "modid": "maltiezcrossbows" } ],
+        "side": "Server"
     }
 ]

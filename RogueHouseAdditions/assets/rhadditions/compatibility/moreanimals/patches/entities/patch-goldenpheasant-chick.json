@@ -8,10 +8,9 @@
 			"xp": 0,
 			"catchable": "true"
 		},
-		"file": "moreanimals:entities/goldenpheasant-chick.json",
+		"file": "moreanimals:entities/goldenpheasant-chick",
 		"dependsOn": [
-			{ "modid": "xskills" },
-			{ "modid": "moreanimals" }
+			{ "modid": "xskills" }
 		],
 		"side": "Server"
 	},
@@ -24,10 +23,9 @@
 			"xp": 0,
 			"catchable": "true"
 		},
-		"file": "moreanimals:entities/goldenpheasant-chick.json",
+		"file": "moreanimals:entities/goldenpheasant-chick",
 		"dependsOn": [
-			{ "modid": "xskills" },
-			{ "modid": "moreanimals" }
+			{ "modid": "xskills" }
 		],
 		"side": "Server"
 	}
