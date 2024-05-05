@@ -6,8 +6,7 @@
 			"x": 0.6,
 			"y": 0.5
 		},
-		"file": "cats:entities/land/cat-female.json",
-		"dependsOn": [ { "modid": "cats" } ],
+		"file": "cats:entities/land/cat-female",
 		"side": "Server"
 	},
 	{
@@ -18,8 +17,7 @@
 			"hoursToDecay": 1440,
 			"decayedBlock": "carcass-small"
 		},
-		"file": "cats:entities/land/cat-female.json",
-		"dependsOn": [ { "modid": "cats" } ],
+		"file": "cats:entities/land/cat-female",
 		"side": "Server"
 	},
 	{
@@ -29,8 +27,7 @@
 			"wolf-*",
 			"fox-*"
 		],
-		"file": "cats:entities/land/cat-female.json",
-		"dependsOn": [ { "modid": "cats" } ],
+		"file": "cats:entities/land/cat-female",
 		"side": "Server"
 	},
 	{
@@ -38,8 +35,21 @@
 		"path": "/server/behaviors/13/aitasks/1/entityCodes",
 		"value": [
 		],
-		"file": "cats:entities/land/cat-female.json",
-		"dependsOn": [ { "modid": "cats" } ],
+		"file": "cats:entities/land/cat-female",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/attributes",
+		"value": {
+			"basketCatchable": true,
+			"trapChance": 0.3,
+			"trapDestroyChance": 0.3,
+			"creatureDiet": {
+				"foodTags": ["meat"]
+			}
+		},
+		"file": "cats:entities/land/cat-female",
 		"side": "Server"
 	},
 	{
@@ -59,8 +69,7 @@
 			"mincooldownHours": 1,
 			"maxcooldownHours": 4
 		},
-		"file": "cats:entities/land/cat-female.json",
-		"dependsOn": [ { "modid": "cats" } ],
+		"file": "cats:entities/land/cat-female",
 		"side": "Server"
 	},
 	{
@@ -69,13 +78,12 @@
 		"path": "/client/behaviors/-",
 		"value": {
 			"code": "XSkillsAnimal",
-			"xp": 0,
+			"xp": 1.0,
 			"catchable": "true"
 		},
-		"file": "cats:entities/land/cat-female.json",
+		"file": "cats:entities/land/cat-female",
 		"dependsOn": [
-			{ "modid": "xskills" },
-			{ "modid": "cats" }
+			{ "modid": "xskills" }
 		],
 		"side": "Server"
 	},
@@ -85,13 +93,12 @@
 		"path": "/server/behaviors/-",
 		"value": {
 			"code": "XSkillsAnimal",
-			"xp": 0,
+			"xp": 1.0,
 			"catchable": "true"
 		},
-		"file": "cats:entities/land/cat-female.json",
+		"file": "cats:entities/land/cat-female",
 		"dependsOn": [
-			{ "modid": "xskills" },
-			{ "modid": "cats" }
+			{ "modid": "xskills" }
 		],
 		"side": "Server"
 	}

@@ -17,7 +17,7 @@
 		"trapChance": 0.0,
 		"trapDestroyChance": 0.7,
 		"creatureDiet": {
-			"foodCategories": [ "Protein" ]
+			"foodTags": ["meat"]
 		},
         "killedByInfoText": "deadcreature-eaten-large",
 		"handbook": {

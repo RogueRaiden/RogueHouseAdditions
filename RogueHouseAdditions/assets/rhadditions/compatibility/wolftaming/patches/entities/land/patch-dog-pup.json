@@ -7,8 +7,21 @@
 			"hoursToDecay": 1440,
 			"decayedBlock": "carcass-small"
 		},
-		"file": "wolftaming:entities/land/tame-wolf-pup.json",
-		"dependsOn": [ { "modid": "wolftaming" } ],
+		"file": "wolftaming:entities/land/dog-pup",
+		"side": "Server"
+	},
+	{
+		"op": "add",
+		"path": "/attributes",
+		"value": {
+			"basketCatchable": true,
+			"trapChance": 0.8,
+			"trapDestroyChance": 0.1,
+			"creatureDiet": {
+				"foodTags": ["meat"]
+			}
+		},
+		"file": "wolftaming:entities/land/dog-pup",
 		"side": "Server"
 	},
 	{
@@ -17,13 +30,12 @@
 		"path": "/client/behaviors/-",
 		"value": {
 			"code": "XSkillsAnimal",
-			"xp": 0,
+			"xp": 0.5,
 			"catchable": "true"
 		},
-		"file": "wolftaming:entities/land/tame-wolf-pup.json",
+		"file": "wolftaming:entities/land/dog-pup",
 		"dependsOn": [
-			{ "modid": "xskills" },
-			{ "modid": "wolftaming" }
+			{ "modid": "xskills" }
 		],
 		"side": "Server"
 	},
@@ -33,13 +45,12 @@
 		"path": "/server/behaviors/-",
 		"value": {
 			"code": "XSkillsAnimal",
-			"xp": 0,
+			"xp": 0.5,
 			"catchable": "true"
 		},
-		"file": "wolftaming:entities/land/tame-wolf-pup.json",
+		"file": "wolftaming:entities/land/dog-pup",
 		"dependsOn": [
-			{ "modid": "xskills" },
-			{ "modid": "wolftaming" }
+			{ "modid": "xskills" }
 		],
 		"side": "Server"
 	}

@@ -1,7 +1,7 @@
 [
     {
         "name": "linen sack",
-        "ingredientPattern": "_T_,L_L,_L_",
+        "ingredientPattern": "_T_,T_T,_L_",
         "ingredients": {
             "T": {
                 "type": "item",
@@ -26,18 +26,18 @@
             "P": {
                 "type": "item",
                 "code": "game:hide-pelt-small",
-                "quantity": 3
+                "quantity": 2
             },
             "C": {
                 "type": "item",
                 "code": "game:*",
                 "allowedVariants": [ "papyrustops", "cattailtops" ],
-                "quantity": 3
+                "quantity": 1
             },
             "R": {
                 "type": "item",
                 "code": "game:rope",
-                "quantity": 2
+                "quantity": 1
             }
         },
         "width": 3,
@@ -54,18 +54,18 @@
             "P": {
                 "type": "item",
                 "code": "game:hide-pelt-medium",
-                "quantity": 2
+                "quantity": 1
             },
             "C": {
                 "type": "item",
                 "code": "game:*",
                 "allowedVariants": [ "papyrustops", "cattailtops" ],
-                "quantity": 3
+                "quantity": 1
             },
             "R": {
                 "type": "item",
                 "code": "game:rope",
-                "quantity": 2
+                "quantity": 1
             }
         },
         "width": 3,
@@ -77,7 +77,7 @@
     },
     {
         "name": "hunter backpack large pelt",
-        "ingredientPattern": "_R_,P_P,CPC",
+        "ingredientPattern": "_R_,_P_,C_C",
         "ingredients": {
             "P": {
                 "type": "item",
@@ -87,12 +87,12 @@
                 "type": "item",
                 "code": "game:*",
                 "allowedVariants": [ "papyrustops", "cattailtops" ],
-                "quantity": 3
+                "quantity": 1
             },
             "R": {
                 "type": "item",
                 "code": "game:rope",
-                "quantity": 2
+                "quantity": 1
             }
         },
         "width": 3,
@@ -114,12 +114,12 @@
                 "type": "item",
                 "code": "game:*",
                 "allowedVariants": [ "papyrustops", "cattailtops" ],
-                "quantity": 3
+                "quantity": 1
             },
             "R": {
                 "type": "item",
                 "code": "game:rope",
-                "quantity": 2
+                "quantity": 1
             }
         },
         "width": 3,

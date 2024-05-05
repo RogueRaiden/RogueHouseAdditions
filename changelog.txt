@@ -1,5 +1,17 @@
 Changelog:
 
+v4.1.0
+-Tweak: 
+
+v4.0.6
+-Fixed: Proper entity fixes.
+
+v4.0.5
+-Tweak: Made bag crafts easier.
+-Tweak: Nerfed sharks more.
+
+-Fixed: Various entity fixes.
+
 v4.0.4
 -Tweak: Couple tweaks and fixes.
 

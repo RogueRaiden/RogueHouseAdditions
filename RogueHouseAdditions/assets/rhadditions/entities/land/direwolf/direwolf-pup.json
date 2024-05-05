@@ -16,7 +16,7 @@
 		"trapChance": 0.4,
 		"trapDestroyChance": 0.05,
 		"creatureDiet": {
-			"foodCategories": [ "Protein" ]
+			"foodTags": ["meat"]
 		},
 		"handbook": {
 			"groupcode": "creaturegroup-direwolf"

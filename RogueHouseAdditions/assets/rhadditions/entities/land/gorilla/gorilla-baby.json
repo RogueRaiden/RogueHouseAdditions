@@ -20,7 +20,7 @@
 		"trapChance": 0.1,
 		"trapDestroyChance": 0.4,
 		"creatureDiet": {
-			"foodCategories": [ "Vegetable", "Fruit" ]
+			"foodTags": ["mango", "breadfruit", "lychee", "pomegranate", "cabbage", "carrot", "turnip", "parsnip"]
 		},
 		"killedByInfoText": "deadcreature-killed"
 	},
